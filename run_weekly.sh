@@ -22,6 +22,11 @@ LOG_FILE="logs/$(date +%Y-%m-%d_%H-%M).log"
 
 echo "=== $(date) 실행 시작 ===" | tee -a "$LOG_FILE"
 
+# macOS 알림을 보내는 작은 함수 (실패해도 스크립트 전체는 계속 진행되도록 처리)
+notify() {
+    osascript -e "display notification \"$2\" with title \"$1\"" 2>/dev/null || true
+}
+
 # ── 안전장치: API 키가 실수로 설정되어 있으면 비활성화 ──
 # (구독 계정(OAuth) 대신 API 키가 있으면 그쪽으로 과금될 수 있으므로 항상 제거)
 unset ANTHROPIC_API_KEY
@@ -31,6 +36,7 @@ if [ -f "claude_token.txt" ]; then
     export CLAUDE_CODE_OAUTH_TOKEN="$(cat claude_token.txt)"
 else
     echo "오류: claude_token.txt 파일이 없습니다. README의 '완전 자동화 설정'을 먼저 진행하세요." | tee -a "$LOG_FILE"
+    notify "논문 위키 - 오류" "claude_token.txt 없음, 확인 필요"
     exit 1
 fi
 
@@ -48,6 +54,7 @@ print('yes' if papers else 'no')
 
 if [ "$HAS_NEW" = "no" ]; then
     echo "새 논문이 없어 여기서 종료합니다." | tee -a "$LOG_FILE"
+    notify "논문 위키" "이번 주 새 논문 없음"
     exit 0
 fi
 
@@ -77,3 +84,10 @@ if git remote get-url origin > /dev/null 2>&1; then
 fi
 
 echo "=== $(date) 실행 완료 ===" | tee -a "$LOG_FILE"
+
+PAPER_COUNT=$(python3 -c "
+import json
+with open('data/raw_papers.json', encoding='utf-8') as f:
+    print(len(json.load(f)))
+")
+notify "논문 위키" "논문 ${PAPER_COUNT}편 처리 완료 - 위키·아카이브 갱신됨"

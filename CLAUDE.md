@@ -52,7 +52,12 @@ obsidian_notes/
    - "주요 주제" 목록에 새 topic이 생겼으면 추가.
 4. `data/papers.json`을 읽어서, 이번에 처리한 논문들을 배열 맨 앞에 추가합니다
    (필드: pmid, title, journal, year, authors, url, doi, summary_en, summary_ko,
-   clinical_takeaway_ko, tags, added_on — added_on은 오늘 날짜).
+   clinical_takeaway_ko, tags, study_type, added_on — added_on은 오늘 날짜).
+   `study_type`은 초록 내용을 보고 다음 중 가장 알맞은 것 하나를 고르세요:
+   "증례보고" (단일 또는 소수 증례), "후향적 연구", "전향적 연구",
+   "무작위대조군연구", "종설", "메타분석", "기타" (위 어디에도 안 맞으면).
+   임상 근거 수준을 가늠하는 용도이니, 애매하면 초록의 방법론 서술을 보고
+   가장 가까운 것으로 판단하세요.
 5. 마지막에 몇 편을 처리했고 어떤 topic이 갱신/신설됐는지 한두 줄로 요약해서 출력하세요.
 
 ## 논문 페이지 형식 (obsidian_notes/papers/*.md)
@@ -62,6 +67,7 @@ obsidian_notes/
 
 - **저널**: {저널명} ({연도})
 - **저자**: {저자 목록}
+- **연구 유형**: {증례보고 / 후향적 연구 / 전향적 연구 / 무작위대조군연구 / 종설 / 메타분석 / 기타}
 - **PubMed**: {url}
 - **DOI**: {doi}
 

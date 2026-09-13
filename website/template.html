@@ -65,6 +65,31 @@
     font-size: 13px;
   }
 
+  /* ── 보기 전환 탭 (논문 / 주제) ── */
+  .view-tabs {
+    display: flex;
+    gap: 4px;
+    margin-top: 18px;
+  }
+
+  .view-tab {
+    font-family: inherit;
+    font-size: 14px;
+    color: var(--ink-muted);
+    background: none;
+    border: none;
+    padding: 8px 4px;
+    margin-right: 18px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+
+  .view-tab.active {
+    color: var(--ink);
+    font-weight: 600;
+    border-bottom-color: var(--accent);
+  }
+
   /* ── 검색 ── */
   .search-row {
     margin: 28px 0 16px;
@@ -197,6 +222,57 @@
 
   .entry-link { font-size: 13.5px; white-space: nowrap; }
 
+  .study-badge {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--ink-muted);
+    border: 1px solid var(--line);
+    padding: 1px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  /* ── 주제(topics) 보기 ── */
+  .topic-entry {
+    padding: 28px 0;
+    border-top: 1px solid var(--line);
+  }
+  .topic-entry:first-child { border-top: none; padding-top: 0; }
+
+  .topic-entry h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0 0 4px;
+  }
+
+  .topic-count {
+    font-size: 13px;
+    color: var(--ink-faint);
+    margin-bottom: 12px;
+  }
+
+  .topic-synthesis {
+    margin-bottom: 14px;
+  }
+
+  .conflict-box {
+    border-left: 3px solid var(--amber);
+    background: var(--amber-tint);
+    padding: 10px 14px;
+    font-size: 14.5px;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 14px;
+  }
+
+  .related-list {
+    margin: 0;
+    padding-left: 20px;
+    color: var(--ink-muted);
+    font-size: 14px;
+  }
+  .related-list li { margin-bottom: 4px; }
+
   /* ── 빈 상태 ── */
   #empty {
     color: var(--ink-muted);
@@ -217,24 +293,38 @@
   <header class="masthead">
     <h1>수의영상의학 논문 아카이브</h1>
     <div class="masthead-meta" id="mastMeta">불러오는 중...</div>
+    <div class="view-tabs">
+      <button class="view-tab active" data-view="papers">논문</button>
+      <button class="view-tab" data-view="topics">주제</button>
+    </div>
   </header>
 
-  <div class="search-row">
-    <input id="searchBox" type="text" placeholder="제목, 저널, 키워드로 검색...">
+  <div id="papersView">
+    <div class="search-row">
+      <input id="searchBox" type="text" placeholder="제목, 저널, 키워드로 검색...">
+    </div>
+
+    <div class="topic-row-wrap" id="topicRowWrap">
+      <div class="topic-row" id="topicRow"></div>
+    </div>
+
+    <div id="paperList"></div>
+    <div id="empty">표시할 논문이 없습니다. 검색어나 주제 필터를 바꿔보세요.</div>
   </div>
 
-  <div class="topic-row-wrap" id="topicRowWrap">
-    <div class="topic-row" id="topicRow"></div>
+  <div id="topicsView" style="display:none;">
+    <div id="topicsList"></div>
+    <div id="topicsEmpty" style="display:none; color:var(--ink-muted); text-align:center; padding:48px 0;">
+      아직 정리된 주제가 없습니다. 논문이 몇 편 더 쌓이면 여기에 주제별 종합이 나타납니다.
+    </div>
   </div>
-
-  <div id="paperList"></div>
-  <div id="empty">표시할 논문이 없습니다. 검색어나 주제 필터를 바꿔보세요.</div>
 </div>
 
 <script>
-  // 이 부분은 build_site.py가 실행될 때마다 data/papers.json 내용으로
-  // 자동으로 교체됩니다. 직접 손으로 수정하지 마세요.
+  // 이 부분은 build_site.py가 실행될 때마다 data/papers.json,
+  // data/topics.json 내용으로 자동으로 교체됩니다. 직접 손으로 수정하지 마세요.
   let allPapers = /*__PAPERS_JSON__*/ [];
+  let allTopics = /*__TOPICS_JSON__*/ [];
   let activeTag = null;
   let query = "";
 
@@ -302,6 +392,58 @@
     render();
   });
 
+  // ── 보기 전환 (논문 / 주제) ──
+  document.querySelectorAll(".view-tab").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".view-tab").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      const view = btn.dataset.view;
+      document.getElementById("papersView").style.display = view === "papers" ? "" : "none";
+      document.getElementById("topicsView").style.display = view === "topics" ? "" : "none";
+      if (view === "topics") renderTopics();
+    });
+  });
+
+  function isMeaningfulText(text) {
+    if (!text) return false;
+    const trimmed = text.trim();
+    if (trimmed.length === 0) return false;
+    return !/^[(（]?(아직\s*)?없음[)）]?$/.test(trimmed);
+  }
+
+  function mdToHtml(text) {
+    // 아주 가벼운 마크다운 변환: 줄바꿈과 **굵게**만 처리합니다.
+    const escaped = text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+    return escaped
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\n/g, "<br>");
+  }
+
+  function renderTopics() {
+    const list = document.getElementById("topicsList");
+    const empty = document.getElementById("topicsEmpty");
+
+    if (allTopics.length === 0) {
+      list.innerHTML = "";
+      empty.style.display = "block";
+      return;
+    }
+    empty.style.display = "none";
+
+    list.innerHTML = allTopics.map(t => `
+      <article class="topic-entry">
+        <h2>${t.title}</h2>
+        <div class="topic-count">관련 논문 ${t.paper_count}편</div>
+        ${isMeaningfulText(t.synthesis) ? `<div class="topic-synthesis">${mdToHtml(t.synthesis)}</div>` : ""}
+        ${isMeaningfulText(t.conflicting_evidence) ? `<div class="conflict-box"><strong>상충되는 근거</strong><br>${mdToHtml(t.conflicting_evidence)}</div>` : ""}
+        ${(t.related_papers || []).length > 0 ? `<ul class="related-list">${t.related_papers.map(p => `<li>${p}</li>`).join("")}</ul>` : ""}
+      </article>
+    `).join("");
+  }
+
   function render() {
     const filtered = allPapers.filter(p => {
       const matchesTag = !activeTag || (p.tags || []).includes(activeTag);
@@ -324,7 +466,7 @@
 
     list.innerHTML = filtered.map(p => `
       <article class="entry">
-        <div class="entry-meta">${p.journal} · ${p.year} · ${(p.authors || []).join(", ")}</div>
+        <div class="entry-meta">${p.journal} · ${p.year} · ${(p.authors || []).join(", ")}${p.study_type ? `<span class="study-badge">${p.study_type}</span>` : ""}</div>
         <h2><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></h2>
         ${p.summary_ko ? `<div class="summary-ko">${p.summary_ko}</div>` : ""}
         ${p.summary_en ? `<div class="summary-en">${p.summary_en}</div>` : ""}

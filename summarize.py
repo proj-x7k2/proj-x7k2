@@ -53,7 +53,8 @@ PROMPT_TEMPLATE = """당신은 수의영상의학(수의 MRI/CT/초음파) 전�
   "summary_en": "3-4문장 영문 요약",
   "summary_ko": "3-4문장 국문 요약 (전문 용어는 영어 원어 유지)",
   "clinical_takeaway_ko": "임상 적용 관점에서의 시사점 1-2문장 (국문, 전문 용어는 영어 원어 유지)",
-  "tags": ["관련 키워드 3-5개, 예: MRI, oncology, canine"]
+  "tags": ["관련 키워드 3-5개, 예: MRI, oncology, canine"],
+  "study_type": "증례보고 / 후향적 연구 / 전향적 연구 / 무작위대조군연구 / 종설 / 메타분석 / 기타 중 하나"
 }}
 """
 
@@ -110,6 +111,7 @@ def write_obsidian_note(paper, summary):
 
 - **저널**: {paper['journal']} ({paper['year']})
 - **저자**: {', '.join(paper['authors'])}
+- **연구 유형**: {summary.get('study_type', '기타')}
 - **PubMed**: {paper['url']}
 - **DOI**: {paper.get('doi', '')}
 
@@ -154,6 +156,7 @@ def append_to_website_data(paper, summary):
         "summary_ko": summary.get("summary_ko", ""),
         "clinical_takeaway_ko": summary.get("clinical_takeaway_ko", ""),
         "tags": summary.get("tags", []),
+        "study_type": summary.get("study_type", "기타"),
         "added_on": date.today().isoformat(),
     }
 
