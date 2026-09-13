@@ -1,0 +1,12 @@
+# 절대 GitHub에 올라가면 안 되는 파일들
+.env
+claude_token.txt
+
+# 실행할 때마다 바뀌는 임시/로그 파일 (안 올려도 됨)
+logs/
+data/seen_ids.json
+data/raw_papers.json
+
+# Python 캐시
+__pycache__/
+*.pyc

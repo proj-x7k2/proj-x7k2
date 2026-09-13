@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>수의영상의학 논문 위키</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f6f5;
+    --ink: #172026;
+    --ink-muted: #5b6570;
+    --ink-faint: #8b939a;
+    --line: #dadfe1;
+    --accent: #2b6e6a;
+    --accent-tint: #e4efee;
+    --amber: #a8752e;
+    --amber-tint: #fbf3e7;
+    --focus: #2b6e6a;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible, input:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  .page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+
+  /* ── 마스트헤드 ── */
+  header.masthead {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+
+  header.masthead h1 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: clamp(28px, 5vw, 36px);
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .masthead-meta {
+    color: var(--ink-muted);
+    font-size: 14px;
+  }
+
+  /* ── 검색 ── */
+  .search-row {
+    margin: 28px 0 16px;
+  }
+
+  #searchBox {
+    width: 100%;
+    padding: 11px 14px;
+    font-size: 15px;
+    font-family: inherit;
+    color: var(--ink);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+  }
+
+  #searchBox::placeholder { color: var(--ink-faint); }
+
+  /* ── 주제 필터 필 ── */
+  .topic-row {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    margin-bottom: 32px;
+    scrollbar-width: thin;
+  }
+
+  .pill {
+    flex: none;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink-muted);
+    font-family: inherit;
+    font-size: 13px;
+    padding: 6px 13px;
+    border-radius: 999px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+
+  .pill:hover { border-color: var(--accent); color: var(--accent); }
+
+  .pill.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  /* ── 논문 목록 ── */
+  .entry {
+    padding: 28px 0;
+    border-top: 1px solid var(--line);
+  }
+  .entry:first-child { border-top: none; padding-top: 0; }
+
+  .entry-meta {
+    font-size: 13px;
+    color: var(--ink-muted);
+    margin-bottom: 6px;
+  }
+
+  .entry h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.35;
+    margin: 0 0 12px;
+  }
+
+  .entry h2 a { color: var(--ink); text-decoration: none; }
+  .entry h2 a:hover { color: var(--accent); }
+
+  .summary-ko { margin-bottom: 8px; }
+  .summary-en { color: var(--ink-muted); font-size: 14.5px; margin-bottom: 14px; }
+
+  .takeaway {
+    border-left: 3px solid var(--amber);
+    background: var(--amber-tint);
+    padding: 10px 14px;
+    font-size: 14.5px;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 14px;
+  }
+
+  .entry-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  .tag {
+    font-size: 12.5px;
+    color: var(--accent);
+    background: var(--accent-tint);
+    padding: 3px 10px;
+    border-radius: 999px;
+  }
+
+  .entry-link { font-size: 13.5px; white-space: nowrap; }
+
+  /* ── 빈 상태 ── */
+  #empty {
+    color: var(--ink-muted);
+    text-align: center;
+    padding: 48px 0;
+    display: none;
+  }
+
+  @media (max-width: 480px) {
+    .page { padding: 32px 16px 64px; }
+    .entry-footer { align-items: flex-start; flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <header class="masthead">
+    <h1>수의영상의학 논문 위키</h1>
+    <div class="masthead-meta" id="mastMeta">불러오는 중...</div>
+  </header>
+
+  <div class="search-row">
+    <input id="searchBox" type="text" placeholder="제목, 저널, 키워드로 검색...">
+  </div>
+
+  <div class="topic-row" id="topicRow"></div>
+
+  <div id="paperList"></div>
+  <div id="empty">표시할 논문이 없습니다. 검색어나 주제 필터를 바꿔보세요.</div>
+</div>
+
+<script>
+  // 이 부분은 build_site.py가 실행될 때마다 data/papers.json 내용으로
+  // 자동으로 교체됩니다. 직접 손으로 수정하지 마세요.
+  let allPapers = [{"pmid": "42644764", "title": "Bunny Burrito Restraint for Computed Tomography in Conscious Rabbits: An Effective Alternative.", "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association", "year": "2026", "authors": ["Hung-Ting Liu", "Jonathan Olijnyk", "Jessica Ingman", "Ellen Sundberg", "Laetitia Volait-Rosset", "Alexis Gombert"], "url": "https://pubmed.ncbi.nlm.nih.gov/42644764/", "doi": "10.1111/vru.70230", "summary_en": "This retrospective multicenter study evaluated the bunny burrito restraint technique as an alternative to plexiglass chamber restraint for CT imaging in 93 conscious client-owned rabbits (2021-2023). The bunny burrito group (n=36) showed significantly fewer motion artifacts in pre-contrast acquisitions, better positioning in the dental disease subgroup, and better early post-contrast stability compared to the plexiglass chamber group (n=47). Image quality was descriptively similar between bunny burrito and sedation (n=10), with no complications reported in either physical restraint group. The findings support bunny burrito restraint as a safe, effective, low-equipment alternative that reduces sedation-related risk in rabbit CT imaging.", "summary_ko": "2021년 3월부터 2023년 12월까지 보호자 소유 토끼 93마리를 대상으로 진행된 후향적 다기관 관찰연구에서, 의식이 있는 토끼의 CT 검사 시 번니 부리토(수건으로 감싸는) 보정법과 플렉시글라스 챔버 보정법, 진정법을 비교했다. 번니 부리토 그룹(36마리)은 플렉시글라스 챔버 그룹(47마리)에 비해 조영 전 영상에서 움직임 인공물이 유의하게 적었고, 치아질환 하위군에서 자세 유지가 더 우수했으며, 조영 후 초기 안정성도 더 좋았다. 번니 부리토와 진정법(10마리) 간 영상 품질은 기술통계상 유사했으며, 검사 중이나 이후 합병증은 보고되지 않았다.", "clinical_takeaway_ko": "토끼 CT 검사 시 진정이 어렵거나 위험도가 높은 환자에서는 번니 부리토(수건 감싸기) 보정법을 우선 고려할 수 있으며, 특히 치아질환 평가 시 플렉시글라스 챔버보다 자세 안정성이 우수하다.", "tags": ["토끼", "CT", "보정법", "진정없는영상", "특수동물"], "added_on": "2026-09-13"}, {"pmid": "42593822", "title": "Bibliometric Analysis of Artificial Intelligence Use in Small Animal Thoracic Radiography.", "journal": "Veterinary medicine and science", "year": "2026", "authors": ["Vildan Aslan Canatan", "Ender Uzabaci"], "url": "https://pubmed.ncbi.nlm.nih.gov/42593822/", "doi": "10.29106/fesa.1302809", "summary_en": "This bibliometric analysis reviewed 27 articles (2018-2025) on AI applications in small animal thoracic radiography from Web of Science and PubMed, analyzed with Biblioshiny. Publications grew at an annual rate of 10.41%, peaking at 8 articles in 2023, with 2020 publications showing the highest citation impact (mean 46.33 citations). T. Banzato was the most prolific author, and the United States and Italy were the leading contributing countries. Thematic analysis showed a primary focus on CNN- and deep-learning-based detection of cardiomegaly, pleural effusion, and pulmonary disease in dogs, with dataset heterogeneity and species diversity remaining key limitations to standardization.", "summary_ko": "2018-2025년 사이 발표된 소동물 흉부 방사선촬영 AI 관련 연구 27편을 Web of Science와 PubMed에서 수집하여 서지계량 분석(Biblioshiny)을 수행했다. 연간 성장률 10.41%로 출판이 증가 추세를 보였고 2023년에 8편으로 정점을 찍었으며, 2020년 발표 논문들이 평균 46.33회 인용으로 가장 높은 인용 영향력을 보였다. 주제 분석 결과 개의 심장비대, 흉수, 폐질환에 대한 CNN·딥러닝 기반 자동 탐지가 초기 연구의 주된 초점이었으며, 데이터셋의 이질성과 종 다양성이 여전히 표준화의 걸림돌로 지적되었다.", "clinical_takeaway_ko": "임상 현장에서 흉부방사선 AI 보조진단 도구를 도입할 때는 아직 데이터셋의 종·품종 다양성이 제한적이라는 점을 인지하고, 자신이 진료하는 환자군과 유사한 조건에서 검증된 도구인지 확인 후 사용해야 한다.", "tags": ["인공지능", "흉부방사선", "서지계량분석", "딥러닝", "소동물"], "added_on": "2026-09-13"}, {"pmid": "42522404", "title": "Patient Dimensions From a Single CT Image Provide a Clinically Practical and Accurate Method for Dose Estimation in Canine Abdominal CT Imaging.", "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association", "year": "2026", "authors": ["Claire Whittaker", "Monique Mayer", "Matthew Hutcheson", "Sally Sukut"], "url": "https://pubmed.ncbi.nlm.nih.gov/42522404/", "doi": "10.1148/radiol.2021211241", "summary_en": "This study evaluated whether patient dimensions measured from a single CT image can provide a clinically practical and accurate size-specific dose estimate (SSDE) in canine abdominal CT, as an alternative to more complex multi-slice measurements. SSDE scales the scanner-reported volumetric CT dose index (CTDIvol) to patient size to better reflect actual radiation exposure. The single-image measurement approach was found to be a practical and accurate method for dose estimation in dogs. (Note: the source abstract was truncated in the retrieved record.)", "summary_ko": "이 연구는 개 복부 CT 검사에서, 여러 단면에 걸친 복잡한 측정 대신 단일 CT 영상에서 얻은 환자의 선형 치수만으로 크기별 선량 추정치(SSDE)를 산출하는 방법의 임상적 실용성과 정확도를 평가했다. 단일 영상 기반 측정이 실제 임상에서 시행 가능하면서도 정확한 선량 추정 방법이 될 수 있음을 확인했다. (원문 초록이 자료 수집 과정에서 일부 잘린 상태로 확보됨.)", "clinical_takeaway_ko": "복부 CT 시행 시 단일 영상에서 측정한 환자 치수만으로도 실용적이고 정확한 개별 환자 선량(SSDE)을 추정할 수 있어, 별도의 복잡한 다중 슬라이스 측정 없이도 방사선 피폭 관리와 프로토콜 최적화에 활용할 수 있다.", "tags": ["CT", "방사선선량", "SSDE", "복부CT", "개"], "added_on": "2026-09-13"}, {"pmid": "42150942", "title": "Artificial Intelligence-Assisted Interpretation of Veterinary Radiographs: Opportunities, Risks, and Best Practices for Clinicians.", "journal": "The Veterinary clinics of North America. Small animal practice", "year": "2026", "authors": ["Parminder S Basran", "Ryan Appleby", "Ian Porter"], "url": "https://pubmed.ncbi.nlm.nih.gov/42150942/", "doi": "10.1016/j.cvsm.2026.03.018", "summary_en": "This review discusses the role of AI in interpreting veterinary radiographs from a clinician's perspective, emphasizing that AI functions as a decision-support tool rather than a replacement for clinical judgment. Veterinarians retain full professional accountability for all diagnoses and treatment decisions regardless of AI involvement, and AI should not be used clinically if its function and limitations cannot be explained to clients in understandable terms. Successful implementation requires best practices including comprehensive team training, maintenance of traditional diagnostic skills, and quality assurance protocols.", "summary_ko": "이 종설은 수의 방사선 영상 판독에서 인공지능(AI)의 역할을 임상의 관점에서 다루며, AI는 임상적 판단을 대체하는 것이 아니라 의사결정을 보조하는 도구로 자리매김해야 한다고 강조한다. AI 활용 여부와 관계없이 모든 진단과 치료 결정에 대한 전문적 책임은 수의사에게 있으며, AI가 어떻게 작동하고 어떤 한계가 있는지를 보호자에게 이해하기 쉬운 언어로 설명할 수 없다면 임상에 사용해서는 안 된다고 주장한다.", "clinical_takeaway_ko": "AI 판독 보조 도구를 도입하더라도 최종 진단 책임은 수의사에게 있으므로, 보호자에게 AI의 작동 방식과 한계를 설명할 수 있어야 하고 전통적인 판독 능력을 유지하면서 품질관리 절차를 마련해야 한다.", "tags": ["인공지능", "방사선판독", "임상의사결정", "수의영상의학", "모범사례"], "added_on": "2026-09-13"}, {"pmid": "42531994", "title": "Diagnostic imaging findings in animal abuse cases referred to the University of Veterinary Medicine Vienna, Austria (2014-2023).", "journal": "Forensic science international", "year": "2026", "authors": ["Klaudia Pietras", "Yasamin Vali"], "url": "https://pubmed.ncbi.nlm.nih.gov/42531994/", "doi": "10.1016/j.forsciint.2026.113076", "summary_en": "This retrospective study reviewed imaging records from 11,689 companion and exotic animals at the University of Veterinary Medicine Vienna (2014-2023) and identified 83 cases of suspected animal abuse. Skeletal fractures and ballistic trauma were the most common findings across dogs, cats, birds, lagomorphs, and reptiles, with radiography and CT as the primary modalities used; ultrasound and MRI were not used for case qualification. CT was particularly valuable in birds and reptiles due to their anatomical complexity, while radiography was effective across all species. The findings support diagnostic imaging as objective evidence for forensic veterinary investigations and legal proceedings.", "summary_ko": "비엔나 수의과대학에서 2014-2023년 동안 동물 학대 의심 사례 11,689건 중 83건을 선별하여 영상진단 기록을 후향적으로 분석했다. 개, 고양이, 조류, 토끼목, 파충류에서 골절과 총상이 가장 흔한 손상 소견이었으며, 진단에는 방사선촬영과 CT가 주로 사용되고 초음파나 MRI는 전혀 활용되지 않았다. 조류와 파충류처럼 해부학적 구조가 복잡한 종에서는 CT가 특히 유용했고, 방사선촬영은 전 종에서 효과적이었다. 저자들은 영상진단이 학대 사례에서 객관적 증거를 제공하여 임상적 평가와 법적 절차를 뒷받침한다고 결론지었다.", "clinical_takeaway_ko": "동물 학대가 의심되는 환자에서는 방사선촬영을 1차 선별검사로, 조류·파충류 등 해부학적으로 복잡한 종에서는 CT를 추가로 활용하면 은폐된 골절이나 총상 소견을 놓치지 않고 법적 증거로 활용할 수 있는 영상 기록을 남길 수 있다.", "tags": ["법수의학", "영상진단", "동물학대", "CT", "방사선촬영"], "added_on": "2026-09-13"}];
+  let activeTag = null;
+  let query = "";
+
+  document.getElementById("mastMeta").textContent =
+    allPapers.length > 0
+      ? `총 ${allPapers.length}편 수록 · 최근 갱신 ${allPapers[0].added_on || ""}`
+      : "아직 수록된 논문이 없습니다";
+  buildTopicRow(allPapers);
+  render();
+
+  function buildTopicRow(papers) {
+    const counts = {};
+    papers.forEach(p => (p.tags || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
+    const tags = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+
+    const row = document.getElementById("topicRow");
+    row.innerHTML = "";
+
+    const allPill = document.createElement("button");
+    allPill.className = "pill active";
+    allPill.textContent = `전체 (${papers.length})`;
+    allPill.onclick = () => setTag(null);
+    row.appendChild(allPill);
+
+    tags.forEach(t => {
+      const pill = document.createElement("button");
+      pill.className = "pill";
+      pill.textContent = `${t} (${counts[t]})`;
+      pill.onclick = () => setTag(t);
+      row.appendChild(pill);
+    });
+  }
+
+  function setTag(tag) {
+    activeTag = tag;
+    document.querySelectorAll(".pill").forEach((el, i) => {
+      el.classList.toggle("active", (tag === null && i === 0) || el.textContent.startsWith(tag + " ("));
+    });
+    render();
+  }
+
+  document.getElementById("searchBox").addEventListener("input", (e) => {
+    query = e.target.value.toLowerCase();
+    render();
+  });
+
+  function render() {
+    const filtered = allPapers.filter(p => {
+      const matchesTag = !activeTag || (p.tags || []).includes(activeTag);
+      const matchesQuery = !query ||
+        p.title.toLowerCase().includes(query) ||
+        p.journal.toLowerCase().includes(query) ||
+        (p.tags || []).some(t => t.toLowerCase().includes(query));
+      return matchesTag && matchesQuery;
+    });
+
+    const list = document.getElementById("paperList");
+    const empty = document.getElementById("empty");
+
+    if (filtered.length === 0) {
+      list.innerHTML = "";
+      empty.style.display = "block";
+      return;
+    }
+    empty.style.display = "none";
+
+    list.innerHTML = filtered.map(p => `
+      <article class="entry">
+        <div class="entry-meta">${p.journal} · ${p.year} · ${(p.authors || []).join(", ")}</div>
+        <h2><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></h2>
+        ${p.summary_ko ? `<div class="summary-ko">${p.summary_ko}</div>` : ""}
+        ${p.summary_en ? `<div class="summary-en">${p.summary_en}</div>` : ""}
+        ${p.clinical_takeaway_ko ? `<div class="takeaway">${p.clinical_takeaway_ko}</div>` : ""}
+        <div class="entry-footer">
+          <div class="tags">${(p.tags || []).map(t => `<span class="tag">${t}</span>`).join("")}</div>
+          <a class="entry-link" href="${p.url}" target="_blank" rel="noopener">PubMed에서 보기</a>
+        </div>
+      </article>
+    `).join("");
+  }
+</script>
+
+</body>
+</html>

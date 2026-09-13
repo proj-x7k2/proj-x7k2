@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>수의영상의학 논문 위키</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f5f6f5;
+    --ink: #172026;
+    --ink-muted: #5b6570;
+    --ink-faint: #8b939a;
+    --line: #dadfe1;
+    --accent: #2b6e6a;
+    --accent-tint: #e4efee;
+    --amber: #a8752e;
+    --amber-tint: #fbf3e7;
+    --focus: #2b6e6a;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans KR', -apple-system, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible, input:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  .page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+
+  /* ── 마스트헤드 ── */
+  header.masthead {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+  }
+
+  header.masthead h1 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: clamp(28px, 5vw, 36px);
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .masthead-meta {
+    color: var(--ink-muted);
+    font-size: 14px;
+  }
+
+  /* ── 검색 ── */
+  .search-row {
+    margin: 28px 0 16px;
+  }
+
+  #searchBox {
+    width: 100%;
+    padding: 11px 14px;
+    font-size: 15px;
+    font-family: inherit;
+    color: var(--ink);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+  }
+
+  #searchBox::placeholder { color: var(--ink-faint); }
+
+  /* ── 주제 필터 필 ── */
+  .topic-row {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    margin-bottom: 32px;
+    scrollbar-width: thin;
+  }
+
+  .pill {
+    flex: none;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink-muted);
+    font-family: inherit;
+    font-size: 13px;
+    padding: 6px 13px;
+    border-radius: 999px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+
+  .pill:hover { border-color: var(--accent); color: var(--accent); }
+
+  .pill.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  /* ── 논문 목록 ── */
+  .entry {
+    padding: 28px 0;
+    border-top: 1px solid var(--line);
+  }
+  .entry:first-child { border-top: none; padding-top: 0; }
+
+  .entry-meta {
+    font-size: 13px;
+    color: var(--ink-muted);
+    margin-bottom: 6px;
+  }
+
+  .entry h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.35;
+    margin: 0 0 12px;
+  }
+
+  .entry h2 a { color: var(--ink); text-decoration: none; }
+  .entry h2 a:hover { color: var(--accent); }
+
+  .summary-ko { margin-bottom: 8px; }
+  .summary-en { color: var(--ink-muted); font-size: 14.5px; margin-bottom: 14px; }
+
+  .takeaway {
+    border-left: 3px solid var(--amber);
+    background: var(--amber-tint);
+    padding: 10px 14px;
+    font-size: 14.5px;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 14px;
+  }
+
+  .entry-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  .tag {
+    font-size: 12.5px;
+    color: var(--accent);
+    background: var(--accent-tint);
+    padding: 3px 10px;
+    border-radius: 999px;
+  }
+
+  .entry-link { font-size: 13.5px; white-space: nowrap; }
+
+  /* ── 빈 상태 ── */
+  #empty {
+    color: var(--ink-muted);
+    text-align: center;
+    padding: 48px 0;
+    display: none;
+  }
+
+  @media (max-width: 480px) {
+    .page { padding: 32px 16px 64px; }
+    .entry-footer { align-items: flex-start; flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <header class="masthead">
+    <h1>수의영상의학 논문 위키</h1>
+    <div class="masthead-meta" id="mastMeta">불러오는 중...</div>
+  </header>
+
+  <div class="search-row">
+    <input id="searchBox" type="text" placeholder="제목, 저널, 키워드로 검색...">
+  </div>
+
+  <div class="topic-row" id="topicRow"></div>
+
+  <div id="paperList"></div>
+  <div id="empty">표시할 논문이 없습니다. 검색어나 주제 필터를 바꿔보세요.</div>
+</div>
+
+<script>
+  // 이 부분은 build_site.py가 실행될 때마다 data/papers.json 내용으로
+  // 자동으로 교체됩니다. 직접 손으로 수정하지 마세요.
+  let allPapers = /*__PAPERS_JSON__*/ [];
+  let activeTag = null;
+  let query = "";
+
+  document.getElementById("mastMeta").textContent =
+    allPapers.length > 0
+      ? `총 ${allPapers.length}편 수록 · 최근 갱신 ${allPapers[0].added_on || ""}`
+      : "아직 수록된 논문이 없습니다";
+  buildTopicRow(allPapers);
+  render();
+
+  function buildTopicRow(papers) {
+    const counts = {};
+    papers.forEach(p => (p.tags || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
+    const tags = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+
+    const row = document.getElementById("topicRow");
+    row.innerHTML = "";
+
+    const allPill = document.createElement("button");
+    allPill.className = "pill active";
+    allPill.textContent = `전체 (${papers.length})`;
+    allPill.onclick = () => setTag(null);
+    row.appendChild(allPill);
+
+    tags.forEach(t => {
+      const pill = document.createElement("button");
+      pill.className = "pill";
+      pill.textContent = `${t} (${counts[t]})`;
+      pill.onclick = () => setTag(t);
+      row.appendChild(pill);
+    });
+  }
+
+  function setTag(tag) {
+    activeTag = tag;
+    document.querySelectorAll(".pill").forEach((el, i) => {
+      el.classList.toggle("active", (tag === null && i === 0) || el.textContent.startsWith(tag + " ("));
+    });
+    render();
+  }
+
+  document.getElementById("searchBox").addEventListener("input", (e) => {
+    query = e.target.value.toLowerCase();
+    render();
+  });
+
+  function render() {
+    const filtered = allPapers.filter(p => {
+      const matchesTag = !activeTag || (p.tags || []).includes(activeTag);
+      const matchesQuery = !query ||
+        p.title.toLowerCase().includes(query) ||
+        p.journal.toLowerCase().includes(query) ||
+        (p.tags || []).some(t => t.toLowerCase().includes(query));
+      return matchesTag && matchesQuery;
+    });
+
+    const list = document.getElementById("paperList");
+    const empty = document.getElementById("empty");
+
+    if (filtered.length === 0) {
+      list.innerHTML = "";
+      empty.style.display = "block";
+      return;
+    }
+    empty.style.display = "none";
+
+    list.innerHTML = filtered.map(p => `
+      <article class="entry">
+        <div class="entry-meta">${p.journal} · ${p.year} · ${(p.authors || []).join(", ")}</div>
+        <h2><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></h2>
+        ${p.summary_ko ? `<div class="summary-ko">${p.summary_ko}</div>` : ""}
+        ${p.summary_en ? `<div class="summary-en">${p.summary_en}</div>` : ""}
+        ${p.clinical_takeaway_ko ? `<div class="takeaway">${p.clinical_takeaway_ko}</div>` : ""}
+        <div class="entry-footer">
+          <div class="tags">${(p.tags || []).map(t => `<span class="tag">${t}</span>`).join("")}</div>
+          <a class="entry-link" href="${p.url}" target="_blank" rel="noopener">PubMed에서 보기</a>
+        </div>
+      </article>
+    `).join("");
+  }
+</script>
+
+</body>
+</html>
