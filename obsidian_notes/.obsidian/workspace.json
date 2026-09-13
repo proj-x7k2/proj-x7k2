@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "overview.md",
+                "file": "papers/2026-patient-dimensions-from-a-single-ct-image-provide-a-clinically-practical-and-accurate-method-for-dose-estimation-in-canine-abdominal-ct-imaging.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "2026-patient-dimensions-from-a-single-ct-image-provide-a-clinically-practical-and-accurate-method-for-dose-estimation-in-canine-abdominal-ct-imaging"
             }
           }
         ]
@@ -190,14 +190,16 @@
   },
   "active": "ebbde7f0a376141f",
   "lastOpenFiles": [
+    "papers/2026-diagnostic-imaging-findings-in-animal-abuse-cases.md",
+    "papers/2026-bunny-burrito-restraint-for-computed-tomography-in-conscious-rabbits-an-effective-alternative.md",
+    "papers/2026-bibliometric-analysis-of-artificial-intelligence-use-in-small-animal-thoracic-radiography.md",
+    "papers/2026-artificial-intelligence-assisted-interpretation-of-veterinary-radiographs-opportunities-risks-and-best-practices-for-clinicians.md",
+    "overview.md",
+    "topics/forensic-imaging.md",
+    "topics/conscious-imaging-restraint.md",
     "topics/ai-veterinary-imaging.md",
     "topics/ct-dose-estimation.md",
     "topics/ct-dose-estimation.md.tmp.53668.6d70739090cb",
-    "topics/conscious-imaging-restraint.md",
-    "papers/2026-artificial-intelligence-assisted-interpretation-of-veterinary-radiographs-opportunities-risks-and-best-practices-for-clinicians.md",
-    "papers/2026-patient-dimensions-from-a-single-ct-image-provide-a-clinically-practical-and-accurate-method-for-dose-estimation-in-canine-abdominal-ct-imaging.md",
-    "papers/2026-bibliometric-analysis-of-artificial-intelligence-use-in-small-animal-thoracic-radiography.md",
-    "papers/2026-bunny-burrito-restraint-for-computed-tomography-in-conscious-rabbits-an-effective-alternative.md",
-    "topics/forensic-imaging.md"
+    "papers/2026-patient-dimensions-from-a-single-ct-image-provide-a-clinically-practical-and-accurate-method-for-dose-estimation-in-canine-abdominal-ct-imaging.md"
   ]
 }

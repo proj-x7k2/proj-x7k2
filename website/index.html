@@ -84,14 +84,40 @@
   #searchBox::placeholder { color: var(--ink-faint); }
 
   /* ── 주제 필터 필 ── */
+  .topic-row-wrap {
+    position: relative;
+    margin-bottom: 32px;
+  }
+
   .topic-row {
     display: flex;
     gap: 8px;
     overflow-x: auto;
-    padding-bottom: 4px;
-    margin-bottom: 32px;
+    padding-bottom: 8px;
     scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
   }
+
+  .topic-row::-webkit-scrollbar { height: 6px; }
+  .topic-row::-webkit-scrollbar-track { background: transparent; }
+  .topic-row::-webkit-scrollbar-thumb {
+    background: var(--line);
+    border-radius: 999px;
+  }
+  .topic-row::-webkit-scrollbar-thumb:hover { background: var(--ink-faint); }
+
+  /* 오른쪽에 더 있다는 걸 흐릿하게 알려주는 그라데이션 */
+  .topic-row-wrap::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 8px;
+    width: 32px;
+    background: linear-gradient(to right, transparent, var(--bg));
+    pointer-events: none;
+  }
+  .topic-row-wrap.at-end::after { opacity: 0; }
 
   .pill {
     flex: none;
@@ -197,7 +223,9 @@
     <input id="searchBox" type="text" placeholder="제목, 저널, 키워드로 검색...">
   </div>
 
-  <div class="topic-row" id="topicRow"></div>
+  <div class="topic-row-wrap" id="topicRowWrap">
+    <div class="topic-row" id="topicRow"></div>
+  </div>
 
   <div id="paperList"></div>
   <div id="empty">표시할 논문이 없습니다. 검색어나 주제 필터를 바꿔보세요.</div>
@@ -216,6 +244,27 @@
       : "아직 수록된 논문이 없습니다";
   buildTopicRow(allPapers);
   render();
+
+  // 주제 필 목록을 마우스 휠/트랙패드로 좌우 스크롤할 수 있게, 그리고
+  // 끝까지 스크롤하면 오른쪽 "더 있음" 표시가 사라지게 처리합니다.
+  const topicRow = document.getElementById("topicRow");
+  const topicRowWrap = document.getElementById("topicRowWrap");
+
+  topicRow.addEventListener("wheel", (e) => {
+    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+      e.preventDefault();
+      topicRow.scrollLeft += e.deltaY;
+    }
+  }, { passive: false });
+
+  function updateScrollHint() {
+    const atEnd = topicRow.scrollLeft + topicRow.clientWidth >= topicRow.scrollWidth - 2;
+    const scrollable = topicRow.scrollWidth > topicRow.clientWidth;
+    topicRowWrap.classList.toggle("at-end", atEnd || !scrollable);
+  }
+  topicRow.addEventListener("scroll", updateScrollHint);
+  window.addEventListener("resize", updateScrollHint);
+  updateScrollHint();
 
   function buildTopicRow(papers) {
     const counts = {};
