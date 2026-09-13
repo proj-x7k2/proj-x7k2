@@ -36,6 +36,20 @@ FULL_COVERAGE_JOURNALS = [
     "Veterinary Radiology & Ultrasound",
 ]
 
+# 2-2) 소동물(개·고양이·토끼) 진료에 맞춰, 대동물/산업동물이 주제인
+#      논문은 제외합니다. 여기 적힌 단어 중 하나라도 제목/초록에
+#      있으면 검색 결과에서 빠집니다. 말·소 진료도 함께 보시게 되면
+#      이 목록을 비워두거나(= 제외 안 함) 필요 없는 항목만 지우세요.
+EXCLUDE_SPECIES = [
+    "equine", "horse", "foal",
+    "bovine", "cattle", "cow", "calf",
+    "porcine", "swine", "pig",
+    "ovine", "sheep", "caprine", "goat",
+    "camelid", "llama", "alpaca",
+    "poultry", "avian",  # 조류는 소동물 진료 범위 밖이면 유지, 진료하시면 이 줄 삭제
+    "livestock", "farm animal",
+]
+
 # 3) 최근 며칠 이내에 발표된 논문을 가져올지
 #    - 매주 1회 실행한다면 7~10 정도가 적당합니다.
 DAYS_BACK = 7

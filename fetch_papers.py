@@ -48,10 +48,11 @@ def build_query():
     """
     config.py에 적힌 키워드를 PubMed가 이해할 수 있는 검색어 형태로 조립합니다.
 
-    두 조건 중 하나라도 맞으면 검색됩니다:
-    - 제목/초록에 KEYWORDS 중 하나가 포함되거나
-    - FULL_COVERAGE_JOURNALS에 있는 저널(영상의학 전문지)에 실렸으면 무조건 포함
-      (이 저널들은 주제 자체가 영상의학이라, 키워드 매칭 없이도 안전합니다)
+    조건:
+    - (제목/초록에 KEYWORDS 중 하나가 포함되거나, FULL_COVERAGE_JOURNALS에
+      있는 저널에 실린 논문) 이면서
+    - EXCLUDE_SPECIES에 있는 단어가 제목/초록에 하나도 없어야 함
+      (말/소/돼지 등 대동물·산업동물 논문을 걸러내기 위함)
     """
     keyword_part = " OR ".join(f'"{k}"[Title/Abstract]' for k in config.KEYWORDS)
     date_query = f'("last {config.DAYS_BACK} days"[PDat])'
@@ -64,7 +65,15 @@ def build_query():
         )
         topic_query = f"(({keyword_part}) OR ({journal_part}))"
 
-    return f"{topic_query} AND {date_query}"
+    query = f"{topic_query} AND {date_query}"
+
+    if config.EXCLUDE_SPECIES:
+        exclude_part = " OR ".join(
+            f'"{s}"[Title/Abstract]' for s in config.EXCLUDE_SPECIES
+        )
+        query = f"{query} NOT ({exclude_part})"
+
+    return query
 
 
 def search_pmids(query):
