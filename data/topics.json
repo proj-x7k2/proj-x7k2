@@ -1,43 +1,95 @@
 [
   {
-    "slug": "ai-veterinary-imaging",
-    "title": "수의영상의학에서의 인공지능(AI) 활용",
-    "synthesis": "수의영상의학 분야에서 AI, 특히 딥러닝 기반 자동 판독 기술에 대한 관심과 연구가 빠르게 증가하고 있다. 2018-2025년 소동물 흉부 방사선촬영 관련 AI 문헌 27편을 분석한 서지계량 연구에 따르면, 연구 출판은 연평균 10.41%씩 증가해 2023년 정점(8편)을 찍었고, 미국과 이탈리아가 주요 연구 생산국이었으며, 개의 심장비대·흉수·폐질환에 대한 CNN 기반 자동 탐지가 초기 연구의 핵심 주제였다. 다만 데이터셋의 이질성과 대상 종·품종의 다양성 부족이 표준화의 걸림돌로 지목되었다. 임상 적용 측면에서는, AI는 어디까지나 임상적 판단을 보조하는 의사결정 지원 도구로 자리매김해야 하며 최종 진단과 치료 결정에 대한 책임은 여전히 수의사에게 있다는 점이 강조된다. 보호자에게 AI의 작동 방식과 한계를 이해하기 쉽게 설명할 수 없다면 임상에 도입해서는 안 되며, 성공적인 도입을 위해서는 팀 교육, 전통적 판독 능력 유지, 품질보증 체계가 필요하다.",
+    "slug": "musculoskeletal-imaging",
+    "title": "근골격 영상",
+    "synthesis": "### 관절 초음파 vs 방사선검사\nLeishmania infantum 감염견 43마리를 대상으로 한 전향적 연구에서 관절 초음파(USG)는 tarsal joint 병변을 86%(37/43)에서 검출해 방사선검사 40%(8/20)보다 뚜렷하게 우수했고, 신체검사 대비 민감도도 USG 89.7% vs 방사선검사 46.7%로 USG가 우월했다 ([[papers/2026-42763011-us-vs-radiography-leishmaniasis-joints|Oliveira 2026]]; 전향적 연구, n=43). USG로 병변이 확인된 개의 29.7%는 임상적으로 무증상이어서, USG가 subclinical arthropathy 검출에도 유용함을 시사한다. CrCL 자체의 초음파 평가에서는 3D 초음파(3D-US)가 사체 stifle 34개에서 femoral·tibial attachment와 인대 본체를 모두 식별해 feasibility를 보였으나 ([[papers/2026-42754086-3d-ultrasonography-cranial-cruciate-ligament|Barbero-Fernández 2026]]; 실험 연구, n=17/34 stifle), 정상 인대만을 대상으로 한 사체 연구이므로 rupture 진단 성능은 아직 검증되지 않았다 — 제한적 근거.\n\n### TPLO 술후 방사선 평가\nTPLO 관련 방사선 근거가 여러 편 쌓였다. Popliteus muscle을 보존하는 변형 TPLO는 전통적 술식 대비 45일차 방사선 골유합 점수가 유의하게 높았으나(10점 척도 기준 보정 평균차 1.95점) osteotomy 안정성(rock-back)에는 차이가 없었고, 저자들도 이 방사선학적 차이가 실제 임상 회복으로 이어지는지는 알 수 없다고 명시했다 ([[papers/2026-42760893-tplo-popliteus-sparing-radiographic-healing|Sassaroli 2026]]; 무작위대조군연구, n=100). 반면 8주차 정기 TPLO 방사선평가는 신체검사 권고안을 대부분(59.5%) 바꾸지 않았고, 평가자 간 일치도도 낮아(κ=0.20 전후) 정기 방사선검사의 실질적 이득에 의문을 제기했다 ([[papers/2026-42762824-8-week-tplo-radiographs-management-plan|Hancock 2026]]; 전향적 연구, n=97/291건 평가). TPLO 대상견에서 고관절 방사선을 함께 평가한 후향적 연구는 canine hip dysplasia(CHD)의 방사선학적 유병률이 36.3%이며, CHD가 심할수록 osteoarthritis도 심하고(OR 22.91/단계) 반대쪽 stifle에서 CCLD가 발생할 위험도 높아진다는 것을 보여주었다(OR 3.70/단계) ([[papers/2026-42744301-hip-dysplasia-prevalence-ccld-tplo|Courzereaux 2026]]; 후향적 연구, n=466).\n\n### Hip dysplasia 등급 판정 기준의 변화\nFCI 2022년 개정 판정법(FCI22)을 기존 2006년 방법(FCI06)과 비교한 후향적 연구에서, 전체 고관절의 68.3%는 등급이 유지되었지만 Boxer에서는 29.4%가 하향, Australian Shepherd에서는 17.2%가 상향 조정되는 등 품종별로 재분류 패턴이 크게 달랐고, 재분류는 주로 기존 D등급 고관절에서 발생했다(82.4%) ([[papers/2026-42735705-fci-2022-vs-2006-hip-dysplasia-grading|Gras 2026]]; 후향적 연구, n=1318).\n\n### 골절·골 병변의 방사선 소견\nPatella fracture and dental anomaly syndrome(PADS) 고양이 126마리의 후향적 증례군 연구에서는 patellar fracture 외에도 22.2%가 근위 tibia·fibula·pelvis 등 추가 골절을 동반했고, 일부에서 초기 stress fracture나 osteopetrosis에 합당한 골 opacity 변화가 확인되었다 ([[papers/2026-42751918-radiographic-pads-cats-femora-tibiae|Boulton 2026]]; 후향적 연구, n=126). 단일 증례보고에서는 강아지의 급성 비체중부하 파행이 짧은 시간 내(15시간) septic physitis에서 병적 Salter-Harris type I 골절로 진행한 사례가 처음 보고되어, physis widening 소견 시 단기 재촬영의 필요성을 시사했다 ([[papers/2026-42718565-septic-physitis-physeal-fracture-puppy|Sidhu 2026]]; 증례보고, n=1) — 제한적 근거.\n\n### CT 기반 정량 분석과 촬영 기법\nOsteosarcoma가 있는 개 16마리의 CT 영상에서 재구성한 뼈 모델로 FEA 시뮬레이션과 머신러닝 대리모델을 결합해 골절 하중을 예측한 연구는 held-out 165건에서 평균 R²≈0.90의 예측 성능을 보였으나, proof-of-concept 단계이며 실제 임상 검증은 이루어지지 않았다 ([[papers/2026-42705596-ml-fracture-load-prediction-osteosarcoma-ct|Amirzade 2026]]; 실험 연구, n=16) — 제한적 근거. Elbow CT 촬영 자세 비교 실험에서는 lateral recumbency로 elbow를 개별 촬영하는 것이 dorsal recumbency 동시 촬영보다 signal/contrast-to-noise ratio가 유의하게 우수했고, tube current를 150mA에서 300mA로 올려도 이 차이를 보완하지 못했다 ([[papers/2026-42761083-recumbency-tube-current-canine-elbow-ct|Bellekom 2026]]; 실험 연구, n=20/40 elbow).",
     "related_papers": [
-      "2018-2025년 소동물 흉부방사선 AI 문헌 27편 서지계량 분석, CNN 기반 자동탐지가 주요 초점",
-      "AI는 의사결정 보조도구이며 최종 책임은 수의사에게 있다는 임상 관점의 모범사례 제시"
+      "leishmaniasis 관절병변 검출에서 초음파가 방사선보다 우수 (전향적 연구, n=43)",
+      "popliteus-sparing TPLO가 45일차 방사선 골유합 점수 개선 (무작위대조군연구, n=100)",
+      "8주차 TPLO 방사선이 관리계획 변경으로 이어지는 경우는 드묾 (전향적 연구, n=97/291건)",
+      "3D 초음파로 CrCL 시각화 feasibility 확인 (실험 연구, n=17/34 stifle)",
+      "PADS 고양이의 femur·tibia 추가 골절·골 opacity 변화 서술 (후향적 연구, n=126)",
+      "TPLO 대상견의 CHD 유병률 36.3%, 반대쪽 CCLD 위험과 연관 (후향적 연구, n=466)",
+      "FCI22 판정법 도입 시 품종별 등급 재분류 패턴 상이 (후향적 연구, n=1318)",
+      "CT-FEA-ML로 osteosarcoma 골절 하중 예측 (실험 연구, n=16)",
+      "lateral recumbency가 elbow CT 영상 품질에서 우수 (실험 연구, n=20/40 elbow)",
+      "septic physitis에 의한 강아지 physeal fracture 첫 보고 (증례보고, n=1)"
+    ],
+    "paper_count": 10,
+    "conflicting_evidence": "(아직 없음)",
+    "open_questions": "- 3D 초음파의 CrCL rupture 실제 진단 성능(민감도·특이도)은 생체 개 대상 연구로 검증되어야 한다.\n- TPLO 술후 방사선 골유합 점수 차이(popliteus-sparing 등)가 실제 임상 기능 회복과 상관관계가 있는지는 아직 불명확하다.\n- 정기 TPLO 술후 방사선검사가 관리계획을 바꾸는 빈도가 낮다는 결과를 바탕으로, 어떤 임상·영상 소견 조합에서 방사선검사가 실제로 유용한지 규명할 전향적 연구가 필요하다.\n- CT-FEA-ML 기반 골절 하중 예측 모델의 임상 검증(전향적 코호트, 다기관)은 아직 이루어지지 않았다."
+  },
+  {
+    "slug": "abdominal-imaging",
+    "title": "복부·소화기 영상",
+    "synthesis": "### 간담도 영상\nBenign gallbladder disease로 open cholecystectomy를 받은 개 73마리의 후향적 연구에서, bile duct flushing 후 시행한 intraoperative cholangiography(IOC)는 complete common bile duct(CBD) obstruction을 12.5%, retained debris로 인한 partial obstruction을 20.8%, hepatic duct filling defect를 10.6%에서 추가로 검출했다 ([[papers/2026-42717636-intraoperative-cholangiography-cholecystectomy|Konno 2026]]; 후향적 연구, n=73). 주술기 사망률은 황달이 있던 개(11.4%)에서 없던 개(0%)보다 뚜렷이 높아, 담도 폐쇄가 진행된 증례에서 IOC 같은 보조 영상 검사의 필요성을 시사한다. 간 종양 영상에서는 massive형 hepatocellular carcinoma(HCC) 20예의 CT perfusion(CTP) 분석에서 종양이 정상 간보다 portal venous flow는 낮고 hepatic perfusion index는 높은, 즉 상대적 동맥 우세 양상을 보였다(p<0.001) ([[papers/2026-42710534-ct-perfusion-hepatocellular-carcinoma|Wang 2026]]; 후향적 연구, n=20). 다만 저자들은 CTP가 형태학적 영상·병리·예후 평가를 대체할 수 없다고 명시했다. 자궁축농증(CEH-P complex) 개 34마리를 대상으로 한 2D shear wave elastography 연구는 병변 간 자체의 탄성도 상승과 ALT/ALP 비율 상승이 CEH-P에 의한 간손상 검출에 민감했음을 보여주어, 자궁 질환이 간에 미치는 전신적 영향을 초음파로 정량 평가할 수 있는 가능성을 제시했다 ([[papers/2026-42759150-2d-swe-elastography-pyometra-uterus-liver|Mahzunlar 2026]]; 전향적 연구, n=49 — 자궁 소견은 [[topics/urogenital-imaging]] 참고).\n\n### 위장관 영상\n개 장관 신생물의 MRI 소견을 다룬 최초의 수의영상의학 증례군 연구(lymphoma 6, adenocarcinoma 2, inflammatory polyp 4)에서, intestinal lymphoma는 contrast-enhanced T1WI에서 전례 균질한 hypointense 조영증강을 보였고(p=0.002) ADC 값도 다른 신생물보다 유의하게 낮아(0.58×10⁻³mm²/s 대 1.27~1.56×10⁻³mm²/s) MRI 기반 감별 가능성을 시사했다 ([[papers/2026-42751982-mri-differential-diagnosis-intestinal-neoplasms|Tanaka 2026]]; 증례군, n=12) — 각 군 표본이 매우 작아 제한적 근거.\n\n### 정상 해부 참고자료\n성체 고양이 10마리를 이용해 흉복부 단면 해부와 조영증강 CT·3D 재구성을 상호 대조한 atlas 연구는 고양이 흉복부 CT 판독과 수술 계획을 위한 정상 해부 참고자료를 제공했으며, 조영증강이 혈관·장기 관계의 시인성을 크게 향상시켰다 ([[papers/2026-42710191-ct-atlas-feline-thorax-abdomen|Abdelmohsen 2026]]; 실험 연구, n=10 — [[topics/thoracic-imaging]]에도 해당).",
+    "related_papers": [
+      "IOC가 담도 잔류 debris·폐쇄를 상당 빈도로 추가 검출 (후향적 연구, n=73)",
+      "개 HCC에서 CT perfusion상 상대적 동맥 우세 확인 (후향적 연구, n=20)",
+      "CEH-P에서 간 탄성도·ALT/ALP 비율로 간손상 평가 (전향적 연구, n=49)",
+      "장관 lymphoma의 MRI 조영증강·ADC 감별 소견 (증례군, n=12)",
+      "고양이 흉복부 CT-해부 대조 atlas (실험 연구, n=10)"
+    ],
+    "paper_count": 5,
+    "conflicting_evidence": "(아직 없음)",
+    "open_questions": "- CT perfusion으로 확인된 HCC의 관류 패턴이 분화도·절제가능성·예후 예측에 실제로 기여하는지는 poorly differentiated 종양 표본(3예)이 너무 작아 결론 내리기 어렵다.\n- IOC가 실제로 수술 후 합병증·사망률을 낮추는지(단순히 기저 질환 중증도를 반영하는 것이 아니라)는 대조군 비교 연구가 필요하다.\n- 장관 lymphoma의 MRI 감별 소견(hypointense 조영증강, 낮은 ADC)이 더 큰 코호트에서도 재현되는지 검증이 필요하다."
+  },
+  {
+    "slug": "neuro-imaging",
+    "title": "뇌·두개내 영상",
+    "synthesis": "### 저자장 MRI의 가능성\n사람 신경영상용으로 개발된 0.05T 휴대용 저자장(low-field) MRI 시스템이 개 사체 뇌 영상에서 1.5T 대비 T2-weighted 영상 기준 lateral ventricle·mesencephalic aqueduct 검출에 non-inferior한 성능(조건부 확률 90% 이상)을 보여, hydrocephalus 평가 보조 도구로서의 가능성이 제시되었다 ([[papers/2026-42730678-low-field-mri-canine-brain|Burgers 2026]]; 실험 연구, n=23). 다만 T1-weighted 영상에서는 non-inferiority가 불명확했고(조건부 확률 76.6%), 사체 연구 단계로 생체 내(in vivo) 검증은 아직 이루어지지 않았다 — 제한적 근거.\n\n### Ischemic cerebrovascular accident (ICVA)의 MRI 예후 인자\n개·고양이 63마리(개 47, 고양이 16)를 대상으로 한 후향적 연구에서, middle cerebral artery 영역 전체 또는 소뇌 반구 전체를 침범하는 \"complete territorial ICVA\" 아형이 12.7%에서 확인되었고, 여기에 중등도~중증 mass effect가 동반된 \"malignant ICVA\" 소견은 조기 사망과 강하게 연관되었다(OR 400) ([[papers/2026-42727605-mri-prognostic-features-ischemic-stroke|Desbordes 2026]]; 후향적 연구, n=63). Arterial spin labeling(ASL) perfusion에서 non-lacunar infarct는 모두 focal hypoperfusion을 보인 반면 lacunar infarct는 관류 이상이 없어 아형 감별에 도움이 되었지만, 발병 24시간 이내 영상에서 ischemic penumbra가 확인된 경우는 10.5%에 불과해 구제 가능 조직 판별 도구로서는 한계가 있었다.\n\n### 종양 영상: canine glioma의 translational 가치\nBrachycephalic 견종에 호발하는 canine glioma를 human glioblastoma의 translational model로 삼아 T2-FLAIR MRI radiomics(texture, shape, intensity)를 비교한 연구에서, 선별된 radiomic feature가 종양·비병변 조직을 AUC 80% 이상으로 구분했고 SVM 모델은 개·사람 통합 데이터셋에서 80.33% 정확도를 보였다 ([[papers/2026-42746025-radiomics-canine-glioma-mri|Faustino 2026]]; 후향적 연구, n=\"\"). 다만 이 연구는 canine 단독 증례 수가 명시되지 않았고 저자들도 표본 크기·집단 다양성의 한계를 인정한 translational 프레이밍의 연구로, 임상 진단 프로토콜로 바로 쓰기는 이르다 — 제한적 근거.",
+    "related_papers": [
+      "0.05T 저자장 MRI, hydrocephalus 평가 가능성 (실험 연구, n=23)",
+      "malignant ICVA(complete territorial + mass effect)가 조기 사망과 강하게 연관 (후향적 연구, n=63)",
+      "T2-FLAIR radiomics로 canine glioma·human glioblastoma 종양 조직 판별 (후향적 연구, n=\"\")"
+    ],
+    "paper_count": 3,
+    "conflicting_evidence": "(아직 없음)",
+    "open_questions": "- 0.05T 저자장 MRI의 hydrocephalus 외 뇌 병변(종양, 염증, 외상 등) 검출 성능은 아직 평가되지 않았고, 생체 내(in vivo) 연구가 필요하다.\n- ICVA에서 ASL perfusion을 이용해 실제로 치료 가능한 penumbra를 임상적으로 구별해 낼 수 있는지는 표본이 작아 결론 내리기 어렵다.\n- Canine glioma radiomics가 실제 임상 진단·예후 예측에 사용될 수 있는 정량 기준(cut-off)은 아직 제시되지 않았다."
+  },
+  {
+    "slug": "ai-imaging",
+    "title": "AI·정량 영상",
+    "synthesis": "수의영상의학 분야에서 AI, 특히 딥러닝 기반 자동 판독 기술에 대한 관심과 연구가 빠르게 증가하고 있다. 2018-2025년 소동물 흉부 radiography 관련 AI 문헌 27편을 분석한 서지계량 연구에 따르면, 연구 출판은 연평균 10.41%씩 증가해 2023년 정점(8편)을 찍었고, 미국과 이탈리아가 주요 연구 생산국이었으며, 개의 cardiomegaly·pleural effusion·pulmonary disease에 대한 CNN(convolutional neural network)·deep learning 기반 자동 탐지가 초기 연구의 핵심 주제였다 ([[papers/2026-42593822-ai-bibliometric-thoracic-radiography|Canatan 2026]]; 기타/서지계량분석, n=27편). 다만 데이터셋의 이질성과 대상 종·품종의 다양성 부족이 표준화의 걸림돌로 지목되었다([[papers/2026-42593822-ai-bibliometric-thoracic-radiography|Canatan 2026]]; 기타/서지계량분석, n=27편). 이 분석은 개별 AI 알고리즘의 진단 정확도가 아니라 문헌 동향 자체를 다룬 것이라는 점에 유의해야 한다.\n\n임상 적용 측면에서는, AI는 어디까지나 clinical judgment를 보조하는 decision support tool로 자리매김해야 하며 최종 진단과 치료 결정에 대한 책임은 여전히 수의사에게 있다는 점이 강조된다 ([[papers/2026-42150942-ai-assisted-radiograph-interpretation|Basran 2026]]; 종설). 보호자에게 AI의 작동 방식과 한계를 이해하기 쉽게 설명할 수 없다면 임상에 도입해서는 안 되며, 성공적인 도입을 위해서는 팀 교육, 전통적 판독 능력 유지, quality assurance 체계가 필요하다([[papers/2026-42150942-ai-assisted-radiograph-interpretation|Basran 2026]]; 종설). 이 권고는 정량적 검증 연구가 아니라 임상의 관점의 종설에 기반한 것으로, 원저 수준의 근거는 아니다.",
+    "related_papers": [
+      "2018-2025년 소동물 흉부 radiography AI 문헌 27편 서지계량 분석, CNN 기반 자동탐지가 주요 초점 (기타/서지계량분석, n=27편)",
+      "AI는 의사결정 보조도구이며 최종 책임은 수의사에게 있다는 임상 관점의 모범사례 (종설)"
     ],
     "paper_count": 2,
-    "conflicting_evidence": ""
+    "conflicting_evidence": "",
+    "open_questions": "- 실제 임상에서 사용 가능한 개별 AI 판독 도구의 민감도·특이도를 종·품종별로 검증한 원저 연구는 이 위키에 아직 없다.\n- AI 보조진단 도구의 quality assurance 체계를 실제 2차 동물병원 워크플로우에 어떻게 통합할지에 대한 구체적 지침은 부족하다."
   },
   {
-    "slug": "conscious-imaging-restraint",
-    "title": "의식 하 영상검사 보정 기법",
-    "synthesis": "의식이 있는 상태에서 진정 없이 영상검사를 시행하는 보정 기법은 진정·마취에 따른 위험(사망률, 위장관 합병증 등)을 피하면서 영상 품질을 확보할 수 있는 방법으로 주목받고 있다. 토끼를 대상으로 한 다기관 후향적 연구(93마리)에서는, 수건으로 감싸는 '번니 부리토' 보정법이 기존의 플렉시글라스 챔버 보정법에 비해 조영 전 영상의 움직임 인공물이 적고, 치아질환 평가 시 자세 유지가 우수하며, 조영 후 초기 안정성도 더 나은 것으로 나타났다. 번니 부리토와 진정법 간 영상 품질은 기술통계상 유사한 수준이었고, 두 물리적 보정법 모두에서 합병증은 보고되지 않았다. 이는 특수동물을 포함한 진정이 어려운 환자군에서 저비용·저위험 보정 기법이 실제 임상 영상 품질을 담보할 수 있음을 시사한다.",
+    "slug": "imaging-technique-safety",
+    "title": "촬영 기법·안전",
+    "synthesis": "### CT 방사선 선량 추정\nCT 검사의 방사선 피폭을 환자별로 정확히 파악하기 위해 크기별 선량 추정치(size-specific dose estimate, SSDE)를 사용하는 방법이 대두되고 있다. 개 abdominal CT를 대상으로 한 단일기관 후향적 연구(30마리, 체중 3구간)에서는, 여러 단면에 걸친 복잡한 측정 대신 단일 CT 영상에서 얻은 dorsoventral(DV)·lateral(LAT) 선형 치수의 합만으로도 water-equivalent diameter(Dw) 기반 SSDE와 강한 상관관계(R²=0.94, p<0.001)를 보여, 임상적으로 실행 가능하고 정확하게 SSDE를 산출할 수 있음을 확인했다 ([[papers/2026-42522404-ssde-canine-abdominal-ct|Whittaker 2026]]; 후향적 연구, n=30). 같은 연구에서 스캐너가 표시하는 CTDIvol은 실제 SSDE를 약 50% 과소평가했고, pre-contrast 단일기 abdominal CT의 SSDE 75th percentile(21 mGy)은 사람의 US dose reference level보다 2~4배 높았다 ([[papers/2026-42522404-ssde-canine-abdominal-ct|Whittaker 2026]]; 후향적 연구, n=30). 이는 스캐너 표시값에만 의존하면 실제 환자 피폭을 과소평가할 수 있으며, 별도 소프트웨어나 다중 측정 없이도 개별 환자의 방사선 피폭 관리에 활용할 수 있는 실용적 방법이 있음을 시사한다. 다만 단일기관·단일 스캐너 자료이고 pre-contrast abdominal CT에 국한된 결과라, 다른 프로토콜·부위·장비로의 일반화는 확인되지 않은 제한적 근거다.",
     "related_papers": [
-      "토끼 CT에서 번니 부리토 보정법이 플렉시글라스 챔버보다 움직임 인공물 적고 자세 안정성 우수"
+      "단일 CT 영상의 DV+LAT 치수만으로 개 abdominal CT의 SSDE를 실용적이고 정확하게 추정 (후향적 연구, n=30)"
     ],
     "paper_count": 1,
-    "conflicting_evidence": ""
+    "conflicting_evidence": "",
+    "open_questions": "- DV+LAT 기반 SSDE 추정법이 흉부 CT, 다중기 조영 프로토콜, 다른 제조사 스캐너에도 동일하게 성립하는지 확인이 필요하다.\n- 국내·원내 CTDIvol 표시값과 실제 SSDE 간 괴리 정도를 자체 프로토콜에서 검증한 자료는 아직 없다."
   },
   {
-    "slug": "ct-dose-estimation",
-    "title": "CT 방사선 선량 추정",
-    "synthesis": "CT 검사의 방사선 피폭을 환자별로 정확히 파악하기 위해 크기별 선량 추정치(size-specific dose estimate, SSDE)를 사용하는 방법이 대두되고 있다. 개 복부 CT를 대상으로 한 연구에서는 여러 단면에 걸친 복잡한 측정 대신 단일 CT 영상에서 얻은 환자의 선형 치수만으로도 임상적으로 실행 가능하고 정확하게 SSDE를 산출할 수 있음을 확인했다. 이는 스캐너가 보고하는 용적 CT선량지수(CTDIvol)를 환자 크기에 맞게 보정하는 접근으로, 별도의 소프트웨어나 다중 측정 없이도 개별 환자의 방사선 피폭 관리에 활용할 수 있는 실용적 방법을 제시한다.",
+    "slug": "sedation-restraint-imaging",
+    "title": "영상검사 진정·보정",
+    "synthesis": "의식이 있는 상태에서 진정 없이 영상검사를 시행하는 보정 기법은 진정·마취에 따른 위험(사망률, 위장관 합병증 등)을 피하면서 영상 품질을 확보할 수 있는 방법으로 주목받고 있다.\n\n### 토끼 CT의 물리적 보정\n토끼를 대상으로 한 다기관 후향적 연구(93마리)에서는, 수건으로 감싸는 '번니 부리토(bunny burrito)' 보정법이 기존의 plexiglass chamber 보정법에 비해 pre-contrast 영상의 motion artifact가 적고(p=0.02), dental disease 평가 시 자세 유지가 우수하며(p=0.03), post-contrast 초기 안정성도 더 나은 것으로 나타났다(p=0.04, 신뢰구간 넓음) ([[papers/2026-42644764-bunny-burrito-restraint|Liu 2026]]; 후향적 연구, n=93). 번니 부리토와 sedation(10마리) 간 영상 품질은 기술통계상 유사한 수준이었고, 두 물리적 보정법 모두에서 합병증은 보고되지 않았다([[papers/2026-42644764-bunny-burrito-restraint|Liu 2026]]; 후향적 연구, n=93). 이는 토끼를 포함한 진정이 어려운 환자군에서 저비용·저위험 물리적 보정 기법이 실제 임상 영상 품질을 담보할 수 있음을 시사하나, 단일 연구·상대적으로 작은 sedation 대조군(n=10)에 기반한 제한적 근거다.",
     "related_papers": [
-      "단일 CT 영상의 환자 치수만으로 복부 CT의 SSDE를 실용적이고 정확하게 추정"
+      "토끼 CT에서 번니 부리토 보정법이 plexiglass chamber보다 motion artifact 적고 자세 안정성 우수 (후향적 연구, n=93)"
     ],
     "paper_count": 1,
-    "conflicting_evidence": ""
+    "conflicting_evidence": "",
+    "open_questions": "- 번니 부리토 보정법이 토끼 외의 소동물(고양이, 소형견 등)이나 다른 검사 부위(흉부, 두경부 등)에도 동일하게 적용 가능한지는 아직 근거가 없다.\n- sedation군 표본이 작아(n=10) 번니 부리토와 sedation 간 영상 품질 차이에 대한 통계적 비교가 이루어지지 않았다."
   },
   {
-    "slug": "forensic-imaging",
-    "title": "법수의학 영상진단",
-    "synthesis": "동물 학대가 의심되는 사례에서 영상진단은 은폐된 손상을 객관적으로 문서화하는 핵심 도구다. 비엔나 수의과대학의 10년간 자료(2014-2023, 11,689마리 중 83례 선별)에 따르면, 골절과 총상이 종을 불문하고 가장 흔한 학대 관련 손상이며, 실제 학대 사례 확인에는 방사선촬영과 CT가 사용된 반면 초음파와 MRI는 전혀 활용되지 않았다. 방사선촬영은 전 종에서 효과적인 1차 선별검사였고, CT는 특히 조류와 파충류처럼 해부학적 구조가 복잡한 종에서 진단적 가치가 컸다. 아직 초음파와 MRI의 역할에 대한 근거는 부족하며, 향후 이 모달리티들이 법수의학적 평가에 기여할 수 있는지는 추가 연구가 필요하다.",
+    "slug": "trauma-forensic-imaging",
+    "title": "외상·법수의학 영상",
+    "synthesis": "동물 학대가 의심되는 사례에서 영상진단은 은폐된 손상을 객관적으로 문서화하는 핵심 도구다. 비엔나 수의과대학의 10년간 자료(2014-2023, 11,689마리 중 83례 선별)에 따르면, fracture와 ballistic trauma(총상)가 종을 불문하고 가장 흔한 학대 관련 손상이었으며, 실제 학대 사례 확인에는 radiography와 CT가 사용된 반면 ultrasound와 MRI는 전혀 활용되지 않았다 ([[papers/2026-42531994-animal-abuse-imaging-findings|Pietras 2026]]; 후향적 연구, n=83). radiography는 전 종에서 효과적인 1차 선별검사였고, CT는 특히 조류와 파충류처럼 해부학적 구조가 복잡한 종에서 진단적 가치가 컸다 ([[papers/2026-42531994-animal-abuse-imaging-findings|Pietras 2026]]; 후향적 연구, n=83). 이는 단일기관 자료에 근거한 제한적 근거이며, ultrasound와 MRI의 역할에 대해서는 이 연구가 답하지 못한다.",
     "related_papers": [
-      "10년간 학대 의심 사례 83건 분석, 방사선촬영과 CT가 주요 진단 도구였고 초음파·MRI는 미사용"
+      "10년간 학대 의심 사례 83건 분석, radiography와 CT가 주요 진단 도구였고 ultrasound·MRI는 미사용 (후향적 연구, n=83)"
     ],
     "paper_count": 1,
-    "conflicting_evidence": ""
+    "conflicting_evidence": "",
+    "open_questions": "- ultrasound와 MRI가 법수의학적 외상 평가(연부조직 손상, 두개내 출혈 등)에 기여할 수 있는지는 아직 근거가 없다.\n- 단일기관 자료 이므로 지역·의뢰 경향에 따라 손상 유형 분포가 다른 지역에서도 동일하게 재현되는지 확인이 필요하다."
   }
 ]

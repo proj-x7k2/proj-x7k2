@@ -1,0 +1,62 @@
+[
+  {
+    "pmid": "42717404",
+    "title": "Evaluation of the Cornea of Dogs With Dry Eye Disease Using Spectral Domain Optical Coherence Tomography.",
+    "reason": "안과 OCT 영상 — modality가 통제 어휘(OCT 미포함)와 주제 체계(안과 주제 없음) 범위 밖",
+    "date": "2026-09-21"
+  },
+  {
+    "pmid": "42753789",
+    "title": "Cadaveric feline study revealed no significant difference in biomechanical stability following L4-L5 hemilaminectomy versus mini-hemilaminectomy.",
+    "reason": "영상(방사선·CT)은 검체 선별에만 부수적으로 사용됨; 연구 핵심은 생체역학적 안정성 비교",
+    "date": "2026-09-21"
+  },
+  {
+    "pmid": "42750096",
+    "title": "Clinical Features, Medical Management, and Patient Outcomes Following Sand Ingestion in 55 Dogs (2018-2024).",
+    "reason": "영상(복부 방사선)은 진단 확인 목적으로만 부수적 사용; 연구 핵심은 임상 관리·예후",
+    "date": "2026-09-21"
+  },
+  {
+    "pmid": "42735725",
+    "title": "Modified tibial plateau-leveling osteotomy using a precontoured plate achieves single-stage correction with favorable clinical outcomes in small-breed dogs.",
+    "reason": "영상(방사선 유합시간)은 여러 평가지표 중 하나로 부수적 사용; 연구 핵심은 수술기법 비교와 보행분석",
+    "date": "2026-09-21"
+  },
+  {
+    "pmid": "42703907",
+    "title": "Severe Hemorrhage Requiring Transfusion in Two Dogs Following Right Inferior Alveolar Artery Laceration Secondary to Severe Periodontitis.",
+    "reason": "영상(치과 방사선·CT)은 출혈 원인 확인에만 부수적으로 언급됨; 구체적 영상 소견 서술 없음, 증례 핵심은 출혈관리·수혈",
+    "date": "2026-09-21"
+  },
+  {
+    "pmid": "42755432",
+    "title": "Biosynthesized chitosan nanoparticles from Krameria lappacea: a strategy to ameliorate coccidiosis-induced intestinal dysfunction.",
+    "reason": "실험동물(생쥐) 대상 연구, 대상 종·주제 범위 밖이며 영상의학과 무관",
+    "date": "2026-09-21"
+  },
+  {
+    "pmid": "42738879",
+    "title": "Therapeutic Potential of Intra-Articular Delivery of Allogeneic Dedifferentiated Fat Cells in a Canine Monoiodoacetate-Induced Knee Osteoarthritis Model.",
+    "reason": "사람 골관절염 치료법 검증을 위한 유도성 동물모델 연구이며 영상의학 논문 아님",
+    "date": "2026-09-21"
+  },
+  {
+    "pmid": "42730333",
+    "title": "Behavioral and autonomic manifestations of suspected focal impaired awareness seizures supported by interictal electroencephalographic findings in three dogs: a case series.",
+    "reason": "영상(MRI)은 감별진단 목적으로만 언급되고 구체적 소견 서술 없음; 연구 핵심은 EEG·행동/자율신경 증상",
+    "date": "2026-09-21"
+  },
+  {
+    "pmid": "42718794",
+    "title": "Image based three-dimensional kinematic mapping to optimize femoral tunnel placement for intra-articular cranial cruciate ligament reconstruction in dogs.",
+    "reason": "영상(CT·biplanar radiography)은 운동학 모델링을 위한 도구로 부수적 사용; 연구 핵심은 터널 위치 최적화 생체역학",
+    "date": "2026-09-21"
+  },
+  {
+    "pmid": "42712380",
+    "title": "Case Report: Recurrent vestibular episodes in a dog resembling Meniere's disease.",
+    "reason": "영상(MRI)은 구조적 원인 배제 목적으로만 언급되고 구체적 소견 서술 없음; 연구 핵심은 전정증상·청력검사",
+    "date": "2026-09-21"
+  }
+]

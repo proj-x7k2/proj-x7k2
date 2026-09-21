@@ -1,77 +1,953 @@
 [
   {
-    "pmid": "42644764",
-    "title": "Bunny Burrito Restraint for Computed Tomography in Conscious Rabbits: An Effective Alternative.",
+    "pmid": "42763011",
+    "title": "Ultrasonographic detection of joint lesions in canine leishmaniasis caused by Leishmania infantum.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "Priscila Vasconcelos Oliveira",
+      "Caterina Muramoto",
+      "Camila Fraga da Costa",
+      "Alessandra Estrela-Lima",
+      "Thamires Carvalho da Luz",
+      "Luanna Ferreira Fasanelo Gomes",
+      "Alexandre Redson Soares da Silva",
+      "Flaviane Alves de Pinho",
+      "Stella Maria Barrouin-Melo"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42763011/",
+    "doi": "10.1016/j.tvjl.2026.106887",
+    "study_type": "전향적 연구",
+    "sample_size": "43",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "ultrasound",
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "ultrasound",
+      "radiography",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "Leishmania infantum PCR 양성인 개 43마리를 대상으로 정형외과 신체검사와 관절 초음파검사(USG)를 시행하고, 그중 20마리는 방사선검사도 함께 시행해 두 영상기법의 관절 병변 검출 성능을 비교했다. Tarsal joint 병변은 USG로 86%(37/43)에서 검출된 반면 방사선검사로는 40%(8/20)에서만 검출되었으며, 신체검사를 기준으로 한 민감도는 USG 89.7% 대 방사선검사 46.7%였다. USG로 관절 병변이 확인된 개의 29.7%(11/37)는 임상적 정형외과 징후가 없어 무증상 관절염 검출에도 USG가 유용함을 시사했다. 저자들은 L. infantum 감염견에서 arthropathy 조기 진단을 위한 1차 검사로 관절 USG를 권장했다.",
+    "summary_en": "Forty-three Leishmania infantum PCR-positive dogs underwent comparative orthopedic examination and joint ultrasonography (USG); 20 also underwent radiography. Tarsal joint lesions were detected by USG in 86% (37/43) of dogs versus 40% (8/20) by radiography, with USG showing 89.7% sensitivity for detecting joint alterations (physical examination as reference) compared with 46.7% for radiography. Among dogs with USG-detected joint lesions, 29.7% (11/37) had no clinical orthopedic signs, highlighting USG's ability to detect subclinical arthropathy. The authors recommend joint USG as a first-line procedure for early diagnosis of arthropathy in dogs with L. infantum infection.",
+    "clinical_takeaway_ko": "Leishmaniasis 유행 지역 또는 관련 병력이 있는 개에서 관절 병변이 의심되면(또는 무증상이라도) 방사선검사보다 관절 초음파검사를 1차 검사로 우선 고려할 근거가 된다."
+  },
+  {
+    "pmid": "42762824",
+    "title": "Eight-week postoperative tibial plateau leveling osteotomy radiographs do not change the prescribed management plan for most dogs.",
+    "journal": "Journal of the American Veterinary Medical Association",
+    "year": "2026",
+    "authors": [
+      "Courtney L Hancock",
+      "Steven W Frederick",
+      "Sarah K Israel"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42762824/",
+    "doi": "10.2460/javma.26.06.0467",
+    "study_type": "전향적 연구",
+    "sample_size": "97",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "단일 3차 진료기관에서 TPLO 8주차 정기 평가를 받은 개 97마리(291건 평가)를 대상으로, 신체검사(PE)와 방사선검사(RE) 결과가 처방된 관리계획을 얼마나 자주 변경시키는지, 그리고 전공의와 상급 임상의 간 평가가 얼마나 일치하는지를 3명의 평가자(상급 임상의 2명, 전공의 1명)가 독립적으로 평가한 전향적 interobserver agreement 연구다. PE와 RE에 따른 권고사항은 대부분(59.5%) 일치했으나, 평가에 따른 관리계획 변경은 상급 임상의(45.4%)가 전공의(30.5%)보다 더 흔했고, 전체·PE·RE 관리계획에 대한 interrater reliability는 각각 fair(κ=0.2233), fair(κ=0.2252), slight(κ=0.1965)로 낮았다. Patellar desmitis가 가장 흔한 방사선 소견(34.2%)이었지만 관리계획 변경으로 이어진 경우는 18.2%에 불과했다.",
+    "summary_en": "In this prospective interobserver agreement study, 97 dogs (291 evaluations) presenting for routine 8-week postoperative TPLO evaluation at a single referral hospital were independently assessed by three evaluators (2 senior clinicians, 1 surgical resident) via physical examination (PE) and radiographic evaluation (RE). PE and RE recommendations were consistent in most cases (59.5%), but management plans differed more often for senior clinicians (45.4%) than residents (30.5%), with fair-to-slight interrater reliability overall (κ=0.2233), for PE (κ=0.2252), and for RE (κ=0.1965). Patellar desmitis was the most common radiographic finding (34.2%) but rarely changed the management plan (18.2%).",
+    "clinical_takeaway_ko": "8주차 TPLO 정기 방사선검사가 실제로 관리계획을 바꾸는 경우는 제한적이고 평가자 간 일치도도 낮으므로, 정기 방사선검사의 방사선 피폭·비용 대비 실질적 이득을 저자들처럼 신중히 저울질할 필요가 있다."
+  },
+  {
+    "pmid": "42761083",
+    "title": "Effects of recumbency and tube current on image quality of canine elbow computed tomography.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "S R Bellekom",
+      "M Dekkers",
+      "M Beukers"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42761083/",
+    "doi": "10.1111/vru.12823",
+    "study_type": "실험 연구",
+    "sample_size": "20",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "musculoskeletal",
+      "technique"
+    ],
+    "topics": [
+      "musculoskeletal-imaging",
+      "imaging-technique-safety"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "musculoskeletal",
+      "technique"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "개 사체 20구(elbow 40개)를 대상으로 dorsal recumbency(머리 중립위, 양쪽 elbow 동시 촬영)와 lateral recumbency(머리·목 미측 굴곡, elbow 개별 촬영) 두 CT 자세 프로토콜과 tube current(150mA vs 300mA)가 elbow CT 영상 품질에 미치는 영향을 비교했다. Lateral recumbency는 150mA에서 4가지 정량 지표(bone·soft-tissue kernel의 signal-to-noise, contrast-to-noise ratio) 모두에서 dorsal recumbency보다 유의하게 우수했고(p<0.001), 150mA lateral이 300mA dorsal보다도 우수했다(p=0.002~0.013). Tube current를 150mA에서 300mA로 올려도 동일 자세 내에서는 유의한 개선이 없었으며(p≥0.058), 판독자들은 artifact·연부조직 대비에서 lateral recumbency를 99~100% 선호했으나 bone conspicuity에서는 선호도가 엇갈렸다(비-동률 중 60.6%가 lateral 선호, p=0.008). 저자들은 medial coronoid process 평가를 위한 일상적 정형외과 CT에는 dorsal recumbency도 합리적 선택이지만, artifact 감소나 연부조직 평가가 중요할 때는 lateral recumbency를 권장했다.",
+    "summary_en": "In this prospective experimental cadaver study of 20 canine cadavers (40 elbows), two CT positioning protocols (dorsal recumbency with both elbows scanned together vs. lateral recumbency with elbows scanned separately) and tube current (150 vs 300 mA) were compared for elbow CT image quality. Lateral recumbency produced significantly higher signal- and contrast-to-noise ratios than dorsal recumbency across all four outcomes at 150 mA (p<0.001), and lateral at 150 mA outperformed dorsal at 300 mA (p=0.002-0.013). Doubling tube current from 150 to 300 mA did not significantly improve quality within the same recumbency (p≥0.058). Observers almost unanimously preferred lateral recumbency for artifact and soft-tissue criteria (99-100%), though preference for bone conspicuity was less consistent. The authors conclude dorsal recumbency remains reasonable for routine medial coronoid process CT, while lateral recumbency should be preferred when artifact reduction or soft-tissue evaluation matters.",
+    "clinical_takeaway_ko": "Elbow dysplasia 스크리닝 목적의 일상적 CT는 dorsal recumbency로 양측을 함께 촬영해도 무방하지만, artifact가 문제되거나 연부조직 평가가 중요한 증례에서는 lateral recumbency로 개별 촬영하는 것이 영상 품질 면에서 더 유리하며, tube current를 단순히 올리는 것은 자세 최적화를 대체하지 못한다."
+  },
+  {
+    "pmid": "42760893",
+    "title": "Higher early radiographic bone healing scores with popliteus muscle preservation during tibial plateau levelling osteotomy in dogs.",
+    "journal": "The Journal of small animal practice",
+    "year": "2026",
+    "authors": [
+      "S Sassaroli",
+      "A Salvaggio",
+      "F Roggiolani",
+      "M Fordellone",
+      "F Ciabocco",
+      "A Palumbo Piccionello"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42760893/",
+    "doi": "10.1111/jsap.70204",
+    "study_type": "무작위대조군연구",
+    "sample_size": "100",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "Cranial cruciate ligament rupture로 tibial plateau levelling osteotomy(TPLO)를 받는 개 100마리를 popliteus muscle을 절제하는 전통적 술식(n=50)과 근육을 보존하는 변형 술식(n=50)으로 무작위 배정해 수술 45일 후 방사선학적 골유합 점수를 비교한 전향적·맹검·무작위 임상연구다. Popliteus-sparing군은 10점 bone healing scale에서 보정 평균 1.95점, modified radiographic union scale에서 1.87점 더 높은 골유합 점수를 보였다. 수술 직후~45일 사이 tibial plateau angle 변화(rock-back)로 평가한 osteotomy 안정성은 두 군 간 임상적으로 유의한 차이가 없었다. 저자들은 popliteus muscle 보존이 골유합 방사선 점수를 개선하면서도 안정성을 저해하지 않는 안전한 대안이라고 결론지었다.",
+    "summary_en": "In this prospective, blinded, randomized clinical trial, 100 dogs with unilateral cranial cruciate ligament rupture undergoing TPLO were allocated to traditional surgery with popliteus muscle detachment (n=50) or a modified popliteus-sparing technique (n=50). At 45 days, popliteus-sparing dogs showed higher radiographic bone healing scores, with adjusted mean differences of 1.95 points (10-point bone healing scale) and 1.87 points (modified radiographic union scale). No clinically relevant difference in tibial plateau angle change (rock-back) was found between groups. The authors conclude popliteus-sparing TPLO is a safe alternative associated with improved early radiographic healing scores without evidence of increased osteotomy instability.",
+    "clinical_takeaway_ko": "TPLO 시행 시 popliteus muscle을 보존하는 변형 술식을 고려하면 45일차 방사선 골유합 평가에서 더 높은 점수를 기대할 수 있으나, 이것이 실제 임상 회복·기능 개선으로 이어지는지는 아직 불명확하므로 술식 선택의 유일한 근거로 삼기는 이르다."
+  },
+  {
+    "pmid": "42759150",
+    "title": "The effectiveness of uterine wall and liver elasticity and liver enzyme ratios in understanding the etiopathology of cystic endometrial hyperplasia-pyometra complex in dogs.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "Egemen Mahzunlar",
+      "Zeynep Günay Uçmak",
+      "Aslıhan Baykal Uğur",
+      "Çağatay Tek"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42759150/",
+    "doi": "10.1016/j.tvjl.2026.106879",
+    "study_type": "전향적 연구",
+    "sample_size": "49",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "ultrasound"
+    ],
+    "system": [
+      "urogenital",
+      "hepatobiliary"
+    ],
+    "topics": [
+      "urogenital-imaging",
+      "abdominal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "ultrasound",
+      "urogenital",
+      "hepatobiliary"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "Diestrus기 건강한 개 15마리(대조군)와 cystic endometrial hyperplasia-pyometra(CEH-P) complex를 가진 개 34마리(연구군)를 대상으로 복부 초음파(B-mode, Doppler, 2D shear wave elastography(2D-SWE))를 시행해 자궁벽·간의 탄성도를 정량 비교했다. CEH-P군에서는 uterine artery waveform에서 저항 패턴 감소와 notch가 관찰되었고, 자궁벽·간 탄성도 모두 대조군보다 유의하게 높았으며(p<0.001) ROC 분석에서 높은 민감도·특이도를 보였다. ALT/ALP 비율은 CEH-P로 인한 간손상 검출에 높은 민감도를 보였다. 저자들은 2D-SWE가 CEH-P의 자궁벽 탄성 변화를 평가하는 비침습적 도구이며, 간 강직도 측정을 통해 CEH-P의 전신적(간) 영향을 평가하는 데에도 유용하다고 결론지었다.",
+    "summary_en": "This prospective study compared 15 healthy diestrus control dogs with 34 dogs affected by cystic endometrial hyperplasia-pyometra (CEH-P) complex using B-mode, Doppler, and two-dimensional shear wave elastography (2D-SWE) ultrasonography. Reduced resistance patterns and notches in uterine artery waveforms were observed in the CEH-P group, and both uterine and liver elasticity values were significantly higher in CEH-P dogs than controls (p<0.001), with high sensitivity and specificity on ROC analysis. The ALT/ALP ratio showed high sensitivity for detecting CEH-P-associated liver injury. The authors conclude 2D-SWE is a non-invasive tool for evaluating uterine wall elasticity changes in CEH-P and for assessing the systemic (hepatic) effects of the disease via liver stiffness measurement.",
+    "clinical_takeaway_ko": "Pyometra가 의심되는 개에서 기존 B-mode·Doppler 초음파에 2D-SWE를 추가하면 자궁벽 강직도 변화를 정량적으로 파악할 수 있고, 동시에 간 탄성도·ALT/ALP 비율을 확인해 CEH-P로 인한 이차 간손상 여부를 함께 평가하는 데 참고할 수 있다."
+  },
+  {
+    "pmid": "42754086",
+    "title": "Three-dimensional ultrasonographic assessment of the cranial cruciate ligament in medium- to large-sized canine cadavers: A feasibility study.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "Barbero-Fernández Alicia",
+      "Otero Balda Ignacio",
+      "Ortega Cristina",
+      "Gómez-Ochoa Pablo",
+      "Corda Andrea"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42754086/",
+    "doi": "10.1016/j.tvjl.2026.106890",
+    "study_type": "실험 연구",
+    "sample_size": "17",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "ultrasound"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "ultrasound",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "Stifle 질환 병력이 없는 중형~대형견 사체 17구(34개 stifle)를 대상으로 3D 초음파(3D-US)를 이용한 cranial cruciate ligament(CrCL) 시각화·탐색적 계측의 feasibility를 평가했다. 모든 stifle에서 2D-US에 이어 3D-US로 CrCL의 femoral·tibial attachment와 중간 인대 부분을 식별할 수 있었고, 근위·중위·원위부 직경을 탐색적으로 측정했다. Exploratory lateral arthrotomy로 확인한 결과 모든 인대는 정상이었으며 초음파 소견과 일치했다. 저자들은 3D-US가 중형~대형견 사체에서 CrCL 평가에 실현 가능함을 보여주었으나, 생체 개에서의 임상 적용 가능성·재현성·진단능은 추가 연구가 필요하다고 밝혔다.",
+    "summary_en": "This observational descriptive feasibility study examined 17 canine cadavers (34 stifle joints) with no history of stifle disease using both 2D and 3D ultrasonography (3D-US) to visualize and exploratorily measure the cranial cruciate ligament (CrCL), followed by exploratory lateral arthrotomy to confirm ligament integrity. Using 3D-US, the femoral and tibial CrCL attachments and intervening ligament portions were identified in all examined joints, with exploratory diameter measurements obtained at proximal, middle, and distal regions; no ligament abnormalities were detected, consistent with arthrotomy findings. The authors conclude 3D-US is feasible for CrCL assessment in medium- to large-sized canine cadavers, but clinical applicability, repeatability, and diagnostic performance in live dogs with CrCL disease require further study.",
+    "clinical_takeaway_ko": "현재 단계에서는 사체 feasibility 연구에 불과해 실제 CrCL rupture 의심견 진료에 3D-US를 바로 적용하기는 이르며, 향후 생체 내 CrCL rupture 검출 성능이 검증되면 비침습적 stifle 평가 옵션이 늘어날 수 있다 — 제한적 근거."
+  },
+  {
+    "pmid": "42751982",
+    "title": "Differential Diagnosis Using MRI of Canine Intestinal Neoplasms, Including Lymphoma, Adenocarcinoma, and Inflammatory Polyp: Case Series.",
     "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
     "year": "2026",
-    "authors": ["Hung-Ting Liu", "Jonathan Olijnyk", "Jessica Ingman", "Ellen Sundberg", "Laetitia Volait-Rosset", "Alexis Gombert"],
+    "authors": [
+      "Toshiyuki Tanaka",
+      "Yusuke Wada",
+      "Mizuki Tomihari",
+      "Takashi Hasegawa"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42751982/",
+    "doi": "10.1111/vru.70257",
+    "study_type": "증례군",
+    "sample_size": "12",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "gastrointestinal",
+      "oncology"
+    ],
+    "topics": [
+      "abdominal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "MRI",
+      "gastrointestinal",
+      "oncology"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "개 장관 신생물(lymphoma 6예, adenocarcinoma 2예, inflammatory polyp 4예)의 MRI 소견을 후향적으로 평가한 최초의 수의영상의학 증례군 연구다. T1WI·T2WI·contrast-enhanced T1WI(C-T1WI)·diffusion-weighted imaging(DWI)에서의 신호강도, 조영증강 양상, 장폐색 동반 여부, apparent diffusion coefficient(ADC) 값을 비교한 결과, lymphoma는 C-T1WI에서 전례(6/6) hypointense 신호를 보인 반면 adenocarcinoma·inflammatory polyp은 그렇지 않았다(p=0.002). Lymphoma는 균질한 조영증강을 adenocarcinoma·inflammatory polyp보다 유의하게 더 자주 보였고(5/6 vs 0/2, 0/4, p=0.02), ADC 값도 lymphoma(0.58±0.18×10⁻³mm²/s)가 adenocarcinoma(1.27±0.007×10⁻³mm²/s, p=0.01)·inflammatory polyp(1.56±0.3×10⁻³mm²/s, p=0.0002)보다 유의하게 낮았다. T1WI·T2WI 신호강도, 정성적 DWI, 장폐색 동반 여부에서는 신생물 간 유의한 차이가 없었다.",
+    "summary_en": "This retrospective case series is the first veterinary study to evaluate MRI findings of intestinal neoplasms (lymphoma n=6, adenocarcinoma n=2, inflammatory polyp n=4) in dogs. All lymphomas (6/6) showed hypointense signal intensity on contrast-enhanced T1WI, unlike adenocarcinomas and inflammatory polyps (p=0.002), and lymphomas showed homogeneous enhancement significantly more often than the other two groups (5/6 vs 0/2, 0/4; p=0.02). ADC values of lymphomas (0.58±0.18×10⁻³ mm²/s) were significantly lower than adenocarcinomas (1.27±0.007×10⁻³ mm²/s, p=0.01) and inflammatory polyps (1.56±0.3×10⁻³ mm²/s, p=0.0002). No significant differences were found in T1WI/T2WI signal intensity, qualitative DWI, or the presence of intestinal obstruction among the groups.",
+    "clinical_takeaway_ko": "개 장관 종괴에 대해 MRI를 시행하는 경우, contrast-enhanced T1WI에서의 균질한 hypointense 조영증강과 낮은 ADC 값(약 0.6×10⁻³mm²/s 내외)은 intestinal lymphoma를 시사하는 소견으로 adenocarcinoma·inflammatory polyp과의 감별에 참고할 수 있다 — 다만 각 군 표본이 매우 작다는 점(증례보고 수준)을 함께 고려해야 한다."
+  },
+  {
+    "pmid": "42751918",
+    "title": "EXPRESS: Radiographic findings of the femora and tibiae in cats affected by patella fracture and dental anomaly syndrome.",
+    "journal": "Journal of feline medicine and surgery",
+    "year": "2026",
+    "authors": [
+      "Sam James Boulton",
+      "Tom Hernon",
+      "Sumari Dancer",
+      "Helen Dirrig",
+      "Alison Catherine Major",
+      "Alexandros Bourbos",
+      "Valentina Piola",
+      "Raquel Salgüero",
+      "Shane Guerin",
+      "Sorrel Judith Langley-Hobbs"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42751918/",
+    "doi": "10.1177/1098612X261492121",
+    "study_type": "후향적 연구",
+    "sample_size": "126",
+    "evidence_basis": "abstract",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "cat",
+      "radiography",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "Patella fracture and dental anomaly syndrome(PADS) 진단 데이터베이스에서 126마리 고양이를 후향적으로 선별해, 5명의 영상의학 전문의와 3명의 정형외과 전문의가 femur·tibia의 피질 비후, 골수강 opacity 변화, osteopetrosis 여부, 퇴행성 관절질환, 추가 골절, femur 형태를 독립적으로 평가했다. 모든 예에서 patellar fracture가 있었고 22.2%(28/126)는 추가 골절(주로 근위 tibia 13.5%, 근위 fibula 11.9%, pelvis)을 동반했으며, 4마리는 근위 tibia에 초기 stress fracture를 시사하는 불완전 방사선투과선을 보였다. 8.7%(11/126)에서 골수강 opacity 변화, 4.0%(5/126)에서 osteopetrosis에 합당한 전반적 골 opacity 증가가 확인되었고, femur 형태 평가가 가능했던 74마리 중 stovepipe(9.5%)·champagne-fluted(2.7%) 형태가 관찰되었으나 52.7%(39/74)에서는 판독자 간 합의에 이르지 못했다.",
+    "summary_en": "This retrospective case series reviewed 126 cats from a PADS-affected database, with radiographs independently evaluated by five veterinary radiologists and three orthopaedic surgeons for cortical thickening, medullary opacity changes, osteopetrosis, degenerative joint disease, additional fractures, and femoral shape. All cats had patellar fractures, and 22.2% (28/126) had additional fractures (most commonly proximal tibia, proximal fibula, and pelvis), with 4 cats showing incomplete radiolucent lines suggestive of developing proximal tibial stress fractures. Medullary opacity changes were present in 8.7% (11/126), and 4.0% (5/126) showed generalized increased bone opacity compatible with osteopetrosis; among 74 cats with assessable femoral shape, 9.5% showed stovepipe and 2.7% champagne-fluted morphology, though consensus was not reached in 52.7% (39/74) of cases.",
+    "clinical_takeaway_ko": "PADS가 의심되거나 확인된 고양이에서 patella 골절 외에도 근위 tibia·fibula·pelvis의 추가 골절, 초기 stress fracture 소견, 골 opacity·femur 형태 이상을 함께 살펴보는 것이 조기 진단과 병변 범위 파악에 도움이 될 수 있다."
+  },
+  {
+    "pmid": "42746025",
+    "title": "Radiomics and comparative neuroimaging of canine gliomas and human glioblastomas: a step toward precision medicine.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Ricardo Faustino",
+      "Joaquim Henriques"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42746025/",
+    "doi": "10.1007/s00330-023-09827-2",
+    "study_type": "후향적 연구",
+    "sample_size": "",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "neuro",
+      "oncology",
+      "AI"
+    ],
+    "topics": [
+      "neuro-imaging",
+      "ai-imaging"
+    ],
+    "tags": [
+      "dog",
+      "MRI",
+      "neuro",
+      "oncology",
+      "AI"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "Brachycephalic 견종에서 호발하는 canine glioma가 사람 glioblastoma와 생물학적·임상적 유사성을 공유한다는 점에 착안해, T2-weighted FLAIR MRI에서 radiomics(texture, shape, intensity) 특징을 추출해 canine glioma와 human glioblastoma를 비교했다. 선별된 radiomic feature(\"jointaverage\", \"autocorrelation\" 등)는 종양 조직과 비병변 조직을 AUC 80% 이상으로 구별했고, SVM 모델은 개·사람 데이터셋을 통합해 종양 대 비병변 조직 판별에서 80.33%의 정확도를 보였다. 저자들은 canine glioma가 human glioblastoma 연구를 위한 translational model로서 가치가 있다고 결론지었으나, 표본 크기와 집단 다양성의 한계로 대규모 코호트에서의 검증이 필요하다고 밝혔다.",
+    "summary_en": "Motivated by the biological and clinical similarities between brachycephalic-predisposed canine gliomas and human glioblastomas, this study extracted radiomic features (texture, shape, intensity) from T2-weighted FLAIR MRI to compare canine glioma and human glioblastoma imaging. Selected radiomic features (e.g., \"jointaverage\", \"autocorrelation\") discriminated tumoral from non-lesioned tissue with ROC AUC values above 80%, and an SVM model achieved 80.33% accuracy distinguishing gliomas/glioblastomas from non-lesioned brain tissue across the combined canine-human dataset. The authors conclude canine gliomas represent a valuable translational model for human glioblastoma research, while noting that limited sample size and population diversity require validation in larger cohorts.",
+    "clinical_takeaway_ko": "초록 기준으로는 이 연구가 임상 진단 프로토콜을 곧바로 제시하지는 않으며, brachycephalic 견종의 glioma 의심 MRI 판독 시 T2-FLAIR 기반 radiomics가 향후 정량적 보조 지표로 발전할 가능성이 있다는 정도로만 참고할 수 있다 — 제한적 근거."
+  },
+  {
+    "pmid": "42744301",
+    "title": "Prevalence of canine hip dysplasia and its association with cranial cruciate ligament deficiency in dogs undergoing tibial plateau levelling osteotomy: a retrospective study.",
+    "journal": "New Zealand veterinary journal",
+    "year": "2026",
+    "authors": [
+      "B Courzereaux",
+      "A Martenne-Duplan",
+      "D Szwec",
+      "M Gatineau",
+      "J Plante",
+      "P Clerfond",
+      "M Da Silva",
+      "A Terreros"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42744301/",
+    "doi": "10.1080/00480169.2026.2728624",
+    "study_type": "후향적 연구",
+    "sample_size": "466",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "2021년 9월~2022년 12월 단일 3차 진료기관에서 TPLO를 받은 개 466마리의 수술 전 골반 방사선을 후향적으로 검토해 canine hip dysplasia(CHD)의 방사선학적 유병률과 osteoarthritis(OA) 중증도, cranial cruciate ligament deficiency(CCLD)와의 관계를 분석했다. CHD의 방사선학적 유병률은 36.3%(169/466)였고, dysplastic 개의 74.0%에서 방사선학적 OA가 확인되었으며 CHD 중증도가 높을수록 OA 중증도도 강하게 증가했다(OR 22.91/단계). CHD 중증도가 높을수록 가장 심하게 침범된 고관절의 반대쪽 stifle에서 CCLD가 발생할 가능성이 더 높았으나(OR 3.70/단계), CHD 중증도는 반대쪽 CCLD 발생까지 걸리는 시간과는 뚜렷한 연관이 없었다(HR 0.93/단계, p=0.52).",
+    "summary_en": "This retrospective study reviewed preoperative pelvic radiographs from 466 dogs treated with TPLO for cranial cruciate ligament deficiency (CCLD) between September 2021 and December 2022 to describe the radiographic prevalence and severity of canine hip dysplasia (CHD) and its association with osteoarthritis (OA) and CCLD laterality. Radiographic CHD prevalence was 36.3% (169/466), with 74.0% of dysplastic dogs showing radiographic OA; CHD severity was strongly associated with OA severity (OR 22.91 per category). Increasing CHD severity was associated with higher odds of CCLD occurring contralateral to the most severely dysplastic hip (OR 3.70 per category), but showed little association with time to opposite-side CCLD (HR 0.93, p=0.52).",
+    "clinical_takeaway_ko": "CCLD로 TPLO를 계획할 때 고관절 방사선을 함께 평가하면, CHD가 심할수록 반대쪽 stifle에서 CCLD가 발생할 위험이 높다는 정보를 보호자 상담과 장기 관리 계획(체중 관리, 조기 개입 논의 등)에 활용할 수 있다."
+  },
+  {
+    "pmid": "42735705",
+    "title": "The updated 2022 Fédération Cynologique Internationale method may lead to changes in hip dysplasia grading in some dogs.",
+    "journal": "American journal of veterinary research",
+    "year": "2026",
+    "authors": [
+      "Jules Gras",
+      "Éric Goyenvalle",
+      "Mathieu Jourdain",
+      "Thomas Rousseau",
+      "Benjamin Mahieu",
+      "Éric Aguado",
+      "Olivier Gauthier",
+      "Pierre Maitre"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42735705/",
+    "doi": "10.2460/ajvr.26.06.0260",
+    "study_type": "후향적 연구",
+    "sample_size": "1318",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "2023년 3월~2024년 9월 canine hip dysplasia(HD) 스크리닝을 위해 제출된 방사선 중 FCI 품질 기준을 충족한 Australian Shepherd 1,020마리와 Boxer 298마리의 방사선을 Fédération Cynologique Internationale(FCI) 2022년 방법(FCI22)과 2006년 방법(FCI06) 양쪽으로 재평가해 Norberg angle(NA)과 HD 등급을 비교했다. FCI22로 측정한 평균 NA는 FCI06보다 0.7도 낮았고, 전체 2,636개 고관절 중 68.3%(1,801개)는 등급이 그대로 유지되었다. Australian Shepherd에서는 17.2%가 상향, 12.6%가 하향 조정된 반면 Boxer에서는 8.9%가 상향, 29.4%가 하향 조정되어 품종 간 차이가 뚜렷했으며, 재분류는 주로 2006년 기준 D등급이었던 고관절(82.4%)에서 발생했다. 저자들은 FCI22가 두 품종에서 대부분의 HD 등급을 실질적으로 바꾸지는 않지만, 경계값 근처의 고관절과 품종별 패턴이 개별 스크리닝 결과에 영향을 줄 수 있다고 결론지었다.",
+    "summary_en": "This retrospective observational study compared Norberg angle (NA) measurements and hip dysplasia (HD) grades obtained from the same radiographs using both the FCI 2022 (FCI22) and FCI 2006 (FCI06) methods in 1,020 Australian Shepherds and 298 Boxers screened between March 2023 and September 2024. Mean NA22 was 0.7° lower than NA06, and 68.3% (1,801/2,636) of hips retained the same HD grade. In Australian Shepherds, 17.2% of hips were upgraded and 12.6% downgraded; in Boxers, 8.9% were upgraded and 29.4% downgraded, with reclassification occurring primarily among hips initially graded D under FCI06 (82.4%). The authors conclude FCI22 is unlikely to substantially alter HD grades overall, but borderline NA values and breed-specific patterns may affect individual screening outcomes.",
+    "clinical_takeaway_ko": "HD 스크리닝에 FCI22 기준을 도입할 경우, 특히 Boxer처럼 등급 변화 폭이 큰 품종에서는 기존 FCI06 결과와 직접 비교하기 어려울 수 있다는 점을 보호자와 번식 상담 시 설명할 필요가 있다."
+  },
+  {
+    "pmid": "42730678",
+    "title": "Evaluation of a 0.05 T low-field MRI system for canine brain imaging via comparison with images acquired at 1.5 T field strength: a pilot cadaver study.",
+    "journal": "The veterinary quarterly",
+    "year": "2026",
+    "authors": [
+      "Elisabeth Maria Burgers",
+      "Samantha Miles",
+      "Stefanie Veraa",
+      "Thomas O'Reilly",
+      "Ruben van den Broek",
+      "Chloé Najac",
+      "Beatrice Lena",
+      "Andrew Webb"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42730678/",
+    "doi": "10.1007/s00330-015-3588-4",
+    "study_type": "실험 연구",
+    "sample_size": "23",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "neuro"
+    ],
+    "topics": [
+      "neuro-imaging"
+    ],
+    "tags": [
+      "dog",
+      "MRI",
+      "neuro"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "사람 신경영상용으로 개발된 저비용·휴대용 0.05T 영구자석 기반 저자장(low-field, LF) MRI 시스템을 23구의 개 사체를 이용해 평가하고, 1.5T(HF) 프로토콜과 22개 해부학적 구조의 시인성을 비교했다. T2-weighted 영상에서 LF 시스템은 lateral ventricle과 mesencephalic aqueduct 검출에서 HF 대비 90% 이상의 조건부 확률로 non-inferior한 성능을 보였다. T1-weighted 영상에서는 lateral ventricle 검출의 non-inferiority가 76.6% 조건부 확률로 결론을 내리기 어려웠다. 저자들은 이 장비가 hydrocephalus 진단 보조에 활용될 가능성을 제시하며, 실제 임상 적용을 위해서는 생체(in vivo) 연구가 추가로 필요하다고 밝혔다.",
+    "summary_en": "This technical feasibility study evaluated a low-cost, portable 0.05 T permanent-magnet low-field (LF) MRI system, originally designed for human neuroimaging, for canine brain imaging using 23 cadavers. A scanning protocol with transverse T1-weighted and T2-weighted sequences was compared against a 1.5 T (HF) protocol across 22 anatomical features. For hydrocephalus evaluation, the LF system showed non-inferior detection of the lateral ventricles and mesencephalic aqueduct on T2w sequences (>90% conditional probability), while T1w lateral ventricle detection non-inferiority was inconclusive (76.6%). The authors conclude the device may aid hydrocephalus detection but call for in vivo studies to establish true clinical applicability.",
+    "clinical_takeaway_ko": "1.5T MRI 접근이 제한된 상황에서 0.05T 저자장 시스템이 향후 hydrocephalus 등 뇌실 확장 평가의 보조 스크리닝 도구로 쓰일 가능성이 있으나, 현재는 사체 연구 단계이므로 실제 진료에 바로 적용하기는 이르다."
+  },
+  {
+    "pmid": "42727605",
+    "title": "Magnetic resonance imaging identifies prognostic features in dogs and cats with ischemic cerebrovascular accidents.",
+    "journal": "American journal of veterinary research",
+    "year": "2026",
+    "authors": [
+      "Jean Desbordes",
+      "Abdelghani Sifouane",
+      "Yannick Ruel",
+      "Albert Agoulon",
+      "Stella Papageorgiou",
+      "Kirsten Gnirs",
+      "David Grevent",
+      "Nathalie Boddaert",
+      "Hugues Gaillot"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42727605/",
+    "doi": "10.2460/ajvr.26.06.0268",
+    "study_type": "후향적 연구",
+    "sample_size": "63",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog",
+      "cat"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "neuro"
+    ],
+    "topics": [
+      "neuro-imaging"
+    ],
+    "tags": [
+      "dog",
+      "cat",
+      "MRI",
+      "neuro"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "급성 비진행성 뇌기능장애로 내원한 개 47마리·고양이 16마리(총 63마리)를 대상으로, MRI 소견(arterial spin labeling(ASL) perfusion 포함)과 ischemic cerebrovascular accident(ICVA) 아형, 예후 인자를 후향적으로 분석했다. Middle cerebral artery 전 영역 또는 소뇌 반구 전체를 침범하는 새로운 \"complete territorial ICVA\" 아형이 63마리 중 8마리(12.7%)에서 확인되었고, 중등도~중증 mass effect와 흔히 동반되었다. Non-lacunar infarct는 모두 ASL에서 focal hypoperfusion을 보인 반면 lacunar infarct는 관류 이상이 없었으며, mass effect를 동반한 complete territorial ICVA(\"malignant ICVA\")는 조기 사망과 강하게 연관되었다(OR 400). 24시간 이내 영상을 획득한 non-lacunar infarct 19마리 중 2마리(10.5%)에서만 ischemic penumbra가 확인되어, ASL이 구제 가능한 허혈 조직 판별에는 제한적임을 시사했다.",
+    "summary_en": "This retrospective single-center study analyzed MRI findings, including arterial spin labeling (ASL) perfusion, in 63 dogs and cats (47 dogs, 16 cats) with acute, nonprogressive brain dysfunction consistent with ischemic cerebrovascular accident (ICVA). A novel \"complete territorial ICVA\" subtype, involving an entire middle cerebral artery territory or cerebellar hemisphere, was identified in 8/63 animals (12.7%) and was commonly associated with moderate-to-severe mass effect. All nonlacunar infarcts showed focal ASL hypoperfusion, whereas lacunar infarcts showed none. Complete territorial ICVAs with mass effect (\"malignant ICVAs\") were strongly associated with early mortality (OR 400), while ischemic penumbra was identified in only 2/19 nonlacunar infarcts imaged within 24 hours.",
+    "clinical_takeaway_ko": "MRI에서 middle cerebral artery 영역 전체 또는 소뇌 반구 전체를 침범하고 mass effect가 동반된 \"malignant ICVA\" 소견이 확인되면 조기 사망 위험이 매우 높다는 점을 보호자 상담과 예후 설명에 활용할 수 있다."
+  },
+  {
+    "pmid": "42718565",
+    "title": "Case Report: Distal tibial physeal fracture secondary to septic physitis and osteomyelitis in a Boxer puppy.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Nisha Sidhu",
+      "Jennifer W Cao",
+      "Steven W Frederick",
+      "Aidan Chambers"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42718565/",
+    "doi": "10.1038/s41572-026-00707-9",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "19주령 Boxer 강아지가 급성 비체중부하 파행과 원위 사지 부종을 주소로 내원했다. 초기 정면·측면 tibia 방사선에서 원위 tibial physis의 불규칙한 확장과 심한 주변 연부조직 부종이 확인되어 septic physitis에 합당한 소견으로 판단했고, 15시간 후 재촬영한 방사선에서 병적 골절로 추정되는 Salter-Harris type I 골절이 새로 확인되었다. 수술적 탐색에서 subperiosteal abscess가 발견되어 배농·배양을 시행했고 Pasteurella spp.가 동정되어 항생제 치료를 받았으며, 수술 후 14주째 부종 소실, 방사선학적 골유합, 정상 사지 기능이 확인되었다. 이는 개에서 septic physitis에 의한 사지 physeal fracture가 보고된 최초 증례다.",
+    "summary_en": "A 19-week-old Boxer puppy presented with acute non-weight-bearing lameness and distal limb swelling. Initial orthogonal tibial radiographs showed irregular widening of the distal tibial physis with severe surrounding soft-tissue edema, consistent with septic physitis; repeat radiographs 15 hours later revealed a new, presumed pathologic Salter-Harris type I fracture of the distal tibial physis. Surgical exploration revealed a subperiosteal abscess, which was drained and cultured (Pasteurella spp. isolated), and the fracture was stabilized with cross-pin fixation. Resolution of swelling, radiographic healing, and normal limb function were achieved by 14 weeks postoperative. This is the first documented case of an appendicular physeal fracture secondary to suspected septic physitis in a dog.",
+    "clinical_takeaway_ko": "강아지에서 급성 비체중부하 파행과 사지 부종이 있을 때 physis widening 소견이 짧은 시간 내 병적 골절로 진행할 수 있으므로, 초기 방사선에서 physitis가 의심되면 단기간(수 시간~하루 내) 재촬영을 고려하고 septic physitis를 감별진단에 포함해야 한다."
+  },
+  {
+    "pmid": "42717636",
+    "title": "Intraoperative cholangiography during open cholecystectomy in 73 dogs with benign gallbladder disease.",
+    "journal": "Veterinary surgery : VS",
+    "year": "2026",
+    "authors": [
+      "Ryusei Konno",
+      "Yasuyuki Kaneko",
+      "Misaki Matsunaga",
+      "Tatsuyuki Osuga",
+      "Ryota Okadera",
+      "Shidow Torisu",
+      "Shushi Yamamoto",
+      "Kiyokazu Naganobu"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42717636/",
+    "doi": "10.1111/vsu.70157",
+    "study_type": "후향적 연구",
+    "sample_size": "73",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "fluoroscopy",
+      "contrast-study"
+    ],
+    "system": [
+      "hepatobiliary"
+    ],
+    "topics": [
+      "abdominal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "fluoroscopy",
+      "contrast-study",
+      "hepatobiliary"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "2014~2022년 benign gallbladder disease로 open cholecystectomy를 받은 개 73마리(수술 전 common bile duct(CBD) obstruction 동반 증례 포함)를 대상으로 bile duct flushing(BDF)과 subtraction fluoroscopy 하 intraoperative cholangiography(IOC)를 시행한 결과를 후향적으로 분석했다. IOC는 73마리 중 72마리에서 평가 가능했고(1마리는 카테터 천공으로 평가 불가), complete CBD obstruction이 12.5%(9/72), retained debris로 인한 partial obstruction이 20.8%(15/72)에서 확인되었으며 그중 4마리는 조영제 주입 중 debris가 이동해 일과성으로 원위부 CBD를 막았다. 간관(hepatic duct)까지 조영된 66마리 중 7마리(10.6%)에서 hepatic duct filling defect가 확인되었고, 1마리는 조영제 관련 shock이 의심되었으나 치료로 회복되었다. 전체 코호트의 주술기 사망률은 6.8%(5/73)였으며 황달이 없던 개는 0%(0/29), 황달이 있던 개는 11.4%(5/44)였다.",
+    "summary_en": "This retrospective case series reviewed 73 dogs with benign gallbladder disease (including cases with preoperative common bile duct (CBD) obstruction) that underwent open cholecystectomy, bile duct flushing (BDF), and intraoperative cholangiography (IOC) under subtraction fluoroscopy between 2014 and 2022. IOC was evaluable in 72/73 dogs; complete CBD obstruction was identified in 12.5% (9/72) and partial obstruction with retained debris in 20.8% (15/72), with debris transiently obstructing the distal CBD during contrast injection in 4 cases. Among 66 dogs with hepatic duct opacification, 7 (10.6%) had filling defects; one dog developed suspected contrast-associated shock that resolved with treatment. Perioperative mortality was 6.8% (5/73) overall — 0% in dogs without jaundice and 11.4% in dogs with jaundice.",
+    "clinical_takeaway_ko": "개 담낭절제술 시 BDF만으로는 놓칠 수 있는 CBD·hepatic duct의 잔류 debris나 폐쇄를 IOC가 상당한 빈도(약 1/3)로 추가 검출하므로, CBD 폐쇄가 의심되거나 황달이 있는 증례에서는 IOC를 보조 수단으로 고려할 근거가 된다. 다만 조영제 관련 shock 같은 합병증 가능성도 함께 설명해야 한다."
+  },
+  {
+    "pmid": "42710534",
+    "title": "Computed tomography perfusion indicates reduced portal venous perfusion and relative arterial dominance in canine hepatocellular carcinoma.",
+    "journal": "American journal of veterinary research",
+    "year": "2026",
+    "authors": [
+      "Pinhui Wang",
+      "Kumiko Ishigaki",
+      "Chieko Ishikawa",
+      "Naoko Shiozawa",
+      "Miran Kimpara",
+      "Kaito Iida",
+      "Shoko Yamaoka",
+      "Naoki Yamada",
+      "Yumiko Kagawa",
+      "Kazushi Asano"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42710534/",
+    "doi": "10.2460/ajvr.26.05.0219",
+    "study_type": "후향적 연구",
+    "sample_size": "20",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "hepatobiliary",
+      "oncology"
+    ],
+    "topics": [
+      "abdominal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "hepatobiliary",
+      "oncology"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "수술로 절제되어 조직병리학적으로 massive gross phenotype hepatocellular carcinoma(HCC)로 확진된 개 20마리의 수술 전 CT perfusion(CTP) 데이터를 후향적으로 분석해, dual-input maximum-slope법으로 hepatic arterial flow(HAF)·portal venous flow(PVF)·hepatic perfusion index(HPI)를 산출했다. 종양은 정상 간 조직보다 PVF가 낮고(23.40 vs 127.15 mL/min/100mL, p<0.001) HPI는 더 높았으며(65.81% vs 29.66%, p<0.001), HAF는 유의한 차이가 없었다(52.98 vs 50.29 mL/min/100mL, p=0.154). 분화도별로는 HAF(well>moderate)와 PVF(poor<well)가 유의하게 달랐으나 poorly differentiated 종양이 3예뿐이라 해석에 주의가 필요했다. 저자들은 CTP가 정량적 동맥·문맥 관류 정보를 제공할 수 있지만 형태학적 영상, 수술 소견, 기존 진단·예후 평가법을 대체해서는 안 된다고 강조했다.",
+    "summary_en": "This retrospective study analyzed preoperative CT perfusion (CTP) data from 20 dogs with surgically excised, histopathologically confirmed massive-phenotype hepatocellular carcinoma (HCC), calculating hepatic arterial flow (HAF), portal venous flow (PVF), and hepatic perfusion index (HPI) via a dual-input maximum-slope method. Tumors showed lower PVF (23.40 vs 127.15 mL/min/100mL, p<0.001) and higher HPI (65.81% vs 29.66%, p<0.001) than nontumorous liver, with no difference in HAF (p=0.154), indicating relative arterial dominance driven mainly by reduced portal flow. HAF and PVF differed among differentiation groups, but these findings should be interpreted cautiously given only 3 poorly differentiated tumors. The authors emphasize CTP should not replace morphologic imaging, surgical assessment, or established diagnostic/prognostic approaches.",
+    "clinical_takeaway_ko": "CT에서 massive형 HCC가 의심되는 경우 CTP를 통한 관류 패턴(문맥 관류 감소, 상대적 동맥 우세) 확인이 병변의 혈류역학적 특성을 이해하는 데 참고가 될 수 있으나, 저자들 스스로 밝혔듯 조직형·분화도·절제가능성·예후를 CTP만으로 판단해서는 안 된다."
+  },
+  {
+    "pmid": "42710191",
+    "title": "Anatomical study of the thorax and abdomen of the domestic cat: Correlation of cross-sectional anatomy with contrast-enhanced computed tomography and 3D reconstruction.",
+    "journal": "Research in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Basma Abdelmohsen",
+      "Ramadan Sary",
+      "Yara Abouelela",
+      "Samer Daghash",
+      "Fouad Farag"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42710191/",
+    "doi": "10.1016/j.rvsc.2026.106389",
+    "study_type": "실험 연구",
+    "sample_size": "10",
+    "evidence_basis": "abstract",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "thorax",
+      "abdomen"
+    ],
+    "topics": [
+      "abdominal-imaging",
+      "thoracic-imaging"
+    ],
+    "tags": [
+      "cat",
+      "CT",
+      "thorax",
+      "abdomen"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "성체 고양이 10마리를 대상으로 흉복부 단면 해부와 조영증강 CT, 3차원(3D) 재구성 영상을 상호 대조해 상세한 해부학 atlas를 제작했다. 5마리는 정해진 흉복부 절단면에서 신선·고정 상태로 절편을 만들어 관찰했고, 나머지 5마리는 요오드 조영제 정맥주사 후 단순·조영증강 CT를 시행해 DICOM 데이터를 3D 재구성(흉곽 골격, 심장, 주요 혈관, 복부 장기)했다. 흉복부의 주요 골격·근육·장기·혈관 구조가 해부학적 절편과 CT 영상 간에 모두 식별·대조되었으며, 조영증강 CT는 특히 혈관 해부와 장기 간 관계의 시인성을 크게 향상시켰다. 저자들은 이 해부학·영상·3D 재구성 atlas가 수의학 해부 교육, 영상 판독, 수술 계획에 신뢰할 만한 참고자료가 될 것이라고 결론지었다.",
+    "summary_en": "This anatomical study developed a detailed atlas of the feline thorax and abdomen in 10 adult domestic cats by correlating cross-sectional anatomical slices with contrast-enhanced CT images and three-dimensional (3D) reconstructions. Five cats were serially sectioned at defined thoracic and abdominal levels (examined fresh and fixed), while the remaining five underwent plain and contrast-enhanced CT after intravenous iodinated contrast administration, with CT datasets reconstructed in 3D (thoracic skeleton, heart, major vessels, abdominal viscera). All major bones, muscles, visceral organs, and vascular structures were successfully identified and correlated between anatomical sections and CT images, with contrast-enhanced CT markedly improving visualization of vascular anatomy and visceral relationships. The authors conclude this atlas provides a reliable reference for veterinary anatomy education, diagnostic imaging interpretation, and surgical planning in cats.",
+    "clinical_takeaway_ko": "고양이 흉복부 CT를 판독하거나 수술 계획을 세울 때, 이 연구의 단면-CT-3D 재구성 대조 atlas를 정상 해부 기준 참고자료로 활용할 수 있다."
+  },
+  {
+    "pmid": "42705596",
+    "title": "Mechanistic-data synergy for predicting fracture load in canine bone with appendicular osteosarcoma.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "Behzad Amirzade",
+      "Tareq Zobaer",
+      "Janis Lapsley",
+      "Kim A Selting",
+      "Laura E Selmic",
+      "Ali Nassiri"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42705596/",
+    "doi": "10.1016/j.tvjl.2026.106873",
+    "study_type": "실험 연구",
+    "sample_size": "16",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "musculoskeletal",
+      "oncology",
+      "AI"
+    ],
+    "topics": [
+      "musculoskeletal-imaging",
+      "ai-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "musculoskeletal",
+      "oncology",
+      "AI"
+    ],
+    "added_on": "2026-09-21",
+    "summary_ko": "Appendicular osteosarcoma를 가진 개 16마리의 CT 영상에서 재구성한 이질적(heterogeneous) elasto-plastic 물성치를 가진 물리 기반 뼈 모델을 이용해, 고신뢰도 Finite Element Analysis(FEA)·XFEM 시뮬레이션(25가지 하중 조건, medullary conformal stabilization 유무)으로 825개의 crack-initiation load 데이터를 생성했다. 이 시뮬레이션 데이터로 MLP, SVR, RF, XGBoost, HistGBR 등 5가지 머신러닝 모델을 학습시켜 체중, 병변 위치, 뼈 길이 등과 골절 하중의 관계를 예측하도록 했으며, XGBoost가 held-out 165건에서 평균 R²≈0.90, 정규화 평균절대오차 약 8%로 가장 우수했다. 병변 부담(lesion burden)과 체중이 가장 중요한 예측 인자였고, humerus 증례에서 tibia·radius보다 환자 단위 예측 성능이 더 일관됐다.",
+    "summary_en": "Using CT-derived, physics-faithful bone models with heterogeneous elasto-plastic material properties from 16 dogs with appendicular osteosarcoma, this study generated 825 crack-initiation load values via high-fidelity Finite Element Analysis (FEA) and XFEM simulations across 25 loading scenarios, with and without medullary conformal stabilization. Five machine learning models (MLP, SVR, RF, XGBoost, HistGBR) were trained on these simulation-derived targets plus biological/morphometric features; XGBoost achieved the best performance on 165 held-out cases (average R²≈0.90, ~8% normalized mean absolute error). Lesion burden and body weight were the dominant predictors, with more consistent patient-level performance for humeral than tibial/radial cases.",
+    "clinical_takeaway_ko": "현재는 개념 증명(proof-of-concept) 단계이지만, CT 영상에서 추출한 뼈 형상·물성 데이터를 이용한 ML 골절 하중 예측이 향후 osteosarcoma 환자의 예방적 내고정 필요성 판단을 보조하는 정량 도구로 발전할 가능성이 있다 — 제한적 근거."
+  },
+  {
+    "pmid": "42644764",
+    "title": "Bunny Burrito Restraint for Computed Tomography in Conscious Rabbits: An Effective Alternative.",
+    "journal": "Veterinary Radiology & Ultrasound",
+    "year": "2026",
+    "authors": [
+      "Hung-Ting Liu",
+      "Jonathan Olijnyk",
+      "Jessica Ingman",
+      "Ellen Sundberg",
+      "Laetitia Volait-Rosset",
+      "Alexis Gombert"
+    ],
     "url": "https://pubmed.ncbi.nlm.nih.gov/42644764/",
     "doi": "10.1111/vru.70230",
-    "summary_en": "This retrospective multicenter study evaluated the bunny burrito restraint technique as an alternative to plexiglass chamber restraint for CT imaging in 93 conscious client-owned rabbits (2021-2023). The bunny burrito group (n=36) showed significantly fewer motion artifacts in pre-contrast acquisitions, better positioning in the dental disease subgroup, and better early post-contrast stability compared to the plexiglass chamber group (n=47). Image quality was descriptively similar between bunny burrito and sedation (n=10), with no complications reported in either physical restraint group. The findings support bunny burrito restraint as a safe, effective, low-equipment alternative that reduces sedation-related risk in rabbit CT imaging.",
-    "summary_ko": "2021년 3월부터 2023년 12월까지 보호자 소유 토끼 93마리를 대상으로 진행된 후향적 다기관 관찰연구에서, conscious rabbit의 CT 검사 시 bunny burrito(수건으로 감싸는 보정법)와 plexiglass chamber 보정법, sedation을 비교했다. bunny burrito 그룹(36마리)은 plexiglass chamber 그룹(47마리)에 비해 pre-contrast 영상에서 motion artifact가 유의하게 적었고(p=0.02), dental disease 하위군에서 positioning이 더 우수했으며(p=0.03), post-contrast 초기 안정성도 더 좋았다(p=0.04, 신뢰구간 넓음). bunny burrito와 sedation(10마리) 간 영상 품질은 기술통계상 유사했으며, 검사 중이나 이후 합병증은 보고되지 않았다.",
-    "clinical_takeaway_ko": "토끼 CT 검사에서 sedation이 어렵거나 위험도가 높은 환자라면 bunny burrito 보정법을 우선 고려할 수 있으며, 특히 dental disease 평가 시 plexiglass chamber보다 positioning 안정성이 우수하다.",
-    "tags": ["토끼", "CT", "보정법", "진정없는영상", "특수동물"],
     "study_type": "후향적 연구",
-    "added_on": "2026-09-13"
+    "sample_size": "93",
+    "evidence_basis": "abstract",
+    "species": [
+      "rabbit"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "sedation-restraint",
+      "dental"
+    ],
+    "topics": [
+      "sedation-restraint-imaging"
+    ],
+    "tags": [
+      "rabbit",
+      "CT",
+      "sedation-restraint",
+      "dental"
+    ],
+    "added_on": "2026-09-13",
+    "summary_ko": "2021년 3월부터 2023년 12월까지 보호자 소유 토끼 93마리를 대상으로 진행된 후향적 다기관 관찰연구에서, conscious rabbit의 CT 검사 시 bunny burrito(수건으로 감싸는 보정법)와 plexiglass chamber 보정법, sedation을 비교했다. bunny burrito 그룹(36마리)은 plexiglass chamber 그룹(47마리)에 비해 pre-contrast 영상에서 motion artifact가 유의하게 적었고(p=0.02), dental disease 하위군에서 positioning이 더 우수했으며(p=0.03), post-contrast 초기 안정성도 더 좋았다(p=0.04, 신뢰구간 넓음). bunny burrito와 sedation(10마리) 간 영상 품질은 기술통계상 유사했으며, 검사 중이나 이후 합병증은 보고되지 않았다. 저자들은 bunny burrito 보정법이 plexiglass chamber보다 특정 상황에서 우수하며, sedation에 따른 위험 없이 CT 검사 접근성을 높이는 유효하고 안전한 대안이라고 결론지었다.",
+    "summary_en": "This retrospective multicenter study evaluated the bunny burrito restraint technique as an alternative to plexiglass chamber restraint for CT imaging in 93 conscious client-owned rabbits (2021-2023). The bunny burrito group (n=36) showed significantly fewer motion artifacts in pre-contrast acquisitions, better positioning in the dental disease subgroup, and better early post-contrast stability compared to the plexiglass chamber group (n=47). Image quality was descriptively similar between bunny burrito and sedation (n=10), with no complications reported in either physical restraint group. The findings support bunny burrito restraint as a safe, effective, low-equipment alternative that reduces sedation-related risk in rabbit CT imaging.",
+    "clinical_takeaway_ko": "토끼 CT 검사에서 sedation이 어렵거나 위험도가 높은 환자라면 bunny burrito 보정법을 우선 고려할 수 있으며, 특히 dental disease 평가 시 plexiglass chamber보다 positioning 안정성이 우수하다."
   },
   {
     "pmid": "42593822",
     "title": "Bibliometric Analysis of Artificial Intelligence Use in Small Animal Thoracic Radiography.",
-    "journal": "Veterinary medicine and science",
+    "journal": "Veterinary Medicine and Science",
     "year": "2026",
-    "authors": ["Vildan Aslan Canatan", "Ender Uzabaci"],
+    "authors": [
+      "Vildan Aslan Canatan",
+      "Ender Uzabaci"
+    ],
     "url": "https://pubmed.ncbi.nlm.nih.gov/42593822/",
     "doi": "10.29106/fesa.1302809",
-    "summary_en": "This bibliometric analysis reviewed 27 articles (2018-2025) on AI applications in small animal thoracic radiography from Web of Science and PubMed, analyzed with Biblioshiny. Publications grew at an annual rate of 10.41%, peaking at 8 articles in 2023, with 2020 publications showing the highest citation impact (mean 46.33 citations). T. Banzato was the most prolific author, and the United States and Italy were the leading contributing countries. Thematic analysis showed a primary focus on CNN- and deep-learning-based detection of cardiomegaly, pleural effusion, and pulmonary disease in dogs, with dataset heterogeneity and species diversity remaining key limitations to standardization.",
-    "summary_ko": "2018~2025년 사이 Web of Science와 PubMed에서 발표된 소동물 흉부 방사선촬영 분야 AI 관련 연구 27편을 수집하여 Biblioshiny를 이용한 bibliometric analysis를 수행했다. 출판 편수는 연간 성장률 10.41%로 증가 추세를 보였고 2023년에 8편으로 정점을 찍었으며, 2020년 발표 논문들이 평균 46.33회 인용으로 가장 높은 인용 영향력을 보였다. T. Banzato가 가장 다작한 저자였고 미국(32건)과 이탈리아(23건)가 주요 기여국이었으며, 주제 분석 결과 개의 cardiomegaly, pleural effusion, pulmonary disease에 대한 CNN(convolutional neural network)·deep learning 기반 자동 탐지가 초기 연구의 주된 초점이었다. 데이터셋의 이질성과 종 다양성 부족이 여전히 표준화의 걸림돌로 지적되었다.",
-    "clinical_takeaway_ko": "흉부 방사선촬영 AI 보조진단 도구를 진료에 도입할 때는 아직 학습 데이터셋의 종·품종 다양성이 제한적이라는 점을 인지하고, 자신이 진료하는 환자군과 유사한 조건에서 검증된 도구인지 확인한 뒤 사용해야 한다.",
-    "tags": ["인공지능", "흉부방사선", "서지계량분석", "딥러닝", "소동물"],
     "study_type": "기타",
-    "added_on": "2026-09-13"
-  },
-  {
-    "pmid": "42522404",
-    "title": "Patient Dimensions From a Single CT Image Provide a Clinically Practical and Accurate Method for Dose Estimation in Canine Abdominal CT Imaging.",
-    "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
-    "year": "2026",
-    "authors": ["Claire Whittaker", "Monique Mayer", "Matthew Hutcheson", "Sally Sukut"],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42522404/",
-    "doi": "10.1148/radiol.2021211241",
-    "summary_en": "This study evaluated whether patient dimensions measured from a single CT image can provide a clinically practical and accurate size-specific dose estimate (SSDE) in canine abdominal CT, as an alternative to more complex multi-slice measurements. SSDE scales the scanner-reported volumetric CT dose index (CTDIvol) to patient size to better reflect actual radiation exposure. The single-image measurement approach was found to be a practical and accurate method for dose estimation in dogs. (Note: the source abstract was truncated in the retrieved record.)",
-    "summary_ko": "이 연구는 개 abdominal CT 검사에서 여러 단면에 걸친 복잡한 측정 대신, 단일 CT 영상에서 얻은 환자의 선형 치수(linear dimensions)만으로 size-specific dose estimate(SSDE)를 산출하는 방법의 임상적 실용성과 정확도를 평가했다. SSDE는 스캐너가 보고하는 volumetric CT dose index(CTDIvol)를 환자 크기에 맞게 보정하는 지표로, 단일 영상 기반 측정이 실제 임상에서 시행 가능하면서도 정확한 dose estimation 방법이 될 수 있음을 시사한다. 다만 확보된 원문 초록이 자료 수집 과정에서 일부 잘린 상태이므로, 세부 수치 결과와 결론의 정확한 표현은 원문 확인이 필요하다.",
-    "clinical_takeaway_ko": "abdominal CT 시행 시 단일 영상에서 측정한 환자의 선형 치수만으로도 실용적이고 정확한 개별 환자 dose(SSDE)를 추정할 수 있어, 복잡한 다중 슬라이스 측정 없이도 방사선 피폭 관리와 프로토콜 최적화에 활용할 여지가 있다.",
-    "tags": ["CT", "방사선선량", "SSDE", "복부CT", "개"],
-    "study_type": "후향적 연구",
-    "added_on": "2026-09-13"
-  },
-  {
-    "pmid": "42150942",
-    "title": "Artificial Intelligence-Assisted Interpretation of Veterinary Radiographs: Opportunities, Risks, and Best Practices for Clinicians.",
-    "journal": "The Veterinary clinics of North America. Small animal practice",
-    "year": "2026",
-    "authors": ["Parminder S Basran", "Ryan Appleby", "Ian Porter"],
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42150942/",
-    "doi": "10.1016/j.cvsm.2026.03.018",
-    "summary_en": "This review discusses the role of AI in interpreting veterinary radiographs from a clinician's perspective, emphasizing that AI functions as a decision-support tool rather than a replacement for clinical judgment. Veterinarians retain full professional accountability for all diagnoses and treatment decisions regardless of AI involvement, and AI should not be used clinically if its function and limitations cannot be explained to clients in understandable terms. Successful implementation requires best practices including comprehensive team training, maintenance of traditional diagnostic skills, and quality assurance protocols.",
-    "summary_ko": "이 종설은 수의 방사선 영상 판독에서 AI의 역할을 임상의 관점에서 다루며, AI는 clinical judgment를 대체하는 것이 아니라 의사결정을 보조하는 decision support tool로 자리매김해야 한다고 강조한다. AI 활용 여부와 무관하게 모든 진단과 치료 결정에 대한 전문적 책임은 수의사에게 있으며, AI 시스템이 어떻게 작동하고 어떤 한계가 있는지를 보호자가 이해할 수 있는 언어로 설명할 수 없다면 임상에서 사용해서는 안 된다고 주장한다. 성공적인 도입을 위해서는 팀 전체 교육, 전통적 판독 능력 유지, quality assurance 체계 구축과 같은 확립된 best practices를 따라야 한다고 제안한다.",
-    "clinical_takeaway_ko": "AI 판독 보조 도구를 도입하더라도 최종 진단과 치료의 책임은 항상 수의사에게 있으므로, 보호자에게 AI의 작동 방식과 한계를 명확히 설명할 수 있어야 하고 전통적인 판독 능력을 유지하면서 quality assurance 절차를 함께 마련해야 한다.",
-    "tags": ["인공지능", "방사선판독", "임상의사결정", "수의영상의학", "모범사례"],
-    "study_type": "종설",
-    "added_on": "2026-09-13"
+    "sample_size": "27",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog",
+      "cat"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "thorax",
+      "AI"
+    ],
+    "topics": [
+      "ai-imaging"
+    ],
+    "tags": [
+      "dog",
+      "cat",
+      "radiography",
+      "thorax",
+      "AI"
+    ],
+    "added_on": "2026-09-13",
+    "summary_ko": "2018~2025년 사이 Web of Science와 PubMed에서 발표된 소동물 흉부 방사선촬영 분야 AI 관련 연구 27편을 수집하여 Biblioshiny를 이용한 bibliometric analysis를 수행했다. 출판 편수는 연간 성장률 10.41%로 증가 추세를 보였고 2023년에 8편으로 정점을 찍었으며, 2020년 발표 논문들이 평균 46.33회 인용으로 가장 높은 인용 영향력을 보였다. T. Banzato가 가장 다작한 저자였고 미국(32건)과 이탈리아(23건)가 주요 기여국이었으며, 주제 분석 결과 개의 cardiomegaly, pleural effusion, pulmonary disease에 대한 CNN(convolutional neural network)·deep learning 기반 자동 탐지가 초기 연구의 주된 초점이었다. 데이터셋의 이질성과 종 다양성 부족이 여전히 표준화의 걸림돌로 지적되었다.",
+    "summary_en": "This bibliometric analysis reviewed 27 articles (2018-2025) on AI applications in small animal thoracic radiography from Web of Science and PubMed, analyzed with Biblioshiny. Publications grew at an annual rate of 10.41%, peaking at 8 articles in 2023, with 2020 publications showing the highest citation impact (mean 46.33 citations). T. Banzato was the most prolific author, and the United States and Italy were the leading contributing countries. Thematic analysis showed a primary focus on CNN- and deep-learning-based detection of cardiomegaly, pleural effusion, and pulmonary disease in dogs, with dataset heterogeneity and species diversity remaining key limitations to standardization.",
+    "clinical_takeaway_ko": "흉부 방사선촬영 AI 보조진단 도구를 진료에 도입할 때는 아직 학습 데이터셋의 종·품종 다양성이 제한적이라는 점을 인지하고, 자신이 진료하는 환자군과 유사한 조건에서 검증된 도구인지 확인한 뒤 사용해야 한다."
   },
   {
     "pmid": "42531994",
     "title": "Diagnostic imaging findings in animal abuse cases referred to the University of Veterinary Medicine Vienna, Austria (2014-2023).",
-    "journal": "Forensic science international",
+    "journal": "Forensic Science International",
     "year": "2026",
-    "authors": ["Klaudia Pietras", "Yasamin Vali"],
+    "authors": [
+      "Klaudia Pietras",
+      "Yasamin Vali"
+    ],
     "url": "https://pubmed.ncbi.nlm.nih.gov/42531994/",
     "doi": "10.1016/j.forsciint.2026.113076",
-    "summary_en": "This retrospective study reviewed imaging records from 11,689 companion and exotic animals at the University of Veterinary Medicine Vienna (2014-2023) and identified 83 cases of suspected animal abuse. Skeletal fractures and ballistic trauma were the most common findings across dogs, cats, birds, lagomorphs, and reptiles, with radiography and CT as the primary modalities used; ultrasound and MRI were not used for case qualification. CT was particularly valuable in birds and reptiles due to their anatomical complexity, while radiography was effective across all species. The findings support diagnostic imaging as objective evidence for forensic veterinary investigations and legal proceedings.",
-    "summary_ko": "비엔나 수의과대학에서 2014~2023년 사이 개, 고양이, 조류, 토끼목, 파충류를 포함한 반려동물·특수동물 11,689건의 영상진단 기록을 후향적으로 검토하여 동물 학대(animal abuse)가 의심되는 83건을 선별했다. 전 종에 걸쳐 fracture와 ballistic trauma(총상)가 가장 흔한 손상 소견이었으며, 진단에는 radiography와 CT가 주로 사용되었고 ultrasound와 MRI는 사례 확정에 전혀 활용되지 않았다. 조류와 파충류처럼 해부학적 구조가 복잡한 종에서는 CT가 특히 유용했고, radiography는 전 종에서 효과적이었다. 저자들은 영상진단이 학대 사례에서 객관적이고 사례별 근거를 제공하여 임상적 평가와 forensic investigation, 법적 절차를 뒷받침한다고 결론지었다.",
-    "clinical_takeaway_ko": "동물 학대가 의심되는 환자에서는 radiography를 1차 선별검사로 활용하고, 조류·파충류처럼 해부학적으로 복잡한 종에서는 CT를 추가로 시행하면 은폐된 fracture나 ballistic trauma 소견을 놓치지 않고 법적 증거로 활용 가능한 영상 기록을 남길 수 있다.",
-    "tags": ["법수의학", "영상진단", "동물학대", "CT", "방사선촬영"],
     "study_type": "후향적 연구",
-    "added_on": "2026-09-13"
+    "sample_size": "83",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog",
+      "cat",
+      "rabbit"
+    ],
+    "modality": [
+      "radiography",
+      "CT"
+    ],
+    "system": [
+      "trauma"
+    ],
+    "topics": [
+      "trauma-forensic-imaging"
+    ],
+    "tags": [
+      "dog",
+      "cat",
+      "rabbit",
+      "radiography",
+      "CT",
+      "trauma"
+    ],
+    "added_on": "2026-09-13",
+    "summary_ko": "비엔나 수의과대학에서 2014~2023년 사이 개, 고양이, 조류, 토끼목, 파충류를 포함한 반려동물·특수동물 11,689건의 영상진단 기록을 후향적으로 검토하여 동물 학대(animal abuse)가 의심되는 83건을 선별했다. 전 종에 걸쳐 fracture와 ballistic trauma(총상)가 가장 흔한 손상 소견이었으며, 진단에는 radiography와 CT가 주로 사용되었고 ultrasound와 MRI는 사례 확정에 전혀 활용되지 않았다. 조류와 파충류처럼 해부학적 구조가 복잡한 종에서는 CT가 특히 유용했고, radiography는 전 종에서 효과적이었다. 저자들은 영상진단이 학대 사례에서 객관적이고 사례별 근거를 제공하여 임상적 평가와 forensic investigation, 법적 절차를 뒷받침한다고 결론지었다.",
+    "summary_en": "This retrospective study reviewed imaging records from 11,689 companion and exotic animals at the University of Veterinary Medicine Vienna (2014-2023) and identified 83 cases of suspected animal abuse. Skeletal fractures and ballistic trauma were the most common findings across dogs, cats, birds, lagomorphs, and reptiles, with radiography and CT as the primary modalities used; ultrasound and MRI were not used for case qualification. CT was particularly valuable in birds and reptiles due to their anatomical complexity, while radiography was effective across all species. The findings support diagnostic imaging as objective evidence for forensic veterinary investigations and legal proceedings.",
+    "clinical_takeaway_ko": "동물 학대가 의심되는 환자에서는 radiography를 1차 선별검사로 활용하고, 조류·파충류처럼 해부학적으로 복잡한 종에서는 CT를 추가로 시행하면 은폐된 fracture나 ballistic trauma 소견을 놓치지 않고 법적 증거로 활용 가능한 영상 기록을 남길 수 있다."
+  },
+  {
+    "pmid": "42522404",
+    "title": "Patient Dimensions From a Single CT Image Provide a Clinically Practical and Accurate Method for Dose Estimation in Canine Abdominal CT Imaging.",
+    "journal": "Veterinary Radiology & Ultrasound",
+    "year": "2026",
+    "authors": [
+      "Claire Whittaker",
+      "Monique Mayer",
+      "Matthew Hutcheson",
+      "Sally Sukut"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42522404/",
+    "doi": "10.1148/radiol.2021211241",
+    "study_type": "후향적 연구",
+    "sample_size": "30",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "abdomen",
+      "technique"
+    ],
+    "topics": [
+      "imaging-technique-safety"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "abdomen",
+      "technique"
+    ],
+    "added_on": "2026-09-13",
+    "summary_ko": "이 후향적 연구는 체중 3구간(<10 kg, 10-30 kg, >30 kg)으로 나눈 개 30마리의 abdominal CT를 대상으로, 단일 CT 영상에서 얻은 환자의 선형 치수(dorsoventral, lateral 치수)로 산출한 AAPM geometric size metrics가 water-equivalent diameter(Dw) 기반의 size-specific dose estimate(SSDE)와 얼마나 일치하는지 평가했다. dorsoventral(DV)과 lateral(LAT) 치수를 합산한 지표가 Dw와 가장 강한 상관관계를 보였고(R²=0.94, p<0.001), 스캐너가 표시하는 CTDIvol은 실제 SSDE를 약 50% 과소평가했다. pre-contrast 단일기(single-phase) abdominal CT의 SSDE 75th percentile은 21 mGy로, 사람 기준의 US dose reference level보다 2~4배 높았다. 저자들은 단일 영상에서 얻은 기하학적 크기 지표만으로도 개 abdominal CT의 SSDE를 실용적이고 정확하게 추정할 수 있으며, 기관별 SSDE 값에 대한 선량 최적화 검토가 필요할 수 있다고 결론지었다.",
+    "summary_en": "This retrospective observational study evaluated whether AAPM geometric size metrics for abdominal CT, calculated from linear dimensions on a single CT image, correlate with water-equivalent diameter (Dw)-based size-specific dose estimate (SSDE) in 30 dogs across three body weight categories (<10, 10-30, and >30 kg). The combined dorsoventral (DV) and lateral (LAT) dimension metric showed the strongest correlation with Dw (R² = 0.94, p < 0.001), and the scanner-displayed CTDIvol underestimated SSDE by about 50%. The 75th percentile SSDE for a single-phase, pre-contrast abdominal scan was 21 mGy, two to four times higher than the human US dose reference level. The findings support single-image geometric size metrics as a practical and accurate method for SSDE estimation in canine abdominal CT, and suggest institutional SSDE values may warrant dose optimization review.",
+    "clinical_takeaway_ko": "abdominal CT 시행 시 단일 영상에서 측정한 DV+LAT 치수만으로도 SSDE를 실용적으로 추정할 수 있으며, 스캐너에 표시되는 CTDIvol만으로는 실제 선량을 약 50% 과소평가할 수 있으므로 환자 크기 보정 없이 프로토콜을 판단하면 피폭 관리에서 놓치는 부분이 생길 수 있다."
+  },
+  {
+    "pmid": "42150942",
+    "title": "Artificial Intelligence-Assisted Interpretation of Veterinary Radiographs: Opportunities, Risks, and Best Practices for Clinicians.",
+    "journal": "The Veterinary Clinics of North America: Small Animal Practice",
+    "year": "2026",
+    "authors": [
+      "Parminder S Basran",
+      "Ryan Appleby",
+      "Ian Porter"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42150942/",
+    "doi": "10.1016/j.cvsm.2026.03.018",
+    "study_type": "종설",
+    "sample_size": "",
+    "evidence_basis": "abstract",
+    "species": [],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "AI"
+    ],
+    "topics": [
+      "ai-imaging"
+    ],
+    "tags": [
+      "radiography",
+      "AI"
+    ],
+    "added_on": "2026-09-13",
+    "summary_ko": "이 종설은 수의 방사선 영상 판독에서 AI의 역할을 임상의 관점에서 다루며, AI는 clinical judgment를 대체하는 것이 아니라 의사결정을 보조하는 decision support tool로 자리매김해야 한다고 강조한다. AI 활용 여부와 무관하게 모든 진단과 치료 결정에 대한 전문적 책임은 수의사에게 있으며, AI 시스템이 어떻게 작동하고 어떤 한계가 있는지를 보호자가 이해할 수 있는 언어로 설명할 수 없다면 임상에서 사용해서는 안 된다고 주장한다. 성공적인 도입을 위해서는 팀 전체 교육, 전통적 판독 능력 유지, quality assurance 체계 구축과 같은 확립된 best practices를 따라야 한다고 제안한다.",
+    "summary_en": "This review discusses the role of AI in interpreting veterinary radiographs from a clinician's perspective, emphasizing that AI functions as a decision-support tool rather than a replacement for clinical judgment. Veterinarians retain full professional accountability for all diagnoses and treatment decisions regardless of AI involvement, and AI should not be used clinically if its function and limitations cannot be explained to clients in understandable terms. Successful implementation requires best practices including comprehensive team training, maintenance of traditional diagnostic skills, and quality assurance protocols.",
+    "clinical_takeaway_ko": "AI 판독 보조 도구를 도입하더라도 최종 진단과 치료의 책임은 항상 수의사에게 있으므로, 보호자에게 AI의 작동 방식과 한계를 명확히 설명할 수 있어야 하고 전통적인 판독 능력을 유지하면서 quality assurance 절차를 함께 마련해야 한다."
   }
 ]
