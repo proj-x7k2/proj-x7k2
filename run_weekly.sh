@@ -1,93 +1,53 @@
 #!/bin/bash
 # -----------------------------------------------------------------------
-# run_weekly.sh
-#
-# 이 스크립트가 하는 일:
-#   1) fetch_papers.py 실행 → PubMed에서 새 논문 확인 (비용 없음)
-#   2) 새 논문이 있으면 Claude Code(headless 모드)에게 요약을 시킴
-#      → CLAUDE_CODE_OAUTH_TOKEN(구독 계정 인증)만 사용하고,
-#        ANTHROPIC_API_KEY는 절대 쓰지 않도록 명시적으로 비웁니다.
-#        (API 키가 있으면 그쪽이 우선 적용되어 과금될 수 있기 때문)
-#
-# cron에 이 스크립트를 등록해두면 매주 자동으로 돌아갑니다.
+# run_weekly.sh — 매주 자동 실행 (cron)
+#   1) PubMed 새 논문 수집 (비용 없음)
+#   2) 새 논문 또는 새 PDF가 있으면 Claude Code로 위키에 반영 (수집 워크플로우)
+#   3) 반영이 확인된 논문만 "처리 완료" 표시 (중간에 멈춰도 다음 주 재시도)
+#   4) 매월 첫 주에는 위키 점검(lint)도 함께 실행
+#   5) 웹사이트 갱신 + GitHub 반영
 # -----------------------------------------------------------------------
-
-set -e  # 중간에 오류가 나면 즉시 멈춤
-
-# 이 스크립트 파일이 있는 폴더로 이동 (cron은 기본 폴더가 다를 수 있어 필요함)
-cd "$(dirname "$0")"
-
-mkdir -p logs
+source "$(dirname "$0")/common.sh"
 LOG_FILE="logs/$(date +%Y-%m-%d_%H-%M).log"
+trap 'notify "논문 위키 - 오류" "실행 중 오류 발생 (로그: $LOG_FILE)"' ERR
 
-echo "=== $(date) 실행 시작 ===" | tee -a "$LOG_FILE"
+log "=== $(date) 주간 실행 시작 ==="
+load_token
 
-# macOS 알림을 보내는 작은 함수 (실패해도 스크립트 전체는 계속 진행되도록 처리)
-notify() {
-    osascript -e "display notification \"$2\" with title \"$1\"" 2>/dev/null || true
-}
-
-# ── 안전장치: API 키가 실수로 설정되어 있으면 비활성화 ──
-# (구독 계정(OAuth) 대신 API 키가 있으면 그쪽으로 과금될 수 있으므로 항상 제거)
-unset ANTHROPIC_API_KEY
-
-# claude_token.txt 파일에 저장해둔 구독 인증 토큰을 불러옵니다.
-if [ -f "claude_token.txt" ]; then
-    export CLAUDE_CODE_OAUTH_TOKEN="$(cat claude_token.txt)"
-else
-    echo "오류: claude_token.txt 파일이 없습니다. README의 '완전 자동화 설정'을 먼저 진행하세요." | tee -a "$LOG_FILE"
-    notify "논문 위키 - 오류" "claude_token.txt 없음, 확인 필요"
-    exit 1
-fi
-
-# ── 1단계: 새 논문 검색 (Claude 사용 안 함, 비용 없음) ──
-echo "--- 1단계: 새 논문 검색 ---" | tee -a "$LOG_FILE"
+# ── 1단계: 새 논문 수집 ──
+log "--- 1단계: 새 논문 검색 ---"
 python3 fetch_papers.py 2>&1 | tee -a "$LOG_FILE"
 
-# ── 새 논문이 있는지 확인 ──
-HAS_NEW=$(python3 -c "
-import json
-with open('data/raw_papers.json', encoding='utf-8') as f:
-    papers = json.load(f)
-print('yes' if papers else 'no')
-")
+NEW_COUNT=$(python3 -c "import json; print(len(json.load(open('data/raw_papers.json', encoding='utf-8'))))")
+PENDING_PDFS=$(python3 pdf_tracker.py --pending-count)
+log "처리할 새 논문: ${NEW_COUNT}편 / 새 PDF: ${PENDING_PDFS}개"
 
-if [ "$HAS_NEW" = "no" ]; then
-    echo "새 논문이 없어 여기서 종료합니다." | tee -a "$LOG_FILE"
-    notify "논문 위키" "이번 주 새 논문 없음"
-    exit 0
+# ── 2단계: 위키 반영 ──
+if [ "$NEW_COUNT" -gt 0 ] || [ "$PENDING_PDFS" -gt 0 ]; then
+    log "--- 2단계: 위키 반영 (Claude Code) ---"
+    run_claude "$(cat prompts/ingest.txt)"
+    python3 fetch_papers.py --reconcile 2>&1 | tee -a "$LOG_FILE"
+    python3 pdf_tracker.py --mark-done 2>&1 | tee -a "$LOG_FILE"
+else
+    log "새 논문·PDF 없음 — 위키 반영 단계 건너뜀"
 fi
 
-# ── 2단계: Claude Code(headless)로 요약 생성 ──
-echo "--- 2단계: 요약 생성 (Claude Code) ---" | tee -a "$LOG_FILE"
-claude -p "$(cat summarize_prompt.txt)" \
-    --allowedTools "Read,Write,Edit" \
-    --permission-mode acceptEdits \
-    2>&1 | tee -a "$LOG_FILE"
+# ── 3단계: 매월 첫 주 점검 ──
+THIS_MONTH=$(date +%Y-%m)
+LAST_LINT=$(cat data/last_lint.txt 2>/dev/null || echo "")
+if [ "$((10#$(date +%d)))" -le 7 ] && [ "$LAST_LINT" != "$THIS_MONTH" ]; then
+    log "--- 3단계: 월간 위키 점검 ---"
+    run_claude "$(cat prompts/lint.txt)"
+    echo "$THIS_MONTH" > data/last_lint.txt
+    LINT_NOTE=" · 월간 점검 완료"
+else
+    LINT_NOTE=""
+fi
 
-# ── 웹사이트 파일을 최신 데이터로 다시 생성 (서버 없이 더블클릭으로 열 수 있게) ──
-echo "--- 웹사이트 파일 갱신 ---" | tee -a "$LOG_FILE"
+# ── 4단계: 웹사이트 갱신 + GitHub ──
+log "--- 웹사이트 갱신 ---"
 python3 build_site.py 2>&1 | tee -a "$LOG_FILE"
+git_sync "주간 위키 업데이트 $(date +%Y-%m-%d)"
 
-# ── 3단계 (선택): 웹사이트 공유용 GitHub에 자동 반영 ──
-# GitHub 원격 저장소(origin)가 실제로 연결되어 있을 때만 실행됩니다.
-# (연결 안 했다면 이 프로젝트는 계속 로컬 전용으로만 동작하며, 이 단계는 조용히 건너뜁니다.)
-if git remote get-url origin > /dev/null 2>&1; then
-    echo "--- 3단계: GitHub에 새 내용 반영 (공유용 웹사이트 갱신) ---" | tee -a "$LOG_FILE"
-    git add data/papers.json obsidian_notes/ website/index.html 2>&1 | tee -a "$LOG_FILE"
-    if ! git diff --cached --quiet; then
-        git commit -m "주간 논문 업데이트 $(date +%Y-%m-%d)" 2>&1 | tee -a "$LOG_FILE"
-        git push 2>&1 | tee -a "$LOG_FILE"
-    else
-        echo "새로 반영할 변경 사항이 없습니다." | tee -a "$LOG_FILE"
-    fi
-fi
-
-echo "=== $(date) 실행 완료 ===" | tee -a "$LOG_FILE"
-
-PAPER_COUNT=$(python3 -c "
-import json
-with open('data/raw_papers.json', encoding='utf-8') as f:
-    print(len(json.load(f)))
-")
-notify "논문 위키" "논문 ${PAPER_COUNT}편 처리 완료 - 위키·아카이브 갱신됨"
+log "=== $(date) 실행 완료 ==="
+notify "논문 위키" "새 논문 ${NEW_COUNT}편 확인${LINT_NOTE} (자세한 내용: obsidian_notes/log.md)"

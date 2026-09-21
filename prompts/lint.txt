@@ -1,0 +1,4 @@
+CLAUDE.md를 먼저 읽고, "워크플로우 D — 점검"을 수행해줘.
+기계적인 문제는 바로 고치고, 판단이 필요한 구조 변경은 obsidian_notes/lint-report.md 에 제안으로 남겨줘.
+data/papers.json, data/topics.json, website/, raw/ 는 건드리지 마.
+끝나면 고친 것과 제안한 것을 한두 줄로 요약해줘.

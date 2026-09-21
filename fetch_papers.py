@@ -1,223 +1,255 @@
 # -----------------------------------------------------------------------
-# fetch_papers.py
+# fetch_papers.py  (v2)
 #
-# 이 파일이 하는 일 (초보자를 위한 설명):
-#   1. PubMed(의학/수의학 논문 검색 사이트)에 "이런 키워드가 들어간
-#      논문 있어?"라고 물어봅니다 (esearch).
-#   2. 검색된 논문들의 자세한 정보(제목, 초록, 저자, 저널명, 날짜)를
-#      받아옵니다 (efetch).
-#   3. 이미 예전에 가져온 논문은 건너뛰고, "새로운" 논문만
-#      data/raw_papers.json 파일에 저장합니다.
+# 이 파일이 하는 일:
+#   1. PubMed에서 config.py 조건에 맞는 논문을 "최근 등록된 날짜" 기준으로 찾습니다.
+#   2. 아직 처리하지 않은 논문만 골라 상세 정보(초록, 논문 유형, MeSH 등)를 받습니다.
+#   3. 원자료를 raw/pubmed/{pmid}.json 에 영구 보관하고 (절대 덮어쓰지 않음),
+#      이번 실행분 목록을 data/raw_papers.json 에 저장합니다.
 #
-# PubMed API는 무료이며 별도 키(key) 없이도 사용할 수 있습니다.
+# "처리 완료" 표시는 여기서 하지 않습니다. Claude가 위키에 실제로 반영했거나
+# 의도적으로 건너뛴 것이 확인된 뒤에(--reconcile) 표시합니다. 그래서 중간에
+# 사용량 한도나 오류로 멈춰도, 남은 논문은 다음 실행 때 다시 처리됩니다.
+#
+# 사용법:
+#   python3 fetch_papers.py              새 논문 수집 (run_weekly.sh가 자동 실행)
+#   python3 fetch_papers.py --dry-run    저장 없이 검색 결과 수만 확인 (조건 테스트용)
+#   python3 fetch_papers.py --reconcile  위키 반영이 끝난 논문을 "처리 완료"로 표시
+#   python3 fetch_papers.py --backfill   기존 위키 논문들의 원자료를 raw/에 채워넣기 (1회용)
 # -----------------------------------------------------------------------
 
-import requests
-import xml.etree.ElementTree as ET
 import json
 import os
+import sys
 import time
-from datetime import datetime, timedelta
+import xml.etree.ElementTree as ET
+
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 import config
+from wiki_utils import iter_paper_pages, processed_pmids
 
-# PubMed API의 기본 주소 (이 사이트에 요청을 보냅니다)
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
-
-# 이미 처리한 논문의 PMID(PubMed 고유 번호)를 기록해두는 파일
 SEEN_IDS_PATH = os.path.join(config.DATA_DIR, "seen_ids.json")
 RAW_PAPERS_PATH = os.path.join(config.DATA_DIR, "raw_papers.json")
+RAW_PUBMED_DIR = os.path.join(config.RAW_DIR, "pubmed")
 
+
+def _build_session():
+    """PubMed가 느리거나 일시적으로 실패할 때 2·4·8초 간격으로 최대 3번 재시도."""
+    session = requests.Session()
+    retry = Retry(total=3, backoff_factor=2,
+                  status_forcelist=[429, 500, 502, 503, 504],
+                  allowed_methods=["GET", "POST"])
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    return session
+
+
+SESSION = _build_session()
+
+
+# ── 처리 기록 ───────────────────────────────────────────────────────────
 
 def load_seen_ids():
-    """예전에 이미 가져온 논문 번호 목록을 불러옵니다."""
     if not os.path.exists(SEEN_IDS_PATH):
         return set()
     with open(SEEN_IDS_PATH, "r", encoding="utf-8") as f:
-        return set(json.load(f))
+        return set(str(x) for x in json.load(f))
 
 
 def save_seen_ids(seen_ids):
-    """이번에 처리한 논문 번호까지 포함해서 저장해둡니다."""
     os.makedirs(config.DATA_DIR, exist_ok=True)
     with open(SEEN_IDS_PATH, "w", encoding="utf-8") as f:
         json.dump(sorted(seen_ids), f, ensure_ascii=False, indent=2)
 
 
+# ── 검색 ───────────────────────────────────────────────────────────────
+
 def build_query():
-    """
-    config.py에 적힌 키워드를 PubMed가 이해할 수 있는 검색어 형태로 조립합니다.
-
-    조건:
-    - (제목/초록에 KEYWORDS 중 하나가 포함되거나, FULL_COVERAGE_JOURNALS에
-      있는 저널에 실린 논문) 이면서
-    - EXCLUDE_SPECIES에 있는 단어가 제목/초록에 하나도 없어야 함
-      (말/소/돼지 등 대동물·산업동물 논문을 걸러내기 위함)
-    """
-    keyword_part = " OR ".join(f'"{k}"[Title/Abstract]' for k in config.KEYWORDS)
-    date_query = f'("last {config.DAYS_BACK} days"[PDat])'
-
-    topic_query = f"({keyword_part})"
-
+    imaging = " OR ".join(config.IMAGING_TERMS)
     if config.FULL_COVERAGE_JOURNALS:
-        journal_part = " OR ".join(
-            f'"{j}"[Journal]' for j in config.FULL_COVERAGE_JOURNALS
-        )
-        topic_query = f"(({keyword_part}) OR ({journal_part}))"
-
-    query = f"{topic_query} AND {date_query}"
-
-    if config.EXCLUDE_SPECIES:
-        exclude_part = " OR ".join(
-            f'"{s}"[Title/Abstract]' for s in config.EXCLUDE_SPECIES
-        )
-        query = f"{query} NOT ({exclude_part})"
-
-    return query
+        imaging += " OR " + " OR ".join(f'"{j}"[Journal]' for j in config.FULL_COVERAGE_JOURNALS)
+    species = " OR ".join(config.SPECIES_TERMS)
+    vet = " OR ".join(config.VET_CONTEXT_TERMS + [f'"{j}"[Journal]' for j in config.VET_JOURNALS])
+    return f"({imaging}) AND ({species}) AND ({vet})"
 
 
 def search_pmids(query):
-    """
-    1단계: 검색어에 맞는 논문들의 PMID(고유 번호) 목록을 받아옵니다.
-
-    PubMed는 한 번 요청에 최대 100개 정도까지만 돌려주기 때문에, 결과가
-    그보다 많으면 페이지를 넘겨가며(retstart를 늘려가며) 계속 요청해서
-    config.MAX_RESULTS에 도달하거나 더 이상 결과가 없을 때까지 전부 모읍니다.
-    (예전 버전은 첫 페이지만 가져오고 끝내서, 검색 결과가 30편을 넘으면
-    나머지는 조용히 누락됐습니다 — 이제는 안 그렇습니다.)
-    """
-    page_size = 100
-    all_pmids = []
-    retstart = 0
-
-    while len(all_pmids) < config.MAX_RESULTS:
+    """조건에 맞는 PMID를 전부 받아옵니다 (번호만이라 가볍습니다)."""
+    page_size = 1000
+    all_ids, retstart = [], 0
+    while True:
         params = {
-            "db": "pubmed",
-            "term": query,
-            "retmax": min(page_size, config.MAX_RESULTS - len(all_pmids)),
-            "retstart": retstart,
-            "retmode": "json",
-            "sort": "pub_date",
+            "db": "pubmed", "term": query,
+            "datetype": "edat", "reldate": config.DAYS_BACK,   # PubMed 등록일 기준
+            "retmax": page_size, "retstart": retstart,
+            "retmode": "json", "sort": "pub_date",
         }
-        response = requests.get(f"{BASE_URL}/esearch.fcgi", params=params, timeout=30)
+        response = SESSION.post(f"{BASE_URL}/esearch.fcgi", data=params, timeout=60)
         response.raise_for_status()
-        data = response.json()
-        page_ids = data.get("esearchresult", {}).get("idlist", [])
-
-        all_pmids.extend(page_ids)
-
-        if len(page_ids) < page_size:
-            break  # 마지막 페이지까지 다 가져온 것
-
+        result = response.json().get("esearchresult", {})
+        ids = result.get("idlist", [])
+        all_ids.extend(ids)
+        total = int(result.get("count", 0))
         retstart += page_size
-        time.sleep(0.4)  # PubMed 서버에 너무 빠르게 연속 요청하지 않도록
-
-    return all_pmids
-
-
-def fetch_details(pmids):
-    """2단계: PMID 목록을 가지고 각 논문의 제목/초록/저자 등 상세 정보를 받아옵니다."""
-    if not pmids:
-        return []
-
-    params = {
-        "db": "pubmed",
-        "id": ",".join(pmids),
-        "retmode": "xml",
-    }
-    response = requests.get(f"{BASE_URL}/efetch.fcgi", params=params, timeout=30)
-    response.raise_for_status()
-
-    root = ET.fromstring(response.text)
-    papers = []
-
-    for article in root.findall(".//PubmedArticle"):
-        papers.append(_parse_article(article))
-
-    return papers
+        if not ids or retstart >= total:
+            break
+        time.sleep(0.4)
+    return all_ids
 
 
-def _text_or_empty(element, path):
-    """XML에서 특정 값을 안전하게 꺼내는 도우미 함수 (값이 없으면 빈 문자열)."""
+# ── 상세 정보 ──────────────────────────────────────────────────────────
+
+def _text(element, path):
     found = element.find(path)
-    return found.text if found is not None and found.text else ""
+    return "".join(found.itertext()).strip() if found is not None else ""
 
 
 def _parse_article(article):
-    """PubMed가 돌려주는 XML 한 편 분량을 우리가 쓰기 쉬운 딕셔너리로 변환합니다."""
-    pmid = _text_or_empty(article, ".//PMID")
-    title = _text_or_empty(article, ".//ArticleTitle")
-    journal = _text_or_empty(article, ".//Journal/Title")
+    pmid = _text(article, ".//PMID")
 
-    # 초록은 여러 문단(AbstractText)으로 나뉘어 있을 수 있어 모두 이어붙입니다.
-    abstract_parts = [
-        el.text for el in article.findall(".//Abstract/AbstractText") if el.text
-    ]
-    abstract = " ".join(abstract_parts)
+    abstract_parts = []
+    for el in article.findall(".//Abstract/AbstractText"):
+        label = el.get("Label")
+        content = "".join(el.itertext()).strip()
+        if content:
+            abstract_parts.append(f"{label}: {content}" if label else content)
 
     authors = []
     for author in article.findall(".//AuthorList/Author"):
-        last = _text_or_empty(author, "LastName")
-        fore = _text_or_empty(author, "ForeName")
+        last, fore = _text(author, "LastName"), _text(author, "ForeName")
         if last:
             authors.append(f"{fore} {last}".strip())
 
-    year = _text_or_empty(article, ".//PubDate/Year")
+    year = _text(article, ".//JournalIssue/PubDate/Year") or _text(article, ".//ArticleDate/Year")
     doi = ""
     for id_el in article.findall(".//ArticleIdList/ArticleId"):
         if id_el.get("IdType") == "doi":
-            doi = id_el.text
+            doi = (id_el.text or "").strip()
 
     return {
         "pmid": pmid,
-        "title": title,
-        "journal": journal,
-        "abstract": abstract,
-        "authors": authors,
+        "title": _text(article, ".//ArticleTitle"),
+        "journal": _text(article, ".//Journal/Title"),
         "year": year,
+        "authors": authors,
         "doi": doi,
         "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+        "abstract": "\n\n".join(abstract_parts),
+        # 연구 유형 판단에 도움이 되는 PubMed 공식 분류 (예: Review, Case Reports)
+        "publication_types": [pt.text for pt in article.findall(".//PublicationTypeList/PublicationType") if pt.text],
+        "mesh_terms": [d.text for d in article.findall(".//MeshHeadingList/MeshHeading/DescriptorName") if d.text],
+        "keywords": [k.text for k in article.findall(".//KeywordList/Keyword") if k.text],
+        "fetched_on": time.strftime("%Y-%m-%d"),
     }
 
 
-def fetch_new_papers():
-    """
-    이 스크립트의 메인 기능입니다.
-    새로운 논문만 골라서 data/raw_papers.json 에 저장하고,
-    몇 편을 새로 찾았는지 알려줍니다.
-    """
-    print("PubMed에서 최근 논문을 검색하는 중...")
-    query = build_query()
-    pmids = search_pmids(query)
-    print(f"검색된 논문 수: {len(pmids)}편")
+def fetch_details(pmids):
+    papers = []
+    for i in range(0, len(pmids), 100):
+        chunk = pmids[i:i + 100]
+        response = SESSION.post(f"{BASE_URL}/efetch.fcgi",
+                                data={"db": "pubmed", "id": ",".join(chunk), "retmode": "xml"},
+                                timeout=60)
+        response.raise_for_status()
+        root = ET.fromstring(response.content)
+        papers.extend(_parse_article(a) for a in root.findall(".//PubmedArticle"))
+        time.sleep(0.4)
+    return papers
 
-    seen_ids = load_seen_ids()
-    new_pmids = [pid for pid in pmids if pid not in seen_ids]
 
-    if not new_pmids:
-        print("새로운 논문이 없습니다. (이미 다 처리된 논문들입니다)")
-        # 자동화 스크립트가 "이번엔 새 논문 없음"을 파일만 보고도 알 수 있도록
-        # 빈 목록으로 덮어써 둡니다 (지난 실행 결과가 남아있지 않도록).
-        os.makedirs(config.DATA_DIR, exist_ok=True)
-        with open(RAW_PAPERS_PATH, "w", encoding="utf-8") as f:
-            json.dump([], f, ensure_ascii=False, indent=2)
-        return []
+def archive_raw(papers):
+    """원자료 층: 논문마다 raw/pubmed/{pmid}.json 을 한 번만 저장 (덮어쓰지 않음)."""
+    os.makedirs(RAW_PUBMED_DIR, exist_ok=True)
+    for p in papers:
+        path = os.path.join(RAW_PUBMED_DIR, f"{p['pmid']}.json")
+        if not os.path.exists(path):
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(p, f, ensure_ascii=False, indent=2)
 
-    print(f"새로 발견된 논문: {len(new_pmids)}편. 상세 정보를 가져오는 중...")
-    # PubMed 서버에 너무 빠르게 요청하지 않도록 잠깐 쉬어줍니다.
-    time.sleep(0.5)
-    papers = fetch_details(new_pmids)
 
+def write_batch(papers):
     os.makedirs(config.DATA_DIR, exist_ok=True)
     with open(RAW_PAPERS_PATH, "w", encoding="utf-8") as f:
         json.dump(papers, f, ensure_ascii=False, indent=2)
 
-    seen_ids.update(new_pmids)
-    save_seen_ids(seen_ids)
 
-    print(f"완료: {RAW_PAPERS_PATH} 에 {len(papers)}편 저장했습니다.")
+# ── 동작 모드 ──────────────────────────────────────────────────────────
+
+def fetch_new_papers(dry_run=False):
+    print(f"PubMed 검색 중 (최근 {config.DAYS_BACK}일 등록분)...")
+    pmids = search_pmids(build_query())
+    print(f"검색된 논문 수: {len(pmids)}편")
+
+    done = load_seen_ids() | processed_pmids()
+    new_pmids = [p for p in pmids if p not in done]
+    print(f"아직 처리 안 된 논문: {len(new_pmids)}편")
+
+    if dry_run:
+        print("(--dry-run: 저장하지 않고 종료)")
+        return []
+
+    if len(new_pmids) > config.MAX_RESULTS:
+        print(f"이번 실행은 {config.MAX_RESULTS}편만 넘기고, 나머지 "
+              f"{len(new_pmids) - config.MAX_RESULTS}편은 다음 실행 때 처리합니다.")
+        new_pmids = new_pmids[:config.MAX_RESULTS]
+
+    if not new_pmids:
+        write_batch([])
+        print("새로운 논문이 없습니다.")
+        return []
+
+    papers = fetch_details(new_pmids)
+    archive_raw(papers)
+    write_batch(papers)
+    print(f"완료: {len(papers)}편을 raw/pubmed/ 에 보관하고 이번 처리 목록에 올렸습니다.")
     return papers
 
 
+def reconcile():
+    """이번 처리 목록 중 위키에 반영됐거나 건너뛴 것이 확인된 논문만 '처리 완료'로 표시."""
+    if not os.path.exists(RAW_PAPERS_PATH):
+        return
+    with open(RAW_PAPERS_PATH, "r", encoding="utf-8") as f:
+        batch = [str(p["pmid"]) for p in json.load(f)]
+    done = processed_pmids()
+    seen = load_seen_ids()
+    finished = [p for p in batch if p in done]
+    unfinished = [p for p in batch if p not in done]
+    seen.update(finished)
+    save_seen_ids(seen)
+    print(f"처리 확인: {len(finished)}편 완료 표시"
+          + (f", {len(unfinished)}편은 미처리로 남겨 다음 실행 때 재시도" if unfinished else ""))
+
+
+def backfill():
+    """기존 위키 논문들의 원자료를 raw/pubmed/ 에 채워넣습니다 (v2 이전 1회용)."""
+    pmids = set()
+    for _, meta, _ in iter_paper_pages() or []:
+        if meta.get("pmid"):
+            pmids.add(str(meta["pmid"]))
+    papers_json = os.path.join(config.DATA_DIR, "papers.json")
+    if os.path.exists(papers_json):
+        with open(papers_json, "r", encoding="utf-8") as f:
+            pmids.update(str(p["pmid"]) for p in json.load(f) if p.get("pmid"))
+    missing = [p for p in sorted(pmids)
+               if not os.path.exists(os.path.join(RAW_PUBMED_DIR, f"{p}.json"))]
+    if not missing:
+        print("채워넣을 원자료가 없습니다.")
+        return
+    papers = fetch_details(missing)
+    archive_raw(papers)
+    print(f"원자료 {len(papers)}편을 raw/pubmed/ 에 보관했습니다.")
+
+
 if __name__ == "__main__":
-    fetch_new_papers()
+    args = sys.argv[1:]
+    if "--reconcile" in args:
+        reconcile()
+    elif "--backfill" in args:
+        backfill()
+    else:
+        fetch_new_papers(dry_run="--dry-run" in args)

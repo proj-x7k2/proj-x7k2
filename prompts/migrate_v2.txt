@@ -1,0 +1,30 @@
+이 위키를 v1 형식에서 v2 형식으로 한 번에 전환하는 작업이야. 먼저 CLAUDE.md(v2 스키마)를 꼼꼼히 읽어줘.
+기존 요약 내용은 최대한 보존하고, 형식과 구조만 v2에 맞게 바꾸는 게 목표야.
+
+1. 논문 페이지 (obsidian_notes/papers/*.md) 전부:
+   - pmid는 본문의 PubMed 링크나 data/papers.json 에서 찾고, raw/pubmed/{pmid}.json 원자료를 참고해
+     CLAUDE.md의 "논문 페이지 형식"대로 맨 위 메타데이터(---)를 채워줘. 통제 어휘만 사용.
+   - 본문도 v2 형식으로: 제목 아래 요약 줄, 관련 주제 링크, 국문 요약·English summary·임상 시사점은
+     기존 내용 유지(전문 용어 영어 원어 원칙에 어긋나면 그 부분만 수정), "연구 설계와 한계" 섹션 새로 추가,
+     본문 속 #태그 줄은 삭제(태그는 메타데이터로 이동), 원문 초록 유지.
+   - 파일명을 {year}-{pmid}-{short-slug}.md 로 바꿔줘: 새 파일을 만들고 옛 파일은 rm 으로 삭제.
+   - evidence_basis는 "abstract", added_on은 data/papers.json 의 값(없으면 2026-09-13).
+
+2. 주제 페이지 (obsidian_notes/topics/*.md)를 v2 주제 체계로 재편:
+   - ai-veterinary-imaging → ai-imaging
+   - ct-dose-estimation → imaging-technique-safety (### CT 방사선 선량 추정 소제목으로)
+   - conscious-imaging-restraint → sedation-restraint-imaging (### 토끼 CT의 물리적 보정 소제목으로)
+   - forensic-imaging → trauma-forensic-imaging
+   - 새 파일은 "주제 페이지 형식"대로 (메타데이터, 근거 표기 포함한 종합, 남은 질문, 관련 논문).
+     기존 종합 문장은 살리되 각 주장에 ([[papers/...|저자 연도]]; 연구 유형, n=) 근거 표기를 추가.
+   - 옛 주제 파일은 rm 으로 삭제.
+
+3. 모든 [[링크]]를 새 파일명·새 주제 slug로 갱신해서 끊어진 링크가 없게 해줘.
+
+4. obsidian_notes/overview.md 를 v2 형식(주요 주제 + 논문 수, 질의 기록)으로 다시 만들고,
+   기존 "최근 업데이트" 기록은 obsidian_notes/log.md 로 옮겨줘 (최신순). log.md 맨 위에
+   "## (오늘 날짜) v2 전환" 기록을 추가해줘.
+
+5. data/papers.json, data/topics.json, website/, raw/ 는 건드리지 마 (스크립트가 자동 생성함).
+
+끝나면 바뀐 파일 목록과, 확인이 필요한 부분이 있으면 알려줘.

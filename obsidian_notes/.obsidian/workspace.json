@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f0c09b7a67ebe950",
+        "id": "a532671bc92f7cb7",
         "type": "tabs",
         "children": [
           {
-            "id": "ebbde7f0a376141f",
+            "id": "dde4f6c0cabda2aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "papers/2026-patient-dimensions-from-a-single-ct-image-provide-a-clinically-practical-and-accurate-method-for-dose-estimation-in-canine-abdominal-ct-imaging.md",
+                "file": "overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-patient-dimensions-from-a-single-ct-image-provide-a-clinically-practical-and-accurate-method-for-dose-estimation-in-canine-abdominal-ct-imaging"
+              "title": "overview"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "overview.md",
+                "file": "papers/2026-diagnostic-imaging-findings-in-animal-abuse-cases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,12 +170,12 @@
               "title": "개요"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,18 +188,18 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "ebbde7f0a376141f",
+  "active": "dde4f6c0cabda2aa",
   "lastOpenFiles": [
+    "topics/forensic-imaging.md",
+    "topics/ct-dose-estimation.md",
+    "topics/conscious-imaging-restraint.md",
+    "topics/ai-veterinary-imaging.md",
     "papers/2026-diagnostic-imaging-findings-in-animal-abuse-cases.md",
     "papers/2026-bunny-burrito-restraint-for-computed-tomography-in-conscious-rabbits-an-effective-alternative.md",
     "papers/2026-bibliometric-analysis-of-artificial-intelligence-use-in-small-animal-thoracic-radiography.md",
     "papers/2026-artificial-intelligence-assisted-interpretation-of-veterinary-radiographs-opportunities-risks-and-best-practices-for-clinicians.md",
     "overview.md",
-    "topics/forensic-imaging.md",
-    "topics/conscious-imaging-restraint.md",
-    "topics/ai-veterinary-imaging.md",
-    "topics/ct-dose-estimation.md",
-    "topics/ct-dose-estimation.md.tmp.53668.6d70739090cb",
-    "papers/2026-patient-dimensions-from-a-single-ct-image-provide-a-clinically-practical-and-accurate-method-for-dose-estimation-in-canine-abdominal-ct-imaging.md"
+    "papers/2026-patient-dimensions-from-a-single-ct-image-provide-a-clinically-practical-and-accurate-method-for-dose-estimation-in-canine-abdominal-ct-imaging.md",
+    "topics/ct-dose-estimation.md.tmp.53668.6d70739090cb"
   ]
 }

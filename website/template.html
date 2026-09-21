@@ -256,6 +256,27 @@
     margin-bottom: 14px;
   }
 
+  .sub-heading {
+    font-size: 15.5px;
+    font-weight: 600;
+    margin: 18px 0 6px;
+    color: var(--ink);
+  }
+
+  .study-badge.fulltext {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+
+  .open-box {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-tint);
+    padding: 10px 14px;
+    font-size: 14.5px;
+    border-radius: 0 6px 6px 0;
+    margin-bottom: 14px;
+  }
+
   .conflict-box {
     border-left: 3px solid var(--amber);
     background: var(--amber-tint);
@@ -301,7 +322,7 @@
 
   <div id="papersView">
     <div class="search-row">
-      <input id="searchBox" type="text" placeholder="제목, 저널, 키워드로 검색...">
+      <input id="searchBox" type="text" placeholder="제목, 저널, 요약, 키워드로 검색...">
     </div>
 
     <div class="topic-row-wrap" id="topicRowWrap">
@@ -412,14 +433,21 @@
   }
 
   function mdToHtml(text) {
-    // 아주 가벼운 마크다운 변환: 줄바꿈과 **굵게**만 처리합니다.
+    // 가벼운 마크다운 변환: ### 소제목, **굵게**, [[위키 링크]], 목록, 줄바꿈
     const escaped = text
       .replace(/&/g, "&amp;")
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;");
     return escaped
+      .replace(/\[\[[^\]|]*\|([^\]]+)\]\]/g, "$1")                 // [[경로|별칭]] → 별칭
+      .replace(/\[\[(?:[^\]]*\/)?([^\]]+)\]\]/g, "$1")             // [[경로/이름]] → 이름
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\n/g, "<br>");
+      .replace(/^###\s+(.+)$/gm, '<h3 class="sub-heading">$1</h3>')
+      .replace(/^-\s+(.+)$/gm, "• $1")
+      .replace(/\n{2,}/g, "<br><br>")
+      .replace(/\n/g, "<br>")
+      .replace(/(<\/h3>)(<br>)+/g, "$1")
+      .replace(/(<br>)+(<h3)/g, "$2");
   }
 
   function renderTopics() {
@@ -439,6 +467,7 @@
         <div class="topic-count">관련 논문 ${t.paper_count}편</div>
         ${isMeaningfulText(t.synthesis) ? `<div class="topic-synthesis">${mdToHtml(t.synthesis)}</div>` : ""}
         ${isMeaningfulText(t.conflicting_evidence) ? `<div class="conflict-box"><strong>상충되는 근거</strong><br>${mdToHtml(t.conflicting_evidence)}</div>` : ""}
+        ${isMeaningfulText(t.open_questions) ? `<div class="open-box"><strong>남은 질문</strong><br>${mdToHtml(t.open_questions)}</div>` : ""}
         ${(t.related_papers || []).length > 0 ? `<ul class="related-list">${t.related_papers.map(p => `<li>${p}</li>`).join("")}</ul>` : ""}
       </article>
     `).join("");
@@ -450,6 +479,8 @@
       const matchesQuery = !query ||
         p.title.toLowerCase().includes(query) ||
         p.journal.toLowerCase().includes(query) ||
+        (p.summary_ko || "").toLowerCase().includes(query) ||
+        (p.summary_en || "").toLowerCase().includes(query) ||
         (p.tags || []).some(t => t.toLowerCase().includes(query));
       return matchesTag && matchesQuery;
     });
@@ -466,7 +497,7 @@
 
     list.innerHTML = filtered.map(p => `
       <article class="entry">
-        <div class="entry-meta">${p.journal} · ${p.year} · ${(p.authors || []).join(", ")}${p.study_type ? `<span class="study-badge">${p.study_type}</span>` : ""}</div>
+        <div class="entry-meta">${p.journal} · ${p.year} · ${(p.authors || []).join(", ")}${p.study_type ? `<span class="study-badge">${p.study_type}${p.sample_size ? `, n=${p.sample_size}` : ""}</span>` : ""}${p.evidence_basis === "fulltext" ? `<span class="study-badge fulltext">전문 검토</span>` : ""}</div>
         <h2><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></h2>
         ${p.summary_ko ? `<div class="summary-ko">${p.summary_ko}</div>` : ""}
         ${p.summary_en ? `<div class="summary-en">${p.summary_en}</div>` : ""}
