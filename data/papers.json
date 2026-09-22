@@ -1,5 +1,526 @@
 [
   {
+    "pmid": "42767266",
+    "title": "Zurich Mini Cementless Total Hip Replacement in Cats: Specific Considerations and Short-Term Outcomes in 11 Cats (17 Hips).",
+    "journal": "Veterinary and comparative orthopaedics and traumatology : V.C.O.T",
+    "year": "2026",
+    "authors": [
+      "Bertrand Vedrine"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42767266/",
+    "doi": "10.1055/a-2956-0882",
+    "study_type": "후향적 연구",
+    "sample_size": "11",
+    "evidence_basis": "abstract",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "radiography",
+      "fluoroscopy"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "cat",
+      "radiography",
+      "fluoroscopy",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "고양이는 acetabular retroversion 제한, femoral canal-acetabulum 크기 불일치, slipped capital femoral epiphysis(SCFE)에 따른 sclerosis 등 종 특이적 해부 특성 때문에 total hip replacement(THR)가 드물게 시행된다. 이 후향적 연구는 2022~2025년 Maine Coon 9마리·Domestic Shorthair 2마리(총 11마리, 17 hips)에서 시행한 cementless Zurich Mini THR의 임상·방사선 결과를 보고했다. 적응증은 SCFE 11례, hip dysplasia 5례, femoral neck fracture malunion 1례였다. Intraoperative fluoroscopy로 cup 위치를 최적화했으며, 수술 중 경미한 cortical fissure 2례는 예방적 cerclage wire로 안정화했다. 수술 후 femoral fracture 2례(11.8%, 그중 1례는 절단으로 이어짐)와 수술과 무관한 것으로 판단된 외상성 고관절 탈구 1례(10개월 후)가 발생했다. 8주째 남은 임플란트는 모두 통증 없이 안정적이었고 방사선상 완전~진행성 osteointegration을 보였다.",
+    "summary_en": "Total hip replacement (THR) in cats is uncommon due to species-specific anatomical features including limited acetabular retroversion, femoral canal-acetabulum size mismatch, and sclerosis secondary to slipped capital femoral epiphysis (SCFE). This retrospective study reports clinical and radiographic outcomes of 17 cementless Zurich Mini THR procedures in 11 cats (9 Maine Coons, 2 Domestic Shorthairs) performed 2022-2025, for SCFE (n=11), hip dysplasia (n=5), and femoral neck fracture malunion (n=1). Intraoperative fluoroscopy was used to optimize cup positioning. Two intraoperative cortical fissures were stabilized with prophylactic cerclage wires. Postoperative complications included two femoral fractures (11.8%, one resulting in amputation) and one traumatic hip luxation at 10 months, deemed unrelated to surgery. At 8 weeks, all remaining implants were pain-free, stable, and showed complete or advanced osteointegration on radiographs.",
+    "clinical_takeaway_ko": "SCFE나 hip dysplasia가 있는 고양이에서 THR을 고려할 때 intraoperative fluoroscopy로 cup 위치를 확인하는 것이 유용하며, 술후 방사선 추적에서 8주 시점 osteointegration 진행 여부를 통해 임플란트 안정성을 판단할 수 있다. 다만 femoral fracture(11.8%)가 드물지 않은 합병증으로 술후 방사선 평가 시 주의가 필요하다."
+  },
+  {
+    "pmid": "42765932",
+    "title": "Educational utility of a 3D-printed canine hepatic artery phantom for CT bolus tracking training.",
+    "journal": "Alternatives to laboratory animals : ATLA",
+    "year": "2026",
+    "authors": [
+      "Keonyeong Min",
+      "Dongwoo Chang",
+      "Namsoon Lee"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42765932/",
+    "doi": "10.1177/02611929261489758",
+    "study_type": "실험 연구",
+    "sample_size": "18",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT",
+      "contrast-study"
+    ],
+    "system": [
+      "hepatobiliary",
+      "technique"
+    ],
+    "topics": [
+      "imaging-technique-safety"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "contrast-study",
+      "hepatobiliary",
+      "technique"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "CT angiography(CTA)에서 bolus tracking은 습득 난이도가 높고 시간 창(temporal window)이 좁아 초심자가 숙달하기 어려운 술기다. 이 연구는 생리적 조영제 동태를 재현하는 peristaltic pump 폐회로에 결합한 3D 프린팅 개 hepatic artery 팬텀을 시뮬레이터 기반 훈련 도구로 활용해 CT bolus tracking 숙련도 향상 효과를 평가했다. 경력 수준별(A: 숙련, B: 중급, C: 초심자)로 층화된 참여자 18명이 표준화된 bolus tracking 프로토콜을 3회 반복 시행했다. B·C군에서는 총 조작 시간이 유의하게 단축된 반면 A군은 유의하지 않은 감소를 보였다. 모든 군에서 region of interest(ROI) 배치 시간이 유의하게 개선되었고, 개념 이해도·술기 자신감·해부학적 인지에 대한 주관적 평가도 유의하게 향상되었다.",
+    "summary_en": "Bolus tracking for CT angiography (CTA) has a steep learning curve and a narrow temporal window, making it challenging for novice trainees. This study evaluated a 3D-printed canine hepatic artery phantom, integrated into a closed-loop circuit with a peristaltic pump to replicate physiologic contrast kinetics, as a simulator-based training tool. Eighteen participants stratified by experience level (A: experienced, B: intermediate, C: beginner) completed three repeated trials of a standardized bolus tracking protocol. Total operation time significantly decreased in Groups B and C, while Group A showed a non-significant reduction. ROI placement time improved significantly across all groups, along with significant gains in self-reported conceptual understanding, procedural confidence, and anatomical recognition.",
+    "clinical_takeaway_ko": "CT bolus tracking을 새로 훈련하는 인턴·전공의나 테크니션에게는 3D 프린팅 hepatic artery 팬텀 기반 시뮬레이션 훈련이 실제 환자 조영 CT 촬영 전 ROI 배치·타이밍 판단 능력을 안전하게 반복 연습시키는 실무적 대안이 될 수 있다."
+  },
+  {
+    "pmid": "42765741",
+    "title": "Electroencephalography-functional magnetic resonance imaging using a familial temporal lobe epilepsy model in cats: an exploratory methodological pilot study.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Takayuki Miura",
+      "Rikako Asada",
+      "Daisuke Hasegawa"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42765741/",
+    "doi": "10.3389/fnsys.2022.934266",
+    "study_type": "실험 연구",
+    "sample_size": "10 (30 세션)",
+    "evidence_basis": "abstract",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "neuro"
+    ],
+    "topics": [
+      "neuro-imaging"
+    ],
+    "tags": [
+      "cat",
+      "MRI",
+      "neuro"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "수의영상의학에서 epileptogenic zone(EZ) 국소화를 위한 신뢰할 만한 방법은 제한적이다. 사람 의학에서는 intracranial EEG가 가장 신뢰도 높은 방법이나, 비침습적인 EEG-functional MRI(EEG-fMRI) 동시 시행이 대안으로 쓰인다. 이 연구는 amygdalo-hippocampal 침범이 시사된 familial spontaneous epilepsy(FSEC) 콜로니에서 scalp EEG상 뚜렷한 interictal epileptiform discharge를 보인 고양이 10마리를 대상으로, 각 3회씩 scalp EEG·EEG-fMRI 세션(총 30세션)을 시행해 방법론적 실행 가능성을 평가했다. Blood oxygen level-dependent(BOLD) 활성화는 모든 세션에서 exploratory threshold 수준에서는 확인되었으나 다중비교 보정 후에는 유의한 활성화가 남지 않았다. Small-volume correction(SVC) 분석에서는 30세션 중 16세션에서 amygdalo-hippocampal 활성화가 확인되었고, 군집 수준 분석에서는 좌측 parahippocampal gyrus에서 hippocampal body로 이어지는 가장 큰 cluster가 확인되었다.",
+    "summary_en": "Reliable methods for identifying the epileptogenic zone (EZ) remain limited in veterinary medicine. While intracranial EEG is considered most dependable in human medicine, noninvasive simultaneous EEG and functional MRI (EEG-fMRI) offers an alternative. This study evaluated the methodological feasibility of EEG-fMRI in 10 cats with clear interictal epileptiform discharges on scalp EEG, selected from a familial spontaneous epilepsy (FSEC) colony with previously suggested amygdalo-hippocampal involvement. Each cat underwent 3 scalp EEG and EEG-fMRI sessions (30 sessions total). Blood oxygen level-dependent (BOLD) activation was detected in all sessions at an exploratory threshold, but none survived correction for multiple comparisons. Small-volume correction (SVC) analysis identified amygdalo-hippocampal activation in 16 of 30 sessions, and group-level analysis identified the largest cluster extending from the left parahippocampal gyrus to the hippocampal body.",
+    "clinical_takeaway_ko": "EEG-fMRI가 수의영상의학에서 기술적으로 구현 가능함을 보여준 초기 방법론 연구이지만, 개체 수준의 EZ 국소화 정확도는 아직 임상 적용에 미치지 못하므로 현재로서는 실제 뇌전증 수술 후보 환자의 병변 국소화 도구로 바로 쓰기보다는 향후 연구 단계로 인식하는 것이 적절하다."
+  },
+  {
+    "pmid": "42760156",
+    "title": "Predominant mitral valve morphology in dogs at different stages of myxomatous mitral valve disease: toward a standardized nomenclature.",
+    "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+    "year": "2026",
+    "authors": [
+      "A Bentley",
+      "R C Fries",
+      "S Kadotani",
+      "C Toborowsky",
+      "E A Javery"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42760156/",
+    "doi": "10.1016/j.jvc.2026.08.004",
+    "study_type": "후향적 연구",
+    "sample_size": "1108",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "echocardiography",
+      "cardiovascular"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "개 myxomatous mitral valve disease(MMVD)는 가장 흔한 심장질환이지만 mitral valve의 형태학적 특징은 중증도 평가에 체계적으로 반영되지 않아 왔다. 이 후향적 연구는 체중 1~15kg, ACVIM stage B1(595)·B2(314)·C/D(199)로 진단된 개 1108마리의 심초음파를 재검토해, right parasternal·left apical view에서 leaflet involvement를 Barlow의 형태학적 기술과 Carpentier 분류의 leaflet motion 원리에 따라 billow, prolapse, isolated flail, prolapse with flail로 분류했다. Anterior leaflet 침범이 모든 stage에서 우세했으나 stage C/D에서는 bileaflet involvement가 증가했다. Billow 형태는 stage가 진행할수록 유의하게 감소했고(B1 79%, B2 17%, C/D 5%, P<0.001), prolapse와 isolated flail은 B2·C/D에서 B1보다 유의하게 흔했으며(P<0.001), prolapse with flail은 B1 5%→B2 25%→C/D 56%로 단계적으로 증가했다(P<0.001).",
+    "summary_en": "Myxomatous mitral valve disease (MMVD) is the most common heart disease in dogs, but morphological features of the mitral valve have not been systematically incorporated into severity assessment. This retrospective study reviewed echocardiographic studies from 1108 dogs (1-15 kg) with MMVD (ACVIM stage B1=595, B2=314, C/D=199), classifying leaflet involvement on right parasternal and left apical views as billow, prolapse, isolated flail, or prolapse with flail, based on Barlow's morphologic descriptions and Carpentier classification principles of leaflet motion. Anterior leaflet involvement predominated at all stages, though bileaflet involvement increased in stage C/D. Billow morphology decreased significantly across stages (B1: 79%; B2: 17%; C/D: 5%; P<0.001); prolapse and isolated flail were significantly more common in B2 and C/D than B1 (P<0.001); prolapse with flail increased progressively from B1 (5%) to B2 (25%) to C/D (56%) (P<0.001).",
+    "clinical_takeaway_ko": "MMVD 심초음파 판독 시 leaflet involvement 패턴(billow → prolapse → isolated flail/prolapse with flail)을 함께 기술하면, 사람 심장학의 표준화된 형태학적 분류와 정렬되는 정보로서 stage 진행·예후 논의에 참고할 수 있는 추가 소견이 된다."
+  },
+  {
+    "pmid": "42757221",
+    "title": "Hydrocolpos in a mixed-breed dog: a case report.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Christoph Leber",
+      "Thomas Rohwedder",
+      "Sina Rehbein-Manchi"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42757221/",
+    "doi": "10.25107/2474-1655.2223",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography",
+      "ultrasound",
+      "CT",
+      "contrast-study"
+    ],
+    "system": [
+      "urogenital"
+    ],
+    "topics": [
+      "urogenital-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "ultrasound",
+      "CT",
+      "contrast-study",
+      "urogenital"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "난산으로 중성화한 지 6개월 된 3.5세 잡종견이 지속적 stranguria로 내원했다. Plain abdominal radiograph에서 방광을 두측으로 밀어내고 하행결장을 압박하는 intrapelvic soft-tissue attenuating mass가 확인되었으나 복부 초음파는 결론을 내리지 못했다. CT에서 요도와 하행결장을 압박하는 tubular, hypodense structure로 병변이 확인되어 imperforate hymen, segmental vaginal aplasia, 또는 vestibulovaginal disorder에 의한 hydrocolpos로 판단했다. Vaginoscopy에서 vaginal atresia와 ostium urethrae externum을 가리는 stem-shaped mass가 확인되었고, retrograde cystography에서 폐쇄부 뒤로 현저히 확장된 요도가 관찰되었다. 최소침습적 polyp 절제·요도 확장술 후 2개월간 정상 배뇨를 보였으나 재발해, episiotomy와 hydrocolpos-vaginal mucosa 간 stoma 형성으로 영구적으로 증상이 해소되었다. 저자들은 병력상 외상성 기원의 이차성 vaginal atresia로 인한 hydrocolpos의 첫 증례로 추정했다.",
+    "summary_en": "A 3.5-year-old, 5.2-kg mixed-breed dog presented with persistent stranguria 6 months after neutering for dystocia. Plain abdominal radiographs showed an intrapelvic soft-tissue attenuating mass displacing the bladder cranially and constricting the descending colon; abdominal ultrasonography was inconclusive. CT revealed the mass as a tubular, hypodense structure compressing the urethra and descending colon, consistent with hydrocolpos from an imperforate hymen, segmental vaginal aplasia, or vestibulovaginal disorder. Vaginoscopy showed vaginal atresia with a stem-shaped mass obscuring the external urethral orifice, and retrograde cystography demonstrated a markedly dilated urethra behind the obstruction. Minimally invasive polyp resection and urethral widening gave 2 months of normal micturition before recurrence; episiotomy with evacuation of the hydrocolpos and creation of a stoma between the hydrocolpos mucosa and vaginal mucosa achieved permanent resolution. The authors propose this as the first reported case of secondary, trauma-induced vaginal atresia and resulting hydrocolpos.",
+    "clinical_takeaway_ko": "중성화·난산 병력이 있는 암컷에서 지속적 stranguria와 골반강 내 관상(tubular) 연부조직 병변이 보일 때, 초음파만으로 결론이 나지 않으면 CT로 병변의 관상 구조와 요도·결장 압박 관계를 확인하고 vaginoscopy·retrograde cystography로 폐쇄 부위를 국소화하는 단계적 접근이 진단에 도움이 될 수 있다."
+  },
+  {
+    "pmid": "42750099",
+    "title": "Difference in Collection Times, Blood Gas Variables, and Atelectasis Between Two Arterial Sampling Methods in Dogs.",
+    "journal": "Journal of veterinary emergency and critical care (San Antonio, Tex. : 2001)",
+    "year": "2026",
+    "authors": [
+      "Kento Sakai",
+      "Seijirow Goya",
+      "Chieko Ishikawa",
+      "Naoko Shiozawa",
+      "Tomohiro Nakayama"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42750099/",
+    "doi": "10.1111/vec.70171",
+    "study_type": "실험 연구",
+    "sample_size": "8",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "thorax",
+      "technique",
+      "sedation-restraint"
+    ],
+    "topics": [
+      "imaging-technique-safety"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "thorax",
+      "technique",
+      "sedation-restraint"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "건강한 Beagle 개 8마리를 대상으로 femoral artery(FA, lateral recumbency)와 dorsal pedal artery(DPA, sternal recumbency) 두 동맥혈 채혈법이 채혈 시간, 혈액가스 변수, 이후 시행한 thoracic CT상 atelectasis에 미치는 영향을 비교한 단일맹검 crossover 연구다. DPA 채혈 시간(중앙값 47.5초)이 FA(94.5초)보다 유의하게 짧았고(p=0.0156), 혈액가스 변수는 두 방법 간 차이가 없었다. FA 방법(lateral recumbency 필요)을 이용한 경우 cranial·middle·caudal lung lobe 모두에서 CT 상 atelectasis를 시사하는 CT 값이 DPA 방법보다 유의하게 높았다(각 p<0.01~0.0146). 저자들은 짧은 시간의 lateral recumbency만으로도 atelectasis와 연관될 수 있다고 결론지었다.",
+    "summary_en": "In this single-blind, crossover experimental study of 8 healthy Beagle dogs, femoral artery (FA, lateral recumbency) and dorsal pedal artery (DPA, sternal recumbency) blood sampling methods were compared for collection time, blood gas variables, and subsequent thoracic CT-detected atelectasis under sedation. Collection time was significantly shorter with DPA (median 47.5 s) than FA (94.5 s, p=0.0156), with no significant differences in gas variables. CT values indicating atelectasis in the cranial, middle, and caudal lung lobes were significantly higher after the FA method than the DPA method (p<0.01 to 0.0146). The authors conclude that even brief lateral recumbency during FA sampling is associated with atelectasis.",
+    "clinical_takeaway_ko": "진정 하 흉부 CT를 앞둔 개에서 동맥혈 채혈이 필요하다면, lateral recumbency가 요구되는 femoral artery보다 sternal recumbency로 시행 가능한 dorsal pedal artery 채혈을 택하는 것이 채혈 시간도 짧고 이후 CT 판독 시 체위성 atelectasis로 인한 오판 가능성도 줄일 수 있다."
+  },
+  {
+    "pmid": "42738595",
+    "title": "Standardized Minimum Number of Individuals (MNI) Enumeration and Veterinary Forensic Assessment in a Large-Scale Animal Starvation Scene: A Technical Note.",
+    "journal": "Animals : an open access journal from MDPI",
+    "year": "2026",
+    "authors": [
+      "Ah-Young Kim",
+      "BokKyung Ku",
+      "Kyunghyun Lee"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42738595/",
+    "doi": "10.1177/0300985815575049",
+    "study_type": "증례군",
+    "sample_size": "22",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog",
+      "cat"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "trauma"
+    ],
+    "topics": [
+      "trauma-forensic-imaging"
+    ],
+    "tags": [
+      "dog",
+      "cat",
+      "radiography",
+      "trauma"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "2023년 3월 한국 경기도 양평군의 한 개인 주택에서 개·고양이 1256마리가 장기간 사료·물 결핍 상태로 폐사한 대규모 동물 방임(starvation) 현장이 발견되었다. 전체 사체를 일일이 세는 것이 불가능해, 온전한(중복되지 않은) 사체 직접 계수와 분리된 두개골 계수를 결합한 표준화된 skull-based minimum number of individuals(MNI) 접근법으로 현장 전체 개체수를 산정했다. 경찰이 제출한 사체 16구와 현장에서 수거한 분리 두개골 6개, 총 22개체에 대해 postmortem radiography를 포함한 상세 법수의학 감정(전신 방사선, 전체 부검, 독성 검사)을 시행했다. 사체 16구 중 body condition score 평가가 가능했던 5구는 모두 9점 척도에서 1~3점으로 중증~극심한 마름을 보였고, 독성 검사는 16구 전례 음성이었다. 분리 두개골 6개의 육안·방사선 검사에서 3개는 외상성 골절과 scavenging에 의한 천공, 2개는 품종 특유의 정상 개방된 fontanelle, 1개는 봉합선 관련 불명확 병변이 확인되었다.",
+    "summary_en": "In March 2023, the remains of 1256 dogs and cats were recovered from a private residence in Yangpyeong-gun, Gyeonggi-do, Republic of Korea, following prolonged deprivation of food and water. Because whole-carcass enumeration was infeasible, a standardized skull-based minimum number of individuals (MNI) approach combined direct counts of intact, non-duplicated carcasses with counts of isolated skulls to derive a scene-wide count. A representative subset of 22 specimens (16 carcasses submitted by police, 6 isolated skulls) underwent detailed forensic examination including postmortem radiography, full necropsy, and toxicological screening. Body condition scoring was possible in 5 of 16 carcasses, all scoring 1-3 on a 9-point scale (severe to extreme emaciation); toxicological screening was negative in all 16. Gross and radiographic examination of the 6 isolated skulls identified traumatic fractures and scavenging punctures in 3, breed-typical open fontanels without trauma in 2, and an indeterminate suture-associated lesion in 1.",
+    "clinical_takeaway_ko": "대규모 동물 방임·학대 현장에서 전신 사체 계수가 불가능할 때, postmortem radiography를 포함한 skull-based MNI 접근법이 실무적으로 재현 가능한 개체수 산정·증거 문서화 방법이 될 수 있으며, 분리 두개골의 방사선 소견(외상 골절 vs 품종 특유 정상 fontanelle)을 감별하는 데 방사선검사가 핵심적 역할을 한다."
+  },
+  {
+    "pmid": "42738496",
+    "title": "Computed Tomographic Findings and Clinical Manifestations of Acute Severe Hypersensitivity to a Non-Ionic Iodinated Contrast Agent in a Castrated Male Dog: A Case Report.",
+    "journal": "Animals : an open access journal from MDPI",
+    "year": "2026",
+    "authors": [
+      "Minsoo Chung",
+      "Jungmin Kwak",
+      "Kidong Eom",
+      "Jaehwan Kim"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42738496/",
+    "doi": "10.1292/jvms.16-0550",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT",
+      "contrast-study"
+    ],
+    "system": [
+      "technique"
+    ],
+    "topics": [
+      "imaging-technique-safety"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "contrast-study",
+      "technique"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "입술의 cutaneous mast cell tumor(절제연 불완전)로 전이 평가를 위해 CT를 시행한 10세 중성화 수컷 Maltese에서, non-ionic iodinated contrast 조영제 투여 후 급성 중증 과민반응이 발생한 증례다. 조영 후 2분 지연영상에서 hepatic congestion 의심, 혈관 허탈, 뚜렷한 esophageal wall edema, 강한 intestinal mucosal enhancement가 나타났고, 4분 지연영상에서는 심장 챔버·신실질 내 조영제 정체가 확산성으로 지속되며 renal excretory phase가 소실되었다. 마취 회복 중 중증 저혈압·호흡부전이 발생해 심폐소생술·epinephrine·dexamethasone으로 응급 처치했고, facial edema·hematochezia·설사·일과성 ataxia를 거쳐 dobutamine 투여로 혈압·관류가 정상화되었다. 저자들은 임상 증상이 뚜렷해지기 전 순차적 CT 영상이 조영제 유발 과민반응의 조기 영상 지표가 될 수 있다고 제안했다.",
+    "summary_en": "This case describes acute severe hypersensitivity to non-ionic iodinated contrast medium in a 10-year-old castrated male Maltese undergoing CT for metastatic evaluation of an incompletely excised cutaneous mast cell tumor. The 2-minute delayed CT scan showed suspected hepatic congestion, vascular collapse, marked esophageal wall edema, and intense intestinal mucosal contrast enhancement; the 4-minute delayed scan showed diffuse contrast stagnation within the cardiac chambers and renal parenchyma with absence of the renal excretory phase. Severe hypotension and respiratory failure developed during anesthetic recovery, managed with cardiopulmonary resuscitation, epinephrine, and dexamethasone; the dog transiently showed facial edema, hematochezia, diarrhea, and ataxia before dobutamine restored systemic blood pressure and perfusion. The authors suggest that sequential CT imaging documented evolving shock-related changes before overt clinical deterioration, potentially serving as an early imaging indicator of contrast-induced hypersensitivity.",
+    "clinical_takeaway_ko": "조영 CT 중 지연기 영상에서 esophageal wall edema, 장점막 과다조영증강, 신장 excretory phase 소실 같은 소견이 관찰되면 임상 증상이 뚜렷해지기 전이라도 조영제 과민반응·shock의 조기 신호로 의심하고 즉시 활력징후 모니터링·응급 대응 태세를 갖추는 것이 안전할 수 있다."
+  },
+  {
+    "pmid": "42735743",
+    "title": "Reference intervals and allometric scaling of echocardiographic measurements in small size growing dogs.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "Marlene Huk",
+      "Sol Arioni",
+      "Mariana Tórtora",
+      "Pablo R Batista",
+      "Daniel O Arias",
+      "Paula G Blanco"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42735743/",
+    "doi": "10.1016/j.tvjl.2026.106882",
+    "study_type": "전향적 연구",
+    "sample_size": "13",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "echocardiography",
+      "cardiovascular"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "생후 2개월, 체중 1.3~2.55kg의 소형견 순종·잡종 강아지 13마리를 대상으로 생후 첫 1.5년(2개월 간격, 이후 18개월령) 동안 신체검사·체중·심초음파 검사를 반복 시행해 형태·기능 변화를 분석한 전향적 종단 연구다. 체중은 거의 모든 심초음파 형태 변수에 영향을 미쳤으나, 기능 변수 중에는 stroke volume(SV)만 영향을 받았다. 품종 효과는 어떤 변수에서도 나타나지 않았다. 기존에 보고된 대형·중형견 기반 allometric scaling 상수는 이 소형 성장기 강아지 집단의 심초음파 변수를 정확히 예측하지 못했으며, 저자들은 소형 성장기 강아지에 특화된 allometric equation(비례상수 a, scaling exponent b)을 새로 제시했다.",
+    "summary_en": "This prospective longitudinal study followed 13 client-owned, healthy small-breed and cross-bred puppies (2 months old, 1.3-2.55 kg at enrollment) with physical examination, body weight, and echocardiographic evaluation every two months through the first year of life and again at 18 months. Body weight influenced nearly all echocardiographic morphological variables, while stroke volume (SV) was the only functional variable affected; no breed effect was found. Previously reported allometric scaling constants (derived from larger breeds) did not accurately predict echocardiographic variables in this small-breed growing population, prompting the authors to derive breed-size-specific allometric equations.",
+    "clinical_takeaway_ko": "소형 성장기 강아지의 심초음파를 판독할 때, 기존 대형·중형견 기반 allometric 참고치를 그대로 적용하면 정상을 이상으로 오판할 수 있으므로, 체중 기반 성장 단계를 고려한 소형견 특화 참고구간 사용이 권장된다."
+  },
+  {
+    "pmid": "42725102",
+    "title": "Case Report: Spinal proliferative meningitis with arachnoid diverticulum formation in a dog.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Ivo Hajek",
+      "Kaspar Matiasek",
+      "Abby Caine",
+      "Viktor Palus"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42725102/",
+    "doi": "10.3415/VCOT-16-12-0169",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "spine"
+    ],
+    "topics": [
+      "spinal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "MRI",
+      "spine"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "4세 Golden Retriever가 만성 진행성 후지 운동장애로 내원했다. 신경학적 검사에서 통증 없는 ambulatory paraparesis가 확인되었고, MRI에서 흉수(thoracic spinal cord)를 압박하는 eccentric cystic lesion이 발견되었다. 척수 감압술과 병변 절제, 척추 안정화 수술을 시행했다. 신경병리학적 검사에서 dural·arachnoid의 hypertrophic calcifying change와 lymphoplasmacytic·neutrophilic 침윤이 확인되어, arachnoid diverticulum 형성을 동반한 염증성 meningoproliferative spinal cord disorder로 진단했다. 저자들은 이것이 개에서 최초로 문서화된 증례라고 밝혔다.",
+    "summary_en": "A 4-year-old Golden Retriever presented with chronic progressive motor impairment of the pelvic limbs. Neurological examination revealed non-painful ambulatory paraparesis, and MRI detected an eccentric cystic lesion compressing the thoracic spinal cord. Surgical treatment consisted of spinal cord decompression, lesion excision, and vertebral column stabilization. Neuropathological examination showed dural and arachnoid hypertrophic calcifying changes with lymphoplasmacytic and neutrophilic infiltration. This is reported as the first documented case of an inflammatory meningoproliferative spinal cord disorder associated with arachnoid diverticulum formation in dogs.",
+    "clinical_takeaway_ko": "만성 진행성 무통성 paraparesis를 보이는 개에서 MRI상 흉수를 압박하는 eccentric cystic lesion이 확인되면, 전형적 arachnoid diverticulum/cyst 외에도 dural·arachnoid의 증식성·염증성 병변 가능성을 감별진단에 포함하고 확진을 위해 조직검사를 고려할 필요가 있다."
+  },
+  {
+    "pmid": "42724435",
+    "title": "Suspected recurrent sarcoma resembling feline injection-site sarcoma with spinal cord invasion in a cat.",
+    "journal": "JFMS open reports",
+    "year": "2026",
+    "authors": [
+      "Emily A Pope",
+      "Arin Cox",
+      "Christopher Premanandan",
+      "Kim A Selting",
+      "Laura E Selmic"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42724435/",
+    "doi": "10.5070/D328157063",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "spine",
+      "oncology"
+    ],
+    "topics": [
+      "spinal-imaging"
+    ],
+    "tags": [
+      "cat",
+      "MRI",
+      "spine",
+      "oncology"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "6세 중성화 수컷 domestic shorthair가 feline injection-site sarcoma(FISS) 의심 병변 절제 4개월 후 우측 caudodorsolateral hip의 재발성 피하 종괴로 내원했다. Advanced imaging에서 sciatic nerve·직장에 밀접하게 인접한 bilobed soft tissue mass가 확인되었다. 수술적 절제는 주변 구조로 인해 제한되었고 조직검사에서 불완전 절제연을 가진 sarcoma가 확인되어 수술 후 definitive-intent 방사선치료를 시행했다. 초기 추적 영상에서는 국소 재발 소견이 없었으나, 방사선치료 완료 약 9개월 후 진행성 골반 뒷다리 paraparesis, 대변실금, 요저류가 발생했다. MRI에서 L5부터 sacrum까지 이어지는 대형의 조영증강 extradural spinal lesion이 intramedullary invasion 의심 소견과 함께 확인되었고 lumbosacral nerve root의 뚜렷한 비후도 동반되었다. Hemilaminectomy와 척수 생검을 통한 수술적 탐색에서 원발 종양과 조직학적으로 유사한 저분화 sarcoma가 확인되었다. 추적 영상에서 진행성 질환이 확인되어 완화적 방사선치료를 시행했으나 신경학적으로 급격히 악화되어 안락사했다.",
+    "summary_en": "A 6-year-old, neutered male domestic shorthair cat was referred for a recurrent subcutaneous mass on the right caudodorsolateral hip 4 months after excision of a presumed feline injection-site sarcoma (FISS). Advanced imaging showed a bilobed soft tissue mass closely associated with the sciatic nerve and rectum. Surgical excision was limited by adjacent structures, and histopathology confirmed sarcoma with incomplete margins; definitive-intent radiation therapy followed. Follow-up imaging initially showed no local recurrence, but approximately 9 months after completing radiation therapy the cat developed progressive pelvic limb paraparesis, fecal incontinence, and urinary retention. MRI identified a large contrast-enhancing extradural spinal lesion extending from L5 to the sacrum with suspected intramedullary invasion and marked thickening of the lumbosacral nerve roots. Surgical exploration with hemilaminectomy and spinal cord biopsy revealed a poorly differentiated sarcoma histologically similar to the original tumor. Follow-up imaging confirmed progressive disease; palliative radiation was given, but the cat deteriorated neurologically and was euthanized.",
+    "clinical_takeaway_ko": "FISS 유사 fibrosarcoma를 sciatic nerve 등 주요 말초신경 인근에서 불완전 절제한 병력이 있는 고양이가 원발 부위 재발 없이 신경학적 증상(파라파레시스, 배변·배뇨 이상)으로 나타나면, perineural spread를 통한 원위부(척수) 침범 가능성을 감별진단에 포함하고 척추 MRI로 extradural·intramedullary 병변을 평가할 필요가 있다."
+  },
+  {
+    "pmid": "42722611",
+    "title": "Evaluation of the mitral-aortic velocity time integral ratio for severity assessment in dogs with myxomatous mitral valve disease.",
+    "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+    "year": "2026",
+    "authors": [
+      "S Kawai",
+      "R Suzuki",
+      "Y Mochizuki",
+      "Y Yuchi",
+      "A Kitazawa",
+      "T Teshima",
+      "H Matsumoto"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42722611/",
+    "doi": "10.1016/j.jvc.2026.08.007",
+    "study_type": "후향적 연구",
+    "sample_size": "188 (MMVD 167 + 대조군 21)",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "echocardiography",
+      "cardiovascular"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "개 myxomatous mitral valve disease(MMVD)에서 mitral regurgitation(MR) 중증도를 체중 대비 regurgitant volume(RVol/kg)으로 정량화하기는 어렵다. 사람 심장학에서 제안된 Doppler 기반 mitral-to-aortic velocity time integral(VTI) ratio(mitral inflow VTI ÷ left ventricular outflow tract VTI)를 MMVD 개 167마리와 대조군 21마리에 적용한 결과, 이 비율은 ACVIM stage가 진행할수록 증가했고(P<0.001) RVol/kg·regurgitant fraction(RF)과 강하게 상관관계를 보였으며(r=0.75 각각, P<0.001) 재현성도 높았다(intraclass correlation coefficient >0.90). 다변량 회귀에서 early diastolic transmitral velocity(E), left atrium-to-aorta ratio, RVol/kg이 이 비율의 독립적 결정 인자로 확인되었다. RF≥50%(중증 MR)를 식별하는 데 있어 이 비율은 ROC 분석상 AUC 0.89로 가장 높은 정확도를 보였다.",
+    "summary_en": "Quantitative assessment of mitral regurgitation (MR) severity in canine myxomatous mitral valve disease (MMVD), particularly regurgitant volume normalized to body weight (RVol/kg), remains challenging. This study applied a Doppler-derived mitral-to-aortic velocity time integral (VTI) ratio (mitral inflow VTI divided by left ventricular outflow tract VTI), previously proposed in human cardiology, to 167 dogs with MMVD and 21 controls. The ratio increased with ACVIM stage (P<0.001) and correlated strongly with RVol/kg and regurgitant fraction (RF) (r=0.75 each; P<0.001), with high repeatability (intraclass correlation coefficient >0.90). Multivariable regression identified early diastolic transmitral velocity (E), left atrium-to-aorta ratio, and RVol/kg as independent determinants. The ratio showed the highest accuracy for identifying severe MR (RF≥50%) on ROC analysis (AUC=0.89).",
+    "clinical_takeaway_ko": "심초음파에서 mitral inflow VTI와 left ventricular outflow tract VTI만 측정하면 계산 가능한 mitral-to-aortic VTI ratio는 재현성이 높고 RVol/kg·RF와 잘 상관하므로, MMVD 중증도 평가·congestive heart failure 위험도 판단 시 기존 지표에 추가할 수 있는 간단한 Doppler 지표로 고려할 수 있다."
+  },
+  {
+    "pmid": "42710340",
+    "title": "Cardiovascular and echocardiographic effects of propofol induction, with or without dextroketamine, in healthy premedicated rabbits: a randomized study.",
+    "journal": "Veterinary anaesthesia and analgesia",
+    "year": "2026",
+    "authors": [
+      "Luiza M Fukuzaki",
+      "Henrique Zc Sprengel",
+      "Beatriz Dcp Vila",
+      "Marlos G Sousa",
+      "Ricardo Gdc Vilani"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42710340/",
+    "doi": "10.1016/j.vaa.2026.101332",
+    "study_type": "무작위대조군연구",
+    "sample_size": "22",
+    "evidence_basis": "abstract",
+    "species": [
+      "rabbit"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular",
+      "sedation-restraint"
+    ],
+    "topics": [
+      "cardiac-imaging",
+      "sedation-restraint-imaging"
+    ],
+    "tags": [
+      "rabbit",
+      "echocardiography",
+      "cardiovascular",
+      "sedation-restraint"
+    ],
+    "added_on": "2026-09-22",
+    "summary_ko": "건강한 New Zealand white rabbit 22마리를 대상으로, dexmedetomidine·butorphanol·midazolam 전처치 후 propofol 단독(PRO군) 또는 propofol+dextroketamine(PK군)으로 마취 유도했을 때의 심혈관·심초음파 효과를 비교한 무작위·맹검 실험 연구다. Transthoracic echocardiography(TTE)로 기저치, 전처치 후, 유도 직후, 10분 후 시점에 left ventricular dimension, fractional shortening, ejection fraction, cardiac output, longitudinal systolic function 지표를 측정했다. 심박수는 시간에 따라 감소했고(p<0.001), 평균동맥압은 PRO군(76→66mmHg)이 PK군(70→65mmHg)보다 더 크게 감소해 시간 효과(p=0.035)와 group×time 상호작용(p=0.049)이 유의했다. Tricuspid annular plane systolic excursion은 뚜렷한 group×time 상호작용을 보이지 않았고(p=0.141), mitral annular plane systolic excursion도 상호작용은 유의하지 않았으나(p=0.484) PRO군에서 전반적으로 더 높은 값을 보였다(p=0.011).",
+    "summary_en": "In this randomized, blinded, experimental study of 22 healthy premedicated (dexmedetomidine, butorphanol, midazolam) New Zealand white rabbits, cardiovascular and echocardiographic effects of anesthetic induction with propofol alone (group PRO) versus propofol-dextroketamine (group PK) were compared using transthoracic echocardiography (TTE) at baseline, after premedication, immediately after induction, and 10 minutes later. Heart rate decreased over time (p<0.001). Mean arterial pressure decreased more in the PRO group (76 to 66 mmHg) than the PK group (70 to 65 mmHg), with significant time (p=0.035) and group-by-time interaction (p=0.049) effects. Tricuspid annular plane systolic excursion showed no significant group-by-time interaction (p=0.141); mitral annular plane systolic excursion also showed no significant interaction (p=0.484) despite overall higher values in the PRO group (p=0.011). Adding dextroketamine did not produce detectable treatment-related changes in conventional or longitudinal systolic function indices; both protocols preserved cardiac output and systolic function, though arterial pressure responses differed over time.",
+    "clinical_takeaway_ko": "토끼에서 심초음파를 시행하기 위해 propofol 유도를 사용할 때, dextroketamine 병용 여부와 무관하게 심수축 기능 지표(fractional shortening, ejection fraction 등)는 대체로 보존되지만, propofol 단독 유도군에서 평균동맥압 저하가 더 크게 나타날 수 있어 마취 유도 중·후 혈압 모니터링이 중요하다."
+  },
+  {
     "pmid": "42763011",
     "title": "Ultrasonographic detection of joint lesions in canine leishmaniasis caused by Leishmania infantum.",
     "journal": "Veterinary journal (London, England : 1997)",

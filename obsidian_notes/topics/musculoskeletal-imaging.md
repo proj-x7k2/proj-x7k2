@@ -1,7 +1,7 @@
 ---
 title: "근골격 영상"
 scope: "관절, 골, 근육, 골종양"
-updated: 2026-09-21
+updated: 2026-09-22
 ---
 # 근골격 영상
 
@@ -21,6 +21,9 @@ Patella fracture and dental anomaly syndrome(PADS) 고양이 126마리의 후향
 
 ### CT 기반 정량 분석과 촬영 기법
 Osteosarcoma가 있는 개 16마리의 CT 영상에서 재구성한 뼈 모델로 FEA 시뮬레이션과 머신러닝 대리모델을 결합해 골절 하중을 예측한 연구는 held-out 165건에서 평균 R²≈0.90의 예측 성능을 보였으나, proof-of-concept 단계이며 실제 임상 검증은 이루어지지 않았다 ([[papers/2026-42705596-ml-fracture-load-prediction-osteosarcoma-ct|Amirzade 2026]]; 실험 연구, n=16) — 제한적 근거. Elbow CT 촬영 자세 비교 실험에서는 lateral recumbency로 elbow를 개별 촬영하는 것이 dorsal recumbency 동시 촬영보다 signal/contrast-to-noise ratio가 유의하게 우수했고, tube current를 150mA에서 300mA로 올려도 이 차이를 보완하지 못했다 ([[papers/2026-42761083-recumbency-tube-current-canine-elbow-ct|Bellekom 2026]]; 실험 연구, n=20/40 elbow).
+
+### 고관절 치환술 후 영상 추적
+Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zurich Mini total hip replacement(THR)를 받은 고양이 11마리(17 hips)의 후향적 연구에서, intraoperative fluoroscopy로 cup 위치를 최적화했고 8주째 남은 임플란트는 모두 방사선상 완전~진행성 osteointegration을 보였다 ([[papers/2026-42767266-zurich-mini-thr-cats|Vedrine 2026]]; 후향적 연구, n=11/17 hips). 다만 femoral fracture가 11.8%에서 발생(1례 절단)해, 술후 방사선 추적 시 이 합병증에 대한 주의가 필요함을 시사했다.
 
 ## 상충되는 근거
 (아직 없음)
@@ -42,3 +45,4 @@ Osteosarcoma가 있는 개 16마리의 CT 영상에서 재구성한 뼈 모델�
 - [[papers/2026-42705596-ml-fracture-load-prediction-osteosarcoma-ct]] — CT-FEA-ML로 osteosarcoma 골절 하중 예측 (실험 연구, n=16)
 - [[papers/2026-42761083-recumbency-tube-current-canine-elbow-ct]] — lateral recumbency가 elbow CT 영상 품질에서 우수 (실험 연구, n=20/40 elbow)
 - [[papers/2026-42718565-septic-physitis-physeal-fracture-puppy]] — septic physitis에 의한 강아지 physeal fracture 첫 보고 (증례보고, n=1)
+- [[papers/2026-42767266-zurich-mini-thr-cats]] — 고양이 cementless THR 후 8주째 방사선상 osteointegration 양호, femoral fracture 11.8% (후향적 연구, n=11/17 hips)
