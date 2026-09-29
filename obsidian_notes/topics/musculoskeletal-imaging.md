@@ -1,7 +1,7 @@
 ---
 title: "근골격 영상"
 scope: "관절, 골, 근육, 골종양"
-updated: 2026-09-22
+updated: 2026-09-30
 ---
 # 근골격 영상
 
@@ -17,7 +17,7 @@ TPLO 관련 방사선 근거가 여러 편 쌓였다. Popliteus muscle을 보존
 FCI 2022년 개정 판정법(FCI22)을 기존 2006년 방법(FCI06)과 비교한 후향적 연구에서, 전체 고관절의 68.3%는 등급이 유지되었지만 Boxer에서는 29.4%가 하향, Australian Shepherd에서는 17.2%가 상향 조정되는 등 품종별로 재분류 패턴이 크게 달랐고, 재분류는 주로 기존 D등급 고관절에서 발생했다(82.4%) ([[papers/2026-42735705-fci-2022-vs-2006-hip-dysplasia-grading|Gras 2026]]; 후향적 연구, n=1318).
 
 ### 골절·골 병변의 방사선 소견
-Patella fracture and dental anomaly syndrome(PADS) 고양이 126마리의 후향적 증례군 연구에서는 patellar fracture 외에도 22.2%가 근위 tibia·fibula·pelvis 등 추가 골절을 동반했고, 일부에서 초기 stress fracture나 osteopetrosis에 합당한 골 opacity 변화가 확인되었다 ([[papers/2026-42751918-radiographic-pads-cats-femora-tibiae|Boulton 2026]]; 후향적 연구, n=126). 단일 증례보고에서는 강아지의 급성 비체중부하 파행이 짧은 시간 내(15시간) septic physitis에서 병적 Salter-Harris type I 골절로 진행한 사례가 처음 보고되어, physis widening 소견 시 단기 재촬영의 필요성을 시사했다 ([[papers/2026-42718565-septic-physitis-physeal-fracture-puppy|Sidhu 2026]]; 증례보고, n=1) — 제한적 근거.
+Patella fracture and dental anomaly syndrome(PADS) 고양이 126마리의 후향적 증례군 연구에서는 patellar fracture 외에도 22.2%가 근위 tibia·fibula·pelvis 등 추가 골절을 동반했고, 일부에서 초기 stress fracture나 osteopetrosis에 합당한 골 opacity 변화가 확인되었다 ([[papers/2026-42751918-radiographic-pads-cats-femora-tibiae|Boulton 2026]]; 후향적 연구, n=126). 단일 증례보고에서는 강아지의 급성 비체중부하 파행이 짧은 시간 내(15시간) septic physitis에서 병적 Salter-Harris type I 골절로 진행한 사례가 처음 보고되어, physis widening 소견 시 단기 재촬영의 필요성을 시사했다 ([[papers/2026-42718565-septic-physitis-physeal-fracture-puppy|Sidhu 2026]]; 증례보고, n=1) — 제한적 근거. 4개월령 강아지의 ulna에 발생한 aneurysmal bone cyst(ABC) 증례에서는 radiography·CT로 marked cortical thinning을 동반한 급속 진행성 expansile osteolytic lesion을 확인해 진단했고, 초기 수술 후 파행이 완전히 소실되었음에도 술후 6주 감시 radiography에서 병변이 근위쪽으로 진행한 것이 확인되어 더 넓은 범위의 재수술이 필요했다 ([[papers/2026-42791713-aneurysmal-bone-cyst-puppy-progression|Michalska 2026]]; 증례보고, n=1). 재수술 후 35개월간의 radiography·CT 추적에서는 진행성 골 재형성이 확인되고 추가 진행·재발은 없었다 — 단일 증례에 근거한 제한적 근거.
 
 ### CT 기반 정량 분석과 촬영 기법
 Osteosarcoma가 있는 개 16마리의 CT 영상에서 재구성한 뼈 모델로 FEA 시뮬레이션과 머신러닝 대리모델을 결합해 골절 하중을 예측한 연구는 held-out 165건에서 평균 R²≈0.90의 예측 성능을 보였으나, proof-of-concept 단계이며 실제 임상 검증은 이루어지지 않았다 ([[papers/2026-42705596-ml-fracture-load-prediction-osteosarcoma-ct|Amirzade 2026]]; 실험 연구, n=16) — 제한적 근거. Elbow CT 촬영 자세 비교 실험에서는 lateral recumbency로 elbow를 개별 촬영하는 것이 dorsal recumbency 동시 촬영보다 signal/contrast-to-noise ratio가 유의하게 우수했고, tube current를 150mA에서 300mA로 올려도 이 차이를 보완하지 못했다 ([[papers/2026-42761083-recumbency-tube-current-canine-elbow-ct|Bellekom 2026]]; 실험 연구, n=20/40 elbow).
@@ -45,4 +45,5 @@ Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zuri
 - [[papers/2026-42705596-ml-fracture-load-prediction-osteosarcoma-ct]] — CT-FEA-ML로 osteosarcoma 골절 하중 예측 (실험 연구, n=16)
 - [[papers/2026-42761083-recumbency-tube-current-canine-elbow-ct]] — lateral recumbency가 elbow CT 영상 품질에서 우수 (실험 연구, n=20/40 elbow)
 - [[papers/2026-42718565-septic-physitis-physeal-fracture-puppy]] — septic physitis에 의한 강아지 physeal fracture 첫 보고 (증례보고, n=1)
+- [[papers/2026-42791713-aneurysmal-bone-cyst-puppy-progression]] — 강아지 ulna aneurysmal bone cyst가 임상 호전에도 불구하고 방사선상 진행, 재수술 후 35개월간 재발 없음 (증례보고, n=1)
 - [[papers/2026-42767266-zurich-mini-thr-cats]] — 고양이 cementless THR 후 8주째 방사선상 osteointegration 양호, femoral fracture 11.8% (후향적 연구, n=11/17 hips)

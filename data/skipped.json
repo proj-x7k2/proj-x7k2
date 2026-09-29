@@ -64,5 +64,77 @@
     "title": "Long-Term Control of Refractory Cardiogenic Pleural Effusion in a Cat Treated with Sacubitril/Valsartan and Hydrochlorothiazide: A Case Report.",
     "reason": "영상(echocardiography)은 기저 심장병 특성 서술에만 부수적으로 사용됨; 연구 핵심은 sacubitril/valsartan·hydrochlorothiazide 약물 치료 경과",
     "date": "2026-09-22"
+  },
+  {
+    "pmid": "42806563",
+    "title": "Anterior Segment OCT Diagnosis of Descemet's Membrane Detachment in a Cat With Suspected FIP-Associated Uveitis.",
+    "reason": "안과 OCT 영상 — modality가 통제 어휘(OCT 미포함)와 주제 체계(안과 주제 없음) 범위 밖",
+    "date": "2026-09-29"
+  },
+  {
+    "pmid": "42804870",
+    "title": "Hormone-sparing non-surgical male contraception in dogs and cats: Current strategies and the emerging role of FSH receptor-targeted antibody fragments.",
+    "reason": "영상의학과 무관한 비수술적 피임 전략(호르몬·항체 기반) 종설, 영상 소견 없음",
+    "date": "2026-09-29"
+  },
+  {
+    "pmid": "42800182",
+    "title": "Efficacy of aglepristone for the treatment of pyometra in dogs: A multicenter field clinical study.",
+    "reason": "영상(경복부 초음파)은 치료반응 모니터링 지표로만 부수적 사용됨; 연구 핵심은 aglepristone 약물치료 효능·안전성",
+    "date": "2026-09-29"
+  },
+  {
+    "pmid": "42779179",
+    "title": "EXPRESS: Undenatured type II collagen enhances mobility in cats: a randomized placebo controlled cross over field study.",
+    "reason": "영상(방사선검사)은 DJD 진단 확인 목적으로만 부수적 사용되고 구체적 소견 서술 없음; 연구 핵심은 영양보충제의 임상적 진통·기동성 효과",
+    "date": "2026-09-29"
+  },
+  {
+    "pmid": "42798028",
+    "title": "Intraoperative Analgesic Requirements in Dogs Receiving Retromammillary or Erector Spinae Plane Blocks for Thoracolumbar or Lumbar Hemilaminectomy: A Single-Center Retrospective Cohort Study.",
+    "reason": "영상(초음파 유도)은 신경차단 시행을 위한 보조 도구로만 사용됨; 연구 핵심은 수술 중 진통제 요구량 비교",
+    "date": "2026-09-29"
+  },
+  {
+    "pmid": "42791785",
+    "title": "Internal Fixation Using Vitcone® Locking-Plate System for Fractures of Radius and Ulna in Toy- and Small-Breed Dogs: A Retrospective Two-Center Clinical Study.",
+    "reason": "영상(방사선 유합평가)은 여러 평가지표 중 하나로 부수적 사용; 연구 핵심은 임플란트 잠금판 시스템 비교와 임상 결과",
+    "date": "2026-09-29"
+  },
+  {
+    "pmid": "42797985",
+    "title": "Ultrasound-Guided Thoracic Paravertebral, Erector Spinae Plane and Quadratus Lumborum Blocks During Emergency Laparotomy in Dogs: A Multicenter Retrospective Study.",
+    "reason": "초음파는 신경차단 시행을 위한 유도 도구로만 부수적 사용됨; 연구 핵심은 응급 개복술 중 국소마취 진통 효과 비교",
+    "date": "2026-09-30"
+  },
+  {
+    "pmid": "42797984",
+    "title": "The Effects of Diagnostic Anatomical Features on Treatment and Recovery in Feline Spinal Trauma.",
+    "reason": "영상(방사선)은 병변 국소화·수술 계획을 위한 진단 도구로만 부수적 사용됨; 연구 핵심은 임플란트 선택과 수술적 안정화·회복 결과",
+    "date": "2026-09-30"
+  },
+  {
+    "pmid": "42787157",
+    "title": "Combined tibial plateau leveling osteotomy and autologous conditioned serum for functional recovery and delayed osteoarthritis progression in dogs with cranial cruciate ligament rupture.",
+    "reason": "영상(방사선 OA 등급)은 정형외과 평가점수·활막액 cytokine과 함께 쓰인 여러 평가지표 중 하나로 부수적 사용; 연구 핵심은 TPLO+ACS 병합요법의 치료 효과",
+    "date": "2026-09-30"
+  },
+  {
+    "pmid": "42791690",
+    "title": "Grading Canine Benign Prostatic Hyperplasia: A Survey of Veterinary Practice and the Development of a Web-Based Symptom Index.",
+    "reason": "초음파는 진단 가치에 대한 언급으로만 등장함; 연구 핵심은 증상 기반 점수체계(ZSI)의 설문조사·웹 도구 개발",
+    "date": "2026-09-30"
+  },
+  {
+    "pmid": "42797913",
+    "title": "Keyhole Limpet Hemocyanin-Based Multimodal Management in Two Dogs with Presumptive Urothelial Carcinoma: Long-Term Clinical and Imaging Follow-Up.",
+    "reason": "CT·초음파는 치료 경과 추적 모니터링 지표로만 부수적 사용됨; 연구 핵심은 KLH 기반 다중요법의 임상 경과",
+    "date": "2026-09-30"
+  },
+  {
+    "pmid": "42797899",
+    "title": "Bilateral Ultrasound-Guided Transversus Thoracic Plane Block as Part of a Multimodal Analgesic Plan in Two Rabbits Undergoing Median Sternotomy.",
+    "reason": "초음파는 신경차단 시행을 위한 유도 도구로만 부수적 사용됨; 연구 핵심은 흉부수술 다중진통 요법의 실행 가능성",
+    "date": "2026-09-30"
   }
 ]
