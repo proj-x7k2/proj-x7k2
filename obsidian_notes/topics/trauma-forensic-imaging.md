@@ -1,7 +1,7 @@
 ---
 title: "외상·법수의학 영상"
 scope: "다발성 외상, 학대 의심 평가"
-updated: 2026-09-22
+updated: 2026-10-06
 ---
 # 외상·법수의학 영상
 
@@ -11,11 +11,16 @@ updated: 2026-09-22
 ### 대규모 방임 현장에서의 개체수 산정과 영상
 대규모 동물 방임(1256마리 규모)이 발견된 현장에서는 전체 사체 계수가 불가능해, 온전한 사체 직접 계수와 분리 두개골 계수를 결합한 skull-based minimum number of individuals(MNI) 접근법이 사용되었다. 대표 22개체(사체 16, 두개골 6)에 대한 postmortem radiography를 포함한 상세 감정에서, 분리 두개골 6개 중 3개는 외상성 골절·scavenging 천공이, 2개는 품종 특유의 정상 개방 fontanelle이 확인되어 방사선검사가 외상과 정상 변이를 감별하는 핵심 도구로 쓰였다 ([[papers/2026-42738595-mni-forensic-starvation-scene|Kim 2026]]; 증례군, n=22). Body condition score 평가가 가능했던 5구는 모두 중증~극심한 마름을 보였다.
 
+### Penetrating thoracic trauma에서 방사선의 손상 과소평가
+5개 referral hospital의 수술로 확진된 penetrating thoracic trauma 개 86마리·고양이 5마리를 대상으로 한 다기관 후향적 연구에서, 흉부 방사선으로는 pneumothorax(73.6%)·pulmonary contusion(65.9%)·rib fracture(62.6%)가 흔히 확인되었으나 computed tomography를 시행한 경우 방사선보다 더 많은 손상이 확인되는 경우가 많았다 ([[papers/2026-42826750-penetrating-thoracic-trauma|Pathak 2026]]; 후향적 연구, n=91). 생존율은 78.0%였고 animal trauma triage score가 비생존군에서 유의하게 높았다. 이는 외상 평가 핵심 도구로서의 radiography·CT 역할을 보여주는 비(非)학대 맥락의 외상 영상 근거로, 방사선만으로는 실제 손상 범위를 과소평가할 수 있다는 점에서 위 학대 의심 사례의 radiography/CT 활용과도 맞닿아 있다.
+
 ## 남은 질문
 - ultrasound와 MRI가 법수의학적 외상 평가(연부조직 손상, 두개내 출혈 등)에 기여할 수 있는지는 아직 근거가 없다.
 - 단일기관 자료 이므로 지역·의뢰 경향에 따라 손상 유형 분포가 다른 지역에서도 동일하게 재현되는지 확인이 필요하다.
 - Skull-based MNI 접근법과 postmortem radiography 조합이 다른 규모·종의 대량 방임/학대 현장에도 일반화되는지는 단일 사례로는 확인할 수 없다.
+- Penetrating thoracic trauma에서 방사선 대비 CT가 실제로 추가 확인하는 손상의 종류·빈도를 정량적으로 비교한 자료는 아직 없다.
 
 ## 관련 논문
 - [[papers/2026-42531994-animal-abuse-imaging-findings]] — 10년간 학대 의심 사례 83건 분석, radiography와 CT가 주요 진단 도구였고 ultrasound·MRI는 미사용 (후향적 연구, n=83)
 - [[papers/2026-42738595-mni-forensic-starvation-scene]] — 대규모 방임 현장에서 postmortem radiography 포함 skull-based MNI 감정 워크플로우 (증례군, n=22)
+- [[papers/2026-42826750-penetrating-thoracic-trauma]] — Penetrating thoracic trauma에서 CT가 방사선보다 많은 손상을 확인, 생존율 78.0% (후향적 연구, n=91)

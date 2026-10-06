@@ -136,5 +136,35 @@
     "title": "Bilateral Ultrasound-Guided Transversus Thoracic Plane Block as Part of a Multimodal Analgesic Plan in Two Rabbits Undergoing Median Sternotomy.",
     "reason": "초음파는 신경차단 시행을 위한 유도 도구로만 부수적 사용됨; 연구 핵심은 흉부수술 다중진통 요법의 실행 가능성",
     "date": "2026-09-30"
+  },
+  {
+    "pmid": "42826746",
+    "title": "Most cats with a spinal fracture or luxation recover locomotion within 8 weeks of surgery.",
+    "reason": "영상(방사선)은 척추 손상 위치·안정성 확인을 위한 진단 도구로만 부수적 사용됨; 연구 핵심은 수술적 안정화 기법과 신경학적 회복 결과",
+    "date": "2026-10-06"
+  },
+  {
+    "pmid": "42807956",
+    "title": "Diagnostic performance of Vcheck NT-proBNP and cardiac troponin I assays for detection of dilated cardiomyopathy in Doberman Pinschers.",
+    "reason": "Point-of-care 혈액 biomarker(NT-proBNP, cTnI) 면역측정 진단성능 연구; echocardiography는 질병 단계 분류에만 부수적으로 사용되고 영상 소견 자체는 평가 대상이 아님",
+    "date": "2026-10-06"
+  },
+  {
+    "pmid": "42828555",
+    "title": "Nasal phaeohyphomycosis in a cat caused by Cladophialophora boppii.",
+    "reason": "CT·rhinoscopy는 병변 확인을 위한 진단 도구로만 부수적 사용됨; 연구 핵심은 신종 진균(Cladophialophora boppii) 동정과 항진균 치료 경과",
+    "date": "2026-10-06"
+  },
+  {
+    "pmid": "42823068",
+    "title": "Phenotypic characterization of presumptive propriospinal myoclonus in young dogs (2013-2025).",
+    "reason": "MRI는 구조적 원인 배제(대부분 정상 소견) 목적으로만 부수적 사용됨; 연구 핵심은 myoclonus의 임상 표현형·경과",
+    "date": "2026-10-06"
+  },
+  {
+    "pmid": "42815455",
+    "title": "Clinical and molecular genetic description of a Marfan-like syndrome in a Golden Retriever puppy.",
+    "reason": "방사선검사는 임상 소견(심장 비대·pneumothorax) 확인에만 부수적으로 언급되고 구체적 영상 소견 서술 없음; 연구 핵심은 whole-genome sequencing 기반 FBN1 유전자 변이 진단",
+    "date": "2026-10-06"
   }
 ]

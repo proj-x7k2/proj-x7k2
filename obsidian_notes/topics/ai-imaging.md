@@ -1,7 +1,7 @@
 ---
 title: "AI·정량 영상"
 scope: "AI 판독, 정량 분석, 영상 기반 모델"
-updated: 2026-09-30
+updated: 2026-10-06
 ---
 # AI·정량 영상
 
@@ -16,11 +16,15 @@ updated: 2026-09-30
 ### 영상변수 포함 임상데이터 기반 질환 선별 모델
 영상에서 직접 추출한 정량 지표가 아니라, 영상 소견을 포함한 routine clinical data를 머신러닝 입력으로 결합해 특정 영상 진단(echocardiography)을 대체·보완하려는 시도도 나타났다. 개 387마리(non-stage B2 252마리, stage B2 135마리)를 대상으로 인구학적·혈액학적·혈청생화학적·요검사·흉부 방사선 변수를 결합한 gradient boosting 모델은 echocardiography로 확진한 stage B2 myxomatous mitral valve disease(MMVD)를 정확도 0.825, ROC AUC 0.922로 식별했다 ([[papers/2026-42798418-ml-stage-b2-mmvd-prediction|Nam 2026]]; 후향적 연구, n=387 — 상세는 [[topics/cardiac-imaging]] 참고). 단일 코호트 내부 검증이며 흉부 방사선 변수 각각의 기여도는 제시되지 않아, echocardiography 접근이 어려운 상황에서 의뢰 우선순위를 정하는 선별 도구 이상의 확진 도구로 보기는 이르다 — 제한적 근거.
 
+### 영상 재구성 단계의 딥러닝 적용
+판독·예측 모델뿐 아니라 영상 획득·재구성 단계에도 딥러닝이 적용되고 있다. 두개내 질환으로 진단된 개 25예의 brain MRI에서 deep learning-based reconstruction(DLR)을 conventional reconstruction과 비교한 연구는 DLR이 SNR·CNR·lesion edge sharpness와 판독자의 영상 품질·lesion conspicuity 점수를 유의하게 높이고 truncation artifact를 줄였으나, motion·pulsation artifact는 개선하지 못했고 pseudolesion·lesion masking도 관찰되지 않았다고 보고했다 ([[papers/2026-42813384-dlr-canine-brain-mri|Jin 2026]]; 후향적 연구, n=25 — 신경영상 맥락은 [[topics/neuro-imaging]] 참고). 이는 AI가 판독 보조를 넘어 영상 자체의 품질을 높이는 전처리 단계에도 쓰일 수 있음을 보여주지만, 실제 진단 성능(민감도·특이도)에 대한 검증은 아직 이루어지지 않았다.
+
 ## 남은 질문
 - 실제 임상에서 사용 가능한 개별 AI 판독 도구의 민감도·특이도를 종·품종별로 검증한 원저 연구는 이 위키에 아직 없다.
 - AI 보조진단 도구의 quality assurance 체계를 실제 2차 동물병원 워크플로우에 어떻게 통합할지에 대한 구체적 지침은 부족하다.
 - CT-FEA-ML 기반 골절 하중 예측, radiomics 기반 종양 판별 모두 proof-of-concept 단계로, 전향적·다기관 임상 검증이 아직 없다.
 - Stage B2 MMVD 선별 모델의 외부 코호트 검증과 흉부 방사선 변수의 개별 기여도는 아직 확인되지 않았다.
+- DLR 기반 영상 재구성이 실제 진단 성능(병변 검출 민감도·특이도)을 향상시키는지는 아직 검증되지 않았다.
 
 ## 관련 논문
 - [[papers/2026-42593822-ai-bibliometric-thoracic-radiography]] — 2018-2025년 소동물 흉부 radiography AI 문헌 27편 서지계량 분석, CNN 기반 자동탐지가 주요 초점 (기타/서지계량분석, n=27편)
@@ -28,3 +32,4 @@ updated: 2026-09-30
 - [[papers/2026-42705596-ml-fracture-load-prediction-osteosarcoma-ct]] — CT-FEA-ML로 osteosarcoma 골절 하중 예측, proof-of-concept (실험 연구, n=16)
 - [[papers/2026-42746025-radiomics-canine-glioma-mri]] — T2-FLAIR radiomics로 canine glioma·human glioblastoma 종양 조직 판별 (후향적 연구, n="")
 - [[papers/2026-42798418-ml-stage-b2-mmvd-prediction]] — 흉부 방사선 포함 routine clinical data 기반 gradient boosting이 stage B2 MMVD를 ROC AUC 0.922로 식별 (후향적 연구, n=387)
+- [[papers/2026-42813384-dlr-canine-brain-mri]] — Deep learning 기반 재구성(DLR)이 brain MRI 영상 품질·lesion conspicuity 향상 (후향적 연구, n=25)

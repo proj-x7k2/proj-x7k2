@@ -1,5 +1,42 @@
 # 변경 기록
 
+## 2026-10-07 점검
+- 논문 페이지 62편·주제 페이지 15편 전체의 링크 정합성(논문↔주제 양방향), 메타데이터 통제 어휘, overview.md 주제 목록·논문 수, 주제 종합 문단의 근거 표기·상충 근거 표시 여부를 점검.
+- 기계적 오류 1건 수정: overview.md "주요 주제" 목록에서 빠져 있던 `[[topics/endocrine-imaging]]` (논문 1편) 항목을 추가.
+- 끊어진 링크·한쪽만 걸린 링크·통제 어휘 위반·근거 표기 누락은 발견되지 않음.
+- 판단 필요 사항은 구조 변경 없이 제안으로만 `obsidian_notes/lint-report.md`에 남김: 논문 1편뿐인 `endocrine-imaging`·`oncologic-imaging`은 계통 교차형 주제라 병합하지 않고 추이를 지켜보자는 관찰 메모.
+- `data/papers.json`, `data/topics.json`, `website/`, `raw/`는 변경하지 않음.
+
+## 2026-10-06 수집 (2)
+- `data/raw_papers.json`의 논문 7편 중 4편 처리, 3편 건너뜀. `raw/pdf/` 폴더 자체가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (모두 `data/skipped.json`에 기록):
+  - `42828555`(고양이 nasal phaeohyphomycosis, *Cladophialophora boppii*) — CT·rhinoscopy는 병변 확인 도구로만 부수적 사용, 핵심은 신종 진균 동정·치료 경과.
+  - `42823068`(어린 개의 presumptive propriospinal myoclonus 표현형, n=27) — MRI는 구조적 원인 배제(대부분 정상)에만 사용, 핵심은 myoclonus 임상 표현형.
+  - `42815455`(Golden Retriever의 Marfan-like syndrome) — 방사선은 임상 소견 확인에만 부수적 언급, 핵심은 WGS 기반 FBN1 유전자 변이 진단.
+- 신규 논문 4편 페이지 생성 및 주제 통합:
+  - `42807202`(발치 치아 micro-CT 기반 machine-driven vs manual Ni-Ti instrumentation 비교, CBCT radiolucent zone은 artifact로 확인) → `head-neck-imaging` (치아·근관 소제목 신설).
+  - `42825365`(개 peri-anesthetic global brain ischemia 의증 1예, conventional MRI 애매했으나 ASL·DSC·TOF MRA·DTI가 진단 뒷받침) → `neuro-imaging`.
+  - `42820725`(고양이 LVWT 측정 시 endocardial border 조합에 따라 최대 1.2mm 차이, HCM 분류에 영향 가능) → `cardiac-imaging`.
+  - `42807023`(개 color-flow Doppler로 PAPVD 발견 증례) → `cardiac-imaging`.
+- `overview.md` 주제 목록·논문 수를 갱신: `head-neck-imaging` 1→2편, `neuro-imaging` 9→10편, `cardiac-imaging` 10→12편.
+
+## 2026-10-06 수집
+- `data/raw_papers.json`의 논문 10편 중 8편 처리, 2편 건너뜀. `raw/pdf/`에 PDF가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (모두 `data/skipped.json`에 기록):
+  - `42826746`(고양이 척추 fracture/luxation 수술 후 8주 내 보행 회복) — 방사선은 손상 위치·안정성 확인용으로만 부수적 사용, 핵심은 수술적 안정화와 신경학적 회복 결과.
+  - `42807956`(Doberman DCM에서 Vcheck NT-proBNP·cTnI point-of-care 진단성능) — 혈액 biomarker 면역측정 연구이며 echocardiography는 질병 단계 분류에만 부수적으로 사용.
+- 신규 논문 8편 페이지 생성 및 주제 통합:
+  - `42813384`(개 brain MRI에서 deep learning-based reconstruction이 SNR·CNR·lesion conspicuity 향상, motion artifact는 미개선) → `neuro-imaging` + `ai-imaging` (2개 주제).
+  - `42833390`(DLSS 개에서 foraminal stenosis·L7 nerve root 비후가 임상 증상과 유의하게 연관) → `spinal-imaging`.
+  - `42827366`(Stage B1 HCM 고양이에서 2D-STE 기반 LA reservoir strain이 건강 대조군보다 유의하게 낮음) → `cardiac-imaging`.
+  - `42826750`(수술로 확진된 개·고양이 penetrating thoracic trauma, CT가 방사선보다 많은 손상 확인) → `trauma-forensic-imaging`.
+  - `42822806`(CKCS MMVD stage 간 흉부 방사선 geometric morphometric 심장 형태 차이) → `cardiac-imaging`.
+  - `42815534`(CT perfusion의 T-peak·AF가 개 pheochromocytoma와 adrenocortical tumor 감별에 도움) → 신규 주제 `endocrine-imaging` 생성.
+  - `42813598`(POCUS probe 위치·방향에 따라 흉막삼출 검출률 차이, Calgary PLUS 변형 기법 우수) → `imaging-technique-safety` + `thoracic-imaging` (2개 주제).
+  - `42828236`(고양이 두개내 전이성 hemangiosarcoma 증례) → `neuro-imaging`.
+- 신설 주제: `endocrine-imaging` (CLAUDE.md 기존 주제 체계 표에 있던 항목, 이번에 첫 논문 유입).
+- `overview.md` 주제 목록·논문 수를 갱신: `neuro-imaging` 7→9편, `ai-imaging` 5→6편, `spinal-imaging` 3→4편, `cardiac-imaging` 8→10편, `trauma-forensic-imaging` 2→3편, `imaging-technique-safety` 5→6편, `thoracic-imaging` 1→2편, `endocrine-imaging` 신설 1편.
+
 ## 2026-09-30 수집 (2)
 - `data/raw_papers.json`의 논문 6편 중 4편 처리, 2편 건너뜀.
 - 건너뜀 (모두 `data/skipped.json`에 기록):

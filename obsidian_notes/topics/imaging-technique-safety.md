@@ -1,7 +1,7 @@
 ---
 title: "촬영 기법·안전"
 scope: "프로토콜, 조영제, 방사선 선량, 영상 품질"
-updated: 2026-09-22
+updated: 2026-10-06
 ---
 # 촬영 기법·안전
 
@@ -21,6 +21,9 @@ CT 검사의 방사선 피폭을 환자별로 정확히 파악하기 위해 크�
 ### 조영 CT 술기 교육·시뮬레이션
 CTA(CT angiography)의 bolus tracking은 학습 곡선이 가파르고 시간 창이 좁아 초심자가 익히기 어려운데, 생리적 조영제 동태를 재현하는 peristaltic pump 폐회로에 결합한 3D 프린팅 개 hepatic artery 팬텀으로 훈련한 참여자 18명(경력별 층화) 연구에서는 중급·초심자군의 총 조작 시간이 유의하게 단축되고 전 군에서 ROI 배치 시간이 개선되었다 ([[papers/2026-42765932-3d-printed-phantom-ct-bolus-tracking-training|Min 2026]]; 실험 연구, n=18). 동물 사용을 대체할 수 있는 윤리적 훈련 대안으로, 실제 환자 CTA 성공률로의 전이 효과는 이 연구만으로는 확인되지 않았다.
 
+### POCUS 프로토콜: probe 위치·방향이 흉막삼출 검출에 미치는 영향
+양압 환기 중인 intubated canine cadaver 12구를 대상으로 12명의 operator(전문의·학생·intern 혼합)가 modified TFAST for pleural fluid 기법과 modified Calgary PLUS for pleural fluid 기법을 비교한 pilot study에서, 전체 pleural effusion 검출률은 Calgary PLUS 변형 기법(costochondral junction보다 ventral한 위치, probe를 rib에 parallel)이 TFAST 변형 기법보다 유의하게 높았다(89.1% vs 60.9%, P<.001) ([[papers/2026-42813598-pocus-pleural-effusion-probe-orientation|Di Franco 2026]]; 실험 연구, n=12 — 흉막 소견 맥락은 [[topics/thoracic-imaging]] 참고). 특히 scant-to-mild effusion에서 차이가 두드러졌고(84.4% vs 37.5%, P<.001), moderate-to-large effusion에서는 두 기법 간 차이가 없었다. 양압 환기 사체 모델의 pilot study로 — 제한적 근거.
+
 ## 남은 질문
 - 조영 CT 중 관찰된 순차적 CT 소견(esophageal wall edema, 장점막 과다조영증강, renal excretory phase 소실 등)이 실제로 조영제 과민반응을 예측하는 민감도·특이도는 단일 증례로는 알 수 없다.
 - DV+LAT 기반 SSDE 추정법이 흉부 CT, 다중기 조영 프로토콜, 다른 제조사 스캐너에도 동일하게 성립하는지 확인이 필요하다.
@@ -28,6 +31,7 @@ CTA(CT angiography)의 bolus tracking은 학습 곡선이 가파르고 시간 �
 - Elbow CT 체위 비교 결과가 medial coronoid process 병변 자체의 진단 정확도(민감도·특이도) 차이로 이어지는지는 사체 연구만으로는 알 수 없다.
 - 짧은 lateral recumbency로 인한 atelectasis가 실제 폐 병변 판독의 민감도·특이도에 어느 정도 영향을 미치는지는 건강한 실험견 8마리 연구만으로는 알 수 없다.
 - 3D 프린팅 팬텀 훈련으로 얻은 술기 향상이 실제 환자 CTA의 bolus tracking 성공률·진단 품질 향상으로 이어지는지는 검증되지 않았다.
+- Modified Calgary PLUS 기법의 효용이 양압 환기 사체가 아닌 자연호흡 임상 환자에서도 동일하게 재현되는지는 아직 확인되지 않았다.
 
 ## 관련 논문
 - [[papers/2026-42738496-ct-contrast-hypersensitivity-dog]] — 조영 CT 후 순차적 지연영상에서 중증 과민반응 진행 과정 서술 (증례보고, n=1)
@@ -35,3 +39,4 @@ CTA(CT angiography)의 bolus tracking은 학습 곡선이 가파르고 시간 �
 - [[papers/2026-42761083-recumbency-tube-current-canine-elbow-ct]] — lateral recumbency가 elbow CT 영상 품질에서 dorsal recumbency·tube current 증가보다 우수 (실험 연구, n=20/40 elbow)
 - [[papers/2026-42750099-arterial-sampling-atelectasis-ct]] — thoracic CT 전 lateral recumbency 채혈이 CT상 atelectasis와 연관 (실험 연구, n=8)
 - [[papers/2026-42765932-3d-printed-phantom-ct-bolus-tracking-training]] — 3D 프린팅 hepatic artery 팬텀으로 CT bolus tracking 훈련, 중급·초심자군 조작시간 단축 (실험 연구, n=18)
+- [[papers/2026-42813598-pocus-pleural-effusion-probe-orientation]] — Probe를 ventral·rib-parallel로 배치하는 modified Calgary PLUS 기법이 TFAST보다 흉막삼출 검출률 높음 (실험 연구, n=12)
