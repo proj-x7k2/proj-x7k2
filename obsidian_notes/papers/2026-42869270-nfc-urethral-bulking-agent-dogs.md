@@ -15,6 +15,7 @@ topics: ["urogenital-imaging"]
 tags: ["dog", "MRI", "contrast-study", "interventional", "urogenital"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Evaluation of nanofibrillated cellulose as a urethral bulking agent in female dogs with acquired urethral sphincter mechanism incompetence: a prospective clinical study.
 

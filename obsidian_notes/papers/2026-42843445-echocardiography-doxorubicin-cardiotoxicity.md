@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["dog", "echocardiography", "cardiovascular", "oncology"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Longitudinal assessment of left and right ventricular systolic function in dogs undergoing chemotherapy with doxorubicin.
 

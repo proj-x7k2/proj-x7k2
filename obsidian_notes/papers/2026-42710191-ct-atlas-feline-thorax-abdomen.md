@@ -15,6 +15,7 @@ topics: ["abdominal-imaging", "thoracic-imaging"]
 tags: ["cat", "CT", "thorax", "abdomen"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Anatomical study of the thorax and abdomen of the domestic cat: Correlation of cross-sectional anatomy with contrast-enhanced computed tomography and 3D reconstruction.
 

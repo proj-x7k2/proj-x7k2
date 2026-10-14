@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["cat", "echocardiography", "radiography", "ultrasound", "cardiovascular", "endocrine"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Echocardiographic changes in hyperthyroid cats: Comparison of subclinical disease and congestive heart failure.
 

@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["cat", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # EXPRESS: Evaluation of Left Atrial Reservoir Strain by Two-Dimensional Speckle-Tracking Echocardiography in Cats with Stage B1 Hypertrophic Cardiomyopathy.
 

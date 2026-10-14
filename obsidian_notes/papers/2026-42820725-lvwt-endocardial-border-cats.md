@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["cat", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # Influence of including or excluding endocardial borders on left ventricular wall thickness measurements in cats.
 

@@ -15,6 +15,7 @@ topics: ["abdominal-imaging"]
 tags: ["dog", "CT", "hepatobiliary", "oncology"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Computed tomography perfusion indicates reduced portal venous perfusion and relative arterial dominance in canine hepatocellular carcinoma.
 

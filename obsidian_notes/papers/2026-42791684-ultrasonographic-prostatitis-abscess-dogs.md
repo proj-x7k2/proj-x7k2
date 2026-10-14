@@ -15,6 +15,7 @@ topics: ["urogenital-imaging"]
 tags: ["dog", "ultrasound", "urogenital"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Ultrasonographic Appearance of Acute Prostatitis and Prostatic Abscesses in Dogs.
 

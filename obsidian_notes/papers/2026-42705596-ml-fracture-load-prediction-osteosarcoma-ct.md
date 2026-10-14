@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging", "ai-imaging"]
 tags: ["dog", "CT", "musculoskeletal", "oncology", "AI"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Mechanistic-data synergy for predicting fracture load in canine bone with appendicular osteosarcoma.
 

@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["dog", "radiography", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Prevalence of canine hip dysplasia and its association with cranial cruciate ligament deficiency in dogs undergoing tibial plateau levelling osteotomy: a retrospective study.
 

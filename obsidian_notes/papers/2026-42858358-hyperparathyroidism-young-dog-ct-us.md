@@ -15,6 +15,7 @@ topics: ["endocrine-imaging"]
 tags: ["dog", "CT", "ultrasound", "endocrine", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Primary hyperparathyroidism in a 4-month-old German Shepherd mixed breed dog.
 

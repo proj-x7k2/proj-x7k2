@@ -15,6 +15,7 @@ topics: ["neuro-imaging"]
 tags: ["dog", "MRI", "neuro"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Evaluation of a 0.05 T low-field MRI system for canine brain imaging via comparison with images acquired at 1.5 T field strength: a pilot cadaver study.
 

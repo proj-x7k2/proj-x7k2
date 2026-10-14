@@ -391,6 +391,7 @@
     padding: 2px 4px;
   }
   .star-btn.on { color: var(--amber); }
+  .star-btn.wiki { cursor: default; }
   .star-btn:hover { color: var(--amber); }
 
   .more-btn {
@@ -502,6 +503,8 @@
     catch (e) { return new Set(); }
   }
   let stars = loadStars();
+  // Obsidian에서 starred 표시한 논문은 모든 기기에서 별표로 보입니다
+  function isStarred(p) { return p.starred === true || stars.has(p.pmid); }
   function saveStars() {
     try { localStorage.setItem(STAR_KEY, JSON.stringify([...stars])); } catch (e) {}
   }
@@ -547,7 +550,7 @@
 
   function updateStarButton() {
     const btn = document.getElementById("starFilter");
-    btn.textContent = `★ 나중에 볼 논문 (${stars.size})`;
+    btn.textContent = `★ 나중에 볼 논문 (${allPapers.filter(isStarred).length})`;
     btn.classList.toggle("on", state.starOnly);
   }
 
@@ -559,7 +562,7 @@
         const want = state.filters[f.key];
         if (want && !asList(p[f.key]).includes(want)) return false;
       }
-      if (state.starOnly && !stars.has(p.pmid)) return false;
+      if (state.starOnly && !isStarred(p)) return false;
       if (!q) return true;
       return [p.title, p.journal, p.summary_ko, p.summary_en, p.clinical_takeaway_ko,
               ...(p.tags || []), ...(p.authors || [])]
@@ -574,7 +577,8 @@
   }
 
   function entryHtml(p) {
-    const starred = stars.has(p.pmid);
+    const starred = isStarred(p);
+    const fromWiki = p.starred === true;
     const isOpen = state.open.has(p.pmid);
     const badges =
       (p.study_type ? `<span class="study-badge">${esc(p.study_type)}${p.sample_size ? `, n=${esc(p.sample_size)}` : ""}</span>` : "") +
@@ -596,7 +600,8 @@
               </div>
             </div>
           </div>
-          <button class="star-btn${starred ? " on" : ""}" data-action="star"
+          <button class="star-btn${starred ? " on" : ""}${fromWiki ? " wiki" : ""}" data-action="star"
+            title="${fromWiki ? "Obsidian에서 표시한 논문 (해제도 Obsidian에서)" : "이 기기에만 저장되는 표시"}"
             aria-label="${starred ? "나중에 볼 논문에서 빼기" : "나중에 볼 논문으로 표시"}">${starred ? "★" : "☆"}</button>
         </div>
       </article>`;
@@ -645,6 +650,8 @@
       state.open.has(pmid) ? state.open.delete(pmid) : state.open.add(pmid);
       btn.closest(".entry").classList.toggle("open");
     } else if (btn.dataset.action === "star") {
+      const paper = allPapers.find(x => x.pmid === pmid);
+      if (paper && paper.starred === true) return;   // Obsidian에서 관리
       stars.has(pmid) ? stars.delete(pmid) : stars.add(pmid);
       saveStars();
       render();

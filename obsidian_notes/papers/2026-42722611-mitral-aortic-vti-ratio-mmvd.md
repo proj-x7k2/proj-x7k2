@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["dog", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Evaluation of the mitral-aortic velocity time integral ratio for severity assessment in dogs with myxomatous mitral valve disease.
 

@@ -50,6 +50,8 @@ def build():
             "study_type": meta.get("study_type", ""),
             "sample_size": str(meta.get("sample_size", "") or ""),
             "evidence_basis": meta.get("evidence_basis", "abstract"),
+            "starred": meta.get("starred") is True or str(meta.get("starred")).lower() == "true",
+            "file": os.path.splitext(os.path.basename(path))[0],
             "species": _as_list(meta.get("species")),
             "modality": _as_list(meta.get("modality")),
             "system": _as_list(meta.get("system")),

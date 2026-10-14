@@ -15,6 +15,7 @@ topics: ["imaging-technique-safety", "thoracic-imaging"]
 tags: ["dog", "ultrasound", "thorax", "technique"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # Veterinary point-of-care ultrasound probe orientation and location for detection of pleural effusion in canine cadavers: a pilot study.
 

@@ -15,6 +15,7 @@ topics: ["urogenital-imaging", "abdominal-imaging"]
 tags: ["dog", "ultrasound", "urogenital", "hepatobiliary"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # The effectiveness of uterine wall and liver elasticity and liver enzyme ratios in understanding the etiopathology of cystic endometrial hyperplasia-pyometra complex in dogs.
 

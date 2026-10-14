@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["dog", "ultrasound", "echocardiography", "CT", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Idiopathic cholesterol pericarditis in a dog presenting with cardiac tamponade.
 

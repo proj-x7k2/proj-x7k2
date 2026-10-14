@@ -15,6 +15,7 @@ topics: ["neuro-imaging"]
 tags: ["dog", "MRI", "neuro"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # Multimodal MRI findings in a dog with suspected global brain ischemia and peri-anesthetic blindness.
 

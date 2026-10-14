@@ -15,6 +15,7 @@ topics: ["sedation-restraint-imaging"]
 tags: ["rabbit", "CT", "sedation-restraint", "dental"]
 evidence_basis: "abstract"
 added_on: 2026-09-13
+starred: false
 ---
 # Bunny Burrito Restraint for Computed Tomography in Conscious Rabbits: An Effective Alternative
 

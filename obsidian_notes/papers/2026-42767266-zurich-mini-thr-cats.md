@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["cat", "radiography", "fluoroscopy", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Zurich Mini Cementless Total Hip Replacement in Cats: Specific Considerations and Short-Term Outcomes in 11 Cats (17 Hips).
 

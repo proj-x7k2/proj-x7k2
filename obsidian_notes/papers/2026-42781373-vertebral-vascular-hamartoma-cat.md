@@ -15,6 +15,7 @@ topics: ["spinal-imaging", "vascular-imaging"]
 tags: ["cat", "MRI", "CT", "spine", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Case Report: Repeated imaging and surgical treatment of a vascular hamartoma arising from the cervical vertebral column of a cat.
 

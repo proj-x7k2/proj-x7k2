@@ -15,6 +15,7 @@ topics: ["urogenital-imaging"]
 tags: ["cat", "ultrasound", "urogenital"]
 evidence_basis: "abstract"
 added_on: 2026-09-29
+starred: false
 ---
 # Two-dimensional shear wave elastography assessment of testicular stiffness in healthy cats.
 

@@ -15,6 +15,7 @@ topics: ["neuro-imaging"]
 tags: ["dog", "cat", "MRI", "neuro"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Magnetic resonance imaging identifies prognostic features in dogs and cats with ischemic cerebrovascular accidents.
 

@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["cat", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-09-29
+starred: false
 ---
 # EXPRESS: Echocardiographic prevalence and attachment-site patterns of left ventricular bands in cats.
 

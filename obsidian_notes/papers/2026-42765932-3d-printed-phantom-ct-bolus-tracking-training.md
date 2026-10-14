@@ -15,6 +15,7 @@ topics: ["imaging-technique-safety"]
 tags: ["dog", "CT", "contrast-study", "hepatobiliary", "technique"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Educational utility of a 3D-printed canine hepatic artery phantom for CT bolus tracking training.
 

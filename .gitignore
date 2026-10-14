@@ -8,6 +8,9 @@ raw/pdf/
 # 실행할 때마다 바뀌는 임시 파일
 logs/
 data/raw_papers.json
+data/digest_input.json
+data/digest_issue.md
+data/digest_issue_title.txt
 data/last_success_epoch
 data/last_attempt_epoch
 data/.run_lock/

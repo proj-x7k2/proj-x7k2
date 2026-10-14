@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["dog", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Predominant mitral valve morphology in dogs at different stages of myxomatous mitral valve disease: toward a standardized nomenclature.
 

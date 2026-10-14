@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["dog", "CT", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Patient-Specific Computational Fluid Dynamics of Pulmonary Arterial Hemodynamics in Dogs with and Without Pulmonic Stenosis.
 

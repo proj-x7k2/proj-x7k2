@@ -15,6 +15,7 @@ topics: ["neuro-imaging", "ai-imaging"]
 tags: ["dog", "MRI", "neuro", "AI"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # Evaluation of Intracranial Lesions Using Deep Learning-Based Reconstruction in Canine Brain MRI: Comparison With Conventional Reconstruction on T2-Weighted and FLAIR Sequences.
 

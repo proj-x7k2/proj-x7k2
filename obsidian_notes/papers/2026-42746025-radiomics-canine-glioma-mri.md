@@ -15,6 +15,7 @@ topics: ["neuro-imaging", "ai-imaging"]
 tags: ["dog", "MRI", "neuro", "oncology", "AI"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Radiomics and comparative neuroimaging of canine gliomas and human glioblastomas: a step toward precision medicine.
 

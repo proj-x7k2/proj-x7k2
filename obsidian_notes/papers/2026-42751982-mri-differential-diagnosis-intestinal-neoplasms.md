@@ -15,6 +15,7 @@ topics: ["abdominal-imaging"]
 tags: ["dog", "MRI", "gastrointestinal", "oncology"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Differential Diagnosis Using MRI of Canine Intestinal Neoplasms, Including Lymphoma, Adenocarcinoma, and Inflammatory Polyp: Case Series.
 

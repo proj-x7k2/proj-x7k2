@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["dog", "radiography", "CT", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Non-Oncological Progression of an Aneurysmal Bone Cyst (ABC) in a Puppy Following Surgical Treatment.
 

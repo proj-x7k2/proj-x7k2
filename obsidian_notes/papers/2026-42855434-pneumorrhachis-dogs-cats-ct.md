@@ -15,6 +15,7 @@ topics: ["spinal-imaging"]
 tags: ["dog", "cat", "CT", "spine", "neuro"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Clinical characteristics of pneumorrhachis in dogs and cats: a retrospective study of 125 cases.
 

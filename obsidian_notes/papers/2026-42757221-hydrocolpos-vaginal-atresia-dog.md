@@ -15,6 +15,7 @@ topics: ["urogenital-imaging"]
 tags: ["dog", "radiography", "ultrasound", "CT", "contrast-study", "urogenital"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Hydrocolpos in a mixed-breed dog: a case report.
 

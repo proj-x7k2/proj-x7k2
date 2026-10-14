@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["dog", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Reference intervals and allometric scaling of echocardiographic measurements in small size growing dogs.
 

@@ -15,6 +15,7 @@ topics: ["trauma-forensic-imaging"]
 tags: ["dog", "cat", "rabbit", "radiography", "CT", "trauma"]
 evidence_basis: "abstract"
 added_on: 2026-09-13
+starred: false
 ---
 # Diagnostic imaging findings in animal abuse cases referred to the University of Veterinary Medicine Vienna, Austria (2014-2023)
 

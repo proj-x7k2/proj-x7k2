@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["dog", "ultrasound", "radiography", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Ultrasonographic detection of joint lesions in canine leishmaniasis caused by Leishmania infantum.
 

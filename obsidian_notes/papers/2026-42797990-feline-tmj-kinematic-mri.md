@@ -15,6 +15,7 @@ topics: ["head-neck-imaging"]
 tags: ["cat", "MRI", "head-neck"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Preliminary Evaluation of Static and Kinematic Magnetic Resonance Imaging (MRI) of the Feline Temporomandibular Joint (TMJ): A Comparative Analysis of Joint Inclination Angles in Intact and Dislocated Conditions.
 

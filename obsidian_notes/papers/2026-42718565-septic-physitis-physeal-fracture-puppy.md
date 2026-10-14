@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["dog", "radiography", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Case Report: Distal tibial physeal fracture secondary to septic physitis and osteomyelitis in a Boxer puppy.
 

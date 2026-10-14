@@ -15,6 +15,7 @@ topics: ["trauma-forensic-imaging"]
 tags: ["dog", "cat", "radiography", "trauma"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Standardized Minimum Number of Individuals (MNI) Enumeration and Veterinary Forensic Assessment in a Large-Scale Animal Starvation Scene: A Technical Note.
 

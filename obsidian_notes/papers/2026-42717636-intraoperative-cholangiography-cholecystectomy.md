@@ -15,6 +15,7 @@ topics: ["abdominal-imaging"]
 tags: ["dog", "fluoroscopy", "contrast-study", "hepatobiliary"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Intraoperative cholangiography during open cholecystectomy in 73 dogs with benign gallbladder disease.
 

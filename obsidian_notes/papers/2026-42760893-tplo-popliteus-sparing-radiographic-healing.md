@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["dog", "radiography", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Higher early radiographic bone healing scores with popliteus muscle preservation during tibial plateau levelling osteotomy in dogs.
 

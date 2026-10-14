@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["dog", "ultrasound", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Three-dimensional ultrasonographic assessment of the cranial cruciate ligament in medium- to large-sized canine cadavers: A feasibility study.
 

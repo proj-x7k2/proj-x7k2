@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["dog", "echocardiography", "CT", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # Color-Flow Doppler Detection of Partial Anomalous Pulmonary Venous Drainage in a Dog.
 

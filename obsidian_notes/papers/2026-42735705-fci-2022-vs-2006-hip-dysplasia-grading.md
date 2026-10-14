@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["dog", "radiography", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # The updated 2022 Fédération Cynologique Internationale method may lead to changes in hip dysplasia grading in some dogs.
 

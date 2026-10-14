@@ -15,6 +15,7 @@ topics: ["abdominal-imaging"]
 tags: ["dog", "radiography", "contrast-study", "gastrointestinal", "technique"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Gastrointestinal transit time of healthy dogs before and after enema assessed by contrast radiographs with barium-impregnated polyethylene spheres.
 

@@ -3,3 +3,4 @@ CLAUDE.md를 먼저 읽고, "워크플로우 D — 점검"을 수행해줘.
 data/papers.json, data/topics.json, website/, raw/ 는 건드리지 마.
 끝나면 고친 것과 제안한 것을 한두 줄로 요약해줘.
 하위 에이전트나 백그라운드 작업에 위임하지 말고 직접 끝까지 처리해줘.
+논문 페이지의 starred 값과 obsidian_notes/feedback.md 는 사용자가 관리하는 것이니 절대 바꾸지 마.

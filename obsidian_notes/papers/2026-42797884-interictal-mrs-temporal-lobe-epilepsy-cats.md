@@ -15,6 +15,7 @@ topics: ["neuro-imaging"]
 tags: ["cat", "MRI", "neuro"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Interictal Single-Voxel Proton Magnetic Resonance Spectroscopy of the Temporal Lobe in Cats with Idiopathic Epilepsy: A Prospective Case-Control Study.
 

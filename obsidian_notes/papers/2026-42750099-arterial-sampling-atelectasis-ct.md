@@ -15,6 +15,7 @@ topics: ["imaging-technique-safety"]
 tags: ["dog", "CT", "thorax", "technique", "sedation-restraint"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Difference in Collection Times, Blood Gas Variables, and Atelectasis Between Two Arterial Sampling Methods in Dogs.
 

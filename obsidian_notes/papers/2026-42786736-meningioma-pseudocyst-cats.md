@@ -15,6 +15,7 @@ topics: ["neuro-imaging"]
 tags: ["cat", "MRI", "neuro", "oncology"]
 evidence_basis: "abstract"
 added_on: 2026-09-29
+starred: false
 ---
 # EXPRESS: Meningiomas in four cats with pseudocystic fluid accumulation including one microcystic meningioma.
 

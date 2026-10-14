@@ -15,6 +15,7 @@ topics: ["ai-imaging"]
 tags: ["radiography", "AI"]
 evidence_basis: "abstract"
 added_on: 2026-09-13
+starred: false
 ---
 # Artificial Intelligence-Assisted Interpretation of Veterinary Radiographs: Opportunities, Risks, and Best Practices for Clinicians
 

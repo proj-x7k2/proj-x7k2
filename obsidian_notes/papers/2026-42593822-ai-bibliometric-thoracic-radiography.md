@@ -15,6 +15,7 @@ topics: ["ai-imaging"]
 tags: ["dog", "cat", "radiography", "thorax", "AI"]
 evidence_basis: "abstract"
 added_on: 2026-09-13
+starred: false
 ---
 # Bibliometric Analysis of Artificial Intelligence Use in Small Animal Thoracic Radiography
 

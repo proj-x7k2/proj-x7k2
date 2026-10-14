@@ -15,6 +15,7 @@ topics: ["imaging-technique-safety"]
 tags: ["dog", "CT", "abdomen", "technique"]
 evidence_basis: "abstract"
 added_on: 2026-09-13
+starred: false
 ---
 # Patient Dimensions From a Single CT Image Provide a Clinically Practical and Accurate Method for Dose Estimation in Canine Abdominal CT Imaging
 

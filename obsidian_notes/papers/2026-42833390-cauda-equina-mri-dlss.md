@@ -15,6 +15,7 @@ topics: ["spinal-imaging"]
 tags: ["dog", "MRI", "spine", "neuro"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # MRI FINDINGS IN CAUDA EQUINA NERVE ROOTS AND ASSOCIATED CLINICAL SIGNS IN DOGS WITH DEGENERATIVE LUMBOSACRAL STENOSIS.
 

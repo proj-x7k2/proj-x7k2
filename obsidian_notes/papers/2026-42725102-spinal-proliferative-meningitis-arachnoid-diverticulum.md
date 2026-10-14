@@ -15,6 +15,7 @@ topics: ["spinal-imaging"]
 tags: ["dog", "MRI", "spine"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Case Report: Spinal proliferative meningitis with arachnoid diverticulum formation in a dog.
 

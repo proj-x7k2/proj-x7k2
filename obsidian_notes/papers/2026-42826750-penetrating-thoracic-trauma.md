@@ -15,6 +15,7 @@ topics: ["trauma-forensic-imaging"]
 tags: ["dog", "cat", "radiography", "CT", "thorax", "trauma"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # Dogs and cats undergoing surgery for penetrating thoracic trauma have high survival despite frequent complications, and imaging may underestimate injury severity.
 

@@ -15,6 +15,7 @@ topics: ["spinal-imaging"]
 tags: ["cat", "MRI", "spine", "oncology"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Suspected recurrent sarcoma resembling feline injection-site sarcoma with spinal cord invasion in a cat.
 

@@ -15,6 +15,7 @@ topics: ["cardiac-imaging", "sedation-restraint-imaging"]
 tags: ["rabbit", "echocardiography", "cardiovascular", "sedation-restraint"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Cardiovascular and echocardiographic effects of propofol induction, with or without dextroketamine, in healthy premedicated rabbits: a randomized study.
 

@@ -15,6 +15,7 @@ topics: ["vascular-imaging", "abdominal-imaging"]
 tags: ["dog", "CT", "interventional", "hepatobiliary", "cardiovascular", "oncology"]
 evidence_basis: "abstract"
 added_on: 2026-09-29
+starred: false
 ---
 # Staged caval occlusion enabling en bloc right divisional hepatectomy in two dogs with hepatocellular carcinoma.
 

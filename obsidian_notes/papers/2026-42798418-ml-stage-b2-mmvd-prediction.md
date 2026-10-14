@@ -15,6 +15,7 @@ topics: ["ai-imaging", "cardiac-imaging"]
 tags: ["dog", "radiography", "echocardiography", "cardiovascular", "AI"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Predicting stage B2 myxomatous mitral valve disease in dogs using machine learning and routine clinical data.
 

@@ -15,6 +15,7 @@ topics: ["urogenital-imaging"]
 tags: ["dog", "CT", "radiography", "ultrasound", "urogenital"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Case Report: Computed tomographic diagnosis of asymmetric bilateral uterine horn torsion secondary to benign uterine leiomyomas in a non-gravid dog.
 

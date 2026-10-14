@@ -53,8 +53,34 @@ load_token() {
     fi
 }
 
+AUTH_OK=""
+ensure_auth() {
+    # Claude를 처음 부르기 전에 한 번, 토큰이 살아 있는지 짧게 확인합니다.
+    # 만료됐으면 무엇을 해야 하는지 알기 쉬운 메시지를 남기고 멈춥니다.
+    if [ -n "$AUTH_OK" ]; then return 0; fi
+    local out
+    out=$(claude -p "OK라고만 답해" 2>&1) || true
+    if echo "$out" | grep -qiE "usage limit|rate limit|limit reached"; then
+        log "오류: Claude 구독 사용량 한도에 도달했습니다. 남은 작업은 다음 실행 때 이어서 처리됩니다."
+        echo "::error title=Claude 사용량 한도::구독 사용량 한도에 도달했습니다. 남은 논문은 다음 실행 때 처리됩니다."
+        notify "논문 위키 - 사용량 한도" "다음 실행 때 이어서 처리됩니다"
+        exit 1
+    fi
+    if echo "$out" | grep -qiE "invalid|expired|401|unauthori|authenticat|not logged in|/login"; then
+        log "오류: Claude 구독 토큰이 만료됐거나 올바르지 않습니다."
+        log "해결: 맥북 터미널에서 'claude setup-token'으로 새 토큰 발급"
+        log "      → GitHub 저장소 Settings → Secrets and variables → Actions → CLAUDE_CODE_OAUTH_TOKEN 값을 새 토큰으로 교체"
+        log "      → 맥북의 claude_token.txt 도 새 토큰으로 교체"
+        echo "::error title=Claude 구독 토큰 재발급 필요::토큰이 만료됐거나 올바르지 않습니다. 맥북에서 claude setup-token으로 재발급한 뒤 GitHub Secret CLAUDE_CODE_OAUTH_TOKEN 값을 교체하세요."
+        notify "논문 위키 - 토큰 만료" "claude setup-token으로 재발급 필요"
+        exit 1
+    fi
+    AUTH_OK=1
+}
+
 run_claude() {
     # 사용법: run_claude "프롬프트 내용" [추가 허용 도구]
+    ensure_auth
     local tools="$CLAUDE_TOOLS"
     if [ -n "$2" ]; then tools="$tools,$2"; fi
     claude -p "$1" --allowedTools "$tools" --disallowedTools "$CLAUDE_BLOCKED" \

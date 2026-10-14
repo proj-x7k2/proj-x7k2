@@ -15,6 +15,7 @@ topics: ["urogenital-imaging", "vascular-imaging"]
 tags: ["dog", "CT", "ultrasound", "radiography", "interventional", "urogenital", "oncology"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Long-term CT and US imaging of canine prostatic carcinoma after prostatic artery embolization: a 900-day follow-up case report.
 

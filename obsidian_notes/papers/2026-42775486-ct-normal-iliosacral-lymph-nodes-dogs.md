@@ -15,6 +15,7 @@ topics: ["oncologic-imaging"]
 tags: ["dog", "CT", "oncology"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Computed tomographic Characteristics of Presumed Normal Canine Iliosacral Lymph Nodes.
 

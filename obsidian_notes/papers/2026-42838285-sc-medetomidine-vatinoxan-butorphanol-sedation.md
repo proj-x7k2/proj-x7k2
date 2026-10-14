@@ -15,6 +15,7 @@ topics: ["sedation-restraint-imaging"]
 tags: ["dog", "radiography", "sedation-restraint", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Procedural sedation with subcutaneously administered medetomidine-vatinoxan-butorphanol in dogs - A randomized, controlled, clinical dose-finding study.
 

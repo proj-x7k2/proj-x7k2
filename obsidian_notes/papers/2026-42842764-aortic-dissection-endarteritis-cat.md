@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["cat", "radiography", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Bacterial aortic endarteritis with sepsis as a rare complication of aortic dissection in a cat.
 

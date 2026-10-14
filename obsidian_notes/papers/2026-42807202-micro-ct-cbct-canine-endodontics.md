@@ -15,6 +15,7 @@ topics: ["head-neck-imaging"]
 tags: ["dog", "CT", "dental", "head-neck"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # Machine-driven vs. manual nickel-titanium instrumentation of canine teeth in dogs: a high resolution micro-CT evaluation of canal geometry and obturation quality.
 

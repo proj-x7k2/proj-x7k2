@@ -15,6 +15,7 @@ topics: ["neuro-imaging"]
 tags: ["cat", "MRI", "neuro"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Electroencephalography-functional magnetic resonance imaging using a familial temporal lobe epilepsy model in cats: an exploratory methodological pilot study.
 

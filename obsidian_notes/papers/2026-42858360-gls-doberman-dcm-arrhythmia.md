@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["dog", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Global longitudinal strain assessment of systolic dysfunction in Doberman Pinschers with ventricular arrhythmias and normal echocardiographic measurements.
 

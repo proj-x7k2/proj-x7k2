@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["dog", "radiography", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Eight-week postoperative tibial plateau leveling osteotomy radiographs do not change the prescribed management plan for most dogs.
 

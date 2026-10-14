@@ -15,6 +15,7 @@ topics: ["head-neck-imaging"]
 tags: ["dog", "CT", "dental", "head-neck"]
 evidence_basis: "abstract"
 added_on: 2026-10-14
+starred: false
 ---
 # Quantitative Assessment of Maxillary Canine, Fourth Premolar, and First Molar Root Surface Areas and Ratios in 68 Brachycephalic Dogs Using Cone-Beam Computed Tomography.
 

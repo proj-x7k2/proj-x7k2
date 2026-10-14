@@ -15,6 +15,7 @@ topics: ["endocrine-imaging"]
 tags: ["dog", "CT", "endocrine", "oncology"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # Computed tomography perfusion parameters may aid preoperative differentiation of canine pheochromocytomas from adrenocortical tumors.
 

@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging"]
 tags: ["cat", "radiography", "musculoskeletal"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # EXPRESS: Radiographic findings of the femora and tibiae in cats affected by patella fracture and dental anomaly syndrome.
 

@@ -15,6 +15,7 @@ topics: ["imaging-technique-safety"]
 tags: ["dog", "CT", "contrast-study", "technique"]
 evidence_basis: "abstract"
 added_on: 2026-09-22
+starred: false
 ---
 # Computed Tomographic Findings and Clinical Manifestations of Acute Severe Hypersensitivity to a Non-Ionic Iodinated Contrast Agent in a Castrated Male Dog: A Case Report.
 

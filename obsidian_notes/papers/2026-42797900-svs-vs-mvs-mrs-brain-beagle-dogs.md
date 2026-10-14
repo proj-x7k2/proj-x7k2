@@ -15,6 +15,7 @@ topics: ["neuro-imaging"]
 tags: ["dog", "MRI", "neuro"]
 evidence_basis: "abstract"
 added_on: 2026-09-30
+starred: false
 ---
 # Comparative Evaluation of Single-Voxel and Multi-Voxel Proton Magnetic Resonance Spectroscopy Using Small-Sized Voxels in Healthy Beagle Dogs: A Pilot Study.
 

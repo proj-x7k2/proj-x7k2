@@ -13,6 +13,14 @@ trap 'notify "논문 위키 - 오류" "실행 중 오류 발생 (로그: $LOG_FI
 
 log "=== $(date) 주간 실행 시작 ==="
 load_token
+python3 make_digest.py --snapshot
+
+# ── 0단계: 사용자가 남긴 교정 요청 반영 ──
+FEEDBACK_COUNT=$(python3 feedback.py --count)
+if [ "$FEEDBACK_COUNT" -gt 0 ]; then
+    log "--- 교정 요청 ${FEEDBACK_COUNT}건 반영 ---"
+    run_claude "$(cat prompts/feedback.txt)"
+fi
 
 # ── 1~2단계: 10편씩 나눠서 수집 → 위키 반영을 반복 ──
 MAX_ROUNDS=$(python3 -c "import config; print(config.MAX_ROUNDS)")
@@ -62,9 +70,20 @@ else
     LINT_NOTE=""
 fi
 
-# ── 4단계: 웹사이트 갱신 + GitHub ──
+# ── 4단계: 웹사이트 갱신 ──
 log "--- 웹사이트 갱신 ---"
 python3 build_site.py 2>&1 | tee -a "$LOG_FILE"
+
+# ── 5단계: 주간 다이제스트 ──
+DIGEST_COUNT=$(python3 make_digest.py --prepare)
+if [ "$DIGEST_COUNT" -gt 0 ]; then
+    log "--- 주간 다이제스트 작성 (새 논문 ${DIGEST_COUNT}편) ---"
+    run_claude "$(cat prompts/digest.txt)" || log "다이제스트 작성 실패 — 기본 목록으로 대체"
+    python3 make_digest.py --fallback 2>&1 | tee -a "$LOG_FILE"
+    python3 make_digest.py --issue "${SITE_URL:-}"
+fi
+
+# ── 6단계: GitHub 반영 ──
 git_sync "주간 위키 업데이트 $(date +%Y-%m-%d)"
 
 log "=== $(date) 실행 완료 ==="

@@ -111,3 +111,20 @@ python3 fetch_papers.py --dry-run
 | 논문이 너무 적거나 많음 | `python3 fetch_papers.py --dry-run` 후 `config.py` 조정 |
 | 웹페이지가 옛날 내용 | `python3 build_site.py` 실행 |
 | 위키 구조가 이상해짐 | `git log`로 이전 커밋 확인 후 되돌리기 가능 |
+
+---
+
+## 클라우드 운영 (v3)
+
+- **매주 월요일 오전 9시:** GitHub 서버가 수집 → 위키 반영 → 웹페이지 갱신 → 다이제스트까지 처리합니다.
+  맥북 상태(뚜껑, 충전기)와 상관없습니다. 설정 파일: `.github/workflows/weekly.yml`
+- **맥북:** `sync_from_github.sh`가 15분마다 Obsidian 수정 내용을 올리고, 서버 업데이트를 받아옵니다.
+- **주간 다이제스트:** 매주 새 논문과 주목할 논문 2~3편이 GitHub 알림(이메일·GitHub 앱)으로 옵니다.
+  Obsidian의 `digests/` 폴더에도 쌓입니다.
+- **교정 요청:** Obsidian에서 `feedback.md`의 "요청" 아래에 `- [ ]`로 적으면 몇 분 안에 반영되고,
+  일반 원칙은 `CLAUDE.md`의 "교정 기록"에 규칙으로 남습니다.
+- **나중에 볼 논문:** Obsidian의 논문 페이지에서 `starred` 체크박스를 켜면 모든 기기의 웹페이지에
+  ★로 표시됩니다. 웹페이지에서 직접 누른 ☆는 그 기기에만 저장됩니다.
+- **토큰 만료(약 1년):** 실패 알림에 "Claude 구독 토큰 재발급 필요"가 뜨면
+  맥북에서 `claude setup-token` → GitHub 저장소 Settings → Secrets and variables → Actions →
+  `CLAUDE_CODE_OAUTH_TOKEN` 값을 새 토큰으로 교체하고, 맥북의 `claude_token.txt`도 교체하세요.

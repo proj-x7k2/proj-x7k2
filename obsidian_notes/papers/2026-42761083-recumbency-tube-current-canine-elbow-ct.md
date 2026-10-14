@@ -15,6 +15,7 @@ topics: ["musculoskeletal-imaging", "imaging-technique-safety"]
 tags: ["dog", "CT", "musculoskeletal", "technique"]
 evidence_basis: "abstract"
 added_on: 2026-09-21
+starred: false
 ---
 # Effects of recumbency and tube current on image quality of canine elbow computed tomography.
 

@@ -15,6 +15,7 @@ topics: ["cardiac-imaging"]
 tags: ["dog", "radiography", "echocardiography", "cardiovascular"]
 evidence_basis: "abstract"
 added_on: 2026-10-06
+starred: false
 ---
 # Geometric morphometric analysis of cardiac shape changes associated with myxomatous mitral valve disease in Cavalier King Charles Spaniels.
 
