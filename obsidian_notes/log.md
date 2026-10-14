@@ -1,5 +1,33 @@
 # 변경 기록
 
+## 2026-10-14 수집 (2차)
+- `data/raw_papers.json`이 신규 6편으로 교체되어 재실행. 4편 처리, 2편 건너뜀. `raw/pdf/` 폴더 자체가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (모두 `data/skipped.json`에 기록):
+  - `42840741`(개 occipital condyle fracture, CNC-milled titanium implant 수술) — MRI·CT는 골절 진단·implant 위치 확인에만 부수적 사용, 저자가 기여점이 implant 설계·가공 workflow임을 직접 명시.
+  - `42840619`(토끼 재발성 inguinal hernia, fascia lata autograft 재건) — CT·ultrasonography는 진단·재발 확인에만 부수적 사용, 핵심은 수술 재건 기법.
+- 신규 논문 4편 페이지 생성 및 주제 통합:
+  - `42858358`(4개월령 개 primary hyperparathyroidism, CT·neck ultrasonography로 진단) → `endocrine-imaging` (신설 소제목).
+  - `42855434`(개·고양이 pneumorrhachis 125예, IVDD와 가장 흔히 동반) → `spinal-imaging` (신설 소제목).
+  - `42858360`(Doberman stage B1 DCM에서 GLS가 subclinical systolic dysfunction 포착) → `cardiac-imaging`.
+  - `42842764`(고양이 aortic dissection, echocardiography로 진단 후 지연성 bacterial endarteritis로 사망) → `cardiac-imaging`.
+- `overview.md` 주제 목록·논문 수를 갱신: `cardiac-imaging` 14→16편, `spinal-imaging` 4→5편, `endocrine-imaging` 1→2편.
+
+## 2026-10-14 수집
+- `data/raw_papers.json`의 논문 10편 중 8편 처리, 2편 건너뜀. `raw/pdf/` 폴더 자체가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (모두 `data/skipped.json`에 기록):
+  - `42838284`(고양이 Cat Stress Score·hair cortisol과 subclinical HCM 연관성) — echocardiography는 HCM 분류 기준으로만 부수적 사용, 핵심은 스트레스 지표와 HCM 연관성.
+  - `42846592`(암컷 개 uterine tube adenoma 조직병리 증례) — ultrasonography·CT는 종괴 발견에만 부수적 사용, 핵심은 조직병리·면역조직화학 확진.
+- 신규 논문 8편 페이지 생성 및 주제 통합:
+  - `42853250`(brachycephalic 개 68마리 CBCT 기반 상악 canine·PM4·M1 root surface area 비율, PM4+M1 결합 anchorage 지지) → `head-neck-imaging` (치아·근관 소제목에 신설 소제목 추가).
+  - `42849778`(BIPS contrast radiography에서 enema가 gastric emptying을 지연, 필수 전처치 아님) → `abdominal-imaging` (위장관 통과시간 소제목 신설).
+  - `42849777`(hyperthyroid 고양이에서 left atrial dysfunction이 subclinical·CHF 구분의 가장 강력한 echocardiography 지표) → `cardiac-imaging`.
+  - `42843445`(doxorubicin 투여 개에서 MAPSE·TAPSE·TMAD로 확인된 subclinical 양심실 수축기능 저하) → `cardiac-imaging`.
+  - `42838285`(orthopedic radiography 진정에서 SC medetomidine-vatinoxan-butorphanol vs IM 비교, vatinoxan 혈류 보호 효과 SC에서도 유지) → `sedation-restraint-imaging`.
+  - `42869270`(NFC urethral bulking agent 시술 후 MRI·vaginourethrography 추적, implant flattening이 재발과 관련 가능) → `urogenital-imaging`.
+  - `42866543`(개 prostatic carcinoma PAE 후 900일 CT·US 추적, ischemic·cavitary remodeling 확인) → `urogenital-imaging` + `vascular-imaging` (2개 주제).
+  - `42857113`(CT로 진단한 개 asymmetric bilateral uterine horn torsion, bilateral whirl sign 첫 보고) → `urogenital-imaging`.
+- `overview.md` 주제 목록·논문 수를 갱신: `abdominal-imaging` 6→7편, `cardiac-imaging` 12→14편, `sedation-restraint-imaging` 2→3편, `urogenital-imaging` 4→7편, `vascular-imaging` 2→3편, `head-neck-imaging` 2→3편. 더불어 중복 기재되어 있던 `endocrine-imaging` 항목(2줄)을 1줄로 정리.
+
 ## 2026-10-07 점검
 - 논문 페이지 62편·주제 페이지 15편 전체의 링크 정합성(논문↔주제 양방향), 메타데이터 통제 어휘, overview.md 주제 목록·논문 수, 주제 종합 문단의 근거 표기·상충 근거 표시 여부를 점검.
 - 기계적 오류 1건 수정: overview.md "주요 주제" 목록에서 빠져 있던 `[[topics/endocrine-imaging]]` (논문 1편) 항목을 추가.

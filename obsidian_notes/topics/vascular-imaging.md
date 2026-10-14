@@ -1,7 +1,7 @@
 ---
 title: "혈관 영상·중재"
 scope: "문맥전신단락, 혈관 기형, 중재 시술"
-updated: 2026-09-30
+updated: 2026-10-14
 ---
 # 혈관 영상·중재
 
@@ -13,11 +13,16 @@ CVC를 압박하거나 침범해 기존 collateral venous return이 없던 right
 ### 척추 기원 혈관 기형(vascular hamartoma)
 3세 고양이의 cervical vertebral column(C5)에서 기원해 척수를 압박한 vascular hamartoma 증례에서, MRI·CT로 골 증식을 동반한 extradural mass가 확인되었고 절제 후 조직병리로 확진되었다 ([[papers/2026-42781373-vertebral-vascular-hamartoma-cat|Schmitz 2026]]; 증례보고, n=1 — 척수 압박 측면은 [[topics/spinal-imaging]] 참고). 1년 후 신경학적 결손 재발과 함께 병변 재성장이 MRI·CT로 확인되어 2차 절제를 시행했으며, 불완전 절제 후 재성장 가능성을 보여준 젊은 고양이의 첫 반복 영상·수술 보고였다 — 단일 증례에 근거한 제한적 근거.
 
+### 전립선 종양의 혈관 내 중재(PAE) 후 장기 영상 경과
+예후가 불량한 개 prostatic carcinoma에서 minimally invasive 중재 시술인 prostatic artery embolization(PAE) 후 약 900일간 CT·US로 추적한 증례보고에서, PAE 후 전립선 실질 용적이 약 33% 감소해 Day 481까지 안정적으로 유지되었고 심각한 PAE 관련 합병증은 없었다 ([[papers/2026-42866543-prostatic-artery-embolization-ct-us-followup|Isshiki 2026]]; 증례보고, n=1 — 전립선 영상 소견 상세는 [[topics/urogenital-imaging]] 참고). 저자들은 이 사례가 개에서 PAE 후 가장 긴 time-course 영상 보고라고 밝혔으며, PAE가 general veterinary practice에서도 시행 가능한 minimally invasive 치료 대안이 될 수 있음을 시사했다 — 단일 증례에 근거한 제한적 근거.
+
 ## 남은 질문
 - Staged CVC occlusion의 적용 가능 범위(종양 크기·침범 길이의 한계, 폐쇄 실패·측부순환 형성 실패 위험 요인)는 증례 2예만으로는 알 수 없다.
 - 이 술기가 다른 CVC 침범 종양(예: adrenal tumor, other vascular invasive neoplasm)에도 적용 가능한지는 확인되지 않았다.
 - Vertebral vascular hamartoma의 전형적 MRI·CT 소견과 완전 절제 여부를 술 전에 예측할 수 있는지는 단일 증례만으로는 알 수 없다.
+- PAE 후 전립선 영상 변화(ischemic·cavitary remodeling)와 국소 질병 조절 효과가 다른 종양 조직형·병기의 개에서도 재현되는지는 단일 증례로는 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42770669-staged-caval-occlusion-hepatectomy]] — CVC 침범 HCC 개 2마리에서 staged CVC occlusion 후 en bloc 절제 성공, 장기 생존 (증례보고, n=2)
 - [[papers/2026-42781373-vertebral-vascular-hamartoma-cat]] — 고양이 vertebral vascular hamartoma의 반복 영상·수술로 재성장 확인 (증례보고, n=1)
+- [[papers/2026-42866543-prostatic-artery-embolization-ct-us-followup]] — 개 prostatic carcinoma PAE 후 900일 CT·US 추적, 전립선 용적 33% 감소 후 안정 (증례보고, n=1)

@@ -1,7 +1,7 @@
 ---
 title: "영상검사 진정·보정"
 scope: "진정·마취·물리적 보정"
-updated: 2026-09-21
+updated: 2026-10-14
 ---
 # 영상검사 진정·보정
 
@@ -14,11 +14,16 @@ updated: 2026-09-21
 ### 마취 유도 프로토콜과 심초음파 측정치
 진정 하 영상검사에서 마취 유도제 선택은 심초음파로 측정하는 심기능 지표 해석에 영향을 줄 수 있다. 건강한 premedicated rabbit 22마리를 대상으로 propofol 단독 유도와 propofol+dextroketamine 유도를 비교한 무작위·맹검 연구에서, 수축기능 지표(fractional shortening, ejection fraction 등)는 두 군 모두 대체로 보존되었으나 propofol 단독군에서 평균동맥압 저하가 더 크게 나타났다(group×time p=0.049) ([[papers/2026-42710340-echocardiographic-effects-propofol-dextroketamine-rabbits|Fukuzaki 2026]]; 무작위대조군연구, n=22 — 심초음파 소견 상세는 [[topics/cardiac-imaging]] 참고). 건강한 개체 대상 연구이므로 심질환이 있거나 임상적으로 불안정한 환자에 그대로 적용하기는 어렵다.
 
+### 투여 경로(SC vs IM)와 진정 약물 용량 설정
+Orthopedic radiography를 위한 진정 목적으로 medetomidine-vatinoxan-butorphanol의 subcutaneous(SC) 투여와 intramuscular(IM) 투여를 비교한 무작위대조군 임상 연구에서, IM 투여가 SC 투여보다 진정 발현이 유의하게 빨랐고 SC 저용량군(0.6 mg/m2)은 rescue sedation이 가장 많이 필요했다(4/11) ([[papers/2026-42838285-sc-medetomidine-vatinoxan-butorphanol-sedation|Honkavaara 2026]]; 무작위대조군연구, n=53). 심박수는 모든 처치에서 감소했으나 저혈압은 관찰되지 않았고, vatinoxan을 병용한 모든 군(SC·IM)이 medetomidine 단독군보다 oral mucosal microcirculation이 유의하게 양호해, vatinoxan의 혈류 보호 효과가 SC 투여에서도 유지됨을 보여주었다. 신속한 촬영이 필요하면 IM 투여가 유리하지만, SC 투여도 더 높은 용량에서는 효과적인 대안이 될 수 있음을 시사한다.
+
 ## 남은 질문
 - 번니 부리토 보정법이 토끼 외의 소동물(고양이, 소형견 등)이나 다른 검사 부위(흉부, 두경부 등)에도 동일하게 적용 가능한지는 아직 근거가 없다.
 - sedation군 표본이 작아(n=10) 번니 부리토와 sedation 간 영상 품질 차이에 대한 통계적 비교가 이루어지지 않았다.
 - Propofol 단독 유도 시의 혈압 저하가 심질환이 있는 토끼나 다른 소동물에서도 동일하게 나타나는지, 실제 심초음파 판독 정확도에 영향을 주는지는 아직 알 수 없다.
+- SC medetomidine-vatinoxan-butorphanol의 진정 효과·영상 품질이 통증·불안이 있는 환자나 건강하지 않은 개체에서도 동일하게 나타나는지는 건강한 개 대상 연구만으로는 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42644764-bunny-burrito-restraint]] — 토끼 CT에서 번니 부리토 보정법이 plexiglass chamber보다 motion artifact 적고 자세 안정성 우수 (후향적 연구, n=93)
 - [[papers/2026-42710340-echocardiographic-effects-propofol-dextroketamine-rabbits]] — propofol 단독 유도가 propofol+dextroketamine보다 토끼에서 평균동맥압 저하가 더 큼 (무작위대조군연구, n=22)
+- [[papers/2026-42838285-sc-medetomidine-vatinoxan-butorphanol-sedation]] — orthopedic radiography 진정에서 SC medetomidine-vatinoxan-butorphanol이 IM보다 발현이 느리나 vatinoxan의 혈류 보호 효과는 유지 (무작위대조군연구, n=53)

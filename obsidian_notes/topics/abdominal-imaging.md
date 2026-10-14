@@ -1,7 +1,7 @@
 ---
 title: "복부·소화기 영상"
 scope: "위장관, 간담도, 췌장, 비장, 복강"
-updated: 2026-09-29
+updated: 2026-10-14
 ---
 # 복부·소화기 영상
 
@@ -13,6 +13,9 @@ Benign gallbladder disease로 open cholecystectomy를 받은 개 73마리의 후
 ### 위장관 영상
 개 장관 신생물의 MRI 소견을 다룬 최초의 수의영상의학 증례군 연구(lymphoma 6, adenocarcinoma 2, inflammatory polyp 4)에서, intestinal lymphoma는 contrast-enhanced T1WI에서 전례 균질한 hypointense 조영증강을 보였고(p=0.002) ADC 값도 다른 신생물보다 유의하게 낮아(0.58×10⁻³mm²/s 대 1.27~1.56×10⁻³mm²/s) MRI 기반 감별 가능성을 시사했다 ([[papers/2026-42751982-mri-differential-diagnosis-intestinal-neoplasms|Tanaka 2026]]; 증례군, n=12) — 각 군 표본이 매우 작아 제한적 근거.
 
+### 위장관 통과시간 평가와 contrast radiography 프로토콜
+건강한 개 6마리를 대상으로 barium-impregnated polyethylene sphere(BIPS) contrast radiography로 enema 시행 전후 위장관 통과시간을 비교한 실험 연구에서, BIPS 단독군은 gastric emptying이 H0~H1에 시작해 H8 무렵 종료되었으나 BIPS+enema군은 emptying이 H1 무렵 시작해 H12 이후까지 지속되고 descending colon 도달률도 낮았다(통계적 유의성은 없음) ([[papers/2026-42849778-bips-gi-transit-enema-dogs|de Souza 2026]]; 실험 연구, n=6). BIPS·enema 모두 혈액검사 이상을 일으키지 않아, BIPS 기반 위장관 통과시간 검사 전 enema 전처치가 필수는 아니라는 근거를 제시했다 — 표본이 매우 작아 제한적 근거.
+
 ### 정상 해부 참고자료
 성체 고양이 10마리를 이용해 흉복부 단면 해부와 조영증강 CT·3D 재구성을 상호 대조한 atlas 연구는 고양이 흉복부 CT 판독과 수술 계획을 위한 정상 해부 참고자료를 제공했으며, 조영증강이 혈관·장기 관계의 시인성을 크게 향상시켰다 ([[papers/2026-42710191-ct-atlas-feline-thorax-abdomen|Abdelmohsen 2026]]; 실험 연구, n=10 — [[topics/thoracic-imaging]]에도 해당).
 
@@ -23,6 +26,7 @@ Benign gallbladder disease로 open cholecystectomy를 받은 개 73마리의 후
 - CT perfusion으로 확인된 HCC의 관류 패턴이 분화도·절제가능성·예후 예측에 실제로 기여하는지는 poorly differentiated 종양 표본(3예)이 너무 작아 결론 내리기 어렵다.
 - IOC가 실제로 수술 후 합병증·사망률을 낮추는지(단순히 기저 질환 중증도를 반영하는 것이 아니라)는 대조군 비교 연구가 필요하다.
 - 장관 lymphoma의 MRI 감별 소견(hypointense 조영증강, 낮은 ADC)이 더 큰 코호트에서도 재현되는지 검증이 필요하다.
+- BIPS 통과시간의 enema 유무 차이가 통계적으로 유의하지 않았던 것이 표본 크기(n=6) 때문인지, 실제 효과가 없는 것인지는 더 큰 코호트에서 검증이 필요하다. 위장관 질환이 있는 환자에서도 동일한 패턴이 나타나는지도 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42717636-intraoperative-cholangiography-cholecystectomy]] — IOC가 담도 잔류 debris·폐쇄를 상당 빈도로 추가 검출 (후향적 연구, n=73)
@@ -31,3 +35,4 @@ Benign gallbladder disease로 open cholecystectomy를 받은 개 73마리의 후
 - [[papers/2026-42759150-2d-swe-elastography-pyometra-uterus-liver]] — CEH-P에서 간 탄성도·ALT/ALP 비율로 간손상 평가 (전향적 연구, n=49)
 - [[papers/2026-42751982-mri-differential-diagnosis-intestinal-neoplasms]] — 장관 lymphoma의 MRI 조영증강·ADC 감별 소견 (증례군, n=12)
 - [[papers/2026-42710191-ct-atlas-feline-thorax-abdomen]] — 고양이 흉복부 CT-해부 대조 atlas (실험 연구, n=10)
+- [[papers/2026-42849778-bips-gi-transit-enema-dogs]] — BIPS contrast radiography에서 enema가 gastric emptying을 지연시킬 수 있어 필수 전처치가 아님 (실험 연구, n=6)

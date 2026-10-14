@@ -1,11 +1,14 @@
 ---
 title: "척추·척수 영상"
 scope: "IVDD, 척수병증, 척추 기형"
-updated: 2026-10-06
+updated: 2026-10-14
 ---
 # 척추·척수 영상
 
 ## 현재까지의 종합
+
+### Pneumorrhachis(vertebral canal 내 gas)의 CT 소견과 임상적 의미
+2015~2023년 CT에서 pneumorrhachis(PR)가 확인된 개 119마리·고양이 6마리를 후향적으로 분석한 연구에서, 개의 PR은 60/119마리(50%)에서 neurological 질환과 동반되었고 그중 83%(50/60)가 intervertebral disc disease(IVDD, Hansen type I 64%)였다 ([[papers/2026-42855434-pneumorrhachis-dogs-cats-ct|Ooms 2026]]; 후향적 연구, n=125). IVDD 관련 PR의 46%(23/50)에서 vacuum phenomenon(VP)이 동반되고 그중 78%가 병변 disc와 같은 위치였다. Non-neurological 질환은 45/119마리(38%, 주로 neoplastic·respiratory)에서, 수술 후 PR은 12/119마리에서 확인되었고 원인불명은 2마리(2%)에 불과했다. 고양이(n=6)에서는 IVDD·VP 관련 예가 없었다. PR은 IVDD에 흔히 동반되지만 상당수는 incidental finding으로 해석되었다.
 
 ### 척수를 압박하는 낭성 병변의 감별진단
 만성 진행성 무통성 paraparesis를 보인 4세 Golden Retriever에서 MRI로 흉수를 압박하는 eccentric cystic lesion이 확인되어 척수 감압·병변 절제를 시행한 증례에서, 신경병리 검사 결과 전형적 arachnoid diverticulum/cyst가 아니라 dural·arachnoid의 hypertrophic calcifying change와 lymphoplasmacytic·neutrophilic 침윤을 동반한 염증성 meningoproliferative spinal cord disorder로 확인되었다 ([[papers/2026-42725102-spinal-proliferative-meningitis-arachnoid-diverticulum|Hajek 2026]]; 증례보고, n=1). 저자들은 개에서 첫 보고 사례라고 명시했다 — 단일 증례에 근거한 제한적 근거로, MRI 신호 특성만으로 이 병태와 전형적 arachnoid diverticulum을 감별할 수 있는지는 아직 알 수 없다.
@@ -24,8 +27,10 @@ DLSS에서 central canal·intervertebral foramen 협착이 임상 증상과 잘 
 - 말초신경 인근에 발생한 연부조직 육종에서 perineural spread를 통한 척수 침범의 발생 빈도와, 이를 조기에 선별할 수 있는 영상 감시 프로토콜(주기, MRI 범위)은 확립되어 있지 않다.
 - Vertebral vascular hamartoma의 전형적 MRI·CT 소견과 완전 절제를 위한 최적 수술 범위는 단일 증례만으로는 알 수 없다.
 - NRSS·RNR이 DLSS 수술 후 예후나 증상 재발을 예측하는 데 쓸 수 있는지는 이 횡단 연구만으로는 알 수 없다.
+- Pneumorrhachis가 incidental finding인지 실제 임상 증상(통증 등)과 연관되는지는 이 서술 연구에서 체계적으로 평가되지 않았으며, 고양이 표본(n=6)이 너무 작아 개와 동일한 패턴을 적용할 수 있는지도 알 수 없다.
 
 ## 관련 논문
+- [[papers/2026-42855434-pneumorrhachis-dogs-cats-ct]] — 개·고양이 pneumorrhachis 125예, IVDD(특히 Hansen type I)와 가장 흔히 동반 (후향적 연구, n=125)
 - [[papers/2026-42725102-spinal-proliferative-meningitis-arachnoid-diverticulum]] — 흉수 압박성 낭성 병변이 염증성 meningoproliferative disorder로 확인된 첫 증례 (증례보고, n=1)
 - [[papers/2026-42724435-fiss-sarcoma-spinal-cord-invasion-cat]] — FISS 유사 sarcoma의 perineural spread를 통한 척수 침범 첫 증례 (증례보고, n=1)
 - [[papers/2026-42781373-vertebral-vascular-hamartoma-cat]] — 고양이 vertebral vascular hamartoma의 반복 영상·수술로 재성장 확인, 첫 반복 보고 (증례보고, n=1)

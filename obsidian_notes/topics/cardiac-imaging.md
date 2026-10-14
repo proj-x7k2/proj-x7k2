@@ -1,7 +1,7 @@
 ---
 title: "심장·대혈관 영상"
 scope: "심초음파, 심장 CT, 대혈관"
-updated: 2026-10-06
+updated: 2026-10-14
 ---
 # 심장·대혈관 영상
 
@@ -37,6 +37,18 @@ Echocardiography·CTA만으로는 pulmonic stenosis(PS)의 혈류역학적 결�
 ### Color-flow Doppler로 발견한 partial anomalous pulmonary venous drainage(PAPVD)
 개 1예에서 color-flow Doppler echocardiography로 partial anomalous pulmonary venous drainage(PAPVD, pulmonary vein이 양쪽 atria로 유입되는 선천성 기형)를 발견한 증례보고가 있다 ([[papers/2026-42807023-color-doppler-papvd-dog|Kaplan 2026]]; 증례보고, n=1). PAPVD는 color-flow Doppler에서 flow reversal을 유발할 수 있고 sinus venosus defect와 흔히 동반된다는 점이 확인되었으나, 초록이 bullet 3개로만 제공되어 구체적 소견 서술은 제한적이다 — 증례 1예에 근거한 제한적 근거.
 
+### Hyperthyroidism에서 subclinical 심장 침범과 CHF의 echocardiography 감별
+Subclinical 심장질환 고양이 51마리와 congestive heart failure(CHF) 고양이 47마리를 비교한 후향적 case-control 연구에서, CHF군은 심방 크기와 좌심실 내경이 유의하게 더 컸고 left atrial dysfunction이 두 군을 구분하는 가장 강력한 지표였다 ([[papers/2026-42849777-echocardiography-hyperthyroid-cats|Greil 2026]]; 후향적 연구, n=98). CHF군 내에서는 pleural/mixed effusion이 pulmonary oedema 단독보다 우세했고 우심계·전신 volume overload가 더 심했으며, 혈청 TT4 농도는 두 군 간 유의한 차이가 없어 TT4만으로는 심장 상태를 예측할 수 없음을 보여주었다.
+
+### 화학요법(doxorubicin) cardiotoxicity의 양심실 speckle tracking 평가
+암에 걸린 개 25마리를 doxorubicin 투여 전부터 180일까지 추적한 전향적 종단 연구에서, conventional 지표(ejection fraction, fractional shortening, GLS)는 유의한 변화가 없었으나 annular displacement 기반 지표인 MAPSEi lateral·septal과 global TMAD%는 180일째 기저치보다 유의하게 감소했다(각 P=0.002, 0.0293, 0.046) ([[papers/2026-42843445-echocardiography-doxorubicin-cardiotoxicity|Wolf 2026]]; 전향적 연구, n=25). 우심실에서도 TAPSEi·RV S' wave·FAC·RV GLS·RV TMAD가 시간에 따라 점진적으로 감소해, doxorubicin cardiotoxicity가 좌심실에 국한되지 않고 양심실에 subclinical하게 나타날 수 있음을 시사했다.
+
+### Doberman stage B1 DCM에서 GLS를 이용한 subclinical systolic dysfunction 포착
+Ventricular arrhythmia만 있고 conventional echocardiography가 정상인 stage B1 DCM Doberman Pinscher 63마리를 대조군 63마리와 비교한 후향적 case-control 연구에서, 2D speckle-tracking echocardiography 기반 global longitudinal strain(GLS)이 stage B1군(-16.80%±2.71%)에서 대조군(-20.22%±1.90%)보다 유의하게 낮았다(P=.044) ([[papers/2026-42858360-gls-doberman-dcm-arrhythmia|Hofmeister 2026]]; 후향적 연구, n=126). 같은 개체의 arrhythmia 발생 전 last-normal 검사 대비로도 GLS가 유의하게 감소했고(평균차 -2.45%, P<.001), high-grade VPC군이 low-grade VPC군보다 GLS가 더 낮아(평균차 -2.94%, P<.001) arrhythmic burden이 클수록 systolic dysfunction이 더 심함을 시사했다. GLS는 conventional 지표가 정상인 단계에서도 subclinical dysfunction을 포착할 수 있는 민감한 지표로 doxorubicin cardiotoxicity 연구의 발견과 같은 방향성을 보인다.
+
+### Echocardiography로 확인한 고양이 aortic dissection과 지연성 bacterial endarteritis
+호흡곤란으로 내원한 14세 고양이에서 흉부 방사선은 두드러진 aortic arch 외 특이 소견이 없었으나 echocardiography로 ascending aorta 내 mobile flap에 의한 aortic dissection(AD), 경도 pericardial effusion(tamponade 동반), 좌심실 concentric hypertrophy가 확인된 증례보고가 있다 ([[papers/2026-42842764-aortic-dissection-endarteritis-cat|Lim 2026]]; 증례보고, n=1). 전신 고혈압 조절 후 단기적으로 호전되어 퇴원했으나 4개월 후 사망했고, 부검에서 7.6cm 길이의 aortic intimal flap과 심한 bacterial aortic endarteritis·sepsis가 확인되어, AD의 드문 지연성 합병증으로 감염성 endarteritis가 발생할 수 있음을 보여주었다 — 단일 증례에 근거한 제한적 근거.
+
 ## 남은 질문
 - 이 연구에서 도출된 소형견 전용 allometric 상수의 구체적 수치와 참고구간이 초록에 제시되지 않아, 원문 확인 없이는 임상 cut-off로 바로 사용하기 어렵다.
 - 중·대형 성장기 견종에 대해서도 유사한 품종별 재검증이 필요한지는 이 연구만으로는 알 수 없다.
@@ -50,6 +62,10 @@ Echocardiography·CTA만으로는 pulmonic stenosis(PS)의 혈류역학적 결�
 - 심장 silhouette geometric morphometrics가 CKCS 외 다른 견종에도 동일한 패턴으로 적용되는지, 실제 진단 민감도·특이도를 개선하는지는 검증되지 않았다.
 - LVWT 측정법 간 1.2mm 차이가 다른 기관·장비·관찰자 집단에서도 동일하게 나타나는지, 어떤 convention을 표준으로 삼아야 하는지는 이 단일 코호트 연구만으로는 알 수 없다.
 - PAPVD의 echocardiography·CTA 소견이 다른 선천성 심장 기형과 어떻게 감별되는지는 초록 정보가 제한적이라 알 수 없다.
+- Hyperthyroid 고양이의 left atrial dysfunction이 CHF 발생을 전향적으로 예측하는 지표로 쓸 수 있는지는 후향적 case-control 연구만으로는 알 수 없다.
+- Doxorubicin cardiotoxicity의 양심실 speckle tracking 변화가 180일 이후 더 진행하는지, 실제 임상 심부전으로 이어지는지는 추적 기간이 제한되어 알 수 없으며, 단독 투여군만의 결과도 분리되어 제시되지 않았다.
+- Doberman stage B1 DCM에서 GLS 저하가 실제 stage B2 진행·심부전·돌연사 위험을 전향적으로 예측하는지는 이 후향적 case-control 연구만으로는 알 수 없다.
+- 고양이 aortic dissection 후 bacterial endarteritis의 발생 빈도와 위험요인, 이를 생전에 조기 발견할 수 있는 영상 추적 프로토콜은 단일 증례로는 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42803120-left-ventricular-bands-cats]] — 고양이 200마리 중 99.5%에서 LVB 확인, HCM 표현형과 무관 (전향적 연구, n=200)
@@ -64,3 +80,7 @@ Echocardiography·CTA만으로는 pulmonic stenosis(PS)의 혈류역학적 결�
 - [[papers/2026-42822806-cardiac-shape-morphometrics-mmvd]] — CKCS MMVD stage 간 흉부 방사선 geometric morphometric 심장 형태 차이 확인 (후향적 연구, n=54)
 - [[papers/2026-42820725-lvwt-endocardial-border-cats]] — endocardial border 조합에 따라 LVWT 측정값이 최대 1.2mm 차이, HCM 분류에 영향 가능 (후향적 연구, n=52)
 - [[papers/2026-42807023-color-doppler-papvd-dog]] — color-flow Doppler로 PAPVD 발견, flow reversal·sinus venosus defect 동반 (증례보고, n=1)
+- [[papers/2026-42849777-echocardiography-hyperthyroid-cats]] — Hyperthyroid 고양이에서 left atrial dysfunction이 subclinical·CHF 구분의 가장 강력한 지표 (후향적 연구, n=98)
+- [[papers/2026-42843445-echocardiography-doxorubicin-cardiotoxicity]] — Doxorubicin 투여 개에서 MAPSE·TAPSE·TMAD로 확인된 subclinical 양심실 수축기능 저하 (전향적 연구, n=25)
+- [[papers/2026-42858360-gls-doberman-dcm-arrhythmia]] — Doberman stage B1 DCM에서 GLS가 conventional echocardiography 정상임에도 subclinical systolic dysfunction 포착 (후향적 연구, n=126)
+- [[papers/2026-42842764-aortic-dissection-endarteritis-cat]] — 고양이 aortic dissection, echocardiography로 ascending aorta flap 확인 후 bacterial endarteritis로 지연 사망 (증례보고, n=1)

@@ -1,5 +1,533 @@
 [
   {
+    "pmid": "42869270",
+    "title": "Evaluation of nanofibrillated cellulose as a urethral bulking agent in female dogs with acquired urethral sphincter mechanism incompetence: a prospective clinical study.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "Nina M M Peltokallio",
+      "Géraldine Bolen",
+      "Emilia Gordin",
+      "Jaan Lepajõe",
+      "Annick Hamaide",
+      "Outi M Laitinen-Vapaavuori",
+      "Stéphanie Noël"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42869270/",
+    "doi": "10.1016/j.tvjl.2026.106933",
+    "study_type": "전향적 연구",
+    "sample_size": "8",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "MRI",
+      "contrast-study",
+      "interventional"
+    ],
+    "system": [
+      "urogenital"
+    ],
+    "topics": [
+      "urogenital-imaging"
+    ],
+    "tags": [
+      "dog",
+      "MRI",
+      "contrast-study",
+      "interventional",
+      "urogenital"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "반복 시술이 자주 필요한 urethral bulking agent(UBA)의 대안으로 nanofibrillated cellulose(NFC)의 효과와 12개월 경과를 평가한 전향적 중재 임상 연구다. 중성화 암컷 개 8마리를 대상으로 MRI, retrograde vaginourethrography, cystoscopy, urodynamic testing으로 요실금의 다른 원인을 배제한 뒤 NFC를 implant했고, 1·12개월 또는 euthanasia·재발 시점에 MRI, retrograde vaginourethrography, urethroscopy로 추적했다. 1개월째 모든 개가 continent(CS≥8/10)였고 평균 continence score가 유의하게 증가했다(p<0.0001). 12개월째에도 치료 반응은 여전히 유의했으나(p=0.0010) 7마리 중 4마리는 추가 약물치료가 필요했다. 영상·urethroscopy 소견은 implant 부위의 flattening과 mucosal ulceration 동반 여부가 재발과 관련될 수 있음을 시사했다.",
+    "summary_en": "This prospective interventional clinical study evaluated nanofibrillated cellulose (NFC), a novel biomaterial, as an alternative urethral bulking agent (UBA) given the frequent need for repeated implantations with existing agents. Eight neutered female dogs underwent MRI, retrograde vaginourethrography, cystoscopy, and urodynamic testing to exclude other causes of incontinence before NFC implantation, with follow-up MRI, vaginourethrography, and urethroscopy at 1 and 12 months or at euthanasia/recurrence. All dogs were continent (continence score ≥ 8/10) at 1 month with a significant increase in mean continence score (p < 0.0001). Treatment response remained significant at 12 months (p = 0.0010), though 4 of 7 dogs required adjunctive medical therapy. Imaging and urethroscopy findings suggested that flattening of the implant deposits, with or without mucosal ulceration, may contribute to recurrence.",
+    "clinical_takeaway_ko": "UBA(NFC) 시술 후 요실금이 재발한 개를 영상으로 추적할 때, implant 부위의 flattening이나 mucosal ulceration 소견은 재발의 구조적 원인을 시사할 수 있으므로 단순 continence score 추적만이 아니라 vaginourethrography·urethroscopy를 통한 implant 형태 평가를 함께 고려할 수 있다."
+  },
+  {
+    "pmid": "42866543",
+    "title": "Long-term CT and US imaging of canine prostatic carcinoma after prostatic artery embolization: a 900-day follow-up case report.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Saneyuki Isshiki",
+      "Sachiyo Tsuji-Kawahara",
+      "Mayu Ogata",
+      "Shinya Hisamoto",
+      "Moe Hashimoto",
+      "Tetsuya Hasegawa",
+      "Ikuo Tsunoda"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42866543/",
+    "doi": "10.1016/j.jvir.2019.02.014",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT",
+      "ultrasound",
+      "radiography",
+      "interventional"
+    ],
+    "system": [
+      "urogenital",
+      "oncology"
+    ],
+    "topics": [
+      "urogenital-imaging",
+      "vascular-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "ultrasound",
+      "radiography",
+      "interventional",
+      "urogenital",
+      "oncology"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "예후가 불량하고 장기 치료 선택지가 제한적인 개 prostatic carcinoma에서, minimally invasive 대안인 prostatic artery embolization(PAE) 후 약 900일에 걸친 전립선 영상 변화를 기술한 증례보고다. 13세 중성화 수컷 치와와에서 PAE를 시행(Day 0)한 뒤 CT, ultrasonography(US), 흉부 방사선으로 전립선·방광·폐를 추적했다. 임상 증상은 잘 조절되어 개는 Day 918까지 생존했다. CT에서는 Day 33에 intraprostatic hypoattenuating lesion이 나타나 Day 173에 가스 축적과 함께 커졌고, US에서는 Day 271에 hypoechoic lesion이 Day 678에는 산발적 hyperechoic foci로 변화했다. PAE 후 전립선 실질 용적은 약 33% 감소해 Day 481까지 안정적으로 유지되었으며, 심각한 PAE 관련 합병증은 없었다.",
+    "summary_en": "This case report describes approximately 900 days of imaging changes in the prostate of a dog with prostatic carcinoma following prostatic artery embolization (PAE), a minimally invasive alternative for a malignancy with poor prognosis and limited long-term treatment options. A 13-year-old neutered male Chihuahua underwent PAE (Day 0) and was monitored with CT, ultrasonography (US), and thoracic radiography. Clinical signs remained well controlled and the dog survived to Day 918. CT showed intraprostatic hypoattenuating lesions at Day 33 that enlarged with gas accumulation by Day 173; US showed hypoechoic lesions at Day 271 that evolved into scattered hyperechoic foci by Day 678. Prostatic parenchymal volume decreased by approximately 33% after PAE and remained stable until Day 481, with no serious PAE-related complications observed.",
+    "clinical_takeaway_ko": "개 prostatic carcinoma에서 PAE를 시행한 후 추적 영상을 판독할 때, 초기 hypoattenuating/hypoechoic lesion이 가스 축적이나 hyperechoic focus로 변화하는 것은 ischemic·cavitary remodeling의 예상 가능한 경과일 수 있으므로, 이를 재발이나 감염으로 오인하지 않도록 시간 경과에 따른 영상 변화 패턴을 참고할 수 있다."
+  },
+  {
+    "pmid": "42858360",
+    "title": "Global longitudinal strain assessment of systolic dysfunction in Doberman Pinschers with ventricular arrhythmias and normal echocardiographic measurements.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Katharina Hofmeister",
+      "Jana Friederich",
+      "Jessica Schöbel",
+      "Sabine Hertzsch",
+      "Jenny Eberhard",
+      "Robin Schüttpelz",
+      "Gerhard Wess"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42858360/",
+    "doi": "10.1111/j.1939-1676.2010.0516.x",
+    "study_type": "후향적 연구",
+    "sample_size": "126",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "echocardiography",
+      "cardiovascular"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "Doberman Pinscher의 dilated cardiomyopathy(DCM)는 심장 remodeling의 echocardiography 증거가 없는 stage B1에서 ventricular arrhythmia만으로 먼저 나타나는 경우가 많다는 배경에서, global longitudinal strain(GLS)이 이 단계의 subclinical systolic dysfunction을 포착하는지 평가한 후향적 case-control 연구다. Stage B1(24시간 내 ventricular premature complex, VPC ≥300개 또는 1년 내 두 차례 24시간 Holter에서 VPC >50개, 그 외 echocardiography 정상) 개 63마리와 대조군 63마리를 비교했고, 43마리는 arrhythmia 발생 6~12개월 전 \"last-normal(LN)\" 검사 자료가 있었다. 2-dimensional speckle-tracking echocardiography(STE)로 apical 2·3·4-chamber view에서 GLS를 측정한 결과, stage B1군의 GLS(-16.80%±2.71%)가 대조군(-20.22%±1.90%)보다 유의하게 낮았고(P=.044), 같은 개체의 LN 검사 대비로도 유의하게 감소했다(평균차 -2.45%, 95% CI -3.67~-1.24%, P<.001). Arrhythmia 부담이 높은 high-grade VPC군은 low-grade VPC군보다 GLS가 더 낮았다(-15.45%±2.79% vs -18.39%±1.51%, 평균차 -2.94%, 95% CI -4.28~-1.60%, P<.001).",
+    "summary_en": "Dilated cardiomyopathy (DCM) in Doberman Pinschers (DPs) often first manifests as ventricular arrhythmias (stage B1) without echocardiographic evidence of cardiac remodeling (stage B2). This retrospective case-control study assessed whether global longitudinal strain (GLS) detects systolic dysfunction in DPs with arrhythmogenic stage B1 DCM and evaluated the association between arrhythmic burden and GLS, in 63 stage B1 DPs and 63 controls (43 with \"last-normal\" exams 6-12 months before arrhythmia onset). GLS measured by 2D speckle-tracking echocardiography was lower in stage B1 dogs (-16.80% ± 2.71%) than controls (-20.22% ± 1.90%; P = .044) and lower than each dog's own last-normal exam (mean difference, -2.45%; 95% CI, -3.67% to -1.24%; P < .001). High-grade VPC dogs had lower GLS (-15.45% ± 2.79%) than low-grade VPC dogs (-18.39% ± 1.51%; mean difference, -2.94%; 95% CI, -4.28% to -1.60%; P < .001).",
+    "clinical_takeaway_ko": "Doberman에서 ventricular arrhythmia만 있고 conventional echocardiography가 정상인 stage B1 DCM 의증 환자라도, speckle-tracking 기반 GLS를 측정하면 subclinical systolic dysfunction을 조기에 포착할 수 있고 arrhythmia 부담이 클수록 GLS 저하가 더 뚜렷하므로 Holter 결과와 GLS를 함께 평가하는 것이 stage 진행 감시에 도움이 될 수 있다."
+  },
+  {
+    "pmid": "42858358",
+    "title": "Primary hyperparathyroidism in a 4-month-old German Shepherd mixed breed dog.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Juan Aires-Serrano",
+      "Jerry Shimali",
+      "Jade Renard",
+      "Frances Bird",
+      "Alenka Hrovat"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42858358/",
+    "doi": "10.1155/crpe/2390925",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT",
+      "ultrasound"
+    ],
+    "system": [
+      "endocrine",
+      "musculoskeletal"
+    ],
+    "topics": [
+      "endocrine-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "ultrasound",
+      "endocrine",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "Polyuria·polydipsia·구강 불편감·tachypnea·발열을 보인 4개월령 German Shepherd 혼종 개 1예의 증례보고다. 혈액검사에서 total·ionized hypercalcemia와 parathyroid hormone 농도 증가가 확인되었고, computed tomography(CT)에서 mandible의 골 이상과 경미하고 광범위한 폐 변화가 발견되었다. 목 ultrasonography에서 경도로 커진 parathyroid gland 1개가 확인되어 수술로 절제했으며, 조직병리상 diffuse chief cell hyperplasia로 확인되었다. 수술 후 7일 이내 ionized calcium 농도가 정상화되었다.",
+    "summary_en": "This case report describes a 4-month-old female-intact German Shepherd mixed breed dog evaluated for polyuria, polydipsia, oral discomfort, tachypnea, and pyrexia. Blood testing documented total and ionized hypercalcemia with increased parathyroid hormone concentration. Computed tomography identified bone abnormalities of the mandible and mild, diffuse pulmonary changes. Neck ultrasonography documented one mildly enlarged parathyroid gland, which was surgically removed; histopathology showed diffuse chief cell hyperplasia. Ionized calcium normalized within 7 days postoperatively.",
+    "clinical_takeaway_ko": "어린(4개월령) 환자에서도 polyuria·polydipsia와 구강 불편감이 동반되면 primary hyperparathyroidism을 감별진단에 포함하고, 목 ultrasonography로 parathyroid gland를 먼저 선별한 뒤 CT로 hypercalcemia에 동반된 골·폐 변화를 함께 평가하는 접근이 도움이 될 수 있다."
+  },
+  {
+    "pmid": "42857113",
+    "title": "Case Report: Computed tomographic diagnosis of asymmetric bilateral uterine horn torsion secondary to benign uterine leiomyomas in a non-gravid dog.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Eunseok Jeong",
+      "Jaewon Kim",
+      "Younghwan Kim",
+      "Kidong Eom",
+      "Jaehwan Kim"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42857113/",
+    "doi": "10.2460/javma.248.6.661",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT",
+      "radiography",
+      "ultrasound"
+    ],
+    "system": [
+      "urogenital"
+    ],
+    "topics": [
+      "urogenital-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "radiography",
+      "ultrasound",
+      "urogenital"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "11세 미중성화 암컷 Pomeranian이 2~3일간의 복부팽만·호흡곤란·식욕부진·구토·oliguria로 내원해, 신장 손상·전해질 이상·전신 염증 소견이 확인된 증례보고다. 방사선·초음파에서 양측 복부 종괴와 복막삼출이 확인되었으나 기원 장기는 특정할 수 없었다. 조영증강 CT에서 양측 자궁각에서 기원한 종괴가 확인되었으며, 우측은 중심부 조영증강이 없고 좌측은 미약한 중심부 조영증강이 있으면서 두 종괴 모두 얇은 말초 rim enhancement를 보여 vascular compromise와 ischemic injury를 시사했다. 양쪽 난소는 조영증강이 보존되었고, 양측 자궁각의 spiral twisting과 whirl sign이(우측에서 더 뚜렷) 확인되어 수술 전 asymmetric bilateral uterine horn torsion으로 진단했다. 개복술에서 우측 각의 약 1,080° 회전(좌측 각 주위)과 좌측 각 자체축 270° 회전이 확인되었고, broad ligament 육안적 파열은 없었다. En bloc ovariohysterectomy와 vaginal mass 절제를 시행했고, 조직검사에서 양측 자궁각·vaginal mass 모두 leiomyoma로 확진되었다. 개는 수술 후 9개월간 임상적으로 양호했다.",
+    "summary_en": "This case report describes an 11-year-old intact female Pomeranian presenting with a 2- to 3-day history of abdominal distension, dyspnea, anorexia, vomiting, and oliguria, with laboratory findings indicating renal compromise, electrolyte abnormalities, and systemic inflammation. Radiography and ultrasonography revealed large bilateral abdominal masses with peritoneal effusion, but the organ of origin could not be determined. Contrast-enhanced CT demonstrated masses arising from both uterine horns, with absent central enhancement on the right, minimal central enhancement on the left, and thin peripheral rim enhancement on both, suggesting vascular compromise and ischemic injury; both ovaries showed preserved enhancement. Spiral twisting of both uterine horns and bilateral whirl signs, more pronounced on the right, allowed a preoperative diagnosis of asymmetric bilateral uterine horn torsion. Exploratory laparotomy confirmed approximately 1,080° rotation of the right horn around the left horn and 270° rotation of the left horn around its own axis, without gross rupture of the broad ligament. En bloc ovariohysterectomy and excision of a vaginal mass were performed, with histopathology confirming leiomyomas of both uterine horns and the vaginal mass. The dog remained clinically well 9 months after surgery.",
+    "clinical_takeaway_ko": "암컷 개에서 원인 불명의 양측 복부 종괴·복막삼출이 있을 때, 방사선·초음파로 기원 장기를 특정할 수 없다면 contrast-enhanced CT로 whirl sign과 peripheral rim enhancement 패턴을 확인하는 것이 uterine horn torsion(특히 양측성·비대칭성)의 수술 전 진단에 도움이 될 수 있다."
+  },
+  {
+    "pmid": "42855434",
+    "title": "Clinical characteristics of pneumorrhachis in dogs and cats: a retrospective study of 125 cases.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Sam Ooms",
+      "Kenny Bossens",
+      "Ine Cornelis",
+      "Iris van Soens",
+      "Kaatje Kromhout",
+      "Sofie F M Bhatti"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42855434/",
+    "doi": "10.1177/1098612X251385878",
+    "study_type": "후향적 연구",
+    "sample_size": "125",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog",
+      "cat"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "spine",
+      "neuro"
+    ],
+    "topics": [
+      "spinal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "cat",
+      "CT",
+      "spine",
+      "neuro"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "Vertebral canal 내 gas로 정의되는 pneumorrhachis(PR)의 임상적 의미와 vacuum phenomenon(VP)과의 관계가 체계적으로 평가된 적 없다는 문제의식에서, 2015~2023년 CT에서 PR이 확인된 개 119마리·고양이 6마리를 후향적으로 분석했다. 개에서 PR은 60/119마리(50%)에서 neurological 질환과 동반되었고 그중 83%(50/60)가 intervertebral disc disease(IVDD, Hansen type I 64%)였으며, IVDD 관련 PR 중 46%(23/50)에서 VP가 동반되고 그중 78%가 병변 disc와 같은 위치에 있었다. Non-neurological 질환은 45/119마리(38%, 주로 neoplastic·respiratory)에서, 수술 후 PR은 12/119마리에서 확인되었고, 원인불명 PR은 2마리(2%)였다. 고양이에서는 PR이 neurological(2/6)·non-neurological(2/6)·수술 후(2/6)와 연관되었고 IVDD·VP 관련 예는 없었다.",
+    "summary_en": "Pneumorrhachis (PR), gas within the vertebral canal, is uncommon and its clinical relevance and relationship to the vacuum phenomenon (VP) had not been systematically evaluated. This retrospective study characterized PR distribution on CT in 119 dogs and 6 cats (2015-2023). In dogs, PR occurred with neurological conditions in 60/119 (50%), mostly intervertebral disc disease (IVDD, 83%; Hansen type I in 64%), with VP present in 46% of IVDD-related PR (78% co-localized with the affected disc). Non-neurological conditions accounted for 45/119 (38%, mainly neoplastic and respiratory), and PR occurred postoperatively in 12/119 dogs; 2 dogs (2%) had PR without identifiable cause. In cats, PR was associated with neurological (2/6), non-neurological (2/6), and postoperative (2/6) conditions, with no IVDD or VP cases.",
+    "clinical_takeaway_ko": "CT에서 pneumorrhachis가 발견되면 먼저 IVDD(특히 Hansen type I)와 vacuum phenomenon 동반 여부를 확인하되, PR 자체는 흔히 incidental finding이므로 neoplastic·respiratory 질환 등 non-neurological 원인과 수술 후 상태도 함께 감별해야 한다."
+  },
+  {
+    "pmid": "42853250",
+    "title": "Quantitative Assessment of Maxillary Canine, Fourth Premolar, and First Molar Root Surface Areas and Ratios in 68 Brachycephalic Dogs Using Cone-Beam Computed Tomography.",
+    "journal": "Journal of veterinary dentistry",
+    "year": "2026",
+    "authors": [
+      "Deborah Yee",
+      "Ashley Capen-Kerns",
+      "Jason P Hutt",
+      "Jennifer Tjepkema"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42853250/",
+    "doi": "10.1177/08987564261494957",
+    "study_type": "후향적 연구",
+    "sample_size": "68",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "dental",
+      "head-neck"
+    ],
+    "topics": [
+      "head-neck-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "dental",
+      "head-neck"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "Brachycephalic 개의 교합부전 교정 시 anchorage 설계에 필요한 root surface area(RSA) 자료가 없다는 문제의식에서, cone-beam computed tomography(CBCT) 영상 68마리(119개 dental arcade)를 후향적으로 분석해 상악 canine·fourth premolar(PM4)·first molar(M1)의 RSA와 비율을 정량화했다. 모든 arcade(119/119, 100%)에서 canine:PM4+M1 비율이 1 미만이었고, canine:PM4 비율은 61.35%에서, canine:M1 비율은 1.68%(모두 10kg 미만 소형견)에서만 1 미만이었다. 체중은 canine:PM4+M1 비율과 유의하게 양의 상관관계를 보였으나(P=.0006) 모든 체중군에서 비율은 1 미만으로 유지되었고, 소형견은 중형견(P=.006)·대형견(P=.03)보다 이 비율이 유의하게 낮았다.\n저자들은 이 결과가 PM4와 M1을 결합한 reinforced anchorage unit으로서 상악 canine 교정 이동에 활용할 근거가 된다고 결론지었다.",
+    "summary_en": "This retrospective study quantified root surface area (RSA) of the maxillary canine, fourth premolar (PM4), and first molar (M1) using CBCT scans from 68 brachycephalic dogs (119 dental arcades), addressing the lack of RSA data needed to plan orthodontic anchorage in this population. All arcades (119/119, 100%) had a canine-to-combined-PM4+M1 RSA ratio of less than 1; the canine-to-PM4 ratio was below 1 in 61.35% of arcades, while the canine-to-M1 ratio was below 1 in only 1.68%, all in dogs under 10 kg. Body weight was positively associated with the canine:PM4+M1 ratio (P = .0006), though the ratio remained below 1 across all weight classes, and small dogs had significantly lower ratios than medium (P = .006) and large dogs (P = .03). These findings support using the PM4 and M1 together as a reinforced anchorage unit for orthodontic movement of the maxillary canine in brachycephalic dogs.",
+    "clinical_takeaway_ko": "Brachycephalic 개에서 상악 canine malocclusion의 active force orthodontics를 계획할 때, PM4 단독보다는 PM4+M1을 결합한 anchorage unit을 우선 고려할 수 있으며, 특히 10kg 미만 소형 brachycephalic 견에서는 canine 자체의 RSA가 상대적으로 더 작아 anchorage 설계에 더 신중해야 한다."
+  },
+  {
+    "pmid": "42849778",
+    "title": "Gastrointestinal transit time of healthy dogs before and after enema assessed by contrast radiographs with barium-impregnated polyethylene spheres.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "Murilo Rodrigues de Souza",
+      "Wanessa Patrícia Rodrigues da Silva",
+      "Rafael Antônio Lopes Xavier",
+      "Carolina Castro Lyra da Silva",
+      "Katalina Cifuentes Ruiz",
+      "Monica Chacon de Vicente",
+      "Rayanne Henrique Santana da Silva",
+      "Danieli Brolo Martins",
+      "Naida Cristina Borges",
+      "Ana Flávia Machado Botelho"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42849778/",
+    "doi": "10.1016/j.tvjl.2026.106924",
+    "study_type": "실험 연구",
+    "sample_size": "6",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography",
+      "contrast-study"
+    ],
+    "system": [
+      "gastrointestinal",
+      "technique"
+    ],
+    "topics": [
+      "abdominal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "contrast-study",
+      "gastrointestinal",
+      "technique"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "건강한 개 6마리를 대상으로 barium-impregnated polyethylene sphere(BIPS)를 이용한 radiographic contrast 검사에서 enema 시행 전후의 위장관 통과시간을 비교한 전향적 실험 연구다. 12시간 금식 후 0~12시간 동안 연속 방사선 촬영으로 BIPS 위치를 추적해 gastric emptying time과 descending colon 도달 시간을 측정했으며, 같은 개체에서 BIPS 단독(BIPS군)과 BIPS+enema(BIPS+ENEMA군)를 비교했다. BIPS군은 H0~H1에 gastric emptying이 시작되어 H8 무렵 종료되었으나, BIPS+ENEMA군은 emptying이 H1 무렵 시작되어 H12 이후까지 지속되었고 검사 종료 시점 descending colon 내 sphere 비율도 더 낮았다(통계적 유의성은 없음). BIPS와 enema 모두 혈액검사·전해질·혈당에 이상을 일으키지 않았다. 저자들은 BIPS를 이용한 radiographic contrast 검사에서 enema가 필수 전처치는 아니라고 결론지었다.",
+    "summary_en": "This prospective experimental study in six healthy dogs compared gastrointestinal transit before and after an enema using barium-impregnated polyethylene sphere (BIPS) contrast radiography. After a 12-hour fast, serial radiographs over 0-12 hours tracked BIPS location to calculate gastric emptying time and time to reach the descending colon, comparing BIPS alone versus BIPS plus enema in the same dogs. The BIPS-only group showed gastric emptying starting at H0-H1 and ending around H8, whereas the BIPS+enema group showed delayed emptying starting around H1 and extending beyond H12, with a lower percentage of spheres reaching the descending colon by the end of observation (differences not statistically significant). Neither BIPS nor enema caused laboratory abnormalities or hypoglycemia. The authors concluded that an enema is not a required pre-procedure step when using BIPS for radiographic contrast studies.",
+    "clinical_takeaway_ko": "개의 위장관 통과시간 평가를 위해 BIPS contrast radiography를 계획할 때, enema 전처치를 생략해도 검사가 가능하며 오히려 enema가 gastric emptying을 지연시킬 수 있으므로 검사 전 불필요한 enema를 피하는 것이 합리적이다."
+  },
+  {
+    "pmid": "42849777",
+    "title": "Echocardiographic changes in hyperthyroid cats: Comparison of subclinical disease and congestive heart failure.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "S Greil",
+      "H Utzinger",
+      "I Maerz"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42849777/",
+    "doi": "10.1016/j.tvjl.2026.106915",
+    "study_type": "후향적 연구",
+    "sample_size": "98",
+    "evidence_basis": "abstract",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "echocardiography",
+      "radiography",
+      "ultrasound"
+    ],
+    "system": [
+      "cardiovascular",
+      "endocrine"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "cat",
+      "echocardiography",
+      "radiography",
+      "ultrasound",
+      "cardiovascular",
+      "endocrine"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "Hyperthyroidism이 있는 고양이에서 subclinical 심장 침범과 congestive heart failure(CHF)를 구분하는 요인이 명확하지 않다는 문제의식에서, subclinical 심장질환 고양이 51마리와 CHF로 내원한 고양이 47마리를 후향적으로 비교한 case-control 연구다. 모든 고양이는 standard echocardiography와 혈청 total thyroxine(TT4)을 포함한 생화학검사를 받았고, congestion 유형은 흉부 방사선 또는 point-of-care ultrasound로 판정했다. CHF군은 subclinical군보다 심방 크기와 좌심실 내경이 유의하게 더 컸고, left atrial dysfunction이 두 군을 구분하는 가장 강력한 지표였다. CHF군 내에서는 pleural/mixed effusion이 pulmonary oedema 단독보다 우세했으며 우심계·전신 volume overload가 더 심했다. TT4 농도는 두 군 간 유의한 차이가 없었다.",
+    "summary_en": "This retrospective case-control study compared echocardiographic findings between 51 hyperthyroid cats with subclinical cardiac disease and 47 hyperthyroid cats presenting in congestive heart failure (CHF), addressing the poorly defined factors distinguishing subclinical cardiac involvement from decompensation. All cats underwent standard echocardiography and serum biochemistry including total thyroxine (TT4), with congestion type determined by thoracic radiography or point-of-care ultrasound. Cats with CHF had significantly larger atrial dimensions and increased left ventricular internal diameter, with left atrial dysfunction being the most robust discriminator between groups. Pleural or mixed effusion was the predominant CHF phenotype and was associated with greater right-sided and global volume overload than pulmonary oedema alone. TT4 concentrations did not differ significantly between groups or CHF subtypes.",
+    "clinical_takeaway_ko": "Hyperthyroid 고양이를 검사할 때 TT4 수치만으로는 심장 침범 정도를 예측할 수 없으므로, 특히 left atrial function 평가를 포함한 포괄적 echocardiography를 통해 CHF로의 진행 위험을 조기에 선별해야 하며, pleural/mixed effusion이 의심되면 우심계 volume overload 평가를 함께 고려해야 한다."
+  },
+  {
+    "pmid": "42843445",
+    "title": "Longitudinal assessment of left and right ventricular systolic function in dogs undergoing chemotherapy with doxorubicin.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "Marcela Wolf",
+      "Stephany Buba Lucina",
+      "Vinícius Bentivóglio Costa Silva",
+      "Matheus Folgearini Silveira",
+      "Victoria Gariba Silva",
+      "Natália Kano",
+      "Ana Paula Sarraff",
+      "Claudia de Cássia Custódio",
+      "Bruna Natali da Costa",
+      "Marlos Gonçalves Sousa"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42843445/",
+    "doi": "10.1016/j.tvjl.2026.106911",
+    "study_type": "전향적 연구",
+    "sample_size": "25",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular",
+      "oncology"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "echocardiography",
+      "cardiovascular",
+      "oncology"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "Doxorubicin 화학요법의 cardiotoxicity가 좌심실뿐 아니라 우심실에도 영향을 줄 수 있다는 사람 cardio-oncology의 시사점을 바탕으로, 암에 걸린 개 25마리(완료 추적 12마리)를 대상으로 conventional echocardiography와 speckle tracking(global longitudinal strain, GLS; tissue motion annular displacement, TMAD)을 투여 전, 7·21·60·120·180일에 반복 측정한 전향적 종단 연구다. 좌심실 volume·fractional shortening·ejection fraction·global circumferential strain·GLS는 시간에 따른 유의한 변화가 없었으나, 180일째 MAPSEi lateral(P=0.002), MAPSEi septal(P=0.0293), global TMAD%(P=0.046)가 기저치보다 감소했고 E' wave velocity 감소와 누적 doxorubicin 용량-E:A ratio 간 음의 상관관계가 확인되어 용량의존적 diastolic function 저하가 시사되었다. 우심실에서는 TAPSEi(P<0.001), RV S' wave(P=0.036), FAC(P=0.04), RV GLS(P=0.002), RV TMAD(P=0.019)가 시간에 따라 점진적으로 감소했다.",
+    "summary_en": "Building on evidence from human cardio-oncology that doxorubicin cardiotoxicity may affect global cardiac function including the right ventricle, this prospective longitudinal study evaluated 25 dogs with cancer undergoing doxorubicin chemotherapy (12 completing all follow-ups) using conventional echocardiography and speckle tracking (global longitudinal strain, GLS; tissue motion annular displacement, TMAD) before treatment and at 7, 21, 60, 120, and 180 days. Left ventricular volumes, fractional shortening, ejection fraction, global circumferential strain, and GLS showed no significant change over time, but MAPSEi lateral (P = 0.002), MAPSEi septal (P = 0.0293), and global TMAD% (P = 0.046) decreased by day 180 compared with baseline, along with decreased E' wave velocity and a negative correlation between cumulative doxorubicin dose and E:A ratio, suggesting a dose-dependent effect on diastolic function. In the right ventricle, TAPSEi, RV S' wave, FAC, RV GLS, and RV TMAD all showed progressive reductions over time.",
+    "clinical_takeaway_ko": "Doxorubicin 투여 중인 개를 추적 echocardiography로 모니터링할 때, 기존 지표(ejection fraction, fractional shortening)만으로는 subclinical cardiotoxicity를 놓칠 수 있으므로 MAPSE·TAPSE·TMAD 등 annular displacement 기반 지표와 양심실 평가를 함께 포함하는 것이 조기 발견에 유리할 수 있다."
+  },
+  {
+    "pmid": "42842764",
+    "title": "Bacterial aortic endarteritis with sepsis as a rare complication of aortic dissection in a cat.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Sukjung Lim",
+      "Kristen L Shekelle",
+      "Katia R Groch",
+      "Brian F Porter",
+      "Elizabeth Malcolm",
+      "Sonya Gordon"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42842764/",
+    "doi": "10.1016/j.jvc.2019.09.001",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "radiography",
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "cat",
+      "radiography",
+      "echocardiography",
+      "cardiovascular"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "호흡 곤란으로 내원한 14세 domestic shorthair 고양이 1예의 증례보고다. 흉부 방사선에서는 두드러진 aortic arch 외 다른 이상이 없었으나, echocardiography에서 ascending aorta 내 mobile flap이 확인되어 2개 lumen을 형성하는 aortic dissection(AD)으로 진단되었고 경도의 pericardial effusion(tamponade 동반), 좌심실 concentric hypertrophy, 정상 좌심방 크기가 함께 확인되었다. 전신 고혈압(200mmHg)이 AD의 추정 원인으로 판단되어 telmisartan·furosemide·amlodipine을 투여해 임상적으로 호전되었고 정상혈압 상태로 2일 후 퇴원했으나, 4개월 후 기력저하 후 사망했다. 부검에서 7.6cm 길이의 aortic intimal flap과 심한 bacterial aortic endarteritis, 다발성 장기 괴사·혈전·embolic glomerulonephritis를 포함한 sepsis 소견이 확인되었고, 신장 배양에서 endarteritis 병변과 동일하게 추정되는 Pasteurella stomatis가 혼합 배양되었다.",
+    "summary_en": "This case report describes a 14-year-old domestic shorthair cat examined for respiratory distress. Thoracic radiography showed a prominent aortic arch with no other abnormalities. Echocardiography documented a mobile flap within the ascending aorta creating 2 lumens, consistent with aortic dissection (AD), mild pericardial effusion with tamponade, left ventricular concentric hypertrophy, and normal left atrial size. Systemic hypertension (200 mmHg) was the presumed cause of AD; the cat improved on telmisartan, furosemide, and amlodipine and was discharged normotensive after 2 days, but became lethargic and died 4 months later. Necropsy showed a 7.6 cm aortic intimal flap, severe bacterial aortic endarteritis, and evidence of sepsis including multiple organ necrosis, thrombosis, and embolic glomerulonephritis; kidney culture yielded Pasteurella stomatis, presumably the organism in the endarteritis lesion.",
+    "clinical_takeaway_ko": "전신 고혈압이 있는 고양이에서 호흡기 증상과 함께 흉부 방사선상 aortic arch가 두드러지면, 방사선에서 다른 이상이 없더라도 echocardiography로 ascending aorta의 intimal flap(aortic dissection)을 반드시 확인하고, 혈압 조절 후 임상적으로 호전되었더라도 감염성 aortic endarteritis로 인한 지연성 sepsis 가능성을 염두에 둔 장기 추적이 필요하다."
+  },
+  {
+    "pmid": "42838285",
+    "title": "Procedural sedation with subcutaneously administered medetomidine-vatinoxan-butorphanol in dogs - A randomized, controlled, clinical dose-finding study.",
+    "journal": "Veterinary journal (London, England : 1997)",
+    "year": "2026",
+    "authors": [
+      "J Honkavaara",
+      "E Lindh",
+      "H Turunen",
+      "T Mäki",
+      "E Välimäki",
+      "V Reunanen",
+      "N Vartia"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42838285/",
+    "doi": "10.1016/j.tvjl.2026.106921",
+    "study_type": "무작위대조군연구",
+    "sample_size": "53",
+    "evidence_basis": "abstract",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "sedation-restraint",
+      "musculoskeletal"
+    ],
+    "topics": [
+      "sedation-restraint-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "sedation-restraint",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-10-14",
+    "summary_ko": "Intramuscular(IM) 투여보다 subcutaneous(SC) 투여가 일부 개에서 더 잘 용인될 수 있다는 전제로, orthopedic radiography를 위한 진정 목적의 medetomidine-vatinoxan-butorphanol SC 투여의 dose-response를 평가한 무작위대조군 임상 연구다. 보호자 소유 건강한 개 53마리를 IM medetomidine 단독(M0.6-IM), IM medetomidine/vatinoxan(Z0.6-IM), SC medetomidine/vatinoxan 3개 용량군(Z0.6-SC, Z0.9-SC, Z1.2-SC)에 무작위 배정했고 모든 군에 butorphanol 0.2mg/kg을 병용했다. IM 투여군이 SC 투여군보다 진정 발현이 더 빨랐고, rescue sedation 필요 비율은 SC 저용량군(Z0.6-SC)에서 가장 높았다(4/11). 심박수는 모든 처치에서 기저치보다 유의하게 감소했으나 저혈압(MAP<60mmHg)은 관찰되지 않았고, vatinoxan을 병용한 모든 군(IM·SC)이 medetomidine 단독군보다 oral mucosal microcirculation(Laser Doppler Flow, T-HbO2)이 유의하게 더 양호했다.",
+    "summary_en": "Based on the premise that subcutaneous (SC) drug administration may be better tolerated than intramuscular (IM) administration in some dogs, this randomized controlled clinical dose-finding study evaluated SC medetomidine-vatinoxan-butorphanol for sedation prior to orthopedic radiography. Fifty-three healthy client-owned dogs were randomized to IM medetomidine alone (M0.6-IM), IM medetomidine/vatinoxan (Z0.6-IM), or one of three SC medetomidine/vatinoxan dose groups (Z0.6-SC, Z0.9-SC, Z1.2-SC), all combined with butorphanol 0.2 mg/kg. Sedation onset was faster after both IM treatments than after SC treatments, and the need for rescue sedation was highest in the lowest-dose SC group (4/11, Z0.6-SC). Heart rate decreased significantly from baseline across all treatments without hypotension (MAP < 60 mmHg), and all vatinoxan-containing groups (IM and SC) showed significantly better oral mucosal microcirculation (Laser Doppler Flow, tissue hemoglobin saturation) than medetomidine alone.",
+    "clinical_takeaway_ko": "Orthopedic radiography를 위해 medetomidine-vatinoxan-butorphanol로 진정할 때 SC 투여는 IM 투여보다 진정 발현이 느리고 rescue sedation이 더 필요할 수 있으므로, 신속한 촬영이 필요한 상황에서는 IM 투여를 우선하고 SC 투여는 저용량(0.6 mg/m2)보다 높은 용량(0.9~1.2 mg/m2)을 고려하는 것이 적절하다."
+  },
+  {
     "pmid": "42833390",
     "title": "MRI FINDINGS IN CAUDA EQUINA NERVE ROOTS AND ASSOCIATED CLINICAL SIGNS IN DOGS WITH DEGENERATIVE LUMBOSACRAL STENOSIS.",
     "journal": "Veterinary journal (London, England : 1997)",

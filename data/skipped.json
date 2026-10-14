@@ -166,5 +166,29 @@
     "title": "Clinical and molecular genetic description of a Marfan-like syndrome in a Golden Retriever puppy.",
     "reason": "방사선검사는 임상 소견(심장 비대·pneumothorax) 확인에만 부수적으로 언급되고 구체적 영상 소견 서술 없음; 연구 핵심은 whole-genome sequencing 기반 FBN1 유전자 변이 진단",
     "date": "2026-10-06"
+  },
+  {
+    "pmid": "42838284",
+    "title": "Cat Stress Score and hair cortisol concentrations are not associated with subclinical hypertrophic cardiomyopathy in cats.",
+    "reason": "Echocardiography는 HCM 여부를 분류하는 진단 기준으로만 부수적 사용됨; 연구 핵심은 스트레스 지표(Cat Stress Score, hair cortisol)와 HCM 발생 간 연관성",
+    "date": "2026-10-14"
+  },
+  {
+    "pmid": "42846592",
+    "title": "Anatomopathological features of uterine tube adenoma in a female dog.",
+    "reason": "Ultrasonography·CT는 복강 내 종괴 발견에만 부수적으로 사용되고 구체적 영상 소견 서술 없음; 연구 핵심은 조직병리·면역조직화학 기반 종양 확진",
+    "date": "2026-10-14"
+  },
+  {
+    "pmid": "42840741",
+    "title": "Surgical management of an unstable occipital condyle fracture in a dog using a patient-specific CNC-milled titanium implant: a case report.",
+    "reason": "MRI·CT는 골절 진단과 수술 후 implant 위치 확인에만 부수적으로 사용됨; 저자 스스로 이 증례의 기여가 영상·수술적 처치가 아니라 implant 설계·CNC 가공 workflow에 있다고 명시함",
+    "date": "2026-10-14"
+  },
+  {
+    "pmid": "42840619",
+    "title": "Fascia lata autograft for recurrent inguinal hernia repair in a geriatric pet rabbit (Oryctolagus cuniculus): a case report.",
+    "reason": "CT·ultrasonography는 hernia 진단과 수술 후 재발 여부 확인에만 부수적으로 사용됨; 연구 핵심은 fascia lata autograft를 이용한 재발성 서혜부 탈장 재건 수술 기법",
+    "date": "2026-10-14"
   }
 ]
