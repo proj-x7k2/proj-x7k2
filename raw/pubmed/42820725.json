@@ -1,0 +1,40 @@
+{
+  "pmid": "42820725",
+  "title": "Influence of including or excluding endocardial borders on left ventricular wall thickness measurements in cats.",
+  "journal": "Journal of veterinary internal medicine",
+  "year": "2026",
+  "authors": [
+    "Maximiliane G Sehn",
+    "Yuen Yee Cheuk",
+    "Jose Novo Matos",
+    "David Brodbelt",
+    "Virginia Luis Fuentes"
+  ],
+  "doi": "10.11613/BM.2012.031",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42820725/",
+  "abstract": "BACKGROUND: Consensus is lacking on which endocardial borders to include when measuring left ventricular wall thickness (LVWT) in cats.\n\nHYPOTHESIS/OBJECTIVES: The number of endocardial borders included can influence whether an individual cat is classified as having hypertrophic cardiomyopathy (HCM) or not.\n\nANIMALS: Fifty-two cats that previously were diagnosed as either healthy, equivocal for HCM, or having an HCM phenotype.\n\nMETHODS: Single-center retrospective cross-sectional study. Three observers measured LVWT using 4 different LVWT measurement protocols: leading edge-to-leading edge (L-L); leading edge-to-trailing edge, trailing edge-to-leading edge, and trailing edge-to-trailing edge for the interventricular septum and L-L and trailing edge-to-leading edge methods for the left ventricular free wall (LVFW). Measurements were made using stored echocardiographic images on 2 occasions by 2 observers. A Friedman test and post-hoc Wilcoxon signed rank test with Bonferroni correction were performed to detect differences between measurement techniques.\n\nRESULTS: Interventricular septum (IVS) wall thickness was significantly larger for leading-edge-to-trailing-edge measurement (median and [interquartile range (IQR)]: 5.5 [3.8-7.2] millimeters) compared with other methods (P < .001). The trailing-edge-to-leading-edge method produced significantly smaller results (4.3 [IQR, 3.4-6.2] millimeters for the interventricular septum and 4.8 [IQR, 3.4-6.2] millimeters for the LVFW) compared with other methods (P < .001). Median IVS thickness measured as leading-edge-to-trailing-edge was 1.2 millimeters larger than when measured as trailing-edge-to-leading-edge.\n\nCONCLUSIONS AND CLINICAL IMPORTANCE: LVWT varies depending on the number of endocardial borders included. The number of endocardial borders included in LVWT measurements should be standardized.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Cats",
+    "Heart Ventricles",
+    "Cardiomyopathy, Hypertrophic",
+    "Female",
+    "Echocardiography",
+    "Cross-Sectional Studies",
+    "Retrospective Studies",
+    "Cat Diseases",
+    "Male",
+    "Endocardium"
+  ],
+  "keywords": [
+    "HCM",
+    "echocardiography",
+    "endocardial border",
+    "feline",
+    "variability"
+  ],
+  "fetched_on": "2026-10-06"
+}

@@ -1,0 +1,37 @@
+{
+  "pmid": "42717404",
+  "title": "Evaluation of the Cornea of Dogs With Dry Eye Disease Using Spectral Domain Optical Coherence Tomography.",
+  "journal": "Veterinary ophthalmology",
+  "year": "2026",
+  "authors": [
+    "Fábio L da C Brito",
+    "Maria Fernanda X S Rocha",
+    "Jessica N Voitena",
+    "Eric C Ledbetter",
+    "Fabiano Montiani-Ferreira"
+  ],
+  "doi": "10.1111/vop.12028",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42717404/",
+  "abstract": "PURPOSE: To evaluate the central corneal thickness (CCT) and corneal epithelial thickness (CET) in dogs affected by dry eye disease (DED) using optical coherence tomography (OCT).\n\nMETHODS: Sixty-three canine eyes were allocated into two groups: healthy dogs, without clinical signs of dry eye disease (DED) and Schirmer tear test-1 (STT-1) values ≥ 15 mm/min (n = 29 eyes), and DED-affected dogs, exhibiting clinical signs of DED and STT-1 values < 15 mm/min (n = 34 eyes). The OCT software automatically generated a 17-section corneal pachymetry map within a 6-mm diameter. The thickness of the corneal epithelium was measured manually. Only scans with a quality score of 27 or greater and proven to be free of motion artifacts were accepted for data collection. The Mann-Whitney U test and Spearman's correlation were used to analyze the data.\n\nRESULTS: When comparing the CET of healthy dogs with dogs DED-affected, a median of 73.0 μm (interquartile range [IQR] = 9.0) and 105.0 μm (IQR = 71.0) were obtained, respectively, demonstrating a statistically significant difference (p < 0.0001). A moderate negative correlation was observed between STT-1 and CET (r = -0.581). A moderate-to-strong inverse association was observed between tear film breakup time (TFBUT) and CET (r = -0.66). Dogs with DED exhibited epithelial thickening accompanied by a marked reduction or loss of hyperreflective epithelial interfaces, as well as increased hyperreflectivity within the epithelial layer.\n\nCONCLUSION: DED-affected dogs exhibited a pronounced increase in CET. Both STT-1 and TFBUT values were directly associated with CET in DED-affected dogs.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Dry Eye Syndromes",
+    "Dog Diseases",
+    "Tomography, Optical Coherence",
+    "Cornea",
+    "Female",
+    "Male",
+    "Epithelium, Corneal"
+  ],
+  "keywords": [
+    "OCT",
+    "corneal epithelium",
+    "corneal thickness",
+    "dry eye"
+  ],
+  "fetched_on": "2026-09-21"
+}

@@ -1,0 +1,26 @@
+{
+  "pmid": "42804870",
+  "title": "Hormone-sparing non-surgical male contraception in dogs and cats: Current strategies and the emerging role of FSH receptor-targeted antibody fragments.",
+  "journal": "Theriogenology",
+  "year": "2026",
+  "authors": [
+    "Pakpoom Navanukraw",
+    "Panisara Kunkitti",
+    "Kaywalee Chatdarong"
+  ],
+  "doi": "10.1016/j.theriogenology.2026.118222",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42804870/",
+  "abstract": "Surgical reproductive control remains the most widely used method for reproductive control in dogs and cats, but it requires anesthesia, trained personnel, surgical facilities, and post-operative care, which may limit its application in large-scale free-roaming animal populations. In males, orchidectomy also eliminates Leydig cell testosterone production, removes negative feedback on the hypothalamic-pituitary-gonadal axis, and may contribute to persistent elevation of luteinizing hormone. These endocrine changes have increased interest in hormone-sparing contraceptive strategies that suppress fertility without fully reproducing the hormonal consequences of castration. This review summarizes current non-surgical male contraceptive approaches in dogs and cats, including GnRH agonists, progestogens, androgens, systemic chemical contraceptive agents, intratesticular and intraepididymal chemical contraceptive agents, therapeutic ultrasonography, gene-editing strategies, and immunological approaches. Many existing methods suppress the hypothalamic-pituitary-gonadal axis, damage testicular tissue, require repeated administration, or have inconsistent effects on testosterone preservation. In contrast, follicle-stimulating hormone receptor (FSHr)-targeted antibody fragments offer a more selective approach by targeting Sertoli cell support of spermatogenesis while avoiding direct interference with LH-mediated Leydig cell testosterone production. Recent studies in dogs and cats have demonstrated species-specific anti-FSHr antibody fragments that suppress Sertoli cell functional markers in vitro, while in vivo evidence from long-tailed macaques suggests that anti-FSHr scFv can impair sperm output and semen quality without significantly altering serum testosterone concentrations. Although further in vivo studies are required in dogs and cats, anti-FSHr antibody fragments represent a promising emerging direction for hormone-sparing male contraception in companion animals.",
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Gonad-sparing",
+    "Nanobody",
+    "Non-surgical contraception",
+    "Single-chain variable fragment"
+  ],
+  "fetched_on": "2026-09-29"
+}

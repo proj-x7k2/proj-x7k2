@@ -1,0 +1,32 @@
+{
+  "pmid": "42727605",
+  "title": "Magnetic resonance imaging identifies prognostic features in dogs and cats with ischemic cerebrovascular accidents.",
+  "journal": "American journal of veterinary research",
+  "year": "2026",
+  "authors": [
+    "Jean Desbordes",
+    "Abdelghani Sifouane",
+    "Yannick Ruel",
+    "Albert Agoulon",
+    "Stella Papageorgiou",
+    "Kirsten Gnirs",
+    "David Grevent",
+    "Nathalie Boddaert",
+    "Hugues Gaillot"
+  ],
+  "doi": "10.2460/ajvr.26.06.0268",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42727605/",
+  "abstract": "OBJECTIVE: To characterize MRI findings, including arterial spin labeling (ASL) perfusion features, in dogs and cats with ischemic cerebrovascular accidents (ICVAs) and to identify prognostic factors.\n\nMETHODS: Retrospective, single-center observational study of dogs and cats presenting with acute, nonprogressive brain dysfunction from 2018 through 2024, with MRI findings consistent with ICVA and available ASL perfusion imaging. Ischemic cerebrovascular accidents subtypes; MRI findings, including ASL perfusion characteristics; and outcomes were analyzed.\n\nRESULTS: 63 animals (47 dogs and 16 cats) were included. A novel complete territorial ICVA subtype, involving either an entire middle cerebral artery territory or an entire cerebellar hemisphere, was identified in 8 of 63 animals (12.7%) and commonly associated with moderate-to-severe mass effect. All nonlacunar infarcts exhibited focal ASL hypoperfusion, whereas lacunar infarcts showed no detectable perfusion abnormalities. Ischemic penumbra was identified in only 2 of 19 animals (10.5%) with nonlacunar infarcts imaged within 24 hours of onset. Complete territorial ICVAs with moderate-to-severe mass effect were classified as malignant ICVAs because this pattern was strongly associated with early mortality (OR, 400; 95% CI, 14.5 to 11,039).\n\nCONCLUSIONS: These findings expand the recognized spectrum of ICVA in dogs and cats and indicate that infarct extent and mass effect are important markers of disease severity and early outcome. ASL perfusion can demonstrate hypoperfusion in nonlacunar ICVAs but has limited ability to identify potentially salvageable ischemic tissue.\n\nCLINICAL RELEVANCE: Recognition of complete territorial and malignant ICVAs may improve early prognostic assessment and inform clinical decision-making in dogs and cats with ICVA.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "arterial spin labeling perfusion",
+    "complete territorial infarct",
+    "ischemic stroke",
+    "malignant brain edema",
+    "prognosis"
+  ],
+  "fetched_on": "2026-09-21"
+}

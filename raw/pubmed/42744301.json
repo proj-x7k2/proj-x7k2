@@ -1,0 +1,32 @@
+{
+  "pmid": "42744301",
+  "title": "Prevalence of canine hip dysplasia and its association with cranial cruciate ligament deficiency in dogs undergoing tibial plateau levelling osteotomy: a retrospective study.",
+  "journal": "New Zealand veterinary journal",
+  "year": "2026",
+  "authors": [
+    "B Courzereaux",
+    "A Martenne-Duplan",
+    "D Szwec",
+    "M Gatineau",
+    "J Plante",
+    "P Clerfond",
+    "M Da Silva",
+    "A Terreros"
+  ],
+  "doi": "10.1080/00480169.2026.2728624",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42744301/",
+  "abstract": "AIMS: To describe the radiographic prevalence and severity of canine hip dysplasia (CHD) in dogs undergoing tibial plateau levelling osteotomy (TPLO) for cranial cruciate ligament deficiency (CCLD); to evaluate the association between CHD and osteoarthritis (OA) severity; to determine whether the level of CHD or OA in the most severely affected hip was associated with ipsilateral vs contralateral CCLD; and for dogs that had one documented case of CCLD, whether the level of CHD severity in the most severely affected hip was associated with time to opposite-side CCLD.\n\nMETHODS: Medical records from 466 client-owned dogs treated with TPLO for CCLD at a single referral centre between September 2021 and December 2022 were reviewed retrospectively. Pre-operative radiographs were assessed for CHD and OA severity. The relationship between the most severely affected hip and operated stifle was recorded as ipsilateral or contralateral. Prevalence estimates, breed-specific distribution analyses, multivariable logistic and ordinal models, and Cox proportional hazards models were used to evaluate associations between CHD severity, OA severity, ipsilateral vs contralateral CCLD, and time to opposite-side CCLD.\n\nRESULTS: The radiographic prevalence of CHD was 169/466 (36.3 (95% CI = 31.9-40.6)%). Among dysplastic dogs, 74.0% showed radiographic evidence of OA. CHD severity was strongly associated with OA severity (OR per one-category increase in CHD severity score 22.91 (95% CI = 14.87-35.32); p < 0.001). Increasing CHD severity was associated with higher odds of CCLD occurring in the stifle contralateral to the most severely affected hip (OR per one-category increase in CHD severity score 3.70 (95% CI = 1.88-7.91); p < 0.001). CHD severity showed little evidence of association with time to opposite-side CCLD (HR per one-category increase in CHD severity score 0.93 (95% CI = 0.73-1.17); p = 0.52).\n\nCONCLUSIONS: CHD was common among dogs undergoing TPLO for CCLD in this referral population. Compared to dogs with mild CHD, dogs with more severe CHD were more likely to develop CCLD in the stifle contralateral to the most severely affected hip. However, in dogs that had been treated for CCLD, CHD severity was not associated with time to any subsequent opposite-side CCLD. These observational findings should be interpreted with caution.\n\nCLINICAL SIGNIFICANCE: Identification of CHD in dogs undergoing TPLO may assist clinical assessment of pelvic limb function and long-term management. Prospective studies are needed to clarify the relationships between CHD and CCLD concerning CCLD rupture relative to the most dysplastic hip.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Dog",
+    "biomechanics",
+    "gait",
+    "osteoarthritis",
+    "osteotomy",
+    "radiography"
+  ],
+  "fetched_on": "2026-09-21"
+}

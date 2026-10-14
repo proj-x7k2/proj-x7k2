@@ -1,0 +1,28 @@
+{
+  "pmid": "42822806",
+  "title": "Geometric morphometric analysis of cardiac shape changes associated with myxomatous mitral valve disease in Cavalier King Charles Spaniels.",
+  "journal": "Veterinary journal (London, England : 1997)",
+  "year": "2026",
+  "authors": [
+    "Caner Bakıcı",
+    "Murat Vurucu",
+    "İhsan Berat Kılıçlı",
+    "Ezgi Deniz Mavili",
+    "Barış Batur"
+  ],
+  "doi": "10.1016/j.tvjl.2026.106901",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42822806/",
+  "abstract": "Myxomatous mitral valve disease (MMVD) is a progressive cardiac disorder in Cavalier King Charles Spaniels (CKCS), characterized not only by cardiac enlargement but also by complex morphological remodeling of the cardiac silhouette. This study aimed to evaluate stage-dependent configurational changes in heart shape across the American College of Veterinary Internal Medicine (ACVIM) stages (A-D) using two-dimensional geometric morphometric analysis of thoracic radiographs. A total of 54 CKCS dogs (Stage A: n = 9, Stage B1: n = 11, Stage B2: n = 10, Stage C: n = 12, Stage D: n = 12) that underwent both echocardiography and right lateral thoracic radiography were included. Shape data were obtained from ten anatomically homologous landmarks digitized using TpsDig software. Following Generalized Procrustes Analysis in MorphoJ, principal component analysis (PCA), discriminant function analysis (DFA), multivariate analysis of variance using PAST, and canonical variate analysis (CVA) were performed to assess intergroup shape differences. Vertebral heart score (VHS), vertebral left atrial score (VLAS), age, and body weight were compared among ACVIM-classified MMVD groups using the Kruskal-Wallis and Dunn post-hoc tests. The first three principal components explained 78.68% of total shape variation (PC1: 32.55%, PC2: 26.86%, PC3: 19.27%), indicating substantial non-uniform remodeling of the cardiac silhouette. Multivariate analyses demonstrated statistically significant shape differences among groups, confirmed by MANOVA (Wilks'λ=0.673, p < 0.05) and CVA (Goodall's F=6.99, p < 0.001). DFA revealed robust discrimination between disease stages (Hotelling's T²=199.89, p < 0.05; permutation test p < 0.001), with the most pronounced differences observed between stages B2 and D (p < 0.001), as well as between preclinical stages B1 and B2 (p < 0.05). Furthermore, both VHS (H=45.09, p < 0.001) and VLAS (H=39.98, p < 0.001) significantly differed across stages, with VLAS showing a significant distinction between preclinical stages B1 and B2 (p < 0.05). Shape changes were characterized by non-homogeneous expansion of the left atrial border, craniodorsal displacement of the cardiac apex, and progressive globular remodeling of the heart silhouette. These findings demonstrate that radiographic geometric morphometrics provide a sensitive and objective framework for identifying clinically relevant morphological transitions in MMVD, particularly at the critical therapeutic decision threshold between ACVIM stages B1 and B2. Geometric morphometric analysis may therefore serve as a valuable complementary tool in the radiographic assessment and staging of MMVD in CKCS dogs.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "ACVIM staging",
+    "Cardiac shape analysis",
+    "Cavalier King Charles Spaniel",
+    "Geometric morphometrics",
+    "Thoracic radiography"
+  ],
+  "fetched_on": "2026-10-06"
+}

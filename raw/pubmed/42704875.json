@@ -1,0 +1,48 @@
+{
+  "pmid": "42704875",
+  "title": "Evaluation of renal microvascular perfusion in dogs with cardiac disease using Superb Microvascular Imaging.",
+  "journal": "Journal of veterinary internal medicine",
+  "year": "2026",
+  "authors": [
+    "Risa Yasuda",
+    "Kensuke Nakamura",
+    "Noboru Sasaki",
+    "Nozomu Yokoyama",
+    "Kazuyoshi Sasaoka",
+    "Mei Sugawara-Suda",
+    "Sei Kawamoto",
+    "Nozomi Shiohara",
+    "Yuki Kawakami",
+    "Kei Sato",
+    "Mitsuyoshi Takiguchi"
+  ],
+  "doi": "10.1007/s10334-023-01126-7",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42704875/",
+  "abstract": "BACKGROUND: Renal dysfunction in cardiac disease is attributed to both reduced cardiac output and venous congestion; however, relative contributions of these mechanisms are difficult to evaluate clinically.\n\nHYPOTHESIS/OBJECTIVES: Renal microvascular perfusion assessed by Superb Microvascular Imaging (SMI) would be associated with indices of cardiac output and venous congestion in dogs with cardiac disease.\n\nANIMALS: Forty-three client-owned dogs were enrolled: 15 healthy dogs (Control), 21 dogs with cardiac disease but without right-sided heart failure (non-RHF), and 7 dogs with signs of right-sided heart failure (RHF).\n\nMETHODS: Prospective cross-sectional observational study. SMI images were obtained from renal cortex, and mean SMI signal intensity (SMI-SI) was calculated as an index of renal perfusion. The left ventricular outflow tract velocity-time integral (LVOT-VTI) was used as an index of cardiac output, while caudal vena cava short-to-long axis ratio at minimal inspiratory diameter (CVC SD/LD) was used to indicate venous congestion.\n\nRESULTS: Median SMI-SI was 41.3 (95% CI, 39.1-43.8) in Control, 21.6 (95% CI: 19.4-23.9) in non-RHF, and 18.6 (95% CI, 16.4-21.0) in RHF. Both cardiac disease groups had lower values than Control (P < .001). SMI-SI was negatively correlated with CVC SD/LD (ρ = -0.59, P < .001) and positively correlated with LVOT-VTI (ρ = 0.43, P = .007). In full multivariable analysis, only CVC SD/LD was independently associated with SMI-SI (P = .001).\n\nCONCLUSIONS AND CLINICAL IMPORTANCE: SMI detects reduced renal microvascular perfusion in dogs with cardiac disease, which is associated with venous congestion rather than cardiac output.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Female",
+    "Dog Diseases",
+    "Male",
+    "Cross-Sectional Studies",
+    "Kidney",
+    "Heart Diseases",
+    "Prospective Studies",
+    "Microcirculation",
+    "Microvessels",
+    "Cardiac Output"
+  ],
+  "keywords": [
+    "cardiac disease",
+    "cardiorenal syndrome",
+    "congestion",
+    "dog",
+    "renal perfusion",
+    "ultrasonography"
+  ],
+  "fetched_on": "2026-09-21"
+}

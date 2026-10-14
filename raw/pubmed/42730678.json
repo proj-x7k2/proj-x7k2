@@ -1,0 +1,46 @@
+{
+  "pmid": "42730678",
+  "title": "Evaluation of a 0.05 T low-field MRI system for canine brain imaging via comparison with images acquired at 1.5 T field strength: a pilot cadaver study.",
+  "journal": "The veterinary quarterly",
+  "year": "2026",
+  "authors": [
+    "Elisabeth Maria Burgers",
+    "Samantha Miles",
+    "Stefanie Veraa",
+    "Thomas O'Reilly",
+    "Ruben van den Broek",
+    "Chloé Najac",
+    "Beatrice Lena",
+    "Andrew Webb"
+  ],
+  "doi": "10.1007/s00330-015-3588-4",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42730678/",
+  "abstract": "Magnetic resonance imaging (MRI) systems continue to grow in number in veterinary and human medicine with higher field strength magnets increasingly available; however, the associated high costs have created healthcare inequities. This technical feasibility study aimed to evaluate a low-cost, portable, and permanent magnet-based 0.05 T low-field system (LF), originally designed for human neuroimaging, for assessing the canine brain. By using 23 canine cadavers, a scanning protocol was developed, consisting of transverse T1-weighted (T1w) and T2-weighted (T2w) sequences, and compared to a 1.5 T (HF) protocol for the visibility of 22 anatomical features. For the purpose of hydrocephalus evaluation, the LF system showed non-inferior detection of the lateral ventricles (LV) and mesencephalic aqueduct on T2w sequences with >90% conditional probability for detecting these features on the LF, given they were present on the HF. For T1w sequences, the LF system had inconclusive non-inferiority for detection of LV with 76.6% conditional probability. In summary, a canine brain scanning protocol was successfully developed for a 0.05 T MRI with preliminary evaluation suggestive that this device can aid with the detection of hydrocephalus. Future in vivo studies are required to evaluate the device's true clinical application.",
+  "publication_types": [
+    "Journal Article",
+    "Comparative Study",
+    "Evaluation Study"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Magnetic Resonance Imaging",
+    "Brain",
+    "Cadaver",
+    "Pilot Projects",
+    "Neuroimaging",
+    "Feasibility Studies",
+    "Hydrocephalus"
+  ],
+  "keywords": [
+    "Canine neuroimaging",
+    "Halbach array",
+    "hydrocephalus",
+    "image contrast",
+    "low field magnetic resonance imaging",
+    "one health",
+    "permanent magnets",
+    "sustainable imaging"
+  ],
+  "fetched_on": "2026-09-21"
+}

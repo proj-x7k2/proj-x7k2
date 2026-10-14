@@ -65,11 +65,34 @@ def iter_paper_pages():
         yield path, meta, body
 
 
+def _topic_text(slug, cache):
+    if slug not in cache:
+        path = os.path.join(TOPICS_DIR, f"{slug}.md")
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                cache[slug] = f.read()
+        except OSError:
+            cache[slug] = ""
+    return cache[slug]
+
+
+def is_integrated(path, meta, cache):
+    """논문 페이지가 있고, 연결된 주제 페이지들이 모두 이 논문을 링크하고 있으면 True."""
+    topics = meta.get("topics") or []
+    if isinstance(topics, str):
+        topics = [topics]
+    if not topics:
+        return False
+    stem = os.path.splitext(os.path.basename(path))[0]
+    return all(stem in _topic_text(slug, cache) for slug in topics)
+
+
 def processed_pmids():
-    """위키 페이지가 이미 있는 논문 + 의도적으로 건너뛴 논문의 PMID 집합."""
-    pmids = set()
-    for _, meta, _ in iter_paper_pages() or []:
-        if meta.get("pmid"):
+    """위키에 완전히 통합된 논문(페이지 + 주제 연결) + 의도적으로 건너뛴 논문의 PMID 집합.
+    페이지만 있고 주제 통합이 안 된 논문은 포함하지 않으므로, 다음 실행 때 마저 처리됩니다."""
+    pmids, cache = set(), {}
+    for path, meta, _ in iter_paper_pages() or []:
+        if meta.get("pmid") and is_integrated(path, meta, cache):
             pmids.add(str(meta["pmid"]))
     skipped_path = os.path.join(config.DATA_DIR, "skipped.json")
     if os.path.exists(skipped_path):

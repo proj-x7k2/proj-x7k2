@@ -1,0 +1,30 @@
+{
+  "pmid": "42765932",
+  "title": "Educational utility of a 3D-printed canine hepatic artery phantom for CT bolus tracking training.",
+  "journal": "Alternatives to laboratory animals : ATLA",
+  "year": "2026",
+  "authors": [
+    "Keonyeong Min",
+    "Dongwoo Chang",
+    "Namsoon Lee"
+  ],
+  "doi": "10.1177/02611929261489758",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42765932/",
+  "abstract": "Computed tomography angiography (CTA) is critical for evaluating abdominal diseases in veterinary patients. However, mastering bolus tracking remains a challenge for novice trainees, due to its steep learning curve and narrow temporal window. We evaluated the effectiveness of a 3D-printed canine hepatic artery phantom as a simulator-based training tool to improve technical proficiency in CT bolus tracking. The phantom was integrated into a closed-loop circuit with a peristaltic pump to replicate physiologic contrast kinetics. Eighteen participants, who were stratified by level of experience (A, experienced; B, intermediate; C, beginner), completed three repeated trials of a standardised bolus tracking protocol. Training efficacy was assessed by using objective timing metrics, and subjective pre- and post-training evaluations and subjective Likert scale-based questionnaires. Total operation time significantly decreased in Groups B and C, while Group A showed a non-significant reduction. Significant improvements in region of interest (ROI) placement time were observed across all groups. Furthermore, participants reported significant increases in conceptual understanding, procedural confidence and anatomical recognition. Use of the 3D-printed canine hepatic artery phantom is a feasible ethical alternative to the use of animals for such training purposes, effectively standardising technical proficiency in veterinary radiology. The study findings support the integration of high-fidelity phantom use into veterinary radiology curricula, to bridge the gap between theory and clinical practice.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "3D printing",
+    "bolus tracking",
+    "canine",
+    "computed tomography angiography",
+    "education",
+    "hepatic artery",
+    "simulation",
+    "simulator",
+    "training"
+  ],
+  "fetched_on": "2026-09-22"
+}

@@ -1,0 +1,27 @@
+{
+  "pmid": "42750099",
+  "title": "Difference in Collection Times, Blood Gas Variables, and Atelectasis Between Two Arterial Sampling Methods in Dogs.",
+  "journal": "Journal of veterinary emergency and critical care (San Antonio, Tex. : 2001)",
+  "year": "2026",
+  "authors": [
+    "Kento Sakai",
+    "Seijirow Goya",
+    "Chieko Ishikawa",
+    "Naoko Shiozawa",
+    "Tomohiro Nakayama"
+  ],
+  "doi": "10.1111/vec.70171",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42750099/",
+  "abstract": "OBJECTIVE: To assess how two different arterial blood sampling methods, from the femoral artery (FA) or the dorsal pedal artery (DPA), influence the collection time, gas variables, and pulmonary atelectasis on computed tomography (CT) under sedation.\n\nDESIGN: Experimental, single-blind, crossover study.\n\nSETTING: Veterinary university research facility.\n\nANIMALS: Eight healthy Beagle dogs.\n\nINTERVENTIONS: Butorphanol was administered subcutaneously before sampling. Arterial blood samples were collected using the FA or DPA in lateral or sternal recumbency, respectively, followed by hemostasis. Medetomidine was then administered intravenously, and thoracic CT was performed under sedation. Dogs remained in the same position throughout the procedure, from blood collection to completion of the thoracic CT scan. All variables were tested for normality using the Kolmogorov-Smirnov test. CT values were analyzed using the Student's t-test. PaO2 and sampling time were analyzed using the Wilcoxon signed-rank test. Statistical significance was set at p < 0.05.\n\nMEASUREMENTS AND MAIN RESULTS: Collection time using the DPA method (47.5 s [31-69 s]) was significantly shorter than the FA method (94.5 s [65-126 s]) (p = 0.0156). No significant differences in gas variables were observed between the two methods. The mean CT values that indicated atelectasis in the cranial (p < 0.01), middle (p = 0.0107), and caudal (p = 0.0146) lung lobes using the FA method were significantly higher than those using the DPA method.\n\nCONCLUSIONS: Blood collection was faster using the DPA method than the FA method, and even brief lateral recumbency during the FA method is associated with atelectasis.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "arterial blood gas analysis",
+    "canine",
+    "hypoxia",
+    "lung attenuation"
+  ],
+  "fetched_on": "2026-09-21"
+}

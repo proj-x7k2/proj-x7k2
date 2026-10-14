@@ -1,0 +1,26 @@
+{
+  "pmid": "42787157",
+  "title": "Combined tibial plateau leveling osteotomy and autologous conditioned serum for functional recovery and delayed osteoarthritis progression in dogs with cranial cruciate ligament rupture.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Caihui Ji",
+    "Guorong Gao",
+    "Ganzhen Deng"
+  ],
+  "doi": "10.1055/a-1990-0597",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42787157/",
+  "abstract": "BACKGROUND: Cranial cruciate ligament rupture (CCLR) is the leading cause of stifle joint instability, chronic pain, and osteoarthritis (OA) in dogs. Although tibial plateau leveling osteotomy (TPLO) is the standard surgical treatment, postoperative inflammation and secondary OA progression remain major challenges. Autologous conditioned serum (ACS) is a biological therapy with anti-inflammatory and chondroprotective properties.\n\nMETHODS: In this prospective, randomized controlled trial, 60 stifles (48 client-owned dogs) with complete CCLR were allocated equally to three groups (n = 20 each): ACS-only, TPLO-only, and TPLO+ACS. Assessments at preoperative baseline (D0) and postoperative days 30-180 included orthopedic assessment scores (OAS), radiographic OA grading, and synovial fluid cytokine levels (IL-1β, IL-10, TNF-α). A subset of 15 stifles was followed up to 720 days for long-term OA progression.\n\nRESULTS: All groups showed significant functional improvement (p < 0.001). The TPLO+ACS group achieved the greatest OAS reduction (ΔOAS = 7.29 points) and the lowest D180 score (0.57 ± 0.16), outperforming both monotherapy groups (p < 0.05). Short-term OA progression ( ≤ 180 days) did not differ significantly; however, at 720 days, TPLO+ACS maintained significantly lower OA scores (1.8 ± 0.4) than ACS (2.3 ± 0.5) and TPLO (2.2 ± 0.7) groups (p < 0.05). Synovial inflammatory cytokine analysis revealed that TPLO+ACS most effectively suppressed pro-inflammatory cytokines (IL-1β, TNF-α) and sustained anti-inflammatory IL-10 levels during the early-to-mid postoperative phase.\n\nCONCLUSION: TPLO combined with ACS provides great improvement for canine CCLR by restoring biomechanical stability and modulating the intra-articular inflammatory microenvironment. This integrated approach enhances functional recovery and retards OA progression.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "autologous conditioned serum",
+    "canine cranial cruciate ligament rupture",
+    "inflammatory cytokines",
+    "osteoarthritis",
+    "tibial plateau leveling osteotomy"
+  ],
+  "fetched_on": "2026-09-29"
+}

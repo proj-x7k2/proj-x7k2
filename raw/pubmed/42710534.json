@@ -1,0 +1,33 @@
+{
+  "pmid": "42710534",
+  "title": "Computed tomography perfusion indicates reduced portal venous perfusion and relative arterial dominance in canine hepatocellular carcinoma.",
+  "journal": "American journal of veterinary research",
+  "year": "2026",
+  "authors": [
+    "Pinhui Wang",
+    "Kumiko Ishigaki",
+    "Chieko Ishikawa",
+    "Naoko Shiozawa",
+    "Miran Kimpara",
+    "Kaito Iida",
+    "Shoko Yamaoka",
+    "Naoki Yamada",
+    "Yumiko Kagawa",
+    "Kazushi Asano"
+  ],
+  "doi": "10.2460/ajvr.26.05.0219",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42710534/",
+  "abstract": "OBJECTIVE: To characterize CT perfusion (CTP) in canine massive hepatocellular carcinoma (HCC) and explore associations with descriptive histomorphologic differentiation categories.\n\nMETHODS: This retrospective study included 20 client-owned dogs with surgically excised, histopathologically confirmed HCC of the massive gross phenotype and interpretable preoperative CTP datasets. Hepatic arterial flow (HAF), portal venous flow (PVF), and hepatic perfusion index (HPI) were calculated with a dual-input maximum-slope method. Freehand tumor regions of interest were drawn as large as possible along tumor margins while excluding visible vessels and necrotic or cystic regions. The CTP metrics were compared between tumor and nontumorous liver and among differentiation groups.\n\nRESULTS: Tumors had lower PVF than nontumorous liver (23.40 vs 127.15 mL/min/100 mL; P < .001) and higher HPI (65.81% vs 29.66%; P < .001), whereas HAF did not differ (52.98 vs 50.29 mL/min/100 mL; P = .154). Among differentiation groups, HAF differed (global P = .011; well > moderate; adjusted P = .042), PVF differed (global P = .025; poor < well; adjusted P = .031), and HPI did not differ (global P = .664).\n\nCONCLUSIONS: Canine HCC showed relative arterial dominance on CTP driven mainly by reduced PVF. Although HAF and PVF differed among differentiation categories, these findings should be interpreted cautiously because only 3 tumors were poorly differentiated.\n\nCLINICAL RELEVANCE: CTP may provide quantitative arterial and portal perfusion information but should not replace morphologic imaging, surgical assessment, or other established diagnostic and prognostic approaches; it cannot define histologic type or differentiation or predict metastasis, resectability, or prognosis.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "computed tomography perfusion",
+    "dog",
+    "hemodynamics",
+    "hepatocellular carcinoma",
+    "liver neoplasia"
+  ],
+  "fetched_on": "2026-09-21"
+}

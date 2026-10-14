@@ -1,0 +1,29 @@
+{
+  "pmid": "42753789",
+  "title": "Cadaveric feline study revealed no significant difference in biomechanical stability following L4-L5 hemilaminectomy versus mini-hemilaminectomy.",
+  "journal": "American journal of veterinary research",
+  "year": "2026",
+  "authors": [
+    "Robin Ebeling",
+    "Christoph Thorwächter",
+    "Yury Zablotski",
+    "Andrea Meyer-Lindenberg",
+    "Frederik Volz",
+    "Matthias Kornmayer"
+  ],
+  "doi": "10.2460/ajvr.26.04.0182",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42753789/",
+  "abstract": "OBJECTIVE: To compare the biomechanical effects of hemilaminectomy (HL) and mini-hemilaminectomy (mHL) on the stability of the feline lumbar spine at L4-L5.\n\nMETHODS: 20 cadaveric feline vertebral columns were collected from June 26, 2021, through September 15, 2022; the biomechanical testing was conducted from November 23, 2023, through March 6, 2024. Lumbar spines were screened radiographically and by CT, tested in the native state, and then randomly assigned to HL or mHL at L4-L5. Nondestructive cyclic bending in lateral bending and flexion/extension was performed with an electrodynamic testing machine. Vertebral motion was quantified with 3-D optoelectronic motion capture. Mixed-effects models compared native and postoperative states and surgical groups.\n\nRESULTS: 20 vertebral columns were eligible; 2 were used to establish the testing protocol, 4 were excluded, and 14 completed testing and were analyzed (7/group; HL and mHL). No significant differences in stability were detected between unaltered HL and unaltered mHL groups or between groups after HL versus mHL. Intragroup comparisons (unaltered HL vs HL; unaltered mHL vs mHL) showed significantly greater motion for multiple stability variables after both procedures, with more variables affected after HL than mHL.\n\nCONCLUSIONS: Both decompressive procedures decreased biomechanical stability of the feline lumbar spine relative to the native condition. Although direct differences were not detected, HL produced a more consistent pattern of increased motion than mHL.\n\nCLINICAL RELEVANCE: Although HL showed a more consistent pattern of increased motion, no significant differences between techniques were detected; therefore, any clinical advantage of mHL remains unproven.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "cat",
+    "hemilaminectomy",
+    "mini-hemilaminectomy",
+    "spine",
+    "stability"
+  ],
+  "fetched_on": "2026-09-21"
+}

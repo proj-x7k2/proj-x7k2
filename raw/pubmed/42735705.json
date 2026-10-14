@@ -1,0 +1,31 @@
+{
+  "pmid": "42735705",
+  "title": "The updated 2022 Fédération Cynologique Internationale method may lead to changes in hip dysplasia grading in some dogs.",
+  "journal": "American journal of veterinary research",
+  "year": "2026",
+  "authors": [
+    "Jules Gras",
+    "Éric Goyenvalle",
+    "Mathieu Jourdain",
+    "Thomas Rousseau",
+    "Benjamin Mahieu",
+    "Éric Aguado",
+    "Olivier Gauthier",
+    "Pierre Maitre"
+  ],
+  "doi": "10.2460/ajvr.26.06.0260",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42735705/",
+  "abstract": "OBJECTIVE: To compare Norberg angle (NA) measurements and hip dysplasia (HD) grades obtained from the same radiographs using the Fédération Cynologique Internationale (FCI) 2022 (FCI22) and FCI 2006 methods (FCI06).\n\nMETHODS: This retrospective observational study included radiographs submitted for canine HD screening from March 17, 2023, through September 27, 2024. Radiographs meeting FCI quality standards were evaluated under both methods, with NA measurements and HD grades recorded accordingly. Grade changes were classified as upgraded, downgraded, or unchanged.\n\nRESULTS: Radiographs from 1,020 Australian Shepherds and 298 Boxers were reviewed. The mean Norberg angle measured according to the 2022 method (NA22) was 0.7° lower than that measured according to the 2006 method (NA06). Overall, 1,801 of 2,636 hips (68.3%) retained the same HD grade with the FCI22. In Australian Shepherds, 350 of 2,040 hips (17.2%) were upgraded, and 257 of 2,040 hips (12.6%) were downgraded. In Boxers, 53 of 596 hips (8.9%) were upgraded, and 175 of 596 hips (29.4%) were downgraded. Reclassification occurred primarily among hips initially graded D in 2006 (D06), with 286 of 347 hips (82.4%) reclassified.\n\nCONCLUSIONS: Differences between NA22 and NA06 had limited impact on HD grading except for hips with near-threshold NA values. The FCI22 kept most HD grades unchanged. Across both breeds, upgrades occurred primarily among grade D hips. Breed differences in grade changes may reflect interbreed anatomical differences.\n\nCLINICAL RELEVANCE: The FCI22 method is unlikely to substantially alter HD grades in these 2 breeds. Borderline hips and breed-specific grading patterns may affect individual screening outcomes.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Australian Shepherds",
+    "FCI",
+    "boxers",
+    "gradation",
+    "hip dysplasia"
+  ],
+  "fetched_on": "2026-09-21"
+}

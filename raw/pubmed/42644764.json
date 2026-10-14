@@ -1,0 +1,39 @@
+{
+  "pmid": "42644764",
+  "title": "Bunny Burrito Restraint for Computed Tomography in Conscious Rabbits: An Effective Alternative.",
+  "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
+  "year": "2026",
+  "authors": [
+    "Hung-Ting Liu",
+    "Jonathan Olijnyk",
+    "Jessica Ingman",
+    "Ellen Sundberg",
+    "Laetitia Volait-Rosset",
+    "Alexis Gombert"
+  ],
+  "doi": "10.1111/vru.70230",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42644764/",
+  "abstract": "Computed tomography (CT) is a critical diagnostic tool in rabbits. Traditional CT imaging often requires sedation or general anesthesia, posing inherent risks such as mortality and gastrointestinal complications. An effective physical restraint method could enhance patient safety, reduce costs, and improve accessibility to CT imaging. This study evaluates the effectiveness of the well-known bunny burrito restraint technique as an alternative to the plexiglass chamber method for conducting CT examinations in conscious rabbits. A retrospective multicenter observational study was conducted on 93 client-owned rabbits undergoing CT between March 2021 and December 2023. Cases were classified into three restraint groups: bunny burrito (n = 36), plexiglass chamber (n = 47), and sedation (n = 10). CT image quality was assessed on the basis of motion artifacts, positioning, and stability across different acquisitions. Statistical analyses, including logistic regression, were performed to compare the two physical restraint methods. The bunny burrito technique had significantly lower motion artifacts in pre-contrast acquisition (p = 0.02), better positioning in the dental disease subgroup (p = 0.03), and better stability in early post-contrast period (p = 0.04, wide confidence interval) compared to the plexiglass chamber group. Image quality was similar between bunny burrito and sedation in descriptive results. No complications were reported during or after CT examinations. In conclusion, the bunny burrito method is an effective and safe restraint method for CT imaging in conscious rabbits that shows advantages over the plexiglass chamber in specific imaging contexts. It minimizes sedation-related risks with simplified equipment. This method represents a valuable advancement in veterinary diagnostic imaging.",
+  "publication_types": [
+    "Journal Article",
+    "Multicenter Study",
+    "Observational Study, Veterinary"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Rabbits",
+    "Restraint, Physical",
+    "Tomography, X-Ray Computed",
+    "Retrospective Studies",
+    "Female",
+    "Male"
+  ],
+  "keywords": [
+    "Oryctolagus cuniculus",
+    "computed tomography (CT)",
+    "nonchemical restraint",
+    "rabbit handling",
+    "veterinary imaging techniques"
+  ],
+  "fetched_on": "2026-09-21"
+}

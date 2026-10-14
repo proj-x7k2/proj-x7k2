@@ -306,6 +306,120 @@
     .page { padding: 32px 16px 64px; }
     .entry-footer { align-items: flex-start; flex-direction: column; }
   }
+
+  /* ── v3: 필터·정렬·접힘 목록·나중에 볼 논문 ── */
+  .filter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .filter-grid select, .sort-select {
+    width: 100%;
+    font-family: inherit;
+    font-size: 13.5px;
+    color: var(--ink);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 8px 10px;
+  }
+  .filter-grid select.on { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .toolbar-left { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .star-filter {
+    font-family: inherit;
+    font-size: 13.5px;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink-muted);
+    padding: 7px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .star-filter.on { background: var(--amber-tint); border-color: var(--amber); color: var(--amber); font-weight: 600; }
+  .reset-link {
+    font-size: 13px; color: var(--ink-faint); background: none; border: none;
+    cursor: pointer; text-decoration: underline; font-family: inherit; padding: 0;
+  }
+  .result-count { font-size: 13px; color: var(--ink-faint); }
+  .sort-select { width: auto; }
+
+  .month-heading {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--ink-faint);
+    letter-spacing: 0.02em;
+    padding: 18px 0 6px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .entry { padding: 18px 0; }
+  .entry-head { display: flex; gap: 12px; align-items: flex-start; }
+  .entry-main { flex: 1; min-width: 0; }
+  .entry h2 { font-size: 18.5px; margin: 0 0 8px; }
+  .entry-toggle {
+    all: unset;
+    cursor: pointer;
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .entry-toggle:hover { color: var(--accent); }
+  .entry-toggle:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  .entry .takeaway { margin-bottom: 0; }
+  .entry-detail { display: none; margin-top: 14px; }
+  .entry.open .entry-detail { display: block; }
+  .expand-hint { font-size: 12.5px; color: var(--ink-faint); margin-top: 8px; }
+  .entry.open .expand-hint { display: none; }
+
+  .star-btn {
+    flex: none;
+    font-size: 22px;
+    line-height: 1;
+    background: none;
+    border: none;
+    color: var(--line);
+    cursor: pointer;
+    padding: 2px 4px;
+  }
+  .star-btn.on { color: var(--amber); }
+  .star-btn:hover { color: var(--amber); }
+
+  .more-btn {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    color: var(--ink-muted);
+    cursor: pointer;
+  }
+  .more-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  .topic-link-btn {
+    font-family: inherit;
+    font-size: 13.5px;
+    color: var(--accent);
+    background: none;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    padding: 5px 12px;
+    cursor: pointer;
+    margin-top: 6px;
+  }
+  .topic-link-btn:hover { background: var(--accent-tint); }
 </style>
 </head>
 <body>
@@ -325,12 +439,24 @@
       <input id="searchBox" type="text" placeholder="제목, 저널, 요약, 키워드로 검색...">
     </div>
 
-    <div class="topic-row-wrap" id="topicRowWrap">
-      <div class="topic-row" id="topicRow"></div>
+    <div class="filter-grid" id="filterGrid"></div>
+
+    <div class="toolbar">
+      <div class="toolbar-left">
+        <button class="star-filter" id="starFilter">★ 나중에 볼 논문</button>
+        <span class="result-count" id="resultCount"></span>
+        <button class="reset-link" id="resetBtn">필터 초기화</button>
+      </div>
+      <select class="sort-select" id="sortSelect" aria-label="정렬">
+        <option value="added">최근 등록순</option>
+        <option value="year">출판연도순</option>
+        <option value="title">제목순</option>
+      </select>
     </div>
 
     <div id="paperList"></div>
-    <div id="empty">표시할 논문이 없습니다. 검색어나 주제 필터를 바꿔보세요.</div>
+    <div id="empty">표시할 논문이 없습니다. 검색어나 필터를 바꿔보세요.</div>
+    <button class="more-btn" id="moreBtn" style="display:none;"></button>
   </div>
 
   <div id="topicsView" style="display:none;">
@@ -346,85 +472,222 @@
   // data/topics.json 내용으로 자동으로 교체됩니다. 직접 손으로 수정하지 마세요.
   let allPapers = /*__PAPERS_JSON__*/ [];
   let allTopics = /*__TOPICS_JSON__*/ [];
-  let activeTag = null;
-  let query = "";
+
+  const PAGE_SIZE = 20;
+  const STAR_KEY = "vetwiki-read-later";
+
+  // 필터 정의: [논문 데이터의 필드, 드롭다운 제목, 보기 좋은 이름표]
+  const TOPIC_NAMES = Object.fromEntries(allTopics.map(t => [t.slug, t.title]));
+  const FILTERS = [
+    { key: "topics", label: "주제", names: TOPIC_NAMES },
+    { key: "modality", label: "영상 기법", names: {
+        radiography: "방사선", CT: "CT", MRI: "MRI", ultrasound: "초음파",
+        echocardiography: "심초음파", fluoroscopy: "투시", "nuclear-medicine": "핵의학",
+        "contrast-study": "조영검사", interventional: "중재" } },
+    { key: "system", label: "계통", names: {
+        neuro: "신경", spine: "척추", "head-neck": "두경부", dental: "치과", thorax: "흉부",
+        cardiovascular: "심혈관", abdomen: "복부", hepatobiliary: "간담도",
+        gastrointestinal: "소화기", urogenital: "비뇨생식", endocrine: "내분비",
+        musculoskeletal: "근골격", oncology: "종양", trauma: "외상",
+        technique: "촬영 기법", "sedation-restraint": "진정·보정", AI: "AI" } },
+    { key: "species", label: "종", names: { dog: "개", cat: "고양이", rabbit: "토끼" } },
+    { key: "study_type", label: "연구 유형", names: {} },
+  ];
+
+  const state = { query: "", filters: {}, starOnly: false, sort: "added", shown: PAGE_SIZE, open: new Set() };
+
+  // ── 나중에 볼 논문 (이 브라우저에 저장) ──
+  function loadStars() {
+    try { return new Set(JSON.parse(localStorage.getItem(STAR_KEY) || "[]")); }
+    catch (e) { return new Set(); }
+  }
+  let stars = loadStars();
+  function saveStars() {
+    try { localStorage.setItem(STAR_KEY, JSON.stringify([...stars])); } catch (e) {}
+  }
+
+  // ── 도우미 ──
+  function esc(text) {
+    return String(text ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  function asList(v) { return Array.isArray(v) ? v : (v ? [v] : []); }
+  function shortJournal(j) { return (j || "").split(" : ")[0]; }
+  function nameOf(filter, value) { return filter.names[value] || value; }
 
   document.getElementById("mastMeta").textContent =
     allPapers.length > 0
-      ? `총 ${allPapers.length}편 수록 · 최근 갱신 ${allPapers[0].added_on || ""}`
+      ? `총 ${allPapers.length}편 수록 · 주제 ${allTopics.length}개 · 최근 갱신 ${allPapers[0].added_on || ""}`
       : "아직 수록된 논문이 없습니다";
-  buildTopicRow(allPapers);
-  render();
 
-  // 주제 필 목록을 마우스 휠/트랙패드로 좌우 스크롤할 수 있게, 그리고
-  // 끝까지 스크롤하면 오른쪽 "더 있음" 표시가 사라지게 처리합니다.
-  const topicRow = document.getElementById("topicRow");
-  const topicRowWrap = document.getElementById("topicRowWrap");
+  // ── 필터 드롭다운 만들기 (실제 데이터에 있는 값만, 논문 수와 함께) ──
+  function buildFilters() {
+    const grid = document.getElementById("filterGrid");
+    grid.innerHTML = "";
+    FILTERS.forEach(f => {
+      const counts = {};
+      allPapers.forEach(p => asList(p[f.key]).forEach(v => { counts[v] = (counts[v] || 0) + 1; }));
+      const values = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+      if (values.length === 0) return;
+      const sel = document.createElement("select");
+      sel.setAttribute("aria-label", f.label);
+      sel.innerHTML = `<option value="">${f.label}: 전체</option>` +
+        values.map(v => `<option value="${esc(v)}">${esc(nameOf(f, v))} (${counts[v]})</option>`).join("");
+      sel.value = state.filters[f.key] || "";
+      sel.classList.toggle("on", !!sel.value);
+      sel.addEventListener("change", () => {
+        state.filters[f.key] = sel.value;
+        sel.classList.toggle("on", !!sel.value);
+        state.shown = PAGE_SIZE;
+        render();
+      });
+      grid.appendChild(sel);
+    });
+  }
 
-  topicRow.addEventListener("wheel", (e) => {
-    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
-      e.preventDefault();
-      topicRow.scrollLeft += e.deltaY;
+  function updateStarButton() {
+    const btn = document.getElementById("starFilter");
+    btn.textContent = `★ 나중에 볼 논문 (${stars.size})`;
+    btn.classList.toggle("on", state.starOnly);
+  }
+
+  // ── 필터링·정렬 ──
+  function filtered() {
+    const q = state.query;
+    let list = allPapers.filter(p => {
+      for (const f of FILTERS) {
+        const want = state.filters[f.key];
+        if (want && !asList(p[f.key]).includes(want)) return false;
+      }
+      if (state.starOnly && !stars.has(p.pmid)) return false;
+      if (!q) return true;
+      return [p.title, p.journal, p.summary_ko, p.summary_en, p.clinical_takeaway_ko,
+              ...(p.tags || []), ...(p.authors || [])]
+        .some(t => (t || "").toLowerCase().includes(q));
+    });
+    const by = {
+      added: (a, b) => (b.added_on || "").localeCompare(a.added_on || "") || b.pmid.localeCompare(a.pmid),
+      year: (a, b) => (b.year || "").localeCompare(a.year || "") || (b.added_on || "").localeCompare(a.added_on || ""),
+      title: (a, b) => (a.title || "").localeCompare(b.title || ""),
+    };
+    return list.sort(by[state.sort]);
+  }
+
+  function entryHtml(p) {
+    const starred = stars.has(p.pmid);
+    const isOpen = state.open.has(p.pmid);
+    const badges =
+      (p.study_type ? `<span class="study-badge">${esc(p.study_type)}${p.sample_size ? `, n=${esc(p.sample_size)}` : ""}</span>` : "") +
+      (p.evidence_basis === "fulltext" ? `<span class="study-badge fulltext">전문 검토</span>` : "");
+    return `
+      <article class="entry${isOpen ? " open" : ""}" data-pmid="${esc(p.pmid)}">
+        <div class="entry-head">
+          <div class="entry-main">
+            <div class="entry-meta">${esc(shortJournal(p.journal))} · ${esc(p.year)}${badges}</div>
+            <h2><button class="entry-toggle" data-action="toggle" title="눌러서 요약 펼치기">${esc(p.title)}</button></h2>
+            ${p.clinical_takeaway_ko ? `<div class="takeaway">${esc(p.clinical_takeaway_ko)}</div>` : ""}
+            <div class="entry-detail">
+              <div class="entry-meta">${esc((p.authors || []).join(", "))}</div>
+              ${p.summary_ko ? `<div class="summary-ko">${esc(p.summary_ko)}</div>` : ""}
+              ${p.summary_en ? `<div class="summary-en">${esc(p.summary_en)}</div>` : ""}
+              <div class="entry-footer">
+                <div class="tags">${(p.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+                <a class="entry-link" href="${esc(p.url)}" target="_blank" rel="noopener">PubMed에서 보기</a>
+              </div>
+            </div>
+          </div>
+          <button class="star-btn${starred ? " on" : ""}" data-action="star"
+            aria-label="${starred ? "나중에 볼 논문에서 빼기" : "나중에 볼 논문으로 표시"}">${starred ? "★" : "☆"}</button>
+        </div>
+      </article>`;
+  }
+
+  function render() {
+    updateStarButton();
+    const list = filtered();
+    const shown = list.slice(0, state.shown);
+    const listEl = document.getElementById("paperList");
+    const empty = document.getElementById("empty");
+    const more = document.getElementById("moreBtn");
+
+    document.getElementById("resultCount").textContent =
+      list.length === allPapers.length ? `${list.length}편` : `${allPapers.length}편 중 ${list.length}편`;
+
+    empty.style.display = list.length === 0 ? "block" : "none";
+
+    // 최근 등록순일 때는 등록 월별로 구분선을 넣습니다
+    let html = "", lastMonth = null;
+    shown.forEach(p => {
+      if (state.sort === "added") {
+        const m = (p.added_on || "").slice(0, 7);
+        if (m && m !== lastMonth) {
+          const [y, mo] = m.split("-");
+          const n = list.filter(x => (x.added_on || "").startsWith(m)).length;
+          html += `<div class="month-heading">${y}년 ${Number(mo)}월 등록 · ${n}편</div>`;
+          lastMonth = m;
+        }
+      }
+      html += entryHtml(p);
+    });
+    listEl.innerHTML = html;
+
+    const remaining = list.length - shown.length;
+    more.style.display = remaining > 0 ? "block" : "none";
+    more.textContent = `더 보기 (${remaining}편 남음)`;
+  }
+
+  // ── 이벤트 ──
+  document.getElementById("paperList").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-action]");
+    if (!btn) return;
+    const pmid = btn.closest(".entry").dataset.pmid;
+    if (btn.dataset.action === "toggle") {
+      state.open.has(pmid) ? state.open.delete(pmid) : state.open.add(pmid);
+      btn.closest(".entry").classList.toggle("open");
+    } else if (btn.dataset.action === "star") {
+      stars.has(pmid) ? stars.delete(pmid) : stars.add(pmid);
+      saveStars();
+      render();
     }
-  }, { passive: false });
-
-  function updateScrollHint() {
-    const atEnd = topicRow.scrollLeft + topicRow.clientWidth >= topicRow.scrollWidth - 2;
-    const scrollable = topicRow.scrollWidth > topicRow.clientWidth;
-    topicRowWrap.classList.toggle("at-end", atEnd || !scrollable);
-  }
-  topicRow.addEventListener("scroll", updateScrollHint);
-  window.addEventListener("resize", updateScrollHint);
-  updateScrollHint();
-
-  function buildTopicRow(papers) {
-    const counts = {};
-    papers.forEach(p => (p.tags || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
-    const tags = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
-
-    const row = document.getElementById("topicRow");
-    row.innerHTML = "";
-
-    const allPill = document.createElement("button");
-    allPill.className = "pill active";
-    allPill.textContent = `전체 (${papers.length})`;
-    allPill.onclick = () => setTag(null);
-    row.appendChild(allPill);
-
-    tags.forEach(t => {
-      const pill = document.createElement("button");
-      pill.className = "pill";
-      pill.textContent = `${t} (${counts[t]})`;
-      pill.onclick = () => setTag(t);
-      row.appendChild(pill);
-    });
-  }
-
-  function setTag(tag) {
-    activeTag = tag;
-    document.querySelectorAll(".pill").forEach((el, i) => {
-      el.classList.toggle("active", (tag === null && i === 0) || el.textContent.startsWith(tag + " ("));
-    });
-    render();
-  }
+  });
 
   document.getElementById("searchBox").addEventListener("input", (e) => {
-    query = e.target.value.toLowerCase();
+    state.query = e.target.value.trim().toLowerCase();
+    state.shown = PAGE_SIZE;
+    render();
+  });
+  document.getElementById("sortSelect").addEventListener("change", (e) => {
+    state.sort = e.target.value;
+    render();
+  });
+  document.getElementById("starFilter").addEventListener("click", () => {
+    state.starOnly = !state.starOnly;
+    state.shown = PAGE_SIZE;
+    render();
+  });
+  document.getElementById("moreBtn").addEventListener("click", () => {
+    state.shown += PAGE_SIZE;
+    render();
+  });
+  document.getElementById("resetBtn").addEventListener("click", () => {
+    state.query = ""; state.filters = {}; state.starOnly = false; state.shown = PAGE_SIZE;
+    document.getElementById("searchBox").value = "";
+    buildFilters();
     render();
   });
 
   // ── 보기 전환 (논문 / 주제) ──
-  document.querySelectorAll(".view-tab").forEach(btn => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll(".view-tab").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      const view = btn.dataset.view;
-      document.getElementById("papersView").style.display = view === "papers" ? "" : "none";
-      document.getElementById("topicsView").style.display = view === "topics" ? "" : "none";
-      if (view === "topics") renderTopics();
-    });
-  });
+  function showView(view) {
+    document.querySelectorAll(".view-tab").forEach(b => b.classList.toggle("active", b.dataset.view === view));
+    document.getElementById("papersView").style.display = view === "papers" ? "" : "none";
+    document.getElementById("topicsView").style.display = view === "topics" ? "" : "none";
+    if (view === "topics") renderTopics();
+    window.scrollTo(0, 0);
+  }
+  document.querySelectorAll(".view-tab").forEach(btn =>
+    btn.addEventListener("click", () => showView(btn.dataset.view)));
 
+  // ── 주제 탭 ──
   function isMeaningfulText(text) {
     if (!text) return false;
     const trimmed = text.trim();
@@ -434,13 +697,9 @@
 
   function mdToHtml(text) {
     // 가벼운 마크다운 변환: ### 소제목, **굵게**, [[위키 링크]], 목록, 줄바꿈
-    const escaped = text
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;");
-    return escaped
-      .replace(/\[\[[^\]|]*\|([^\]]+)\]\]/g, "$1")                 // [[경로|별칭]] → 별칭
-      .replace(/\[\[(?:[^\]]*\/)?([^\]]+)\]\]/g, "$1")             // [[경로/이름]] → 이름
+    return esc(text)
+      .replace(/\[\[[^\]|]*\|([^\]]+)\]\]/g, "$1")
+      .replace(/\[\[(?:[^\]]*\/)?([^\]]+)\]\]/g, "$1")
       .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
       .replace(/^###\s+(.+)$/gm, '<h3 class="sub-heading">$1</h3>')
       .replace(/^-\s+(.+)$/gm, "• $1")
@@ -453,62 +712,39 @@
   function renderTopics() {
     const list = document.getElementById("topicsList");
     const empty = document.getElementById("topicsEmpty");
-
     if (allTopics.length === 0) {
       list.innerHTML = "";
       empty.style.display = "block";
       return;
     }
     empty.style.display = "none";
-
-    list.innerHTML = allTopics.map(t => `
+    list.innerHTML = allTopics.map(t => {
+      const n = allPapers.filter(p => asList(p.topics).includes(t.slug)).length;
+      return `
       <article class="topic-entry">
-        <h2>${t.title}</h2>
-        <div class="topic-count">관련 논문 ${t.paper_count}편</div>
+        <h2>${esc(t.title)}</h2>
+        <div class="topic-count">관련 논문 ${n || t.paper_count}편</div>
         ${isMeaningfulText(t.synthesis) ? `<div class="topic-synthesis">${mdToHtml(t.synthesis)}</div>` : ""}
         ${isMeaningfulText(t.conflicting_evidence) ? `<div class="conflict-box"><strong>상충되는 근거</strong><br>${mdToHtml(t.conflicting_evidence)}</div>` : ""}
         ${isMeaningfulText(t.open_questions) ? `<div class="open-box"><strong>남은 질문</strong><br>${mdToHtml(t.open_questions)}</div>` : ""}
-        ${(t.related_papers || []).length > 0 ? `<ul class="related-list">${t.related_papers.map(p => `<li>${p}</li>`).join("")}</ul>` : ""}
-      </article>
-    `).join("");
+        ${n > 0 ? `<button class="topic-link-btn" data-topic="${esc(t.slug)}">이 주제의 논문 ${n}편 보기 →</button>` : ""}
+      </article>`;
+    }).join("");
   }
 
-  function render() {
-    const filtered = allPapers.filter(p => {
-      const matchesTag = !activeTag || (p.tags || []).includes(activeTag);
-      const matchesQuery = !query ||
-        p.title.toLowerCase().includes(query) ||
-        p.journal.toLowerCase().includes(query) ||
-        (p.summary_ko || "").toLowerCase().includes(query) ||
-        (p.summary_en || "").toLowerCase().includes(query) ||
-        (p.tags || []).some(t => t.toLowerCase().includes(query));
-      return matchesTag && matchesQuery;
-    });
+  document.getElementById("topicsList").addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-topic]");
+    if (!btn) return;
+    state.filters = { topics: btn.dataset.topic };
+    state.query = ""; state.starOnly = false; state.shown = PAGE_SIZE;
+    document.getElementById("searchBox").value = "";
+    buildFilters();
+    render();
+    showView("papers");
+  });
 
-    const list = document.getElementById("paperList");
-    const empty = document.getElementById("empty");
-
-    if (filtered.length === 0) {
-      list.innerHTML = "";
-      empty.style.display = "block";
-      return;
-    }
-    empty.style.display = "none";
-
-    list.innerHTML = filtered.map(p => `
-      <article class="entry">
-        <div class="entry-meta">${p.journal} · ${p.year} · ${(p.authors || []).join(", ")}${p.study_type ? `<span class="study-badge">${p.study_type}${p.sample_size ? `, n=${p.sample_size}` : ""}</span>` : ""}${p.evidence_basis === "fulltext" ? `<span class="study-badge fulltext">전문 검토</span>` : ""}</div>
-        <h2><a href="${p.url}" target="_blank" rel="noopener">${p.title}</a></h2>
-        ${p.summary_ko ? `<div class="summary-ko">${p.summary_ko}</div>` : ""}
-        ${p.summary_en ? `<div class="summary-en">${p.summary_en}</div>` : ""}
-        ${p.clinical_takeaway_ko ? `<div class="takeaway">${p.clinical_takeaway_ko}</div>` : ""}
-        <div class="entry-footer">
-          <div class="tags">${(p.tags || []).map(t => `<span class="tag">${t}</span>`).join("")}</div>
-          <a class="entry-link" href="${p.url}" target="_blank" rel="noopener">PubMed에서 보기</a>
-        </div>
-      </article>
-    `).join("");
-  }
+  buildFilters();
+  render();
 </script>
 
 </body>

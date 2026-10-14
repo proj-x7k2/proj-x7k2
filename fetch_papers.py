@@ -29,7 +29,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 import config
-from wiki_utils import iter_paper_pages, processed_pmids
+from wiki_utils import is_integrated, iter_paper_pages, processed_pmids
 
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 SEEN_IDS_PATH = os.path.join(config.DATA_DIR, "seen_ids.json")
@@ -179,6 +179,15 @@ def write_batch(papers):
 
 # ── 동작 모드 ──────────────────────────────────────────────────────────
 
+def incomplete_pmids():
+    """페이지는 있으나 주제 페이지와의 연결이 빠진 논문."""
+    cache, result = {}, []
+    for path, meta, _ in iter_paper_pages() or []:
+        if meta.get("pmid") and not is_integrated(path, meta, cache):
+            result.append(str(meta["pmid"]))
+    return result
+
+
 def fetch_new_papers(dry_run=False):
     print(f"PubMed 검색 중 (최근 {config.DAYS_BACK}일 등록분)...")
     pmids = search_pmids(build_query())
@@ -187,6 +196,13 @@ def fetch_new_papers(dry_run=False):
     done = load_seen_ids() | processed_pmids()
     new_pmids = [p for p in pmids if p not in done]
     print(f"아직 처리 안 된 논문: {len(new_pmids)}편")
+
+    # 페이지는 만들어졌지만 주제 통합이 끝나지 않은 논문도 다시 넘깁니다
+    incomplete = incomplete_pmids()
+    extra = [p for p in incomplete if p not in new_pmids]
+    if extra:
+        print(f"주제 통합이 덜 끝난 기존 논문: {len(extra)}편 (함께 마무리)")
+        new_pmids = extra + new_pmids
 
     if dry_run:
         print("(--dry-run: 저장하지 않고 종료)")
@@ -202,8 +218,19 @@ def fetch_new_papers(dry_run=False):
         print("새로운 논문이 없습니다.")
         return []
 
-    papers = fetch_details(new_pmids)
-    archive_raw(papers)
+    # 원자료가 이미 있으면 PubMed에 다시 묻지 않고 그대로 사용
+    papers, to_fetch = [], []
+    for pmid in new_pmids:
+        path = os.path.join(RAW_PUBMED_DIR, f"{pmid}.json")
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                papers.append(json.load(f))
+        else:
+            to_fetch.append(pmid)
+    if to_fetch:
+        fetched = fetch_details(to_fetch)
+        archive_raw(fetched)
+        papers.extend(fetched)
     write_batch(papers)
     print(f"완료: {len(papers)}편을 raw/pubmed/ 에 보관하고 이번 처리 목록에 올렸습니다.")
     return papers
@@ -223,6 +250,7 @@ def reconcile():
     save_seen_ids(seen)
     print(f"처리 확인: {len(finished)}편 완료 표시"
           + (f", {len(unfinished)}편은 미처리로 남겨 다음 실행 때 재시도" if unfinished else ""))
+    print(f"FINISHED={len(finished)}")
 
 
 def backfill():

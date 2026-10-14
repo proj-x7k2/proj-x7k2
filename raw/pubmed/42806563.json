@@ -1,0 +1,39 @@
+{
+  "pmid": "42806563",
+  "title": "Anterior Segment OCT Diagnosis of Descemet's Membrane Detachment in a Cat With Suspected FIP-Associated Uveitis.",
+  "journal": "Veterinary ophthalmology",
+  "year": "2026",
+  "authors": [
+    "Ji Seung Jung",
+    "Jiyi Hwang",
+    "Donghee Kim",
+    "Kyung-Mee Park"
+  ],
+  "doi": "10.1111/vop.70276",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42806563/",
+  "abstract": "BACKGROUND: Persistent corneal edema in cats with anterior uveitis is often attributed to endothelial dysfunction; however, the underlying structural cause may not be apparent without advanced imaging. Descemet's membrane detachment (DMD) is rarely reported in cats and has not been well described in suspected feline infectious peritonitis (FIP)-associated uveitis.\n\nANIMAL STUDIED: A 4-month-old intact male Norwegian Forest cat presented with severe unilateral granulomatous uveitis, mutton-fat keratic precipitates, diffuse stromal edema, and a 2+ aqueous flare.\n\nPROCEDURES: Aqueous humor PCR detected feline coronavirus RNA, although biotype testing did not confirm a mutation consistent with that associated with feline infectious peritonitis virus. As ocular inflammation progressed despite anti-inflammatory treatment, the nucleoside analog GS-441524 was administered along with anti-inflammatory and supportive ophthalmic treatment. Intraocular inflammation improved, but corneal edema persisted, prompting anterior segment optical coherence tomography (AS-OCT), which revealed planar DMD. Serial AS-OCT monitored posterior corneal structural changes.\n\nRESULTS: Corneal edema gradually decreased, and Descemet's membrane reapposition was documented by AS-OCT approximately one year after the initial presentation. Corneal clarity and stability were maintained without clinically evident recurrence for 18 months after reapposition was confirmed.\n\nCONCLUSIONS: This case describes the AS-OCT diagnosis and serial documentation of DMD and subsequent Descemet's membrane reapposition in a cat with suspected FIP-associated uveitis. These findings highlight the value of AS-OCT for identifying and monitoring posterior corneal abnormalities, including DMD, in cats with severe anterior uveitis and persistent corneal edema. The relationships among suspected FIP-associated uveitis, treatment, and DMD could not be determined from this single case.",
+  "publication_types": [
+    "Case Reports",
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Cats",
+    "Male",
+    "Cat Diseases",
+    "Tomography, Optical Coherence",
+    "Feline Infectious Peritonitis",
+    "Uveitis",
+    "Descemet Membrane",
+    "Corneal Diseases",
+    "Corneal Edema"
+  ],
+  "keywords": [
+    "Descemet's membrane detachment",
+    "GS‐441524 therapy",
+    "anterior segment OCT",
+    "feline coronavirus",
+    "feline uveitis"
+  ],
+  "fetched_on": "2026-09-29"
+}

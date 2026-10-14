@@ -1,0 +1,35 @@
+{
+  "pmid": "42772030",
+  "title": "Two-dimensional shear wave elastography assessment of testicular stiffness in healthy cats.",
+  "journal": "Theriogenology",
+  "year": "2026",
+  "authors": [
+    "Viola Zappone",
+    "Simona Gurrì",
+    "Roberta Bucci",
+    "Alessandra Caprì",
+    "Romina Marcoccia",
+    "Nicola Iannelli",
+    "Tiziana Caspanello",
+    "Giulio Guido Aiudi",
+    "Massimo De Majo",
+    "Marco Quartuccio"
+  ],
+  "doi": "10.1016/j.theriogenology.2026.118206",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42772030/",
+  "abstract": "Two-dimensional shear wave elastography (2D-SWE) provides quantitative information on tissue stiffness over a broad field of view, but physiological values for feline testes remain poorly defined. This study aimed to characterize testicular stiffness in clinically healthy cats and to compare different regions of interest (ROIs), and explore agreement between focal and extended sampling strategies. Nineteen client-owned intact male cats presented for elective bilateral orchiectomy were included after clinical, ultrasonographic, and histopathological screening. Before surgery, both testes underwent B-mode, Doppler, and 2D-SWE examination using a Mindray DC-80A ultrasound system with a linear transducer. In longitudinal scans, two circular ROIs were placed above and two below the testicular mediastinum, and an additional ROI encompassed the whole testis. Mean shear wave speed (SWS) values were calculated for each sampling strategy. Histopathology confirmed normal testicular tissue in all cases. Mean SWS was 2.45 ± 0.62 m/s in the right testis and 2.73 ± 0.51 m/s in the left, with no significant difference between sides (p = 0.097). Mean values were 2.51 ± 0.55 m/s in submediastinal regions and 2.66 ± 0.42 m/s in supramediastinal regions, without significant differences (p = 0.129). Whole-testis, submediastinal, and supramediastinal ROIs yielded mean SWS values of 2.62, 2.51, and 2.66 m/s, respectively, with no significant differences among approaches (p = 0.080). Exploratory agreement analyses showed small mean biases between the extended and focal ROI approaches, but did not establish interchangeability. These findings support the feasibility of 2D-SWE for assessing feline testicular stiffness and suggest a relatively homogeneous stiffness distribution in healthy feline testes. Further studies are needed to assess repeatability, establish reference intervals, and investigate diagnostic performance for feline testicular disease in clinical practice.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "2D-SWE",
+    "Cat",
+    "Elastography",
+    "Shear wave speed",
+    "Testicular stiffness",
+    "Testis",
+    "Ultrasonography"
+  ],
+  "fetched_on": "2026-09-29"
+}

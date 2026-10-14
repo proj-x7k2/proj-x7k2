@@ -19,6 +19,10 @@ mkdir -p logs
 
 # Claude Code에 허용할 도구: 읽기/쓰기/수정 + 폴더 둘러보기(Glob) + 내용 검색(Grep)
 CLAUDE_TOOLS="Read,Write,Edit,Glob,Grep"
+# 하위 에이전트·백그라운드 작업 금지 (10분 제한에 걸려 작업이 잘리는 원인이었음)
+CLAUDE_BLOCKED="Task,Agent"
+# 혹시 백그라운드 작업이 생겨도 강제 종료하지 않고 끝까지 기다리기
+export CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=0
 
 notify() {
     osascript -e "display notification \"$2\" with title \"$1\"" 2>/dev/null || true
@@ -53,7 +57,8 @@ run_claude() {
     # 사용법: run_claude "프롬프트 내용" [추가 허용 도구]
     local tools="$CLAUDE_TOOLS"
     if [ -n "$2" ]; then tools="$tools,$2"; fi
-    claude -p "$1" --allowedTools "$tools" --permission-mode acceptEdits 2>&1 | tee -a "$LOG_FILE"
+    claude -p "$1" --allowedTools "$tools" --disallowedTools "$CLAUDE_BLOCKED" \
+        --permission-mode acceptEdits 2>&1 | tee -a "$LOG_FILE"
 }
 
 git_sync() {

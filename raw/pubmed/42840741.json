@@ -1,0 +1,29 @@
+{
+  "pmid": "42840741",
+  "title": "Surgical management of an unstable occipital condyle fracture in a dog using a patient-specific CNC-milled titanium implant: a case report.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Narae Jeong",
+    "Hyunkyoung Kim",
+    "Cheongwoon Cho",
+    "Joohyun Jung"
+  ],
+  "doi": "10.1111/vsu.1373",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42840741/",
+  "abstract": "A 10-year-old castrated male Pomeranian was evaluated after a fall and presented with tetraparesis, dysphagia, and headturn. Magnetic resonance imaging (MRI) revealed a right occipital condyle fracture that caused brainstem compression and cerebellar infarction from a displaced bony fragment. According to the Anderson and Montesano classification in human medicine, this case was presumed to be Type 3, indicating instability, and surgical correction was considered. A bone fragment located in the medulla oblongata was left in situ owing to the potential risk of severe complications from removal. Occipitocervical stabilization surgery was performed to prevent further damage from instability. A patient-specific titanium implant was designed by CAD and fabricated by CNC milling, and screws were applied to the occiput and C1 vertebra using standard techniques, whereas a screw was inserted transversely into the C2 spinous process to minimize the risk of implant failure from neck flexion. Postoperative computed tomography (CT) confirmed proper implant placement without neural injury. Over time, the patient showed improvements in hypoglossal dysfunction and gait, and was discharged on postoperative day five. Occipital condyle fractures are rare in both veterinary and human medicine, with most cases classified as type 1 or 2, and typically do not require surgical intervention. To the best of our knowledge, this is the first peer-reviewed description of surgical stabilization of an occipital condyle fracture in a dog using a patient-specific, CNC-milled titanium implant. Conservative management of occipital condyle fracture and surgical stabilization of craniocervical junction fractures have been described previously, and the contribution of the present report lies in the implant design and fabrication workflow rather than in the surgical management of craniocervical injury per se.",
+  "publication_types": [
+    "Case Reports",
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "CAD",
+    "CNC milling",
+    "dog",
+    "occipital condyle fracture",
+    "occipitocervical stabilization",
+    "patient-specific implant"
+  ],
+  "fetched_on": "2026-10-14"
+}

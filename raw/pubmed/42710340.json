@@ -1,0 +1,28 @@
+{
+  "pmid": "42710340",
+  "title": "Cardiovascular and echocardiographic effects of propofol induction, with or without dextroketamine, in healthy premedicated rabbits: a randomized study.",
+  "journal": "Veterinary anaesthesia and analgesia",
+  "year": "2026",
+  "authors": [
+    "Luiza M Fukuzaki",
+    "Henrique Zc Sprengel",
+    "Beatriz Dcp Vila",
+    "Marlos G Sousa",
+    "Ricardo Gdc Vilani"
+  ],
+  "doi": "10.1016/j.vaa.2026.101332",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42710340/",
+  "abstract": "OBJECTIVE: To compare the cardiovascular and echocardiographic effects of anesthetic induction with propofol alone or combined with dextroketamine in healthy rabbits using transthoracic echocardiography (TTE).\n\nSTUDY DESIGN: Randomized, blinded, experimental trial.\n\nANIMALS: A total of 22 healthy male New Zealand white rabbits.\n\nMETHODS: Preanesthetic medication consisted of dexmedetomidine (5 μg kg-1), butorphanol (0.5 mg kg-1), and midazolam (0.3 mg kg-1) injected intramuscularly. Animals were randomly assigned to be given intravenous propofol (3 mg kg-1 minute-1; group PRO) or propofol-dextroketamine (propofol 3 mg kg-1 minute-1 and dextroketamine 2 mg kg-1 bolus; group PK) for anesthetic induction. TTE measurements were obtained at baseline, after preanesthetic medication, immediately after induction, and 10 minutes later. Echocardiographic variables included left ventricular dimensions, fractional shortening, ejection fraction, cardiac output, and longitudinal systolic function indices. Heart rate (HR) and arterial blood pressure were also evaluated. Repeated measurements were analyzed using linear mixed-effects models.\n\nRESULTS: HR decreased over time (p < 0.001). Mean arterial pressure showed a greater reduction in the PRO group (from 76 ± 6.5 to 66 ± 5.7 mmHg) than in the PK group (from 70 ± 9.5 to 65 ± 6.4 mmHg), resulting in significant effects of time (p = 0.035) and group-by-time interaction (p = 0.049). The estimated tricuspid annular plane systolic excursion interaction effect at T2 was 0.95 mm (95% confidence interval [CI], -0.09 to 1.99), although the overall group-by-time interaction was not significant (p = 0.141). Mitral annular plane systolic excursion showed no significant group-by-time interaction (p = 0.484), despite greater overall values in the PRO group (estimate -0.62 mm; 95% CI -1.05 to -0.18; p = 0.011).\n\nCONCLUSION AND CLINICAL RELEVANCE: The addition of dextroketamine to propofol induction did not result in detectable treatment-related changes in conventional or longitudinal echocardiographic indices of systolic function. Both induction protocols were associated with preserved cardiac output and systolic function, although arterial pressure responses differed over time.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Lagomorpha",
+    "echocardiography",
+    "hemodynamics",
+    "ventricular function",
+    "veterinary anesthesia"
+  ],
+  "fetched_on": "2026-09-21"
+}

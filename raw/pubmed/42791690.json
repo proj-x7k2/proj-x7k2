@@ -1,0 +1,28 @@
+{
+  "pmid": "42791690",
+  "title": "Grading Canine Benign Prostatic Hyperplasia: A Survey of Veterinary Practice and the Development of a Web-Based Symptom Index.",
+  "journal": "Animals : an open access journal from MDPI",
+  "year": "2026",
+  "authors": [
+    "Daniele Zambelli",
+    "Giulia Ballotta",
+    "Diego Bucci",
+    "Lucia Pagliuca",
+    "Marco Cunto"
+  ],
+  "doi": "10.2460/javma.2001.218.1275",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42791690/",
+  "abstract": "Benign prostatic hyperplasia (BPH) affects more than 95% of intact male dogs, yet most remain asymptomatic until prostatic enlargement causes clinical signs. Standardised assessment of BPH severity is therefore needed to improve clinical decision-making and enable comparable research outcomes. This study aimed to investigate current diagnostic and therapeutic approaches to canine BPH and to develop and assess a web-based application implementing the Zambelli Symptom Index (ZSI), an established symptom-based scoring system for BPH severity. A voluntary questionnaire was completed by veterinary practitioners to assess current clinical practice, and agreement between the web-based and reference paper-based ZSI classifications was evaluated. The survey revealed considerable variability in the recognition of clinical signs, assessment of BPH severity, and selection of treatment strategies, despite broad agreement on the diagnostic value of ultrasonography and the need for further investigation of prostatic enlargement. The web-based ZSI showed very high agreement with the reference classification. These findings demonstrate that the ZSI can be implemented digitally without materially affecting severity classification. The web-based tool may improve the standardisation and reproducibility of BPH assessment in clinical practice and research. Further studies are warranted to evaluate interobserver variability, clinical validity, and responsiveness to treatment.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "BPH grading",
+    "BPH symptoms",
+    "dog",
+    "prostatic disorder",
+    "symptom-based assessment"
+  ],
+  "fetched_on": "2026-09-29"
+}

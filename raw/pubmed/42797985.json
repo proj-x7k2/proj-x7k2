@@ -1,0 +1,32 @@
+{
+  "pmid": "42797985",
+  "title": "Ultrasound-Guided Thoracic Paravertebral, Erector Spinae Plane and Quadratus Lumborum Blocks During Emergency Laparotomy in Dogs: A Multicenter Retrospective Study.",
+  "journal": "Veterinary sciences",
+  "year": "2026",
+  "authors": [
+    "Andrea Paolini",
+    "Matteo Serpieri",
+    "Amanda Bianchi",
+    "Giuseppe Bonaffini",
+    "Pedro Figueirinhas",
+    "Mitzy Mauthe von Degerfeld",
+    "Claudia Ristori",
+    "Roberto Tamburro"
+  ],
+  "doi": "10.2460/javma.25.10.0670",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42797985/",
+  "abstract": "Emergency laparotomy is frequently performed in dogs with cardiovascular compromise, making perioperative anesthesia and nociceptive management particularly challenging. Although ultrasound-guided regional anesthesia techniques have demonstrated opioid-sparing effects during elective procedures, evidence supporting their use in emergency surgery remains limited. Medical records of 61 client-owned dogs were reviewed, and 41 met the inclusion criteria. Dogs were retrospectively allocated to one of four groups according to the analgesic technique received: thoracic paravertebral (TPV, n = 12), erector spinae plane (ESP, n = 11), quadratus lumborum (QL, n = 7), or no regional anesthesia (comparison group, n = 11). All regional blocks were performed using ropivacaine. Total intraoperative fentanyl consumption differed significantly among groups (p < 0.0001), with all regional anesthesia groups requiring less fentanyl than dogs managed without a regional block. Block execution time also differed significantly, with the ESP block requiring the shortest execution time. No significant differences were observed in block-related complications. Intraoperative hypotension did not differ significantly among the regional anesthesia groups; however, significant differences were observed between the control group and both the TPV and ESP groups. Ultrasound-guided TPV, ESP, and QL blocks were associated with lower intraoperative rescue fentanyl requirements than systemic analgesia alone, while block-related technical complications were uncommon. These techniques may represent useful components of multimodal anesthesia for selected dogs undergoing emergency laparotomy, providing opioid-sparing effects without increasing the incidence of intraoperative hypotension compared with systemic opioid analgesia alone.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "erector spinae plane block",
+    "hemodynamic stability",
+    "locoregional anesthesia",
+    "opioid-sparing",
+    "quadratus lumborum block",
+    "thoracic paravertebral block"
+  ],
+  "fetched_on": "2026-09-29"
+}

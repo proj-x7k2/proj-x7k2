@@ -1,0 +1,28 @@
+{
+  "pmid": "42710191",
+  "title": "Anatomical study of the thorax and abdomen of the domestic cat: Correlation of cross-sectional anatomy with contrast-enhanced computed tomography and 3D reconstruction.",
+  "journal": "Research in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Basma Abdelmohsen",
+    "Ramadan Sary",
+    "Yara Abouelela",
+    "Samer Daghash",
+    "Fouad Farag"
+  ],
+  "doi": "10.1016/j.rvsc.2026.106389",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42710191/",
+  "abstract": "Computed tomography (CT) has become an essential diagnostic and educational tool in veterinary medicine; however, accurate interpretation relies on precise knowledge of normal cross-sectional anatomy. This study aimed to develop a detailed anatomical atlas of the feline thorax and abdomen by correlating cross-sectional anatomical slices with contrast-enhanced CT images and three-dimensional (3D) reconstructions. Ten adult domestic cats of both sexes were used. Five cats were serially sectioned at defined thoracic and abdominal levels, and the sections were examined in both fresh and fixed states. The remaining five cats underwent plain and contrast-enhanced CT examinations following intravenous administration of iodinated contrast medium. CT datasets were converted to DICOM format and used to generate 3D reconstructions of the thoracic skeleton, heart, major vessels, and abdominal viscera. All major bones, muscles, visceral organs, and vascular structures of the thorax and abdomen were successfully identified and correlated between anatomical sections and CT images. Contrast-enhanced CT markedly improved visualization of vascular anatomy and visceral relationships. The reconstructed anatomical, radiological, and 3D reconstruction atlas provides a reliable reference for veterinary anatomy education, diagnostic imaging interpretation, and surgical planning in cats.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Abdomen",
+    "CT- 3D reconstruction",
+    "Cross-sectional anatomy",
+    "Domestic cat",
+    "Thorax"
+  ],
+  "fetched_on": "2026-09-21"
+}

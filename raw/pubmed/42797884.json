@@ -1,0 +1,30 @@
+{
+  "pmid": "42797884",
+  "title": "Interictal Single-Voxel Proton Magnetic Resonance Spectroscopy of the Temporal Lobe in Cats with Idiopathic Epilepsy: A Prospective Case-Control Study.",
+  "journal": "Veterinary sciences",
+  "year": "2026",
+  "authors": [
+    "Bertuğ Bekir Çiftçi",
+    "Gültekin Atalan",
+    "Mehmet Ulusan"
+  ],
+  "doi": "10.3390/ani15111504",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42797884/",
+  "abstract": "Background: Idiopathic epilepsy (IE) is among the most frequent chronic neurological disorders of cats, but by definition it is associated with an unremarkable conventional brain MRI, leaving its temporal lobe pathophysiology poorly characterised. Objectives: To quantify interictal temporal lobe neurometabolite ratios in cats with IE using bilateral single-voxel 1H-MRS and to compare them with healthy controls, and to explore relationships with seizure timing and signalment. Methods: In this prospective case-control study, 20 client-owned cats with idiopathic epilepsy and 20 healthy control cats underwent bilateral single-voxel 1H-MRS (PRESS; TE 135 ms; 10 × 10 × 10 mm voxel centred on the mid-hippocampus and amygdala). N-acetylaspartate (NAA), total choline (tCho), and total creatine (tCr) were quantified and the NAA/tCr, NAA/tCho, tCho/tCr, and tCho/NAA ratios were compared (independent-samples t-tests; one-way ANOVA; Spearman correlation; α = 0.05). Results: Overall, no metabolite ratio differed significantly between groups across both hemispheres, and no ratio correlated with age, sex, breed, coat length, or neutering status. However, the right temporal lobe NAA/tCr ratio was significantly lower in epileptic cats (1.32 ± 0.29) than in controls (1.50 ± 0.20; p < 0.05). Seizure timing modulated the left-hemisphere spectrum: left tCho/tCr correlated negatively with the interval since the last seizure (Spearman r = -0.48; p = 0.035), and cats with ≤3 days between first and last seizures showed lower left NAA/tCho (0.89 ± 0.23 vs. 1.14 ± 0.24; p = 0.032) and higher left tCho/NAA (1.21 ± 0.40 vs. 0.91 ± 0.17; p = 0.039) than cats with a longer interval. Conclusions: Interictal 1H-MRS detects temporal lobe metabolic disturbances, including a reduced right temporal lobe NAA/tCr ratio suggesting neuronal or metabolic dysfunction and seizure timing-dependent membrane turnover shifts, in cats with normal-appearing MRI. 1H-MRS is therefore a promising non-invasive adjunct for characterising, monitoring, and potentially assisting in the localisation of metabolic abnormalities in feline IE and warrants validation in larger, longitudinally sampled cohorts.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "N-acetylaspartate",
+    "cat",
+    "choline",
+    "creatine",
+    "idiopathic epilepsy",
+    "neuroimaging",
+    "proton magnetic resonance spectroscopy",
+    "single-voxel 1H-MRS",
+    "temporal lobe"
+  ],
+  "fetched_on": "2026-09-30"
+}

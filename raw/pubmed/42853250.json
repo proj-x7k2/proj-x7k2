@@ -1,0 +1,30 @@
+{
+  "pmid": "42853250",
+  "title": "Quantitative Assessment of Maxillary Canine, Fourth Premolar, and First Molar Root Surface Areas and Ratios in 68 Brachycephalic Dogs Using Cone-Beam Computed Tomography.",
+  "journal": "Journal of veterinary dentistry",
+  "year": "2026",
+  "authors": [
+    "Deborah Yee",
+    "Ashley Capen-Kerns",
+    "Jason P Hutt",
+    "Jennifer Tjepkema"
+  ],
+  "doi": "10.1177/08987564261494957",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42853250/",
+  "abstract": "Malocclusions involving the maxillary canine teeth are common in brachycephalic dogs and may require active force orthodontics. Orthodontic anchorage is influenced by root surface area (RSA), yet the RSA of orthodontically important teeth has not been quantified in brachycephalic dogs. The objectives were to quantify the RSA of the maxillary canine, fourth premolar (PM4), and first molar (M1) teeth using cone-beam computed tomography (CBCT), compare the canine RSA with the PM4, M1, and combined PM4 + M1 RSAs, and evaluate the relationship of body weight to these ratios. A retrospective observational study was performed using CBCT scans from 68 brachycephalic dogs (119 dental arcades). Teeth were segmented, and RSA was calculated. Dogs were grouped by body weight (<10 kg, 10-25 kg, >25 kg), and RSA ratios were compared between weight classes. All dental arcades (119/119, 100%) had a canine-to-combined PM4 + M1 RSA ratio (C:PM4 + M1) of less than 1. The canine-to-PM4 ratio was less than 1 in 61.35% of arcades, whereas the canine-to-M1 ratio was less than 1 in 1.68% of arcades, all in dogs weighing <10 kg. Body weight was positively associated with the C:PM4 + M1 ratio (P = .0006); however, the ratio remained less than 1 in all arcades. Small dogs had significantly lower C:PM4 + M1 ratios than medium (P = .006) and large dogs (P = .03). These findings support the use of the maxillary PM4 and M1 as a reinforced anchorage unit for orthodontic movement of the maxillary canine tooth in brachycephalic dogs.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "brachycephalic",
+    "dentistry",
+    "maxillary canine",
+    "maxillary first molar",
+    "maxillary fourth premolar",
+    "orthodontics",
+    "root surface area",
+    "veterinary"
+  ],
+  "fetched_on": "2026-10-14"
+}

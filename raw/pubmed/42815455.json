@@ -1,0 +1,38 @@
+{
+  "pmid": "42815455",
+  "title": "Clinical and molecular genetic description of a Marfan-like syndrome in a Golden Retriever puppy.",
+  "journal": "Journal of veterinary internal medicine",
+  "year": "2026",
+  "authors": [
+    "Harrison T Lennertz",
+    "Megan E McClosky",
+    "Maria Del Mar Fuentes",
+    "Jessica K Niggel",
+    "Margret L Casal",
+    "Leonardo Murgiano"
+  ],
+  "doi": "10.1186/s40246-018-0178-y",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42815455/",
+  "abstract": "BACKGROUND: Marfan syndrome (MFS) is a genetic fibrillin disorder causing cardiac, ocular, and musculoskeletal pathology; it is not well reported on in dogs, with minimal descriptions of antemortem diagnosis.\n\nHYPOTHESIS/OBJECTIVES: Use whole-genome sequencing (WGS) to diagnose a dog with suspected MFS to guide prognostication and potential treatment.\n\nANIMALS: A client-owned, 10-month-old Golden Retriever presented with signs of possible connective tissue disorder. Blood and DNA samples from a non-affected German Shepherd-Beagle mix and 160 unrelated Golden Retrievers were used as controls.\n\nMETHODS: Physical examination, blood collection, and radiography were performed on the dog while at the hospital. Whole-genome sequencing was performed on DNA from the affected dog. Genetic analysis focused on single-nucleotide variants, small insertion-deletions, and structural variants to detect potential disease-causing genetic variants in the genome, prioritizing candidate genes. Polymerase chain reaction amplification and Sanger sequencing of a suspected region were carried out to confirm presence of the candidate pathogenic variant.\n\nRESULTS: The dog was presented for cardiology consultation and had clinical signs of cardiac enlargement, pneumothorax, and joint hypermobility. After genetic analysis, a 3618 base pair deletion encompassing exon 24 of the FBN1 gene on 1 allele was detected (NC_049251.1:g.14998228_15001846del), likely causing an in-frame deletion in the coding sequence.\n\nCONCLUSIONS AND CLINICAL IMPORTANCE: Physical and complementary examination findings are suggestive of MFS and associated with a causal deletion variant.",
+  "publication_types": [
+    "Journal Article",
+    "Case Reports"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Dog Diseases",
+    "Marfan Syndrome",
+    "Fibrillin-1",
+    "Male",
+    "Female",
+    "Whole Genome Sequencing"
+  ],
+  "keywords": [
+    "Marfan syndrome",
+    "cardiac enlargement",
+    "genetic analysis",
+    "in-frame deletion"
+  ],
+  "fetched_on": "2026-10-06"
+}

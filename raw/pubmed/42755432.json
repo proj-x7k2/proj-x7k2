@@ -1,0 +1,48 @@
+{
+  "pmid": "42755432",
+  "title": "Biosynthesized chitosan nanoparticles from Krameria lappacea: a strategy to ameliorate coccidiosis-induced intestinal dysfunction.",
+  "journal": "Frontiers in cellular and infection microbiology",
+  "year": "2026",
+  "authors": [
+    "Mohammed I Alquraishi",
+    "Esam M Al-Shaebi",
+    "Chinnadurai Veeramani",
+    "Ahmed S El Newehy",
+    "Khalid S Al-Numair",
+    "Mohammed A Alsaif",
+    "Saleh Al Quraishy",
+    "Rewaida Abdel-Gaber"
+  ],
+  "doi": "10.3390/molecules28073240",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42755432/",
+  "abstract": "BACKGROUND: Coccidiosis is a major parasitic disease caused by Eimeria species that induces intestinal damage, oxidative stress, and impaired nutrient absorption. The risk associated with drug-resistant strains and other adverse effects related to conventional anticoccidial drugs necessitates the development of safer natural alternatives. Thus, in this study, we examined the anticoccidial efficacy of biosynthesized chitosan nanoparticles (CNPs) derived from Krameria lappacea root extract against Eimeria papillata-induced murine coccidiosis.\n\nMETHODS: Chitosan nanoparticles were biosynthesized using K. lappacea root extract and characterized by transmission electron microscopy (TEM), UV-visible spectroscopy, and Fourier-transform infrared spectroscopy (FT-IR). Male C57BL/6 mice were experimentally infected with 10³ sporulated oocysts of E. papillata and treated orally with CNPs at doses of 5, 10, and 20 mg/kg, while amprolium (120 mg/kg) was used as a reference coccidian drug. Fecal oocyst output, body weight changes, jejunal histopathology, intracellular parasitic stages, oxidative stress biomarkers, antioxidant enzyme activities, glucose, and total protein contents were evaluated on day five post-infection.\n\nRESULTS: TEM analysis revealed that the synthesized CNPs were predominantly spherical with particle sizes ranging from 57.01 to 83.05 nm with an average diameter of about 70.16 nm. FT-IR analysis indicated the presence of functional groups associated with alcohols, amines, sulfates, and halo compounds. Infection with E. papillata caused significant body weight loss, increased oocyst shedding, severe jejunal histopathological alterations, elevated nitric oxide (NO) and hydrogen peroxide (H2O2) levels, and reduced the levels of glucose, total protein, catalase (CAT), and glutathione peroxidase (GPx). Treatment with CNPs significantly reduced fecal oocyst shedding in all treated groups; however, the 5 mg/kg dose was the most effective, lowering oocyst output to 1.308 × 106 ± 2.54 × 105 oocysts/g feces compared with 7.196 × 106 ± 2.77 × 105 oocysts/g feces in infected untreated mice. The reductions achieved with the 10 and 20 mg/kg CNP doses were less pronounced. CNPs administration also markedly decreased intracellular parasitic stages, improved jejunal histological architecture, restored glucose and protein contents, promoted antioxidant capacity, and lowered oxidative stress. The therapeutic efficacy of CNPs was comparable to or superior to that of the reference drug, amprolium.\n\nCONCLUSION: CNPs exhibited potent anticoccidial, antioxidant, and protective effects against E. papillata infection in mice. These findings suggest that CNPs are a promising natural alternative for the management of coccidiosis, warranting further investigation into their mechanisms of action, safety, and potential applications in veterinary medicine.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Chitosan",
+    "Coccidiosis",
+    "Male",
+    "Eimeria",
+    "Nanoparticles",
+    "Mice, Inbred C57BL",
+    "Mice",
+    "Disease Models, Animal",
+    "Plant Extracts",
+    "Microscopy, Electron, Transmission",
+    "Oxidative Stress",
+    "Spectroscopy, Fourier Transform Infrared",
+    "Feces",
+    "Plant Roots"
+  ],
+  "keywords": [
+    "Eimeria papillata",
+    "Krameria lappacea",
+    "Murine coccidiosis",
+    "anticoccidial activity",
+    "chitosan nanoparticles",
+    "oxidative Stress"
+  ],
+  "fetched_on": "2026-09-21"
+}

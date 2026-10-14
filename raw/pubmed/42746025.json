@@ -1,0 +1,27 @@
+{
+  "pmid": "42746025",
+  "title": "Radiomics and comparative neuroimaging of canine gliomas and human glioblastomas: a step toward precision medicine.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Ricardo Faustino",
+    "Joaquim Henriques"
+  ],
+  "doi": "10.1007/s00330-023-09827-2",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42746025/",
+  "abstract": "INTRODUCTION: Gliomas are primary Central Nervous System glial tumors common in dogs and humans. Human glioblastomas are the most aggressive subtype, with an average survival of 15 months after diagnosis. Brachycephalic dogs are predisposed to gliomas and share biological and clinical features with human glioblastomas. This study explored radiomics applied to T2 weigthed Fluid Attenuated Inversion Recovery (T2-FLAIR) magnetic resonance imaging (MRI) sequences to characterize canine glioma lesions and non-lesioned tissues, aiming to identify imaging biomarkers for diagnosis and prognosis.\n\nMETHODS: MRI scans from canine gliomas and human glioblastomas were analyzed. Regions of Interest (ROIs) were segmented for extraction of radiomic features including texture, shape, and intensity. Descriptive and non-parametric statistical analyses, ANOVA, and Receiver Operating Characteristic (ROC) curves were used to evaluate feature discrimination capacity, particularly features with area under the curve (AUC) values above 80%, such as \"jointaverage\" and \"autocorrelation\".\n\nRESULTS: Volumetric analysis revealed significant differences between groups (p < 0.001). Selected radiomic features discriminated tumoral from non-lesioned tissues, with ROC AUC values exceeding 80% (p < 0.001). The Support Vector Machine (SVM) model achieved 80.33% accuracy in distinguishing gliomas and glioblastomas from non-lesioned brain tissue across canine and human datasets.\n\nDISCUSSION: Radiomic features revealed comparable texture patterns between canine gliomas and human glioblastomas, enabling cross-species discrimination between tumoral and non-lesioned tissue with AUC values above 80% and SVM accuracy of 80.33%. These findings support canine gliomas as a valuable translational model for human glioblastoma research and precision medicine. However, the limited sample size and population diversity require validation in larger cohorts.\n\nCONCLUSION: Consistent imaging biomarkers across canine gliomas and human glioblastomas support advances in comparative and translational medicine. Radiomic features extracted from T2-FLAIR MRI enabled non-invasive discrimination between tumoral and non-lesioned brain tissue across species, reinforcing the relevance of canine gliomas as a natural model for human glioblastoma and the potential of comparative neuroimaging for precision medicine.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "comparative oncology",
+    "glioma",
+    "imaging biomarkers",
+    "magnetic resonance imaging",
+    "precision medicine",
+    "radiomics",
+    "reverse translational medicine"
+  ],
+  "fetched_on": "2026-09-21"
+}

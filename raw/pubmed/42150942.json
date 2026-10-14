@@ -1,0 +1,33 @@
+{
+  "pmid": "42150942",
+  "title": "Artificial Intelligence-Assisted Interpretation of Veterinary Radiographs: Opportunities, Risks, and Best Practices for Clinicians.",
+  "journal": "The Veterinary clinics of North America. Small animal practice",
+  "year": "2026",
+  "authors": [
+    "Parminder S Basran",
+    "Ryan Appleby",
+    "Ian Porter"
+  ],
+  "doi": "10.1016/j.cvsm.2026.03.018",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42150942/",
+  "abstract": "Artificial intelligence (AI) serves as a decision support tool, not a replacement for clinical judgment, when used to interpret radiological images. Veterinarians retain full professional accountability for all diagnoses and treatment decisions, regardless of AI involvement. Transparency is essential: if you cannot explain to clients in understandable terms how an AI system works and its limitations, it should not be used in practice. Successful implementation requires following established best practices, including comprehensive team training, maintaining traditional diagnostic skills, and establishing quality assurance protocols.",
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Artificial Intelligence",
+    "Veterinary Medicine",
+    "Radiography"
+  ],
+  "keywords": [
+    "Artificial intelligence",
+    "Clinical decision support",
+    "Deep learning",
+    "Diagnostic imaging",
+    "Professional accountability",
+    "Veterinary radiology"
+  ],
+  "fetched_on": "2026-09-21"
+}

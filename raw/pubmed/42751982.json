@@ -1,0 +1,41 @@
+{
+  "pmid": "42751982",
+  "title": "Differential Diagnosis Using MRI of Canine Intestinal Neoplasms, Including Lymphoma, Adenocarcinoma, and Inflammatory Polyp: Case Series.",
+  "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
+  "year": "2026",
+  "authors": [
+    "Toshiyuki Tanaka",
+    "Yusuke Wada",
+    "Mizuki Tomihari",
+    "Takashi Hasegawa"
+  ],
+  "doi": "10.1111/vru.70257",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42751982/",
+  "abstract": "No studies have evaluated magnetic resonance imaging (MRI) findings of intestinal neoplasms in veterinary medicine. We hypothesized that MRI findings would differ among intestinal neoplasms in veterinary medicine. This study retrospectively assessed the MRI findings of intestinal neoplasms, including lymphomas (n = 6), adenocarcinomas (n = 2), and inflammatory polyps (n = 4) in dogs. The following MRI parameters were recorded: neoplasm signal intensity (SI) on T1-weighted images (T1WI), T2-weighted images (T2WI), contrast-enhanced T1WI (C-T1WI), and diffusion-weighted images (DWI); contrast enhancement pattern on C-T1WI; the presence of intestinal obstruction; and apparent diffusion coefficient (ADC) values. All lymphomas (6 of 6) showed hypointense SI on C-T1WI, whereas adenocarcinomas (0 of 2) and inflammatory polyps (0 of 4) did not (p = 0.002). Lymphomas (5 of 6) showed homogeneous enhancement significantly more frequently than adenocarcinoma (0 of 2) and inflammatory polyps (0 of 4) (p = 0.02). Regarding SI of T1WI, T2WI, and qualitative DWI, and the presence of intestinal obstruction, no significant differences were observed among intestinal neoplasms. The ADC values of lymphomas (0.58 ± 0.18 × 10-3 mm2/s) were significantly lower than adenocarcinomas (1.27 ± 0.007 × 10-3 mm2/s, p = 0.01) and inflammatory polyps (1.56 ± 0.3 × 10-3 mm2/s, p = 0.0002). Lymphomas showed homogeneous low enhancement and significantly lower ADC values compared with adenocarcinomas and inflammatory polyps by MRI. These MRI findings may help differentiate intestinal lymphoma from other intestinal neoplasms.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Dog Diseases",
+    "Lymphoma",
+    "Diagnosis, Differential",
+    "Intestinal Neoplasms",
+    "Retrospective Studies",
+    "Adenocarcinoma",
+    "Female",
+    "Male",
+    "Magnetic Resonance Imaging",
+    "Intestinal Polyps"
+  ],
+  "keywords": [
+    "abdomen",
+    "apparent diffusion coefficient (ADC)",
+    "computed tomography (CT)",
+    "diffusion‐weighted imaging (DWI)",
+    "dog",
+    "magnetic resonance imaging (MRI)"
+  ],
+  "fetched_on": "2026-09-21"
+}

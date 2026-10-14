@@ -1,0 +1,30 @@
+{
+  "pmid": "42718794",
+  "title": "Image based three-dimensional kinematic mapping to optimize femoral tunnel placement for intra-articular cranial cruciate ligament reconstruction in dogs.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Caroline Robine-Decourcelle",
+    "Pierre-Yves Rohan",
+    "Christophe Muth-Seng",
+    "Sylvain Persohn",
+    "Mathieu Manassero",
+    "Véronique Viateau"
+  ],
+  "doi": "10.1186/s12917-018-1395-2",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42718794/",
+  "abstract": "OBJECTIVE: The development of synthetic ligaments (SLs) has sparked renewed interest in intra-articular cranial cruciate ligament (CrCL) reconstruction. In this procedure, minimizing changes in graft length through optimal tunnel placement is essential for long-term function. However, three-dimensional (3D) assessment of isometry across the femoral attachment area in dogs remains limited, which prevents evidence-based optimization of tunnel positioning. Thus, the aim of this study was to perform strain-constrained, animal-specific mapping of the femoral region for intra-articular CrCL reconstruction in dogs and to identify drill-compatible sites for SL fixation that minimize strain during joint flexion-extension.\n\nMETHODS: Six pelvic limbs from large-breed dogs (mean body weight 27.7 ± 9.7 kg) underwent three-dimensional (3D) segmentation of bones and CrCL footprints using computed tomography (CT). Femorotibial kinematics during passive flexion-extension were computed using biplanar radiography and optical tracking. The ligament trajectories were modeled as straight segments connecting candidate mesh femoral nodes on the medial aspect of the lateral condyle to tibial nodes included within a 5 mm diameter circle centered on the centroid of the native CrCL footprint. Changes in trajectory length during a flexion-extension cycle, and the extent of contiguous femoral regions below selected strain thresholds were recorded.\n\nRESULTS: Flexion-extension produced coupled triplanar stifle motions within the reported ranges. The femoral nodes with the lowest maximum strain clustered cranial and proximal to the centroid of the native CrCL footprint. A continuous 5 mm diameter region was consistently identified at a maximal strain threshold between 6.5-9%. Caudal and cranio-distal nodes relative to the native CrCL footprints exhibited the highest strain values (>30%).\n\nCONCLUSION: Subject-specific 3D kinematic modeling consistently identified drill-compatible femoral and tibial regions with a 9% maximal strain cut-off. Future refinement of the 3D kinematic model integrating active loading, soft-tissue mechanics, and SL architecture is required to support clinical translation.\n\nCLINICAL RELEVANCE: Positioning the femoral tunnel slightly cranially and proximally to the native CrCL footprint, and centering the tibial tunnel on its centroid, may improve SL longevity and long-term joint stability.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "3D kinematic",
+    "canine stifle joint",
+    "cranial cruciate ligament rupture",
+    "isometry",
+    "surgical planning",
+    "synthetic ligament"
+  ],
+  "fetched_on": "2026-09-21"
+}

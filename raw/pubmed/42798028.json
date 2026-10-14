@@ -1,0 +1,33 @@
+{
+  "pmid": "42798028",
+  "title": "Intraoperative Analgesic Requirements in Dogs Receiving Retromammillary or Erector Spinae Plane Blocks for Thoracolumbar or Lumbar Hemilaminectomy: A Single-Center Retrospective Cohort Study.",
+  "journal": "Veterinary sciences",
+  "year": "2026",
+  "authors": [
+    "Mariana Cavalcanti-McKenzie",
+    "Raiane A Moura",
+    "Enzo Vettorato",
+    "Marta Romano",
+    "Ludovica Chiavaccini",
+    "Chiara De Gennaro",
+    "Elizabeth A Maxwell",
+    "Pablo E Otero",
+    "Diego A Portela"
+  ],
+  "doi": "10.3389/fvets.2026.1774492",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42798028/",
+  "abstract": "Thoracolumbar and lumbar hemilaminectomy in dogs requires effective perioperative analgesia. The erector spinae plane (ESP) and retromammillary (RM) blocks are ultrasound-guided regional anesthesia techniques targeting the dorsal branches of spinal nerves, but comparative clinical data are lacking. This retrospective cohort study compared perioperative analgesic requirements and complication rates between ESP (n = 62) and RM (n = 207) blocks in client-owned dogs undergoing hemilaminectomy. The primary outcome was intraoperative opioid rescue analgesia; secondary outcomes included rescue analgesia using any analgesic agent, perioperative opioid consumption (expressed as morphine equivalents, mg kg-1), pain scores, time to voluntary food intake, and complications. Multivariable logistic regression, with covariates selected using a directed acyclic graph, assessed independent predictors of intraoperative opioid rescue administration. Dogs receiving ESP blocks were more likely to require intraoperative opioid rescue than those receiving RM blocks (59.7% versus 38.7%; adjusted odds ratio (OR) 3.4, 95% confidence interval (CI) 1.7-6.6; p < 0.001). Rescue analgesia using any analgesic agent was also more frequent in the ESP group (64.5% versus 43.0%; p = 0.004). Postoperative pain scores, time to first voluntary food intake, and complications were similar between groups. The RM block was associated with reduced intraoperative rescue analgesia compared to the ESP block, though both techniques provided effective postoperative analgesia within multimodal protocols. Prospective randomized trials are warranted to confirm these findings.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "canine",
+    "erector spinae plane block",
+    "hemilaminectomy",
+    "intraoperative rescue analgesia",
+    "regional anesthesia",
+    "retromammillary block"
+  ],
+  "fetched_on": "2026-09-29"
+}

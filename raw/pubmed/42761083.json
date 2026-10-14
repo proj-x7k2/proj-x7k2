@@ -1,0 +1,29 @@
+{
+  "pmid": "42761083",
+  "title": "Effects of recumbency and tube current on image quality of canine elbow computed tomography.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "S R Bellekom",
+    "M Dekkers",
+    "M Beukers"
+  ],
+  "doi": "10.1111/vru.12823",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42761083/",
+  "abstract": "BACKGROUND: Elbow dysplasia is a leading cause of forelimb lameness in medium- to large-breed dogs, and computed tomography (CT) is the imaging modality of choice for assessment of the medial coronoid process. Image quality depends on patient positioning and tube current, but their effects have not been systematically compared.\n\nAIMS: To compare the image quality of two canine elbow CT positioning protocols (dorsal recumbency: head in neutral position, both elbows scanned together vs. lateral recumbency: head/neck flexed caudally, elbows scanned separately), and to evaluate the influence of tube current and its interaction with these protocols.\n\nMETHODS: Prospective experimental cadaver study on twenty canine cadavers (40 elbows). All cadavers were scanned in both positions at 150 mA; a subgroup of eight was additionally scanned at 300 mA. Quantitative outcomes were signal- and contrast-to-noise ratios in bone- and soft-tissue-kernels. Qualitative outcomes, assessed by three observers, were paired-preference reads of four criteria: bone conspicuity, soft-tissue conspicuity, and artifacts in bone- and soft-tissue window. Inter- and intra-observer agreement were quantified for the bone conspicuity criterion.\n\nRESULTS: Lateral recumbency produced significantly higher signal- and contrast-to-noise ratios than dorsal recumbency for all four outcomes (all p < 0.001 at 150 mA). Doubling the tube current from 150 to 300 mA did not produce a statistically significant within-recumbency improvement (all p ≥ 0.058). Lateral recumbency at 150 mA remained superior to dorsal at 300 mA on all four outcomes (p = 0.002 to 0.013). Qualitatively, observers almost unanimously preferred lateral recumbency for the artifact criteria and for soft-tissue conspicuity (99-100% lateral). For bone conspicuity, 31% of paired comparisons were ties; lateral was preferred in 60.6% of non-tie ratings (p = 0.008).\n\nCONCLUSION: Lateral recumbency, scanning the elbows separately with head and neck flexed caudally, provides superior objective image quality, and increased tube current does not compensate for suboptimal positioning. The observer-perceived advantage for bone conspicuity was inconsistent. For routine orthopedic CT focused on the medial coronoid process, dorsal recumbency remains a reasonable choice; lateral recumbency should be preferred when artifact reduction or soft-tissue evaluation is clinically important.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "ALARA",
+    "SNR (signal noise ratio)",
+    "canine elbow dysplasia",
+    "computed tomography",
+    "image quality",
+    "medial coronoid process",
+    "patient positioning",
+    "tube current"
+  ],
+  "fetched_on": "2026-09-21"
+}

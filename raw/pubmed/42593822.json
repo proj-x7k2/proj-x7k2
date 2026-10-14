@@ -1,0 +1,31 @@
+{
+  "pmid": "42593822",
+  "title": "Bibliometric Analysis of Artificial Intelligence Use in Small Animal Thoracic Radiography.",
+  "journal": "Veterinary medicine and science",
+  "year": "2026",
+  "authors": [
+    "Vildan Aslan Canatan",
+    "Ender Uzabaci"
+  ],
+  "doi": "10.29106/fesa.1302809",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42593822/",
+  "abstract": "BACKGROUND: Artificial intelligence (AI) is increasingly used in veterinary diagnostic imaging, particularly in thoracic radiology, to support image interpretation.\n\nOBJECTIVE: The aim of this study was to evaluate research trends in AI applications for small animal thoracic radiography through bibliometric analysis, identifying key contributors, leading journals, thematic focuses and collaboration patterns.\n\nMETHODS: Studies published between 2018 and 2025 were retrieved from the Web of Science (WoS) and PubMed databases using predefined Boolean search terms. After duplicate removal and screening based on inclusion and exclusion criteria, 27 articles were included. Data were analysed using RStudio (Biblioshiny) to evaluate publication trends, citation impact, scientific productivity, collaboration networks and thematic structures.\n\nRESULTS: Publications showed an increasing trend, with an annual growth rate of 10.41% and a peak in 2023 (n = 8). Studies published in 2020 showed the highest citation impact, averaging 46.33 citations. T. Banzato emerged as the most prolific author, while S. Burti authored the most cited study. The United States (n = 32) and Italy (n = 23) were the leading contributing countries. Thematic analyses demonstrated a primary focus on convolutional neural network (CNN)- and deep learning-based automated detection of cardiomegaly, pleural effusion and pulmonary diseases in dogs, reflecting the clinically driven nature of early studies. A significant positive correlation (p < 0.001) was found between WoS citation counts and those from other databases, whereas other bibliometric indicators showed no significant associations.\n\nCONCLUSIONS: AI shows considerable potential to support diagnostic processes in veterinary thoracic radiology; however, dataset heterogeneity and species diversity remain major limitations, highlighting the need for methodological standardization and stronger international collaboration.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Bibliometrics",
+    "Artificial Intelligence",
+    "Radiography, Thoracic",
+    "Dogs"
+  ],
+  "keywords": [
+    "artificial intelligence",
+    "bibliometric analysis",
+    "cat",
+    "dog",
+    "thorax radiography"
+  ],
+  "fetched_on": "2026-09-21"
+}

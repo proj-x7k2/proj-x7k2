@@ -1,0 +1,36 @@
+{
+  "pmid": "42775486",
+  "title": "Computed tomographic Characteristics of Presumed Normal Canine Iliosacral Lymph Nodes.",
+  "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
+  "year": "2026",
+  "authors": [
+    "Mohammad Momin Iqbal",
+    "Monique Mayer",
+    "Amy Larkin",
+    "Sarah Parker",
+    "Sally Sukut"
+  ],
+  "doi": "10.3906/vet-1507-78",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42775486/",
+  "abstract": "Computed tomographic (CT) evaluation of medial iliac (MILN), internal iliac (IILN), and sacral (SLN) lymph nodes (LNs) in dogs provides vital staging information in certain neoplastic conditions. This retrospective study aimed to determine minimum transverse diameter (MinTD) and maximum transverse diameter (MaxTD) values for presumed normal iliosacral LNs and assess their utility in evaluating therapeutic response using response evaluation criteria in solid tumors (RECIST) v1.1. LN margins, number, and pre-contrast attenuation were also analyzed. The CT scans of 71 dogs were reviewed by an ACVR-certified veterinary radiologist. The MILNs were identified in 99% of dogs, predominantly bilaterally. The IILNs and SLNs were identified in 79% and 41% of dogs, respectively, with more variability in bilateral versus unilateral presence. Median values for MinTD/MaxTD were 4.2/7.4 mm for MILNs, 2.5/4.0 mm for IILNs, and 2.9/4.9 mm for SLNs. MinTD was <10 mm in all but one LN; MaxTD exceeded 10 mm in 19% of MILN sites and 1% of IILN sites. These results suggest that MinTD better reflects the RECIST v1.1 definition of non-pathologic LNs (i.e., LNs <10 mm) and is the recommended measurement when evaluating therapeutic response. Transverse diameters, except MILN MaxTD, were larger in intact dogs (p ≤ 0.013), and females had larger SLN MaxTD (p = 0.047). Aortic diameter and body weight were positively correlated (r = 0.7, p < 0.001), and dogs with an aortic diameter >8.6 mm had greater diameters for MILNs and IILNs (p ≤ 0.034). Separate MinTD values for IILNs and SLNs are presented herein, whereas prior studies reported them as a combined group.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Lymph Nodes",
+    "Female",
+    "Tomography, X-Ray Computed",
+    "Retrospective Studies",
+    "Ilium",
+    "Male",
+    "Sacrum"
+  ],
+  "keywords": [
+    "abdominal lymph nodes",
+    "parietal lymph nodes",
+    "tumor response evaluation"
+  ],
+  "fetched_on": "2026-09-30"
+}

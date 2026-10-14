@@ -1,0 +1,41 @@
+{
+  "pmid": "42855434",
+  "title": "Clinical characteristics of pneumorrhachis in dogs and cats: a retrospective study of 125 cases.",
+  "journal": "Journal of veterinary internal medicine",
+  "year": "2026",
+  "authors": [
+    "Sam Ooms",
+    "Kenny Bossens",
+    "Ine Cornelis",
+    "Iris van Soens",
+    "Kaatje Kromhout",
+    "Sofie F M Bhatti"
+  ],
+  "doi": "10.1177/1098612X251385878",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42855434/",
+  "abstract": "BACKGROUND: Pneumorrhachis (PR), defined as gas within the vertebral canal, is an uncommon finding, and its clinical relevance and relationship to the vacuum phenomenon (VP) have not been systematically evaluated.\n\nHYPOTHESIS/OBJECTIVES: To characterize the anatomical distribution of PR in dogs and cats undergoing computed tomography (CT) and to assess its relationship with signalment, VP, and concurrent neurological and non-neurological conditions.\n\nANIMALS: One hundred nineteen dogs and 6 cats with PR identified on CT between 2015 and 2023.\n\nMETHODS: Retrospective, descriptive study of medical records and CT reports. Cases were included when PR was documented in the radiology report, clinical and imaging information was available. Data included signalment, PR distribution, VP presence, final diagnosis categorized as neurological, non-neurological, postoperative, or no identified cause.\n\nRESULTS: Pneumorrhachis was identified with neurological conditions in 60/119 dogs (50%), including intervertebral disc disease (IVDD) in 50/60 (83%). Among IVDD-related PR, Hansen type I occurred in 32/50 (64%) cases. A VP was present in 23/50 dogs (46%), co-localized with the affected intervertebral disc in 78%. Non-neurological conditions accounted for 45/119 (38%) dogs, mainly neoplastic (44%) and respiratory (36%), with VP infrequently detected. Pneumorrhachis occurred postoperatively in 12/119 dogs. Two dogs (2%) had PR and epaxial muscle pain without an identifiable cause. In cats, PR was associated with neurological (2/6), non-neurological conditions (2/6), and postoperatively (2/6). No cases involved IVDD or VP.\n\nCONCLUSIONS AND CLINICAL IMPORTANCE: Pneumorrhachis in dogs and cats is considered an uncommon CT finding occurring with neurological and non-neurological conditions. Although often accompanying IVDD in dogs, PR was frequently incidental.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Retrospective Studies",
+    "Cats",
+    "Dog Diseases",
+    "Cat Diseases",
+    "Female",
+    "Male",
+    "Pneumorrhachis",
+    "Tomography, X-Ray Computed",
+    "Intervertebral Disc Displacement",
+    "Intervertebral Disc Degeneration"
+  ],
+  "keywords": [
+    "intervertebral disc disease",
+    "intraspinal gas",
+    "neurological diseases",
+    "vacuum phenomenon"
+  ],
+  "fetched_on": "2026-10-14"
+}

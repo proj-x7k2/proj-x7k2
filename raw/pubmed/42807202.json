@@ -1,0 +1,29 @@
+{
+  "pmid": "42807202",
+  "title": "Machine-driven vs. manual nickel-titanium instrumentation of canine teeth in dogs: a high resolution micro-CT evaluation of canal geometry and obturation quality.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Johanna Wunderl",
+    "Matthias Eberspächer-Schweda",
+    "Stephan Handschuh",
+    "Alexander Tichy",
+    "Eva Schnabl-Feichter"
+  ],
+  "doi": "10.1016/j.joen.2017.07.025",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42807202/",
+  "abstract": "Root canal treatment in canine teeth of dogs represents a technically demanding procedure due to complex root canal anatomy and large canal dimensions. The present study aimed to compare different endodontic instrumentation techniques and to evaluate their effects on canal geometry, obturation quality, and procedural safety using high-resolution micro-computed tomography (micro-CT). In addition, the diagnostic value of cone-beam computed tomography (CBCT) in the assessment of postoperative findings was investigated. Thirty extracted canine teeth were randomly assigned to three groups (n = 10) and instrumented using two different machine-driven nickel-titanium (Ni-Ti) systems or manual Ni-Ti hand files. Pre- and post-treatment micro-CT scans were used for quantitative analysis of canal morphology, post-to-pre canal volume ratio, air inclusion, and discrepancies between canal diameter and instrument size. CBCT imaging was performed for post-treatment evaluation. Mixed-model analysis revealed a significant overall effect of instrumentation group on the discrepancy between canal diameter and instrument size (p = 0.008). Pairwise comparisons demonstrated significantly greater discrepancies for manual instrumentation than for one of the machine-driven systems, whereas the remaining comparisons were not statistically significant after Sidak correction. No significant differences were observed in the post-to-pre canal volume ratio between groups (p = 0.464). A significant group effect was identified for internal air volume (p = 0.017), with manual instrumentation being associated with greater internal air volume, indicating less homogeneous obturation. Procedural complications occurred in 26.7% of specimens and were more frequent for the less experienced operator. CBCT imaging demonstrated radiolucent zones at the dentin-filling interface that were not confirmed as voids or debris by micro-CT and were therefore attributed to imaging artifacts. Machine-driven Ni-Ti systems provided more reproducible canal preparation and were associated with more homogeneous obturation despite achieving a comparable post-to-pre canal volume ratio. Moreover, high-resolution micro-CT demonstrated that radiolucent CBCT findings at the dentin-filling interface predominantly reflected imaging-related artifacts rather than true treatment deficiencies, highlighting the importance of cautious interpretation of postoperative CBCT examinations in veterinary endodontics.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Ni-Ti",
+    "canine tooth",
+    "dogs",
+    "endodontic treatment",
+    "micro-CT",
+    "root canal treatment"
+  ],
+  "fetched_on": "2026-10-06"
+}

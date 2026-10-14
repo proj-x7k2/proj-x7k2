@@ -1,0 +1,29 @@
+{
+  "pmid": "42705596",
+  "title": "Mechanistic-data synergy for predicting fracture load in canine bone with appendicular osteosarcoma.",
+  "journal": "Veterinary journal (London, England : 1997)",
+  "year": "2026",
+  "authors": [
+    "Behzad Amirzade",
+    "Tareq Zobaer",
+    "Janis Lapsley",
+    "Kim A Selting",
+    "Laura E Selmic",
+    "Ali Nassiri"
+  ],
+  "doi": "10.1016/j.tvjl.2026.106873",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42705596/",
+  "abstract": "Canine appendicular osteosarcoma substantially increases the risk of pathological fractures. Limb-sparing approaches such as Stereotactic Body Radiation Therapy (SBRT) can extend and improve the quality of life in large-breed dogs; however, recent clinical studies have reported high post-SBRT fracture rates and significant complications following prophylactic stabilization. While patient-specific Finite Element Analysis (FEA) can estimate pre- and post-stabilization fracture-initiation thresholds, its computational burden limits its clinical applicability. This study presents Machine Learning (ML) surrogates to rapidly predict implant performance using data derived from high-fidelity FEA simulations. These simulations employed physics-faithful bone models with heterogeneous elasto-plastic material properties reconstructed from Computed Tomography (CT) scans of 16 dogs. The eXtended Finite Element Method (XFEM) was employed to capture crack initiation and propagation under 25 distinct loading scenarios, both with and without medullary conformal stabilization. Five ML models, including MLP, SVR, RF, XGBoost, and HistGBR were trained and evaluated using biological and morphometric features such as body weight, lesion location, bone length as well as 825 FEA simulation-derived crack-initiation loads as prediction targets. Hyperparameters were optimized via Bayesian tuning, and simulation-level stability was assessed across training-testing splits ranging from 50:50-90:10, while patient-level generalization was evaluated separately using nested Leave-One-Group-Out (LOGO) cross-validation. XGBoost demonstrated the best predictive performance on 165 held-out cases, achieving an average R2≈ 0.90 and a normalized mean absolute error of approximately 8%. Patient-level performance was more consistent for humeral cases than for tibial and radial cases, emphasizing the need for larger, bone-type-balanced datasets. Feature-importance analysis revealed lesion burden and body weight as dominant predictors, with anatomical scaling parameters (e.g., bone length, diaphyseal thickness) and density proxies contributing secondary effects, while sex and age showed negligible contributions within the current cohort. Retrospective clinical outcomes from six treated dogs were examined descriptively and provided preliminary clinical context rather than formal validation. FEA and surrogate predictions suggest that delayed fracture initiation can be achieved through intramedullary implant stabilization, although its effectiveness varies among patients. The proposed proof-of-concept framework provides a scalable, data-driven foundation for clinical decision support, with predictive accuracy expected to improve as additional outcome data become available.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Canine appendicular osteosarcoma",
+    "Finite Element Analysis (FEA)",
+    "Fracture load",
+    "Machine Learning (ML)",
+    "Prophylactic stabilization"
+  ],
+  "fetched_on": "2026-09-21"
+}

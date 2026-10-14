@@ -1,0 +1,28 @@
+{
+  "pmid": "42825365",
+  "title": "Multimodal MRI findings in a dog with suspected global brain ischemia and peri-anesthetic blindness.",
+  "journal": "Journal of veterinary science",
+  "year": "2026",
+  "authors": [
+    "Hye-Won Lee",
+    "Yoonhoi Koo",
+    "Kija Lee",
+    "Sang-Kwon Lee"
+  ],
+  "doi": "10.4142/jvs.26132",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42825365/",
+  "abstract": "IMPORTANCE: Global brain ischemia (GBI) in dogs is diagnosed based on acute neurologic signs, temporal association with a hypoxic-ischemic or anesthetic event, and supportive magnetic resonance imaging (MRI) findings. Cortical T2-weighted (T2W) and fluid-attenuated inversion recovery (FLAIR) hyperintensity and diffusion restriction are described, but diagnosis may be challenging when these findings are absent. We describe a dog with peri-anesthetic acute bilateral blindness in which conventional MRI was equivocal, but advanced MRI supported suspected GBI by demonstrating global hypoperfusion, reduced arterial conspicuity, and microstructural alterations.\n\nCASE PRESENTATION: A 10-year-old intact male Welsh Corgi was noted to have acute bilateral blindness at discharge after overnight hospitalization following general anesthesia at a local hospital and later deteriorated neurologically. On examination, mentation was depressed; menace responses were absent bilaterally with intact pupillary light reflexes. Brain MRI revealed diffuse cerebral swelling with sulcal effacement and no conspicuous supratentorial T2W or FLAIR hyperintensity or clear diffusion restriction. Advanced MRI supported suspected GBI: arterial spin labeling showed markedly reduced cerebral blood flow (CBF) in the cortex and thalamus; dynamic susceptibility contrast showed reduced relative CBF, increased relative cerebral blood volume, and prolonged transit metrics; time-of-flight magnetic resonance angiography showed poor intracranial arterial conspicuity; and diffusion tensor imaging demonstrated cortical alterations in fractional anisotropy and diffusivity metrics. Mannitol and supportive care were administered; blindness persisted and the dog was discharged with poor neurologic recovery.\n\nCONCLUSIONS AND RELEVANCE: Multimodal MRI may support the diagnosis of canine GBI when conventional MRI is equivocal and may characterize global hemodynamic and microstructural injury.",
+  "publication_types": [
+    "Case Reports",
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Perfusion imaging",
+    "cerebral hypoperfusion",
+    "diffusion tensor imaging",
+    "magnetic resonance imaging",
+    "meninges"
+  ],
+  "fetched_on": "2026-10-06"
+}

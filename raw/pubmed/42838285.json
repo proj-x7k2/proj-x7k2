@@ -1,0 +1,32 @@
+{
+  "pmid": "42838285",
+  "title": "Procedural sedation with subcutaneously administered medetomidine-vatinoxan-butorphanol in dogs - A randomized, controlled, clinical dose-finding study.",
+  "journal": "Veterinary journal (London, England : 1997)",
+  "year": "2026",
+  "authors": [
+    "J Honkavaara",
+    "E Lindh",
+    "H Turunen",
+    "T Mäki",
+    "E Välimäki",
+    "V Reunanen",
+    "N Vartia"
+  ],
+  "doi": "10.1016/j.tvjl.2026.106921",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42838285/",
+  "abstract": "Subcutaneous (SC) drug administration may be better tolerated when compared with the intramuscular (IM) route in some dogs. This study investigated the dose-response to subcutaneously administered medetomidine-vatinoxan-butorphanol in producing sedation for orthopedic radiography. Fifty-three privately-owned, healthy dogs were randomly allocated to receive IM medetomidine 0.6 mg/m2 (M0.6-IM), IM medetomidine/vatinoxan 0.6/12 mg/m2 (Z0.6-IM), SC medetomidine/vatinoxan 0.6/12 (Z0.6-SC), 0.9/18 (Z0.9-SC) or 1.2/24 mg/m2 (Z1.2-SC). All treatments included 0.2 mg/kg of butorphanol. Sedation onset and rescue sedation for radiography were recorded. Mean arterial pressures (MAP) and heart rates (HR) were measured and oral mucosal microcirculation quantified with Laser Doppler Flow (LDF) and tissue hemoglobin saturation percentage (T-HbO2). Compared with the SC groups, sedation occurred earlier after both IM treatments. Rescue sedation was administered for 4/11 (Z0.6-SC), 2/10 (Z0.9-SC), 1/10 (Z1.2-SC), 0/11 (Z0.6-IM) and 1/11 dogs (M0.6-IM), respectively. HR decreased significantly from baseline after all treatments while hypotension (MAP < 60 mmHg) was not observed. After M0.6-IM, median (range) LDF 55 (36 - 113) perfusion units (PU) and T-HbO2 64 (49 - 79) % were significantly lower than after Z0.6-IM: 155 (105 - 312) PU and 81 (67 - 87) %; Z0.9-SC: 196 (126 - 492) PU and 79 (72-94) %; Z0.9-SC: 163 (68 - 465) PU and 77 (72 - 84) % and Z1.2-SC: 146 (82 - 422) PU and 77 (69 - 85) %, with no significant differences between the vatinoxan-treatments. Subcutaneously administered medetomidine-vatinoxan-butorphanol appeared efficacious albeit less potent than the IM route in producing sedation in healthy dogs. The hemodynamic improvement by vatinoxan extended to SC co-administration with medetomidine-butorphanol.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Butorphanol",
+    "Dog",
+    "Medetomidine",
+    "Microcirculation",
+    "Sedation",
+    "Subcutaneous",
+    "Vatinoxan"
+  ],
+  "fetched_on": "2026-10-14"
+}

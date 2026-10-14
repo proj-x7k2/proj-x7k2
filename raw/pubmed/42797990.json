@@ -1,0 +1,29 @@
+{
+  "pmid": "42797990",
+  "title": "Preliminary Evaluation of Static and Kinematic Magnetic Resonance Imaging (MRI) of the Feline Temporomandibular Joint (TMJ): A Comparative Analysis of Joint Inclination Angles in Intact and Dislocated Conditions.",
+  "journal": "Veterinary sciences",
+  "year": "2026",
+  "authors": [
+    "Basma Abdelmohsen",
+    "Francesca Del Signore",
+    "Martina Rosto",
+    "Elshaimaa Ismael",
+    "Fouad Farag",
+    "Massimo Vignoli"
+  ],
+  "doi": "10.1186/s43055-020-00396-8",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42797990/",
+  "abstract": "Conventional static MRI sequences routinely used in veterinary medicine provide limited information regarding joint motion and kinematics. Therefore, this study aimed to compare the diagnostic utility of static and kinematic MRI for the evaluation of the feline TMJ in cadavers and for the detection of TMJ dislocation using a low-field (0.25 T) MRI system. In addition, TMJ inclination angles were measured in both intact and experimentally dislocated joints at maximal interincisal opening (MIO) and in the closed-mouth position. Static MRI examinations were performed using T1-weighted (T1W), T2-weighted (T2W), and three-dimensional (3D) sequences acquired in both the closed-mouth and MIO positions. kMRI was performed using a 2D HYCE S sequence during repetitive mandibular opening and closing movements. Subsequently, TMJ dislocation was experimentally induced in a subset of cadavers, which were then rescanned using the same imaging protocol. Inclination angle measurements were analyzed using linear mixed-effects models. Compared with static MRI, kMRI demonstrated lower image quality, primarily due to motion artifacts and a reduced signal-to-noise ratio (SNR). TMJ inclination angles were significantly affected by both mouth position (p < 0.001) and dislocation status (p = 0.005). Mouth position had the greatest influence on inclination angles, with significantly larger values observed during maximal mouth opening than in the closed-mouth position. Furthermore, the left TMJ exhibited significantly greater inclination angles than the right TMJ (p = 0.012). Experimentally induced dislocation significantly altered TMJ inclination angles, indicating measurable biomechanical changes associated with joint instability.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "TMJ",
+    "felines",
+    "inclination angles",
+    "kMRI",
+    "static scans"
+  ],
+  "fetched_on": "2026-09-29"
+}

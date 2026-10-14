@@ -1,0 +1,29 @@
+{
+  "pmid": "42833390",
+  "title": "MRI FINDINGS IN CAUDA EQUINA NERVE ROOTS AND ASSOCIATED CLINICAL SIGNS IN DOGS WITH DEGENERATIVE LUMBOSACRAL STENOSIS.",
+  "journal": "Veterinary journal (London, England : 1997)",
+  "year": "2026",
+  "authors": [
+    "Aiste Siauciunaite",
+    "Daniela Alder",
+    "Henning Richter",
+    "Frank Steffen"
+  ],
+  "doi": "10.1016/j.tvjl.2026.106916",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42833390/",
+  "abstract": "Magnetic resonance imaging (MRI) is the most commonly used advanced imaging modality for diagnosing degenerative lumbosacral stenosis (DLSS). However, stenosis of the central canal and intervertebral foramina does not reliably correlate with clinical signs, and additional diagnostic imaging criteria would strengthen the validity of MRI. This study aimed to evaluate the size, signal characteristics, position (nerve root sedimentation sign, NRSS), and course (redundant nerve roots, RNR) of cauda equina nerve roots in dogs with and without DLSS using high-field MRI, and to assess associations between these findings and clinical signs. A retrospective, blinded, case-control study was performed in client-owned dogs, including 50 dogs diagnosed with DLSS and 17 control dogs without clinical signs of DLSS. Lumbosacral foraminal stenosis was identified in 33/50 (66%) DLSS cases and 1/17 (5.88%) controls (p < 0.001, φ = 0.56). Lumbar nerve root pathology was observed in 30/50 (60%) cases and 2/17 (11.77%) controls (p < 0.001, φ = 0.42). A significant association was found between unilateral clinical signs and ipsilateral foraminal stenosis (p = 0.014, φ = 0.40 for the left; p = 0.018, φ = 0.43 for the right side). Ipsilateral thickening of the L7 nerve root was also significantly associated with unilateral nerve root dysfunction (p = 0.033, φ = 0.35 for the left; p = 0.01, φ = 0.45 for the right side). The NRSS findings did not differ significantly between case and control dogs (p = 0.237, φ = 0.15), whereas RNR showed a small to moderate association with DLSS (p < 0.028, φ = 0.27). While NRSS and RNR were not clearly associated with clinical signs in dogs with DLSS, thickening of the L7 nerve root showed significant correlation with clinical dysfunction. The presence of increased nerve root size may enhance the diagnostic utility of high-field MRI in dogs with DLSS.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "DLSS",
+    "MRI",
+    "cauda equina",
+    "dog",
+    "nerve root sedimentation",
+    "radiculopathy",
+    "redundant nerve roots"
+  ],
+  "fetched_on": "2026-10-06"
+}

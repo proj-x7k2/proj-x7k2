@@ -1,0 +1,26 @@
+{
+  "pmid": "42807956",
+  "title": "Diagnostic performance of Vcheck NT-proBNP and cardiac troponin I assays for detection of dilated cardiomyopathy in Doberman Pinschers.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Helena Driessen",
+    "Jana Friederich",
+    "Gerhard Wess"
+  ],
+  "doi": "10.1016/j.jvc.2022.01.004",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42807956/",
+  "abstract": "BACKGROUND: Dilated cardiomyopathy (DCM) is a common hereditary cardiac disease in Doberman Pinschers. Early myocardial changes can be detected using cardiac biomarkers such as N-terminal pro-B-type natriuretic peptide (NT-proBNP) and cardiac troponin I (cTnI). The Vcheck V200 (Bionote) is a point-of-care immunofluorescence-based assay for in-clinic measurement of these markers.\n\nOBJECTIVE: To evaluate the diagnostic performance of NT-proBNP and cTnI measured with the Vcheck V200 point-of-care assays for detecting different stages of DCM in Doberman Pinschers and to compare Vcheck cTnI results with those obtained using a laboratory-based IDEXX cTnI assay.\n\nANIMALS: A total of 453 serum samples from 345 privately owned, purebred Doberman Pinschers in Germany were analyzed. Dogs were clinically classified into five stages (A, last normal, B1, B2, and C) based on echocardiographic and electrocardiographic findings.\n\nMETHODS: This prospective longitudinal study included physical examination, echocardiography, 24-h Holter monitoring, and biomarker analysis. NT-proBNP and cTnI concentrations were measured using the Vcheck V200 assay. In a subset of 358 samples, cTnI concentrations were additionally measured using the IDEXX assay. Diagnostic performance was evaluated using receiver operating characteristic curve analysis, and agreement between cTnI assays was assessed using Bland-Altman analysis.\n\nRESULTS: NT-proBNP and cTnI concentrations were significantly higher in dogs with DCM than in healthy controls. For NT-proBNP measured with Vcheck, a cutoff of ≥580 pmol/L yielded 76.6% sensitivity and 83.1% specificity (AUC 0.845). For cTnI measured with Vcheck, a cutoff of ≥0.21 ng/mL achieved 71.0% sensitivity and 78.3% specificity (AUC 0.809). The IDEXX cTnI assay showed higher diagnostic accuracy, particularly in early-stage disease, including \"last normal\" dogs. Combining both Vcheck biomarkers increased sensitivity and overall diagnostic performance (AUC 0.886), but specificity was reduced and performance remained lower than that of IDEXX cTnI alone.\n\nCONCLUSION AND CLINICAL IMPORTANCE: The Vcheck V200 provides a practical and accessible tool for in-clinic biomarker assessment in Doberman Pinschers at risk for DCM. While Vcheck NT-proBNP and cTnI may help identify dogs requiring further cardiac evaluation, the laboratory-based IDEXX cTnI assay showed higher diagnostic accuracy, especially for early-stage detection. Dogs exceeding these biomarker thresholds should undergo comprehensive cardiac evaluation, including echocardiography and 24-h Holter monitoring.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Holter monitoring",
+    "cardiac biomarkers",
+    "early disease detection",
+    "point-of-care testing",
+    "screening"
+  ],
+  "fetched_on": "2026-10-06"
+}

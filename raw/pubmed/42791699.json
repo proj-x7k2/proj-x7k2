@@ -1,0 +1,28 @@
+{
+  "pmid": "42791699",
+  "title": "Patient-Specific Computational Fluid Dynamics of Pulmonary Arterial Hemodynamics in Dogs with and Without Pulmonic Stenosis.",
+  "journal": "Animals : an open access journal from MDPI",
+  "year": "2026",
+  "authors": [
+    "Carla Zamora-Perarnau",
+    "Mauro Malvè",
+    "Patricia Sebastián-Marcos",
+    "Rocío Fernández-Parra"
+  ],
+  "doi": "10.1002/clc.23151",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42791699/",
+  "abstract": "Pulmonic stenosis (PS) is one of the most common congenital cardiac diseases in dogs. Although echocardiography and computed tomographic angiography (CTA) provide valuable diagnostic and anatomical information, the hemodynamic consequences of PS remain incompletely characterized. This study describes patient-specific pulmonary artery hemodynamics in dogs with and without PS using computational fluid dynamics (CFD). Contrast-enhanced CTA and echocardiographic data from five dogs with PS and five control dogs without PS were used to reconstruct three-dimensional pulmonary artery geometries and generate patient-specific CFD models. Pressure drop (Δp), blood flow velocity, mean wall shear stress (WSS), time-averaged WSS (TAWSS), oscillatory shear index (OSI), relative residence time (RRT), and pulmonary artery resistance were quantified and compared between groups. Dogs with PS exhibited markedly increased transvalvular pressure gradients, peak flow velocities, and pulmonary artery resistance, together with high-velocity jets and localized post-stenotic recirculation that were absent in control dogs. Mean WSS and TAWSS tended to be higher in the PS group, whereas OSI values were similar between groups. In contrast, RRT was significantly lower (p = 0.032) in dogs with PS. These findings demonstrate that patient-specific CFD enables detailed characterization of pulmonary artery hemodynamics in canine PS, providing information that complements conventional imaging. Although its clinical utility in veterinary medicine has yet to be fully established, CFD can provide valuable insight into flow behavior and disease pathophysiology; however, its ability to yield precise, clinically applicable quantitative values remains limited. This approach shows promise for future applications in the clinical evaluation of PS and other cardiovascular diseases, although further studies are warranted to determine its clinical relevance in veterinary medicine.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "computational fluid dynamics",
+    "impedance-based pressure waveforms",
+    "pulmonary artery hemodynamics",
+    "pulmonic stenosis",
+    "vascular resistance",
+    "wall shear stress indicators"
+  ],
+  "fetched_on": "2026-09-29"
+}

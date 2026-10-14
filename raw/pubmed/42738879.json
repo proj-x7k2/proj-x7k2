@@ -1,0 +1,37 @@
+{
+  "pmid": "42738879",
+  "title": "Therapeutic Potential of Intra-Articular Delivery of Allogeneic Dedifferentiated Fat Cells in a Canine Monoiodoacetate-Induced Knee Osteoarthritis Model.",
+  "journal": "Cells",
+  "year": "2026",
+  "authors": [
+    "Rei Nakano",
+    "Azusa Seki",
+    "Hiroshi Sugiya"
+  ],
+  "doi": "10.3389/fvets.2020.00278",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42738879/",
+  "abstract": "Osteoarthritis (OA) is the leading cause of disability worldwide. Although rodent models are widely used in OA research, the disease is often artificially accelerated in these systems, and joint biomechanics differ substantially from those of humans. In contrast, canine models offer greater translational relevance due to similarities in joint size, cartilage thickness, and physiological mechanical loading of the knee, making them suitable surrogates for evaluating regenerative therapies. In this study, we assessed the therapeutic efficacy of allogeneic dedifferentiated fat (DFAT) cells, which exhibit greater cellular homogeneity and enhanced osteochondrogenic potential compared with conventional mesenchymal stem cells (MSCs), in a canine monoiodoacetate (MIA)-induced OA model. OA was induced by intra-articular (i.a.) injection of MIA into the knee joints of beagles. Animals were allocated to three groups: an implant group receiving allogeneic DFAT cells via i.a. injection, a vehicle group, and a sham group. Therapeutic outcomes were evaluated through macroscopic scoring of cartilage surfaces and histological assessment using toluidine blue staining to examine proteoglycan depletion and structural integrity. The implant group demonstrated significantly lower Osteoarthritis Research Society International (OARSI) scores for cartilage erosion and osteophyte formation compared with the vehicle group, indicating preservation of joint surface integrity. Toluidine blue staining further showed that DFAT cell implantation significantly preserved extracellular matrix components, with greater proteoglycan retention relative to vehicle-treated controls. A key rationale for employing a canine model was the high prevalence of spontaneous OA in dogs, which closely resembles human disease in clinical presentation, radiographic findings, and molecular pathways. Unlike rodent models, dogs naturally develop OA with progressive degenerative features that mirror human conditions. By utilizing a large animal model, this study bridges the gap between preclinical in vitro findings and potential human clinical application. Collectively, these results provide strong evidence supporting the therapeutic potential of allogeneic DFAT cells and suggest that DFAT-based therapy may represent a promising treatment strategy for chronic, naturally occurring OA in both veterinary and human patients.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Injections, Intra-Articular",
+    "Disease Models, Animal",
+    "Osteoarthritis, Knee",
+    "Transplantation, Homologous",
+    "Cell Dedifferentiation",
+    "Iodoacetic Acid",
+    "Adipocytes",
+    "Male"
+  ],
+  "keywords": [
+    "allogenic transplantation",
+    "canine model",
+    "dedifferentiated fat cells",
+    "large animal model",
+    "osteoarthritis"
+  ],
+  "fetched_on": "2026-09-21"
+}

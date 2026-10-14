@@ -1,0 +1,36 @@
+{
+  "pmid": "42765741",
+  "title": "Electroencephalography-functional magnetic resonance imaging using a familial temporal lobe epilepsy model in cats: an exploratory methodological pilot study.",
+  "journal": "Journal of veterinary internal medicine",
+  "year": "2026",
+  "authors": [
+    "Takayuki Miura",
+    "Rikako Asada",
+    "Daisuke Hasegawa"
+  ],
+  "doi": "10.3389/fnsys.2022.934266",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42765741/",
+  "abstract": "BACKGROUND: Reliable methods for identifying the epileptogenic zone (EZ) in veterinary medicine remain limited. Although intracranial electroencephalography (EEG) is considered the most dependable approach for EZ localization, noninvasive simultaneous EEG and functional magnetic resonance imaging (EEG-fMRI) has been applied in human medicine as an alternative.\n\nHYPOTHESIS/OBJECTIVES: Develop and evaluate EEG-fMRI methodology for clinical application in veterinary medicine and evaluate the methodological feasibility of EEG-fMRI using cats with familial spontaneous epilepsy (FSECs).\n\nANIMALS: Ten cats with clear interictal epileptiform discharges on scalp EEG were selected from an FSEC colony with previously suggested amygdalo-hippocampal involvement.\n\nMETHODS: Each cat underwent 3 scalp EEG and EEG-fMRI sessions. After preprocessing, blood oxygen level-dependent (BOLD) activation maps were generated. Primary analyses evaluated amygdalo-hippocampal activation using small-volume correction (SVC) and group-level analysis.\n\nRESULTS: The BOLD activation was detected in all sessions at an exploratory threshold, but no activation survived correction for multiple comparisons. The SVC analysis identified amygdalo-hippocampal activation in 16/30 sessions. Group-level analysis identified the largest cluster extending from the left parahippocampal gyrus to the hippocampal body.\n\nCONCLUSIONS AND CLINICAL IMPORTANCE: This exploratory pilot study showed that EEG-fMRI could be technically implemented in FSECs, but individual-level EZ localization remains insufficient for clinical use. Further optimization, data from surgical candidates, and multimodal comparisons are needed.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Magnetic Resonance Imaging",
+    "Cats",
+    "Pilot Projects",
+    "Electroencephalography",
+    "Female",
+    "Epilepsy, Temporal Lobe",
+    "Male",
+    "Cat Diseases",
+    "Hippocampus"
+  ],
+  "keywords": [
+    "electroencephalography",
+    "epilepsy",
+    "epileptogenic zone",
+    "functional magnetic resonance imaging"
+  ],
+  "fetched_on": "2026-09-22"
+}

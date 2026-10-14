@@ -1,0 +1,34 @@
+{
+  "pmid": "42522404",
+  "title": "Patient Dimensions From a Single CT Image Provide a Clinically Practical and Accurate Method for Dose Estimation in Canine Abdominal CT Imaging.",
+  "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
+  "year": "2026",
+  "authors": [
+    "Claire Whittaker",
+    "Monique Mayer",
+    "Matthew Hutcheson",
+    "Sally Sukut"
+  ],
+  "doi": "10.1148/radiol.2021211241",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42522404/",
+  "abstract": "Size-specific dose estimate (SSDE) uses linear dimensions measured on a computed tomographic (CT) image to scale the scanner-reported volumetric computed tomography dose index (CTDIvol) and thereby estimate dose. The objectives of this retrospective observational study were to evaluate whether the American Association of Physicists in Medicine (AAPM) geometric size metrics for abdominal CT, when implemented using canine-specific size measurements, correlate with water-equivalent diameter (Dw) in canine patients and to compare institutional SSDEs with human benchmarks. Abdominal CT scans from 30 dogs across three body weight categories (<10, 10-30, and >30 kg) were analyzed. The relationships between effective diameters calculated using four geometric metrics-dorsoventral dimension (DV), lateral dimension (LAT), the sum of DV and LAT, and the square root of their product-and Dw, which incorporates both size and attenuation, were analyzed using linear regression. The strongest correlation with Dw was observed for the combined DV and LAT metrics (R2 0.94, p < 0.001). The displayed CTDIvol underestimated SSDE by 50%. The 75th percentile of the SSDE for a single-phase, pre-contrast abdominal examination was 21 mGy, two to four times higher than the US human dose reference level. In conclusion, geometric size metrics measured from a single CT image were in close agreement with attenuation-based SSDE (Dw) for canine abdominal CT scans, supporting the feasibility of applying the AAPM SSDE estimation method to canine abdominal CT imaging. These findings demonstrate the importance of incorporating patient size into CT dose estimation and suggest that institutional SSDE values may warrant dose optimization in veterinary abdominal CT practice.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Tomography, X-Ray Computed",
+    "Radiation Dosage",
+    "Retrospective Studies",
+    "Radiography, Abdominal",
+    "Female",
+    "Male"
+  ],
+  "keywords": [
+    "conversion factors",
+    "dose assessment methods",
+    "veterinary radiology"
+  ],
+  "fetched_on": "2026-09-21"
+}

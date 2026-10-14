@@ -1,0 +1,42 @@
+{
+  "pmid": "42813384",
+  "title": "Evaluation of Intracranial Lesions Using Deep Learning-Based Reconstruction in Canine Brain MRI: Comparison With Conventional Reconstruction on T2-Weighted and FLAIR Sequences.",
+  "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
+  "year": "2026",
+  "authors": [
+    "Wooseok Jin",
+    "Hyemin Na",
+    "Sang-Kwon Lee",
+    "Hojung Choi",
+    "Youngwon Lee",
+    "Kija Lee"
+  ],
+  "doi": "10.1111/vru.70260",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42813384/",
+  "abstract": "Obtaining high-resolution brain MRI in small animals is challenging due to the inherent trade-off between image quality and acquisition time. Deep learning-based reconstruction (DLR) has emerged as a solution to improve image quality without prolonging scan time; however, its clinical utility and potential risks, such as pseudolesions, remain insufficiently evaluated in veterinary patients. This study aimed to evaluate the impact of DLR on lesion assessment and image quality in canine brain MRI and to investigate potential limitations associated with its application. This retrospective study compared DLR with conventional reconstruction in 25 canine brain MRI examinations diagnosed with intracranial diseases. Transverse T2-weighted and fluid-attenuated inversion recovery sequences were reconstructed using both conventional and DLR methods. Quantitative analysis included signal-to-noise ratio (SNR), contrast-to-noise ratio (CNR), and lesion edge sharpness. Two blinded radiologists assessed image quality, lesion conspicuity, artifacts, pseudolesions, and lesion masking. DLR images exhibited significantly higher SNR, CNR, and lesion edge sharpness than conventional images in both sequences (p < 0.05). DLR images also yielded significantly higher qualitative scores for image quality and lesion conspicuity (p < 0.05). Truncation artifact was significantly reduced, whereas motion and pulsation artifacts showed no improvement. No instances of pseudolesions or lesion masking were noted. DLR significantly improves image quality and lesion conspicuity in canine brain MRI and reduces truncation artifacts; however, it does not mitigate motion or pulsation interference. Collectively, these findings suggest that DLR has potential value for improving image quality and lesion visibility in canine brain MRI, whereas further studies are needed to determine its impact on diagnostic performance.",
+  "publication_types": [
+    "Journal Article",
+    "Comparative Study"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Dog Diseases",
+    "Retrospective Studies",
+    "Magnetic Resonance Imaging",
+    "Deep Learning",
+    "Brain Diseases",
+    "Signal-To-Noise Ratio",
+    "Brain",
+    "Female",
+    "Image Processing, Computer-Assisted"
+  ],
+  "keywords": [
+    "denoising",
+    "image quality",
+    "lesion conspicuity",
+    "neuroradiology",
+    "signal‐to‐noise ratio"
+  ],
+  "fetched_on": "2026-10-06"
+}

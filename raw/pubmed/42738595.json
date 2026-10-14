@@ -1,0 +1,27 @@
+{
+  "pmid": "42738595",
+  "title": "Standardized Minimum Number of Individuals (MNI) Enumeration and Veterinary Forensic Assessment in a Large-Scale Animal Starvation Scene: A Technical Note.",
+  "journal": "Animals : an open access journal from MDPI",
+  "year": "2026",
+  "authors": [
+    "Ah-Young Kim",
+    "BokKyung Ku",
+    "Kyunghyun Lee"
+  ],
+  "doi": "10.1177/0300985815575049",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42738595/",
+  "abstract": "Mass companion animal mortality scenes pose major veterinary forensic and animal welfare challenges, particularly when remains are commingled, variably decomposed, or skeletonized. In March 2023, the remains of 1256 dogs and cats were recovered from a private residence in Yangpyeong-gun, Gyeonggi-do, Republic of Korea, after prolonged deprivation of food and water. Because whole-carcass enumeration was not feasible across the entire site, a standardized skull-based minimum number of individuals (MNI) approach was used to derive the scene-wide count by combining direct counts of intact, non-duplicated carcasses with counts of isolated skulls from disarticulated remains. A representative subset of 22 specimens, consisting of 16 carcasses submitted by the investigating police and 6 isolated skulls collected during the scene investigation, underwent detailed forensic examination including postmortem radiography, full necropsy, and toxicological screening. Body condition scoring was possible in 5 of the 16 carcasses, and all five scored 1 to 3 on a 9-point scale, consistent with severe to extreme emaciation. Toxicological screening of all 16 carcasses was negative for all tested substance classes. Gross and Radiographical examination of the 6 isolated skulls identified external traumatic fractures and scavenging punctures in 3 specimens, breed-typical persistent open fontanels without evidence of trauma in 2, and an indeterminate suture-associated lesion in 1. This report proposes a practical and reproducible veterinary forensic workflow for large-scale companion animal mortality scenes in which extensive decomposition prevents reliable direct enumeration. The combined use of skull-based MNI estimation, structured necropsy, whole-body postmortem radiography, toxicological exclusion testing, and standardized skull morphology assessment supports evidentiary documentation and courtroom prosecution in mass animal cruelty investigations.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "body condition score",
+    "mass mortality",
+    "minimum number of individuals",
+    "skull-based enumeration",
+    "standardization",
+    "starvation"
+  ],
+  "fetched_on": "2026-09-21"
+}
