@@ -1,5 +1,16 @@
 # 변경 기록
 
+## 2026-10-19 수집
+- `data/raw_papers.json` 10편 중 4편 처리, 6편 건너뜀. `raw/pdf/` 폴더가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (모두 `data/skipped.json`에 기록): `42893846`(doxorubicin 심독성 종설, echo는 부수적), `42878630`(고양이 급성 CHF pimobendan, 방사선은 반응 지표), `42890363`(랫드 골절 모델), `42889477`(고양이 갑상선기능항진증 RAIT 역학), `42877635`(간 보호제 pilot, 초음파 부수적), `42877521`(사람 질환용 토끼 간 pseudotumor 모델).
+- 신규 논문 4편 페이지 생성 및 주제 통합:
+  - `42876319`(고양이 mammary carcinoma 64CuCl2 PET/CT, n=8) → `oncologic-imaging` (소제목 신설).
+  - `42883089`(소동물 image-guided surgery XR 종설) → `imaging-technique-safety` (소제목 신설).
+  - `42873828`(고양이 idiopathic facial neuropathy MRI, n=13) → `neuro-imaging`.
+  - `42877668`(CKCS Chiari-like malformation·syringomyelia VP shunt 증례) → `neuro-imaging` + `spinal-imaging`.
+- `overview.md` 논문 수 갱신: `neuro-imaging` 10→12편, `imaging-technique-safety` 6→7편, `spinal-imaging` 5→6편, `oncologic-imaging` 1→2편.
+- 참고: `42873828`(JVIM)과 `42877668`(Frontiers)의 PubMed 원자료 DOI가 저널과 맞지 않는 값(각각 NEJM 형식, Cureus 형식)이라 원자료 그대로 기재함 — 확인 필요.
+
 ## 2026-10-14 수집 (2차)
 - `data/raw_papers.json`이 신규 6편으로 교체되어 재실행. 4편 처리, 2편 건너뜀. `raw/pdf/` 폴더 자체가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
 - 건너뜀 (모두 `data/skipped.json`에 기록):

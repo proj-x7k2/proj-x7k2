@@ -1,7 +1,7 @@
 ---
 title: "촬영 기법·안전"
 scope: "프로토콜, 조영제, 방사선 선량, 영상 품질"
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 # 촬영 기법·안전
 
@@ -24,7 +24,11 @@ CTA(CT angiography)의 bolus tracking은 학습 곡선이 가파르고 시간 �
 ### POCUS 프로토콜: probe 위치·방향이 흉막삼출 검출에 미치는 영향
 양압 환기 중인 intubated canine cadaver 12구를 대상으로 12명의 operator(전문의·학생·intern 혼합)가 modified TFAST for pleural fluid 기법과 modified Calgary PLUS for pleural fluid 기법을 비교한 pilot study에서, 전체 pleural effusion 검출률은 Calgary PLUS 변형 기법(costochondral junction보다 ventral한 위치, probe를 rib에 parallel)이 TFAST 변형 기법보다 유의하게 높았다(89.1% vs 60.9%, P<.001) ([[papers/2026-42813598-pocus-pleural-effusion-probe-orientation|Di Franco 2026]]; 실험 연구, n=12 — 흉막 소견 맥락은 [[topics/thoracic-imaging]] 참고). 특히 scant-to-mild effusion에서 차이가 두드러졌고(84.4% vs 37.5%, P<.001), moderate-to-large effusion에서는 두 기법 간 차이가 없었다. 양압 환기 사체 모델의 pilot study로 — 제한적 근거.
 
+### Extended reality(XR)를 이용한 image-guided surgery
+CT, MRI, ultrasonography, fluoroscopy를 수술 계획·navigation에 결합하는 XR(augmented·virtual·mixed reality)에 대한 narrative review에서, XR 연구는 교육·해부 학습에 집중되어 있고 실제 임상 수술에 대한 직접 평가는 드물며, peer-reviewed 근거는 개에 국한되고 고양이 연구는 확인되지 않았다 ([[papers/2026-42883089-extended-reality-image-guided-small-animal-surgery|Caivano 2026]]; 종설, n=해당 없음, 초록 기반). 정형·종양·신경·심혈관·최소침습 시술에서 적용 가능성이 기술되었으나 임상 효과와 비용 효과는 입증되지 않았다 — 제한적 근거.
+
 ## 남은 질문
+- XR 기반 수술 계획·navigation이 수술 결과를 실제로 개선하는지, 고양이에서도 적용 가능한지는 전향적 임상 연구가 없어 알 수 없다.
 - 조영 CT 중 관찰된 순차적 CT 소견(esophageal wall edema, 장점막 과다조영증강, renal excretory phase 소실 등)이 실제로 조영제 과민반응을 예측하는 민감도·특이도는 단일 증례로는 알 수 없다.
 - DV+LAT 기반 SSDE 추정법이 흉부 CT, 다중기 조영 프로토콜, 다른 제조사 스캐너에도 동일하게 성립하는지 확인이 필요하다.
 - 국내·원내 CTDIvol 표시값과 실제 SSDE 간 괴리 정도를 자체 프로토콜에서 검증한 자료는 아직 없다.
@@ -40,3 +44,4 @@ CTA(CT angiography)의 bolus tracking은 학습 곡선이 가파르고 시간 �
 - [[papers/2026-42750099-arterial-sampling-atelectasis-ct]] — thoracic CT 전 lateral recumbency 채혈이 CT상 atelectasis와 연관 (실험 연구, n=8)
 - [[papers/2026-42765932-3d-printed-phantom-ct-bolus-tracking-training]] — 3D 프린팅 hepatic artery 팬텀으로 CT bolus tracking 훈련, 중급·초심자군 조작시간 단축 (실험 연구, n=18)
 - [[papers/2026-42813598-pocus-pleural-effusion-probe-orientation]] — Probe를 ventral·rib-parallel로 배치하는 modified Calgary PLUS 기법이 TFAST보다 흉막삼출 검출률 높음 (실험 연구, n=12)
+- [[papers/2026-42883089-extended-reality-image-guided-small-animal-surgery]] — 소동물 image-guided surgery에서 XR 활용 근거는 교육 중심·개 한정, 임상 효과 미입증 (종설)

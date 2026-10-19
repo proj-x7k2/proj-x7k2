@@ -1,7 +1,7 @@
 ---
 title: "뇌·두개내 영상"
 scope: "뇌, 뇌신경, 두개내 병변"
-updated: 2026-10-06
+updated: 2026-10-19
 ---
 # 뇌·두개내 영상
 
@@ -34,6 +34,12 @@ Brachycephalic 견종에 호발하는 canine glioma를 human glioblastoma의 tra
 ### Peri-anesthetic global brain ischemia(GBI)에서 advanced MRI의 역할
 전신마취 후 급성 양측 실명이 발생한 개 1예에서 conventional MRI(T2W, FLAIR, DWI)는 diffuse cerebral swelling·sulcal effacement만 보이고 GBI의 전형적 피질 hyperintensity나 diffusion restriction은 확인되지 않아 진단이 애매했다 ([[papers/2026-42825365-multimodal-mri-global-brain-ischemia-dog|Lee 2026]]; 증례보고, n=1). Arterial spin labeling·dynamic susceptibility contrast perfusion, time-of-flight MR angiography, diffusion tensor imaging을 추가한 advanced MRI에서는 global hypoperfusion, 두개내 동맥 조영 저하, 피질 미세구조 이상이 모두 확인되어 GBI 진단을 뒷받침했다. 보존적 치료에도 실명은 지속되었고 예후는 불량했다 — 단일 증례에 근거한 제한적 근거.
 
+### 고양이 idiopathic facial neuropathy의 MRI 소견
+Idiopathic facial neuropathy(IFN)로 presumptive 진단된 고양이 13마리의 다기관 후향적 연구에서, MRI상 facial nerve thickening 4/16, contrast enhancement 7/16, digastricus muscle caudal belly 감소 9/16 sides가 관찰되었고 CSF는 11마리 중 10마리에서 정상이었다 ([[papers/2026-42873828-idiopathic-facial-neuropathy-cats-mri|Stefaniuk 2026]]; 후향적 연구, n=13). 8마리에서 vestibular sign이 동반되었고, 추적 가능했던 9마리의 최대 회복까지 중앙 기간은 20주였으며 3마리에 잔존 결손이 있었다. 진단이 presumptive이고 대조군이 없어 MRI 소견의 특이도는 알 수 없는 제한적 근거다.
+
+### Chiari-like malformation 동반 ventriculomegaly와 ventriculoperitoneal shunt
+1세 Cavalier King Charles Spaniel에서 MRI로 Chiari-like malformation, ventriculomegaly, syringomyelia(odontoid peg~L5, C2-C3 최대 7.0mm)가 확인되었고 내과 치료에 반응하지 않아 ventriculoperitoneal shunt(VPS)를 시행했다 ([[papers/2026-42877668-ventriculoperitoneal-shunt-syringomyelia-chiari-cavalier|Fernandez Cid 2026]]; 증례보고, n=1 — 척수 측면은 [[topics/spinal-imaging]] 참고). 추적 MRI에서 lateral ventricle 정상화와 syrinx 감소(6개월 2.3mm)가 확인되었고 일과성 postoperative pneumocephalus 외 합병증은 없었다 — 단일 증례에 근거한 제한적 근거.
+
 ## 상충되는 근거
 (아직 없음)
 
@@ -48,6 +54,9 @@ Brachycephalic 견종에 호발하는 canine glioma를 human glioblastoma의 tra
 - 고양이 두개내 전이성 HSA의 특징적 MRI 소견(신호 패턴, 출혈 동반 양상 등)은 증례 1예로는 알 수 없다.
 - Peri-anesthetic GBI에서 advanced MRI(ASL, DSC, TOF MRA, DTI) 소견의 특이도·재현성과 실제 원인(저혈압·저산소 등)과의 인과관계는 증례 1예로는 검증할 수 없다.
 
+- 고양이 IFN에서 facial nerve enhancement·digastricus muscle 감소가 회복 정도나 예후와 연관되는지, 정상 고양이 대조군 대비 특이도는 13마리 후향적 연구로는 알 수 없다.
+- CM/SM 개에서 VPS가 syrinx 감소와 임상 호전을 안정적으로 가져오는지, 적응증과 장기 합병증은 증례 1예로는 알 수 없다.
+
 ## 관련 논문
 - [[papers/2026-42786736-meningioma-pseudocyst-cats]] — 고양이 meningioma 4예에서 pseudocystic fluid accumulation 동반, microcystic형 1예 최초 보고 (증례군, n=4)
 - [[papers/2026-42730678-low-field-mri-canine-brain]] — 0.05T 저자장 MRI, hydrocephalus 평가 가능성 (실험 연구, n=23)
@@ -59,3 +68,5 @@ Brachycephalic 견종에 호발하는 canine glioma를 human glioblastoma의 tra
 - [[papers/2026-42813384-dlr-canine-brain-mri]] — DLR이 brain MRI T2/FLAIR의 SNR·CNR·lesion conspicuity 향상, motion artifact는 개선 못함 (후향적 연구, n=25)
 - [[papers/2026-42828236-intracranial-hemangiosarcoma-cat]] — 고양이 두개내 전이성 hemangiosarcoma 증례 (증례보고, n=1)
 - [[papers/2026-42825365-multimodal-mri-global-brain-ischemia-dog]] — conventional MRI 애매한 peri-anesthetic GBI에서 advanced MRI(ASL·DSC·TOF MRA·DTI)가 진단 뒷받침 (증례보고, n=1)
+- [[papers/2026-42873828-idiopathic-facial-neuropathy-cats-mri]] — 고양이 IFN 13예에서 facial nerve thickening·enhancement, digastricus muscle 감소, 중앙 20주 회복 (후향적 연구, n=13)
+- [[papers/2026-42877668-ventriculoperitoneal-shunt-syringomyelia-chiari-cavalier]] — CKCS의 CM/SM·ventriculomegaly에서 VPS 후 syrinx 감소와 ventricle 정상화 (증례보고, n=1)

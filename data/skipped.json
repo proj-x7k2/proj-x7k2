@@ -190,5 +190,41 @@
     "title": "Fascia lata autograft for recurrent inguinal hernia repair in a geriatric pet rabbit (Oryctolagus cuniculus): a case report.",
     "reason": "CT·ultrasonography는 hernia 진단과 수술 후 재발 여부 확인에만 부수적으로 사용됨; 연구 핵심은 fascia lata autograft를 이용한 재발성 서혜부 탈장 재건 수술 기법",
     "date": "2026-10-14"
+  },
+  {
+    "pmid": "42893846",
+    "title": "Doxorubicin-induced Cardiotoxicity in Dogs: A Narrative Review.",
+    "reason": "독성 기전·biomarker·ECG·모니터링을 아우르는 종양약물 심독성 종설; echocardiography는 여러 모니터링 수단 중 하나로 부수적 언급",
+    "date": "2026-10-19"
+  },
+  {
+    "pmid": "42878630",
+    "title": "Clinical Presentation, Acute Clinical Response, Drug Tolerability, and Short-Term Outcome of Cats Treated for Acute Congestive Heart Failure With Pimobendan (2017-2022): 71 Cases.",
+    "reason": "방사선 폐 침윤 점수는 치료반응 지표 중 하나로 부수적 사용; 연구 핵심은 pimobendan 약물 내약성·단기 예후",
+    "date": "2026-10-19"
+  },
+  {
+    "pmid": "42890363",
+    "title": "A zingiberene-selenium nanoparticle formulation modulates oxidative, inflammatory, and osteogenic responses during femoral fracture healing in rats.",
+    "reason": "실험동물(랫드) 골절 치유 모델 연구, 대상 종 범위 밖이며 핵심은 생화학 지표",
+    "date": "2026-10-19"
+  },
+  {
+    "pmid": "42889477",
+    "title": "Cross-sectional analysis of 152 hyperthyroid cats presented for radioactive iodine therapy in South Korea.",
+    "reason": "scintigraphy는 질병 중증도 지표로만 부수적 언급; 연구 핵심은 방사성요오드 치료 의뢰 환자의 역학·약물 사용 양상",
+    "date": "2026-10-19"
+  },
+  {
+    "pmid": "42877635",
+    "title": "Assessment of the hepatoprotective effect of a multi-component preparation containing phospholipids, selected amino acids, betaine, and milk thistle extract in dogs with asymptomatic elevation of liver parameters: a pilot study.",
+    "reason": "복부 초음파는 여러 평가지표 중 하나로 부수적 사용; 연구 핵심은 nutraceutical의 간수치 개선 효과",
+    "date": "2026-10-19"
+  },
+  {
+    "pmid": "42877521",
+    "title": "Establishment of an ultrasound-guided rabbit model of hepatic inflammatory pseudotumor and contrast-enhanced ultrasound pattern analysis.",
+    "reason": "사람 질환(간 inflammatory pseudotumor) 연구를 위한 토끼 실험동물 모델 확립 연구",
+    "date": "2026-10-19"
   }
 ]
