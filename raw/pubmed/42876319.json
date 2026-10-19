@@ -1,0 +1,32 @@
+{
+  "pmid": "42876319",
+  "title": "A New Application of 64CuCl2 PET/CT: Imaging of Cats With Mammary Carcinoma.",
+  "journal": "Veterinary and comparative oncology",
+  "year": "2026",
+  "authors": [
+    "Vivan A Yang",
+    "Joni M Lunceford",
+    "Colleen Garrett",
+    "Jimmy C Lattimer",
+    "Christos Papageorgiou",
+    "Charles J Smith",
+    "Charles A Maitz",
+    "Jeffrey N Bryan",
+    "Jessica L Talbott",
+    "Michael R Lewis"
+  ],
+  "doi": "10.1111/vco.70125",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42876319/",
+  "abstract": "Feline mammary carcinoma (FMC) is an aggressive and highly metastatic cancer that shares molecular and clinical characteristics with human triple-negative breast cancer (TNBC), making it a relevant comparative model for a disease lacking targeted therapies. This study investigated the feasibility and clinical utility of 64CuCl2 PET/CT imaging in cats with naturally occurring mammary carcinoma. Eight cats (seven tumour-bearing, one healthy control) were administered an intravenous dose of 64CuCl2 and underwent whole-body PET/CT imaging. Semi-quantitative analysis was performed using standardized uptake values (SUVs), and tumour-to-muscle ratios were calculated to assess lesion conspicuity. Serum ceruloplasmin concentrations were measured as a marker of systemic copper metabolism. All primary masses were 64Cu-avid and conspicuous, with consistently elevated tumour-to-muscle ratios across tumour-bearing cats, allowing clear differentiation between neoplastic and normal tissue. Imaging provided additional staging information by identifying locally invasive and metastatic disease that was not fully evident on physical examination. Physiologic tracer distribution was characterized by high uptake in the liver and gallbladder and low uptake in skeletal muscle, which served as a reliable reference tissue. Serum ceruloplasmin concentrations varied widely and did not correlate with tumour uptake. These findings suggest that 64CuCl2 PET/CT is a feasible functional imaging modality for FMC, potentially aiding in tumour detection. This was an exploratory study, and not all imaging results could be confirmed by cytology or histopathology. Nonetheless, our findings suggest that 64CuCl2 PET/CT should be investigated further as a method for probing copper utilization in FMC.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "ceruloplasmin",
+    "copper‐64",
+    "feline mammary carcinoma",
+    "positron emission tomography"
+  ],
+  "fetched_on": "2026-10-19"
+}

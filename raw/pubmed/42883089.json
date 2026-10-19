@@ -1,0 +1,29 @@
+{
+  "pmid": "42883089",
+  "title": "Extended Reality for Image-Guided Small Animal Surgery: Current Evidence, Clinical Applications, and Future Directions.",
+  "journal": "Animals : an open access journal from MDPI",
+  "year": "2026",
+  "authors": [
+    "Domenico Caivano",
+    "Federica Valeri",
+    "Andrea Corda",
+    "Antonello Bufalari"
+  ],
+  "doi": "10.3390/ani16193120",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42883089/",
+  "abstract": "Image-guided surgery has become an integral component of modern veterinary surgery using advanced imaging modalities, such as computed tomography, magnetic resonance imaging, ultrasonography, and fluoroscopy. Recently, extended reality (XR) technologies have emerged as promising tools to enhance image-guided surgical procedures by improving three-dimensional anatomical understanding, surgical navigation, and intraoperative decision-making. Although XR has gained considerable attention in human surgery, its application in veterinary surgery remains at an early stage. This narrative review aimed to provide a comprehensive overview of the current evidence regarding XR technologies in small animal surgery, with particular emphasis on their integration with preoperative and intraoperative imaging modalities. The available literature was reviewed to evaluate current clinical applications, technological developments and future perspectives. A literature search was performed in PubMed, Scopus, and Web of Science for studies published up to May 2026 using combinations of terms related to extended reality and small animal veterinary surgery. Original articles, case reports, pilot studies, technical reports, and reviews addressing clinical, experimental, or simulation-based applications were considered. Although several studies have explored the use of XR technologies for veterinary education, anatomical training, and diagnostic imaging instruction, relatively few investigations have assessed their direct application in clinical surgical practice. Potential applications have been described in orthopedic, oncologic, neurologic, cardiovascular, and minimally invasive procedures. Crucially, the currently available peer-reviewed evidence is restricted to canine patients, as no eligible feline studies were identified. Current evidence suggests that XR is an emerging technology with potential applications in canine surgical planning, image-guided procedures, and surgical training. Further prospective clinical studies are required to establish its clinical effectiveness, cost-effectiveness, and impact on surgical outcomes.",
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "augmented reality",
+    "canine",
+    "mixed reality",
+    "sectional imaging",
+    "veterinary surgery",
+    "virtual reality"
+  ],
+  "fetched_on": "2026-10-19"
+}

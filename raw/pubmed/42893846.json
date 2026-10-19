@@ -1,0 +1,27 @@
+{
+  "pmid": "42893846",
+  "title": "Doxorubicin-induced Cardiotoxicity in Dogs: A Narrative Review.",
+  "journal": "Veterinary and comparative oncology",
+  "year": "2026",
+  "authors": [
+    "Supita Sunpongsri",
+    "Tom Roos",
+    "Ronette Gerhing",
+    "Maurice Zandvliet",
+    "Giorgia Santarelli"
+  ],
+  "doi": "10.1111/vco.70124",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42893846/",
+  "abstract": "Doxorubicin, an anthracycline widely used in both human and veterinary oncology, is highly effective against a variety of malignancies in dogs, including lymphomas, sarcomas and carcinomas. Despite its efficacy, doxorubicin exposure can be associated with cardiotoxicity, which may present acutely or chronically, potentially leading to severe cardiac arrhythmia and congestive heart failure. Mechanisms underlying cardiotoxicity are multifactorial, including oxidative stress, mitochondrial dysfunction, DNA damage via topoisomerase IIβ, inflammation and dysregulated cell death pathways such as apoptosis, pyroptosis and ferroptosis. In dogs, known risk factors include higher cumulative dose, breed predisposition to idiopathic dilated cardiomyopathy, and higher body weight. Cardiac biomarkers, electrocardiography, echocardiography and other advanced imaging techniques have been employed to detect cardiac changes that can be seen also in the absence of clinical signs. However, current evidence is predominantly derived from experimental and retrospective research, highlighting the need for large prospective clinical studies to strengthen recommendations for monitoring and prevention. A deeper understanding of doxorubicin-induced cardiotoxicity in dogs is needed to identify factors influencing individual susceptibility, clarify the progression from subclinical damage to clinical cardiac dysfunction, and guide future research. Emerging approaches, including advanced echocardiography, microRNAs, proteomic biomarkers and pharmacokinetic modelling, may help improve early detection and guide more individualised dosing to minimise toxicity.",
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "cardiotoxicity",
+    "dog",
+    "doxorubicin"
+  ],
+  "fetched_on": "2026-10-19"
+}

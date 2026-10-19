@@ -1,0 +1,33 @@
+{
+  "pmid": "42877521",
+  "title": "Establishment of an ultrasound-guided rabbit model of hepatic inflammatory pseudotumor and contrast-enhanced ultrasound pattern analysis.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Zhi-Long Liu",
+    "Qian Zhang",
+    "Qin Lu",
+    "Yan-Jing Zhang",
+    "Li Li",
+    "Yu-Fang Zhao",
+    "Guo-Lin Yin",
+    "Xiao-Hui Yan",
+    "Yan-Hua Zhang",
+    "Li-Ping Liu"
+  ],
+  "doi": "10.1016/j.ultrasmedbio",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42877521/",
+  "abstract": "OBJECTIVE: The aim of this study was to develop a rabbit model of inflammatory pseudotumor of the liver (IPTL) using an ultrasound-guided implantation technique and to assess its feasibility, safety, and imaging characteristics in comparison with a surgical embedding approach.\n\nMETHODS: Twenty-six New Zealand rabbits were randomly assigned to one of three groups: the ultrasound-guided implantation group (Experimental Group), the surgical embedding group (Surgical Group), or a blank control group. IPTL lesions were induced using a combination of gelatin sponge and Freund's complete adjuvant. Parameters assessed included operative duration, lesion modeling success rate, findings from conventional ultrasound and contrast-enhanced ultrasound (CEUS), laboratory indicators, and histopathological outcomes.\n\nRESULTS: All animals survived without severe complications. The lesion modeling success rates were 90% in the Experimental Group and 95% in the Surgical Group (p > 0.05), while operative duration was significantly reduced in the Experimental Group (p < 0.05). On conventional ultrasound, IPTL lesions in both experimental groups presented as hyperechoic nodules with well-defined margins. CEUS indicated three distinct enhancement patterns: isoenhancement, hypoenhancement, and rapid washout. Laboratory testing demonstrated no significant differences in serum hyaluronic acid or liver function markers between the Experimental and control groups; however, the Surgical Group exhibited significantly elevated hyaluronic acid levels (p < 0.05). Immunohistochemical analysis demonstrated lower microvessel density in hypoenhanced nodules compared to those with other enhancement patterns.\n\nCONCLUSION: The ultrasound-guided implantation technique is a safe, efficient, and reproducible method for modeling IPTL in rabbits. The resulting lesions exhibit histopathological and CEUS characteristics that closely resemble those observed in human IPTL, supporting its utility as an experimental platform for further research into the pathophysiology and imaging features of IPTL.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "contrast-enhanced ultrasound (CEUS)",
+    "inflammatory pseudotumor",
+    "liver",
+    "model",
+    "rabbit"
+  ],
+  "fetched_on": "2026-10-19"
+}
