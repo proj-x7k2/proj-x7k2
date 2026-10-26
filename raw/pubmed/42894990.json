@@ -1,0 +1,30 @@
+{
+  "pmid": "42894990",
+  "title": "Diagnostic accuracy of spectral Doppler indices and shear wave elastography in dogs with mammary tumors and their relationship to tumor proliferation.",
+  "journal": "Polish journal of veterinary sciences",
+  "year": "2026",
+  "authors": [
+    "S İslamoğlu Esen",
+    "Z Günay Uçmak",
+    "A Ateş",
+    "Ö Erdoğan Bamaç",
+    "G Kaşıkçı"
+  ],
+  "doi": "10.24425/pjvs.2026.3602",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42894990/",
+  "abstract": "The combination of several sonographic techniques can provide important information on pathological feature of mammary tumors. This study aims to evaluate the diagnostic accuracy of spectral Doppler indices and shear wave elastography (SWE) in dogs with mammary tumors and their relationship to tumor proliferation. The study consisted of malignant epithelial tumors (Group MET; n=49) and healthy mammary tissues (Group C; n=15). Ultrasonographic findings (echotexture, echogenicity, mass width, etc.), tissue Ki-67 levels, Doppler ultrasonography and sonoelastographic measurements were performed. Ultrasonography was performed by a single experienced veterinary sonographer prior to mastectomy using a Resona i9 US device equipped with a linear transducer (L20-5s). Histopathological results were used as the gold standard. Tissue Ki-67 levels were measured using a canine Ki-67 Protein (Ki67P) ELISA kit. The distribution of echotexture and echogenicity in Group MET were mostly heterogeneous and hyperechoic. Also, the most frequent vascular pattern was a mixed pattern in Group MET, and the vascularization amount did not differ in terms of histological grades in canine mammary carcinomas. Vascular resistivity (RI) in Group MET was significantly higher than in Group C while pulsatility indexes (PI) was not significantly different between the groups. Peak systolic velocity (PSV) and end diastolic velocity (EDV) increased in malignant tumors and showed adequate sensitivity and specificity values to distinguish the malignant tumors than healthy mammary tissues. Shear wave speed and stiffness of malignant tumors were higher than healthy mammary tissue. The highest shear wave speed and tissue elasticity were observed in tumors larger than 5 cm. Elastography parameters in Grade 3 carcinomas were higher than in Grade 2 carcinomas. Tissue Ki-67 concentration was significantly associated with Doppler velocimetry parameters and SWE measurements. Also, Ki-67 was accurate in distingiuishing the healthy mammary tissue than canine mammary masses with moderate sensitivity and high specificity. Tissue Ki-67, RI, PSV, shear wave speed, and elasticity amounts have 100% specificity to distinguish malignant mammary tumors compared to healthy mammary tissues in dogs. It was concluded that a combination of imaging techniques should be applied for a more accurate diagnosis of mammary tumors.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Mammary Neoplasms, Animal",
+    "Female",
+    "Dog Diseases",
+    "Elasticity Imaging Techniques",
+    "Ultrasonography, Doppler"
+  ],
+  "keywords": [],
+  "fetched_on": "2026-10-26"
+}

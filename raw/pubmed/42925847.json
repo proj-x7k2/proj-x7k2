@@ -1,0 +1,31 @@
+{
+  "pmid": "42925847",
+  "title": "Transthoracic lung ultrasound for perioperative assessment of dogs undergoing nonemergency anesthesia: a prospective observational study.",
+  "journal": "Veterinary anaesthesia and analgesia",
+  "year": "2026",
+  "authors": [
+    "Emily P Wheeler",
+    "Bonnie L Hay Kraus",
+    "Jonathan P Mochel",
+    "Jiazhang Cai",
+    "Andreas Handel",
+    "Mei-Jyun Ciou",
+    "Michael Lu",
+    "Jessica L Ward"
+  ],
+  "doi": "10.1016/j.vaa.2026.101374",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42925847/",
+  "abstract": "OBJECTIVE: To explore whether lung ultrasound (LUS) findings suggestive of atelectasis in humans could be identified in dogs after anesthesia and to evaluate whether these findings were associated with clinical variables.\n\nSTUDY DESIGN: Prospective, repeated-measures observational study with masked offline analysis.\n\nANIMALS: Forty-four client-owned dogs (American Society of Anesthesiologists physical status classification I-II) undergoing nonemergency surgical procedures in dorsal recumbency; 27 breathed spontaneously throughout anesthesia and 17 had intermittent positive-pressure ventilation.\n\nMETHODS: Dogs underwent a standardized LUS examination at two time points: immediately pre- (time point 1) and postanesthesia (time point 2). LUS examinations were performed by a single observer trained in a standardized protocol with dogs standing or in sternal recumbency. A curvilinear 8-5 MHz transducer probe was used to capture 4-second cineloops at eight sites (right and left caudal, perihilar, middle, and cranial). Images were assessed by an observer masked to dog and time point using a standardized scoring system (maximum score of 32) developed for the study that considered B-lines (vertical hyperechoic artefacts), irregular pleural line, and subpleural abnormalities. At time point 2, while dogs were receiving an FiO2 of 100%, arterial partial pressure of oxygen was measured using a point-of-care blood gas analyzer on samples collected from the dorsal pedal artery. LUS scores were compared between time points using the Wilcoxon signed-rank test. Animal, anesthetic, surgical, and respiratory variables were assessed for association with time point 2 LUS scores using univariable linear models adjusted for the time point 1 LUS score.\n\nRESULTS: LUS scores increased significantly (p < 0.001) from time point 1 to 2: median (range) 1 (0-5) versus 7 (0-18); Hodges-Lehmann median increase 6.5 points (95% confidence interval 5.0 to 8.5), p < 0.001. Exploratory analyses did not detect an association between time point 2 LUS scores and any assessed variables after correction for multiple comparisons (age, adjusted p = 0.443).\n\nCONCLUSIONS: LUS scores increased in dogs following general anesthesia.\n\nCLINICAL RELEVANCE: Further investigation of LUS as an accessible and affordable diagnostic method for detecting atelectasis in the perianesthetic period is warranted.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "general anesthesia",
+    "oxygen saturation",
+    "pulmonary atelectasis",
+    "respiratory diagnostic techniques",
+    "ultrasonography"
+  ],
+  "fetched_on": "2026-10-26"
+}

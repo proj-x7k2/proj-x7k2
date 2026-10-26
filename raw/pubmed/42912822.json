@@ -1,0 +1,36 @@
+{
+  "pmid": "42912822",
+  "title": "An integrated experimental-computational framework for elasto-plastic characterization and spatial mapping of canine bone properties.",
+  "journal": "PloS one",
+  "year": "2026",
+  "authors": [
+    "Behzad Amirzade",
+    "Tareq Zobaer",
+    "Janis Lapsley",
+    "Do-Gyoon Kim",
+    "Laura E Selmic",
+    "Ali Nassiri"
+  ],
+  "doi": "10.1080/10255842.2022.2069465",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42912822/",
+  "abstract": "Bone is a hierarchical and heterogeneous bio-composite material, with cortical and trabecular regions exhibiting distinct mechanical behaviors across scales. Patient-specific Finite Element Analysis (FEA) derived from medical images is increasingly used in both human and veterinary medicine to predict bone mechanical behavior under various loading conditions, assess fracture risk, and evaluate treatment outcomes. However, due to the complexity associated with measuring full elasto-plastic bone properties across multiple scales and bridging microscale properties to macroscale models, simplified material definitions are often adopted in FEA simulations. Such simplifications may produce unrealistic mechanical responses and fail to capture permanent microscopic and macroscopic deformations that occur when stresses exceed the bone yield point, particularly in implant design applications. This study presents an integrated experimental-computational framework for generating continuum material maps as a function of density from tissue-scale characterization of the canine femur. High-depth spherical nanoindentation combined with Genetic Algorithm (GA)-based inverse optimization was conducted to extract mechanically consistent elasto-plastic properties of cortical and trabecular bone from load-displacement responses influenced by post-yield contact uncertainties. Trabecular tissue-scale properties were then assigned to Representative Volume Elements (RVEs) reconstructed from micro-Quantitative Computed Tomography (μQCT) data and homogenized to account for architecture-dependent effective behavior. Finally, optimized cortical and homogenized trabecular properties were correlated with density to establish compartment-specific material mapping relationships for whole-bone FEA simulations. The optimized responses showed good agreement with the experimental indentation measurements, supporting the capability of the proposed framework to generate mechanically informed material definitions for patient-specific bone FEA simulations. Overall, the proposed framework provides a pathway for translating localized experimental measurements into heterogeneous elasto-plastic material inputs for whole-bone FEA without explicitly resolving trabecular microarchitecture.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Finite Element Analysis",
+    "Femur",
+    "Computer Simulation",
+    "Stress, Mechanical",
+    "Biomechanical Phenomena",
+    "Bone and Bones",
+    "Elasticity",
+    "Cancellous Bone",
+    "Bone Density",
+    "Genetic Algorithms"
+  ],
+  "keywords": [],
+  "fetched_on": "2026-10-26"
+}

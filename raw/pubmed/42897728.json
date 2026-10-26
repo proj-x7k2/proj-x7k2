@@ -1,0 +1,42 @@
+{
+  "pmid": "42897728",
+  "title": "Contrast-Enhanced Ultrasonography of Orbital and Intraocular Pathologies in 24 Dogs and 6 Cats.",
+  "journal": "Veterinary ophthalmology",
+  "year": "2026",
+  "authors": [
+    "Janneke I Ortner",
+    "Katharina M Hittmair",
+    "Barbara Nell",
+    "Klaas-Ole Blohm"
+  ],
+  "doi": "10.1016/j.crad.2017.03.026",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42897728/",
+  "abstract": "OBJECTIVE: Contrast-enhanced ultrasonography (CEUS) is a noninvasive and relatively safe imaging technique to assess ocular perfusion, showing high sensitivity and specificity for tumor characterization in human oncology, while reports on its application in canine and feline diseased eyes are limited. This study aimed to describe the CEUS features of orbital and intraocular pathologies in dogs and cats in order to evaluate its diagnostic value in detecting and characterizing various lesions.\n\nANIMAL STUDIED: CEUS examinations of 30 animals (24 dogs, 6 cats) were evaluated retrospectively.\n\nPROCEDURES: Following B-mode ultrasonography, CEUS examinations utilizing sulfur hexafluoride were performed. Pathologies were categorized in one of the following groups: orbital neoplastic lesions, orbital inflammatory lesions, intraocular neoplastic lesions, intraocular inflammatory lesions and retinal detachment. Qualitative perfusion parameters, contrast intensity, enhancement pattern, perfusion type and time to wash-in and wash-out were evaluated.\n\nRESULTS: CEUS detected vascularization in orbital and intraocular pathologies, with variable enhancement characteristics. Persistent vascularization was observed in all cases of retinal detachment. In orbital and intraocular neoplastic lesions, CEUS improved lesion localization, assessment of interactions with surrounding tissues and tissue perfusion. For inflammatory pathologies such as abscesses, myositis, and steatitis, the additional diagnostic value of CEUS compared to B-mode ultrasonography was limited.\n\nCONCLUSION: Findings indicated that CEUS could identify a variety of orbital and intraocular pathologies and provided additional diagnostic information to B-mode ultrasonography, particularly for assessing neoplastic lesions and retinal detachments. CEUS has the potential to enhance ophthalmic ultrasonography in differentiating specific pathologies. Prospective studies are warranted to further evaluate its clinical use.",
+  "publication_types": [
+    "Evaluation Study",
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Cats",
+    "Dogs",
+    "Female",
+    "Male",
+    "Cat Diseases",
+    "Contrast Media",
+    "Dog Diseases",
+    "Eye Diseases",
+    "Retrospective Studies",
+    "Sulfur Hexafluoride",
+    "Ultrasonography"
+  ],
+  "keywords": [
+    "CEUS",
+    "canine",
+    "contrast‐enhanced ultrasonography",
+    "feline",
+    "lesions",
+    "retinal detachment"
+  ],
+  "fetched_on": "2026-10-26"
+}

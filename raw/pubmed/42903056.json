@@ -1,0 +1,26 @@
+{
+  "pmid": "42903056",
+  "title": "Assessment of radiographic healing after tibial plateau leveling osteotomy in young and older dogs using the modified RUST scoring system.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Bridget L Anderson",
+    "Steven W Frederick",
+    "Catherine Popovitch"
+  ],
+  "doi": "10.3389/fvets.2025.1615947",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42903056/",
+  "abstract": "OBJECTIVE: To compare radiographic osteotomy healing scores after tibial plateau leveling osteotomy (TPLO) in young (2-5 years) and old (8-12 years) dogs using the modified Radiographic Union Score for Tibial fractures (mRUST) system, and to evaluate agreement between large language model-assisted interpretation (LLM), surgeon, and surgical resident scoring.\n\nSTUDY DESIGN: Client-owned, 20-40 kg dogs treated with unilateral TPLO at ages 2-5 or 8-12 years between 2023 and 2025 were retrospectively identified. Dogs with endocrinopathy or atypical TPLO or recovery were excluded. Dogs were assigned to Group 1 (2-5 years) or Group 2 (8-12 years). 8-week postoperative radiographs were scored independently by an LLM, a surgeon, and a surgical resident using the 4-point mRUST system. Scores were compared between age groups using the Wilcoxon rank-sum test, and interrater agreement was assessed using an intraclass correlation coefficient (ICC).\n\nRESULTS: Group 1 had 49 dogs; Group 2 had 51 dogs. Group 1 had a mean (SD) age of 3.82 (1.11) years, while Group 2 had a mean (SD) age of 9.24 (0.99) years. mRUST scores did not differ between age groups across LLM (p = 0.352), surgeon (p = 0.908), or resident assessments (p = 0.588). LLM, surgeon, and resident scores had only fair agreement (ICC = 0.4504, p < 0.001).\n\nCONCLUSION: Chronological age was not associated with mRUST score following TPLO at the 8-week postoperative evaluation. The mRUST system demonstrated moderate agreement between human observers. LLM scoring showed promise; further refinement is needed for clinical application.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "age",
+    "dog",
+    "osteogenesis",
+    "radiographic osteotomy healing",
+    "tibial plateau leveling osteotomy"
+  ],
+  "fetched_on": "2026-10-26"
+}

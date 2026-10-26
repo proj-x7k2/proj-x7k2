@@ -1,0 +1,30 @@
+{
+  "pmid": "42914951",
+  "title": "The use of contrast-enhanced echocardiography in the evaluation of feline left ventricular wall thickness.",
+  "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+  "year": "2026",
+  "authors": [
+    "E Javery",
+    "S Kadotani",
+    "C Toborowsky",
+    "S Prabhakar",
+    "T Sumerfield",
+    "K Selting",
+    "R Fries"
+  ],
+  "doi": "10.1016/j.jvc.2026.09.004",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42914951/",
+  "abstract": "INTRODUCTION/OBJECTIVES: Accurate measurement of feline left ventricular wall thickness (LVWT) is challenging due to endocardial and myocardial irregularities, false tendons, and prominent papillary muscles. In human medicine, contrast-enhanced echocardiography (C-Echo) is used to improve left ventricular wall delineation and is more accurate, repeatable, and reliable than standard echocardiography (S-Echo). Our objective was to compare C-Echo and S-Echo measurements of feline LVWT and determine repeatability, reproducibility, and reliability of each modality.\n\nANIMALS, MATERIALS AND METHODS: Fifty client-owned cats were prospectively enrolled in the study. Cats underwent S-Echo and C-Echo after intravenous injection of contrast agent. Methods were compared using Bland-Altman and Passing-Bablok regression. Interoperator and intra-operator reproducibility, repeatability, and reliability were quantified using intraclass correlation coefficients, repeatability coefficients, and coefficients of variation.\n\nRESULTS: Standard echocardiography and C-Echo differed significantly for all segments with a median difference of 0.56 mm (range: -1.4 to 4.9 mm; P<0.0001). Regression showed proportional bias (slope: 1.21, confidence interval: 1.11-1.31) with minimal systematic bias (intercept: -0.26, confidence interval: -0.64 to 0.12). Intra-operator and interoperator reproducibility was excellent for both modalities (intraclass correlation coefficient: 0.90-0.94 for S-Echo; 0.86-0.99 for C-Echo), while repeatability coefficients were lower for C-Echo (0.28-0.61 mm) than for S-Echo (0.89-1.03 mm), and coefficients of variation were lower for C-Echo (intra-observer: 5.86%, inter-observer: 3.03%) than for S-Echo (7.43% and 7.64%).\n\nSTUDY LIMITATIONS: Accuracy of S-Echo and C-Echo compared with a reference standard was not assessed.\n\nCONCLUSIONS: Contrast-enhanced echocardiography is feasible and provides excellent left ventricular wall visualization with lower LVWT measurements and superior repeatability, reproducibility, and reliability.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Cat",
+    "Reliability",
+    "Repeatability",
+    "Reproducibility",
+    "Wall Thickness"
+  ],
+  "fetched_on": "2026-10-26"
+}

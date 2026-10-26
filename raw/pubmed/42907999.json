@@ -1,0 +1,55 @@
+{
+  "pmid": "42907999",
+  "title": "Combined cold atmospheric plasma and photobiomodulation is associated with improved early macroscopic and ultrasonographic wound-healing parameters after unilateral mastectomy in female dogs: an exploratory randomized intra-individual controlled clinical study.",
+  "journal": "BMC veterinary research",
+  "year": "2026",
+  "authors": [
+    "Guilherme Ramon Vieira da Silva",
+    "Márcio Santos de Oliveira Filho",
+    "Samuel Ferreira de França Silvestre",
+    "Gabrielle Arruda Carneiro",
+    "Rivaldo Bruno Medeiros de Lucena",
+    "Clarisse Maria Rodrigues Costa",
+    "Pedro Lucas Diogo Facundo",
+    "Fernando Lucas Costa Silva",
+    "João Marcelo Azevedo de Paula Antunes",
+    "Larissa de Castro Demoner",
+    "Valéria Veras de Paula",
+    "Airton Torres Carvalho",
+    "Carlos Augusto Galvão Barboza",
+    "Clodomiro Alves Júnior",
+    "Moacir Franco de Oliveira",
+    "Marcela Maria de Almeida Amorim",
+    "Carlos Eduardo Bezerra de Moura"
+  ],
+  "doi": "10.3390/microorganisms9051072",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42907999/",
+  "abstract": "BACKGROUND: Postmastectomy complications remain relevant in veterinary surgery. Although cold atmospheric plasma (CAP) and photobiomodulation (PBM) may improve tissue repair, evidence on their combined use is limited. This exploratory pilot study evaluated CAP-PBM therapy in nine female dogs undergoing unilateral mastectomy.\n\nMETHODS: A prospective, randomized, blinded, intra-individual controlled clinical study was conducted in nine female dogs with mammary neoplasia undergoing clinically indicated unilateral mastectomy. In each dog, one half of the surgical wound was randomly assigned to receive sequential CAP and PBM therapy, while the contralateral half remained untreated and served as an intra-individual control. Evaluations were performed on postoperative days 3, 7, and 14 (D3, D7, and D14) using macroscopic scoring systems, ultrasonography, and infrared thermography; histomorphometric analysis was performed only on D7.\n\nRESULTS: Treated regions showed significantly lower Modified Hollander Scar Scale (p < 0.001) and Modified Draize Scoring System (p = 0.001) scores. Ultrasonographic assessment demonstrated lower semiquantitative scores (p = 0.029) and reduced subcutaneous thickness (p = 0.034), especially during the early postoperative period. Thermographic findings did not differ significantly between groups. Histological analysis revealed numerically greater re-epithelialization in treated areas, although without statistical significance (p > 0.05).\n\nCONCLUSIONS: In this exploratory pilot study, combined CAP + PBM therapy was associated with improved early macroscopic and ultrasonographic healing parameters after mastectomy in female dogs. These preliminary findings support further investigation of CAP + PBM as a promising non-invasive adjuvant strategy for postoperative wound management, pending confirmation in larger, adequately powered randomized studies.",
+  "publication_types": [
+    "Journal Article",
+    "Randomized Controlled Trial"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Female",
+    "Dogs",
+    "Mastectomy",
+    "Wound Healing",
+    "Low-Level Light Therapy",
+    "Pilot Projects",
+    "Plasma Gases",
+    "Mammary Neoplasms, Animal",
+    "Dog Diseases",
+    "Prospective Studies",
+    "Ultrasonography",
+    "Thermography"
+  ],
+  "keywords": [
+    "Alternative therapies",
+    "Low level laser",
+    "Non-thermal plasma",
+    "Rehabilitation",
+    "Wound healing"
+  ],
+  "fetched_on": "2026-10-26"
+}

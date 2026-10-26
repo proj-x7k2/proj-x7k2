@@ -1,0 +1,32 @@
+{
+  "pmid": "42921406",
+  "title": "Clinical reasoning in canine meningoencephalitis of unknown origin and glioma: the role of signalment, history and neurological examination.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Franziska Spohn",
+    "Samira Abani",
+    "Peter J Dickinson",
+    "Karen M Vernau",
+    "Christine M Toedebusch",
+    "Kevin D Woolard",
+    "Andreas Beineke",
+    "Holger A Volk",
+    "Jasmin N Nessler"
+  ],
+  "doi": "10.2460/javma.1998.212.12.1902",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42921406/",
+  "abstract": "INTRODUCTION: Meningoencephalitis of unknown origin (MUO) is a group of presumed immune-mediated inflammatory diseases of the central nervous system (CNS) in dogs. Differentiating MUO from intracranial diseases such as glioma can be challenging based on magnetic resonance imaging (MRI) and cerebrospinal fluid (CSF) analysis. Because glioma represents an important differential diagnosis in dogs clinically suspected to have MUO, distinguishing these diseases is relevant for diagnostic reasoning, therapeutic planning, and owner communication. This study assessed whether readily available clinical variables contribute to clinical reasoning in dogs with histopathologically confirmed MUO or glioma.\n\nMETHODS: This retrospective multicenter study included 138 dogs with histopathologically confirmed MUO or glioma. Medical history, signalment, and neurological examination findings were compared between groups. Binary logistic regression was used to identify clinical variables associated with diagnosis.\n\nRESULTS: Seventy dogs were diagnosed with MUO and 68 dogs with glioma. Dogs with MUO had a lower median body weight (10.50 kg vs. 23.90 kg; p = 0.0007) and age (5.00 years vs. 7.04 years; p = 0.0007) than dogs with glioma. In the final multivariable model, disease onset was associated with the distinction between MUO and glioma (p = 0.0282), while lower body weight and head tilt were associated with MUO. Increasing body weight was associated with lower odds of MUO (OR: 0.910; 95% CI: 0.861 - 0.961; p = 0.0007). Dogs without head tilt were less likely to be diagnosed with MUO than dogs with head tilt (OR: 0.249; 95% CI: 0.062 - 0.998; p = 0.0497). An exploratory, cohort specific body weight cut-off of ≤ 7.70 kg yielded 40.6% sensitivity and 95.6% specificity for MUO.\n\nDISCUSSION: Readily available clinical variables may provide supportive information when MUO and glioma are differential diagnoses, particularly when MRI and CSF findings are equivocal. However, overlap between groups and limited discriminatory performance of individual variables indicate that these findings should not be used as standalone criteria. Instead, signalment, history, and neurological examination findings should be interpreted as part of an integrated assessment together with MRI, CSF analysis, and infectious testing.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "clinical reasoning",
+    "dogs",
+    "glioma",
+    "histopathology",
+    "meningoencephalitis of unknown origin (MUO)"
+  ],
+  "fetched_on": "2026-10-26"
+}
