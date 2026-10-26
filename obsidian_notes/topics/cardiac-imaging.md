@@ -1,7 +1,7 @@
 ---
 title: "심장·대혈관 영상"
 scope: "심초음파, 심장 CT, 대혈관"
-updated: 2026-10-14
+updated: 2026-10-26
 ---
 # 심장·대혈관 영상
 
@@ -30,6 +30,9 @@ Echocardiography·CTA만으로는 pulmonic stenosis(PS)의 혈류역학적 결�
 
 ### LVWT 측정 시 endocardial border 선택의 영향
 고양이 HCM 진단에서 left ventricular wall thickness(LVWT) 측정은 어떤 endocardial border를 포함하는지에 대한 합의가 없다. 건강·HCM 의증·HCM 표현형 고양이 52마리의 저장된 echocardiography 영상을 4가지 leading/trailing edge 조합으로 측정한 후향적 연구에서, leading-edge-to-trailing-edge 측정법이 가장 큰 값을(IVS 중앙값 5.5mm), trailing-edge-to-leading-edge 측정법이 가장 작은 값을(IVS 4.3mm, LVFW 4.8mm) 보였으며(모두 p<.001), IVS에서 두 방법 간 중앙값 차이는 1.2mm에 달했다 ([[papers/2026-42820725-lvwt-endocardial-border-cats|Sehn 2026]]; 후향적 연구, n=52). 이는 HCM cut-off 근처에서 같은 고양이의 분류를 바꿀 수 있는 크기로, LVWT 측정 convention의 표준화가 필요함을 시사한다.
+
+### Contrast-enhanced echocardiography(C-Echo)를 이용한 LVWT 측정
+고양이 50마리를 전향적으로 모집해 standard echocardiography(S-Echo)와 정맥 조영제 C-Echo로 LVWT를 비교한 연구에서, 두 방법의 측정값은 모든 segment에서 유의하게 달랐고(중앙값 차이 0.56mm; P<0.0001) proportional bias(slope 1.21)가 있었다 ([[papers/2026-42914951-contrast-echocardiography-feline-lv-wall-thickness|Javery 2026]]; 전향적 연구, n=50). Reproducibility는 두 방법 모두 excellent했으나 repeatability coefficient는 C-Echo(0.28-0.61mm)가 S-Echo(0.89-1.03mm)보다 낮았고 coefficient of variation도 C-Echo가 낮았다. 위의 endocardial border 연구가 보여준 측정 convention 문제에 대해 C-Echo가 wall delineation을 개선해 측정 변동을 줄일 가능성을 시사하지만, 두 방법 모두 reference standard 대비 accuracy는 평가되지 않아 어느 쪽 값이 더 정확한지는 알 수 없다.
 
 ### 원인불명 pericardial effusion에서 echocardiography·CT의 배제 진단 역할
 원인불명 pericardial effusion·cardiac tamponade를 보인 개 1마리 증례에서, point-of-care ultrasonography로 tricavitary effusion과 tamponade를 확인한 뒤 echocardiography·흉복부 CT·심낭액 배양검사를 종합해 종양성·감염성·내분비성 원인을 모두 배제하고 심낭액의 콜레스테롤 결정 소견으로 idiopathic cholesterol pericarditis를 진단했다 ([[papers/2026-42801331-cholesterol-pericarditis-cardiac-tamponade-dog|Wong 2026]]; 증례보고, n=1). 이는 흔치 않은 pericardial effusion 원인에서 echocardiography와 CT가 종양·감염 등 흔한 원인을 배제하는 데 핵심적 역할을 함을 보여준다 — 증례 1예에 근거한 제한적 근거.
@@ -67,6 +70,8 @@ Ventricular arrhythmia만 있고 conventional echocardiography가 정상인 stag
 - Doberman stage B1 DCM에서 GLS 저하가 실제 stage B2 진행·심부전·돌연사 위험을 전향적으로 예측하는지는 이 후향적 case-control 연구만으로는 알 수 없다.
 - 고양이 aortic dissection 후 bacterial endarteritis의 발생 빈도와 위험요인, 이를 생전에 조기 발견할 수 있는 영상 추적 프로토콜은 단일 증례로는 알 수 없다.
 
+- C-Echo로 얻은 LVWT가 S-Echo보다 작게 측정되는 경향이 있어 HCM 진단 cut-off를 그대로 쓸 수 있는지, C-Echo 전용 기준값이 필요한지, C-Echo가 HCM 분류를 실제로 바꾸는지는 알 수 없다. 조영제 안전성도 초록에 제시되지 않았다.
+
 ## 관련 논문
 - [[papers/2026-42803120-left-ventricular-bands-cats]] — 고양이 200마리 중 99.5%에서 LVB 확인, HCM 표현형과 무관 (전향적 연구, n=200)
 - [[papers/2026-42735743-echocardiography-reference-intervals-growing-dogs]] — 소형 성장기 강아지 전용 심초음파 allometric 참고치 제시 (전향적 연구, n=13)
@@ -84,3 +89,4 @@ Ventricular arrhythmia만 있고 conventional echocardiography가 정상인 stag
 - [[papers/2026-42843445-echocardiography-doxorubicin-cardiotoxicity]] — Doxorubicin 투여 개에서 MAPSE·TAPSE·TMAD로 확인된 subclinical 양심실 수축기능 저하 (전향적 연구, n=25)
 - [[papers/2026-42858360-gls-doberman-dcm-arrhythmia]] — Doberman stage B1 DCM에서 GLS가 conventional echocardiography 정상임에도 subclinical systolic dysfunction 포착 (후향적 연구, n=126)
 - [[papers/2026-42842764-aortic-dissection-endarteritis-cat]] — 고양이 aortic dissection, echocardiography로 ascending aorta flap 확인 후 bacterial endarteritis로 지연 사망 (증례보고, n=1)
+- [[papers/2026-42914951-contrast-echocardiography-feline-lv-wall-thickness]] — 고양이 LVWT를 C-Echo로 측정하면 S-Echo보다 작게 나오고 repeatability가 더 좋음, accuracy는 미평가 (전향적 연구, n=50)

@@ -226,5 +226,65 @@
     "title": "Establishment of an ultrasound-guided rabbit model of hepatic inflammatory pseudotumor and contrast-enhanced ultrasound pattern analysis.",
     "reason": "사람 질환(간 inflammatory pseudotumor) 연구를 위한 토끼 실험동물 모델 확립 연구",
     "date": "2026-10-19"
+  },
+  {
+    "pmid": "42926012",
+    "title": "Placebo-controlled randomized clinical study using a collagen hydrolysate-enriched diet in dogs with osteoarthritis.",
+    "reason": "영상(방사선)은 OA 확진·대상 선별에만 부수적 사용; 연구 핵심은 식이 보조제의 임상 효능(LOAD·CBPI·force-plate)",
+    "date": "2026-10-26"
+  },
+  {
+    "pmid": "42912822",
+    "title": "An integrated experimental-computational framework for elasto-plastic characterization and spatial mapping of canine bone properties.",
+    "reason": "nanoindentation·FEA 재료 특성 연구로 μQCT는 부수적; 임상 영상 진단과 무관한 생체역학 방법론",
+    "date": "2026-10-26"
+  },
+  {
+    "pmid": "42908145",
+    "title": "Laser as an Adjunct in Endodontic Treatment in Dogs: Perspectives on a Conservative, Effective, and Safe Approach.",
+    "reason": "방사선은 치유 추적에만 부수적 사용; 증례 핵심은 aPDT·PBMT 레이저 치료 프로토콜",
+    "date": "2026-10-26"
+  },
+  {
+    "pmid": "42921406",
+    "title": "Clinical reasoning in canine meningoencephalitis of unknown origin and glioma: the role of signalment, history and neurological examination.",
+    "reason": "연구 핵심이 signalment·병력·신경학적 검사 변수이며 MRI 소견 자체는 분석 대상이 아님(애매하여 제외)",
+    "date": "2026-10-26"
+  },
+  {
+    "pmid": "42908898",
+    "title": "Case Report: Concurrent ventricular septal defect, pulmonic stenosis, and intrapulmonary arteriovenous anastomoses in a Korean raccoon dog (Nyctereutes procyonoides koreensis).",
+    "reason": "대상 종이 Korean raccoon dog로 개·고양이·토끼가 아님",
+    "date": "2026-10-26"
+  },
+  {
+    "pmid": "42904074",
+    "title": "Case Report: Long term multimodality treatment of canine hepatocellular carcinoma with serial monitoring of serum alpha-fetoprotein.",
+    "reason": "영상은 진단·재발 확인에 부수적 사용; 증례 핵심은 olaparib·IL-15 치료와 혈청 AFP 모니터링",
+    "date": "2026-10-26"
+  },
+  {
+    "pmid": "42914770",
+    "title": "Evaluation of opioid consumption using the quadratus lumborum block or intraperitoneal instillation with bupivacaine in dogs undergoing ovariohysterectomy in a teaching institution.",
+    "reason": "초음파는 신경차단 시행을 위한 유도 도구로만 부수적 사용됨; 연구 핵심은 진통제(methadone) 소비량 비교",
+    "date": "2026-10-26"
+  },
+  {
+    "pmid": "42918707",
+    "title": "A histopathological and immunohistochemical perspective on selected aspects of valvular interstitial and valve endothelial remodelling in canine mitral valve dysplasia and myxomatous degeneration.",
+    "reason": "조직병리·면역조직화학 연구이며 영상 평가 없음(저자도 상세 echocardiography 측정 부재를 한계로 명시)",
+    "date": "2026-10-26"
+  },
+  {
+    "pmid": "42921832",
+    "title": "Prospective evaluation of the prevalence and characteristics of heart murmurs and gallop sounds in anemic cats.",
+    "reason": "연구 핵심은 청진 소견(murmur·gallop)의 유병률과 빈혈 중증도 연관; echocardiography는 심장병 유무 분류에만 부수적 사용(애매하여 제외)",
+    "date": "2026-10-26"
+  },
+  {
+    "pmid": "42907999",
+    "title": "Combined cold atmospheric plasma and photobiomodulation is associated with improved early macroscopic and ultrasonographic wound-healing parameters after unilateral mastectomy in female dogs: an exploratory randomized intra-individual controlled clinical study.",
+    "reason": "초음파는 육안 점수·thermography·조직계측과 함께 쓰인 여러 평가지표 중 하나; 연구 핵심은 CAP+PBM 창상 치료 효과(애매하여 제외)",
+    "date": "2026-10-26"
   }
 ]

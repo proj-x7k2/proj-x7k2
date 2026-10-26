@@ -1,7 +1,7 @@
 ---
 title: "근골격 영상"
 scope: "관절, 골, 근육, 골종양"
-updated: 2026-09-30
+updated: 2026-10-26
 ---
 # 근골격 영상
 
@@ -12,6 +12,8 @@ Leishmania infantum 감염견 43마리를 대상으로 한 전향적 연구에�
 
 ### TPLO 술후 방사선 평가
 TPLO 관련 방사선 근거가 여러 편 쌓였다. Popliteus muscle을 보존하는 변형 TPLO는 전통적 술식 대비 45일차 방사선 골유합 점수가 유의하게 높았으나(10점 척도 기준 보정 평균차 1.95점) osteotomy 안정성(rock-back)에는 차이가 없었고, 저자들도 이 방사선학적 차이가 실제 임상 회복으로 이어지는지는 알 수 없다고 명시했다 ([[papers/2026-42760893-tplo-popliteus-sparing-radiographic-healing|Sassaroli 2026]]; 무작위대조군연구, n=100). 반면 8주차 정기 TPLO 방사선평가는 신체검사 권고안을 대부분(59.5%) 바꾸지 않았고, 평가자 간 일치도도 낮아(κ=0.20 전후) 정기 방사선검사의 실질적 이득에 의문을 제기했다 ([[papers/2026-42762824-8-week-tplo-radiographs-management-plan|Hancock 2026]]; 전향적 연구, n=97/291건 평가). TPLO 대상견에서 고관절 방사선을 함께 평가한 후향적 연구는 canine hip dysplasia(CHD)의 방사선학적 유병률이 36.3%이며, CHD가 심할수록 osteoarthritis도 심하고(OR 22.91/단계) 반대쪽 stifle에서 CCLD가 발생할 위험도 높아진다는 것을 보여주었다(OR 3.70/단계) ([[papers/2026-42744301-hip-dysplasia-prevalence-ccld-tplo|Courzereaux 2026]]; 후향적 연구, n=466).
+
+TPLO 후 8주 방사선 골치유를 modified RUST(mRUST) 4-point 체계로 채점한 후향적 연구에서는 2-5세(n=49)와 8-12세(n=51) 개 사이에 점수 차이가 없었고(LLM p=0.352, 외과의 p=0.908, resident p=0.588), 세 평가자 간 일치도는 fair 수준(ICC 0.4504)이었다 ([[papers/2026-42903056-mrust-radiographic-healing-tplo-age-llm|Anderson 2026]]; 후향적 연구, n=100 — LLM 채점 측면은 [[topics/ai-imaging]] 참고). 이는 8주차 TPLO 방사선 평가의 낮은 평가자 간 일치도를 보고한 위 전향적 연구(κ=0.20 전후)와 같은 방향으로, 단일 시점 방사선 점수의 신뢰도에 한계가 있음을 보여준다.
 
 ### Hip dysplasia 등급 판정 기준의 변화
 FCI 2022년 개정 판정법(FCI22)을 기존 2006년 방법(FCI06)과 비교한 후향적 연구에서, 전체 고관절의 68.3%는 등급이 유지되었지만 Boxer에서는 29.4%가 하향, Australian Shepherd에서는 17.2%가 상향 조정되는 등 품종별로 재분류 패턴이 크게 달랐고, 재분류는 주로 기존 D등급 고관절에서 발생했다(82.4%) ([[papers/2026-42735705-fci-2022-vs-2006-hip-dysplasia-grading|Gras 2026]]; 후향적 연구, n=1318).
@@ -34,6 +36,8 @@ Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zuri
 - 정기 TPLO 술후 방사선검사가 관리계획을 바꾸는 빈도가 낮다는 결과를 바탕으로, 어떤 임상·영상 소견 조합에서 방사선검사가 실제로 유용한지 규명할 전향적 연구가 필요하다.
 - CT-FEA-ML 기반 골절 하중 예측 모델의 임상 검증(전향적 코호트, 다기관)은 아직 이루어지지 않았다.
 
+- 8주 mRUST 점수에 연령 차이가 없다는 결과가 이후 시점(12주 이후)이나 임상 기능 회복에서도 유지되는지, 평가자 간 일치도를 높일 채점 기준은 무엇인지는 아직 알 수 없다.
+
 ## 관련 논문
 - [[papers/2026-42763011-us-vs-radiography-leishmaniasis-joints]] — leishmaniasis 관절병변 검출에서 초음파가 방사선보다 우수 (전향적 연구, n=43)
 - [[papers/2026-42760893-tplo-popliteus-sparing-radiographic-healing]] — popliteus-sparing TPLO가 45일차 방사선 골유합 점수 개선 (무작위대조군연구, n=100)
@@ -47,3 +51,4 @@ Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zuri
 - [[papers/2026-42718565-septic-physitis-physeal-fracture-puppy]] — septic physitis에 의한 강아지 physeal fracture 첫 보고 (증례보고, n=1)
 - [[papers/2026-42791713-aneurysmal-bone-cyst-puppy-progression]] — 강아지 ulna aneurysmal bone cyst가 임상 호전에도 불구하고 방사선상 진행, 재수술 후 35개월간 재발 없음 (증례보고, n=1)
 - [[papers/2026-42767266-zurich-mini-thr-cats]] — 고양이 cementless THR 후 8주째 방사선상 osteointegration 양호, femoral fracture 11.8% (후향적 연구, n=11/17 hips)
+- [[papers/2026-42903056-mrust-radiographic-healing-tplo-age-llm]] — TPLO 후 8주 mRUST 점수는 연령군(2-5세 vs 8-12세) 간 차이 없음, LLM·외과의·resident 일치도는 fair (후향적 연구, n=100)

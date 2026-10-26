@@ -1,5 +1,25 @@
 # 변경 기록
 
+## 2026-10-26 수집 (2차)
+- `data/raw_papers.json`이 신규 6편으로 교체되어 재실행. 2편 처리, 4편 건너뜀. `raw/pdf/` 폴더가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (모두 `data/skipped.json`에 기록): `42914770`(QLB vs IP bupivacaine 진통제 소비량, 초음파는 차단 유도용), `42918707`(MMVD·MD 판막 조직병리/IHC, 영상 평가 없음), `42921832`(빈혈 고양이 murmur·gallop 청진 연구, echo는 부수적 — 애매하여 제외), `42907999`(CAP+PBM 창상 치유, 초음파는 여러 지표 중 하나 — 애매하여 제외).
+- 신규 논문 2편 페이지 생성 및 주제 통합:
+  - `42925847`(개 마취 후 lung ultrasound, 전향적 n=44) → `thoracic-imaging` (소제목 신설).
+  - `42894990`(개 mammary tumor Doppler·SWE, 전향적 n=64) → `oncologic-imaging` (소제목 신설).
+- `overview.md` 논문 수 갱신: `thoracic-imaging` 2→3편, `oncologic-imaging` 2→3편.
+- 참고: `42921832`(JVIM)와 `42907999`(BMC Vet Res)의 PubMed 원자료 DOI가 저널과 맞지 않는 값이나 두 편 모두 건너뜀.
+
+## 2026-10-26 수집
+- `data/raw_papers.json` 10편 중 4편 처리, 6편 건너뜀. `raw/pdf/` 폴더가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (모두 `data/skipped.json`에 기록): `42926012`(개 OA collagen hydrolysate 식이 RCT, 방사선은 선별용), `42912822`(개 대퇴골 nanoindentation·FEA 방법론), `42908145`(개 endodontic 레이저 증례, 방사선은 추적용), `42921406`(MUO vs glioma 임상 변수 분석, MRI 소견 자체는 분석 대상 아님 — 애매하여 제외), `42908898`(Korean raccoon dog 심기형 증례, 대상 종 아님), `42904074`(개 HCC 다학제 치료·AFP 증례, 영상은 부수적).
+- 신규 논문 4편 페이지 생성 및 주제 통합:
+  - `42897728`(개·고양이 안와·안구내 병변 CEUS, 후향적 n=30) → `head-neck-imaging` (소제목 신설).
+  - `42921401`(고양이 pituitary apoplexy 3예, hypophysectomy) → `endocrine-imaging` (소제목 신설).
+  - `42914951`(고양이 LVWT contrast-enhanced echocardiography, 전향적 n=50) → `cardiac-imaging` (소제목 신설).
+  - `42903056`(TPLO 후 mRUST 연령 비교·LLM 채점, 후향적 n=100) → `musculoskeletal-imaging` + `ai-imaging`.
+- `overview.md` 논문 수 갱신: `head-neck-imaging` 3→4편, `endocrine-imaging` 2→3편, `cardiac-imaging` 16→17편, `musculoskeletal-imaging` 12→13편, `ai-imaging` 6→7편.
+- 참고: `42897728`(Veterinary ophthalmology), `42921401`(Frontiers, 도서 챕터 형식)의 PubMed 원자료 DOI가 저널과 맞지 않는 값이라 원자료 그대로 기재함 — 확인 필요. `42921401`의 study_type은 3예 증례군으로 판단.
+
 ## 2026-10-19 수집
 - `data/raw_papers.json` 10편 중 4편 처리, 6편 건너뜀. `raw/pdf/` 폴더가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
 - 건너뜀 (모두 `data/skipped.json`에 기록): `42893846`(doxorubicin 심독성 종설, echo는 부수적), `42878630`(고양이 급성 CHF pimobendan, 방사선은 반응 지표), `42890363`(랫드 골절 모델), `42889477`(고양이 갑상선기능항진증 RAIT 역학), `42877635`(간 보호제 pilot, 초음파 부수적), `42877521`(사람 질환용 토끼 간 pseudotumor 모델).

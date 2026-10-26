@@ -1,5 +1,261 @@
 [
   {
+    "pmid": "42925847",
+    "title": "Transthoracic lung ultrasound for perioperative assessment of dogs undergoing nonemergency anesthesia: a prospective observational study.",
+    "journal": "Veterinary anaesthesia and analgesia",
+    "year": "2026",
+    "authors": [
+      "Emily P Wheeler",
+      "Bonnie L Hay Kraus",
+      "Jonathan P Mochel",
+      "Jiazhang Cai",
+      "Andreas Handel",
+      "Mei-Jyun Ciou",
+      "Michael Lu",
+      "Jessica L Ward"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42925847/",
+    "doi": "10.1016/j.vaa.2026.101374",
+    "study_type": "전향적 연구",
+    "sample_size": "44",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42925847-lung-ultrasound-perioperative-anesthesia-dogs",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "ultrasound"
+    ],
+    "system": [
+      "thorax",
+      "sedation-restraint"
+    ],
+    "topics": [
+      "thoracic-imaging"
+    ],
+    "tags": [
+      "dog",
+      "ultrasound",
+      "thorax",
+      "sedation-restraint"
+    ],
+    "added_on": "2026-10-26",
+    "summary_ko": "사람에서 atelectasis를 시사하는 lung ultrasound(LUS) 소견이 개의 전신마취 후에도 확인되는지, 그리고 임상 변수와 연관되는지를 알아보기 위해 dorsal recumbency로 비응급 수술을 받은 ASA I-II 개 44마리(자발호흡 27, IPPV 17)를 대상으로 마취 직전·직후에 표준화된 LUS를 시행했다. 8 MHz-5 MHz curvilinear probe로 양측 caudal, perihilar, middle, cranial 8개 부위의 4초 cineloop을 얻었고, B-lines, irregular pleural line, subpleural abnormality를 반영한 자체 개발 점수(최대 32점)로 마스킹된 관찰자가 평가했다. LUS 점수는 마취 전 중앙값 1(0-5)에서 마취 후 7(0-18)로 유의하게 증가했다(Hodges-Lehmann 중앙값 증가 6.5점, 95% CI 5.0-8.5, p<0.001). 연령을 포함한 동물·마취·수술·호흡 변수 중 마취 후 점수와 유의하게 연관된 것은 없었다.",
+    "summary_en": "This prospective, repeated-measures observational study explored whether lung ultrasound (LUS) findings suggestive of atelectasis in humans can be identified in dogs after general anesthesia, and whether they relate to clinical variables. Forty-four ASA I-II dogs undergoing nonemergency surgery in dorsal recumbency (27 spontaneously breathing, 17 with IPPV) had a standardized eight-site LUS exam immediately before and after anesthesia, scored offline by a masked observer (maximum 32 points). LUS scores rose from a median of 1 (0-5) to 7 (0-18) (Hodges-Lehmann increase 6.5, 95% CI 5.0-8.5, p < 0.001). No animal, anesthetic, surgical, or respiratory variable was associated with post-anesthesia scores after multiple-comparison correction.",
+    "clinical_takeaway_ko": "마취 후 LUS 점수 상승은 postanesthetic atelectasis를 시사하지만, 이 연구는 CT 등 기준표준이나 임상 결과와 대조하지 않았으므로 LUS 소견을 atelectasis로 확진하는 근거로 쓰기는 이르다. 다만 회복 시 저산소혈증 환자에서 B-lines, irregular pleural line 같은 소견을 POCUS로 빠르게 확인해 보는 접근의 가능성을 보여준다."
+  },
+  {
+    "pmid": "42921401",
+    "title": "Case Report: Surgical treatment of feline pituitary apoplexy in 3 cases.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Megan A van Schaik",
+      "Lucinda L van Stee",
+      "Guy C M Grinwis",
+      "Björn P Meij"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42921401/",
+    "doi": "10.1016/B0-72-168903-5/50020-3",
+    "study_type": "증례군",
+    "sample_size": "3",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42921401-feline-pituitary-apoplexy-hypophysectomy",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "endocrine",
+      "neuro"
+    ],
+    "topics": [
+      "endocrine-imaging"
+    ],
+    "tags": [
+      "cat",
+      "MRI",
+      "endocrine",
+      "neuro"
+    ],
+    "added_on": "2026-10-26",
+    "summary_ko": "Transsphenoidal hypophysectomy 후 조직병리로 출혈성 병변을 동반한 pituitary mass가 확인된 고양이 3마리의 후향적 증례 검토다. 2마리는 급성 신경학적 증상, 1마리는 subacute endocrinological dysfunction으로 내원했다. 3마리 모두 영상 소견이 pituitary apoplexy에 합당했으나 hemorrhage-sensitive sequence를 촬영한 것은 case 3뿐이었고, 이 증례에서만 intralesional hemorrhage가 명확히 확인되었다. 모두 수술 후 퇴원했고 생존기간은 최소 716일(재발로 재수술 후 추적 소실), 최소 1,098일(생존 중), 612일(MRI상 365일째 재발 확인, radiation therapy 중 사망)이었다.",
+    "summary_en": "Three cats with histopathologically confirmed haemorrhagic pituitary masses underwent transsphenoidal hypophysectomy and were reviewed retrospectively. Two presented with acute neurologic signs and one with subacute endocrinological dysfunction. Imaging was compatible with pituitary apoplexy in all three, but only case 3 was imaged with a haemorrhage-sensitive sequence, which provided unequivocal evidence of intralesional haemorrhage. All cats recovered and were discharged; survival was at least 716 days (recurrence, second surgery), at least 1,098 days (alive), and 612 days (MRI recurrence at 365 days, died during radiation therapy).",
+    "clinical_takeaway_ko": "큰 pituitary mass를 가진 고양이가 급성 신경학적 증상을 보이면 apoplexy를 감별에 두고, MRI protocol에 hemorrhage-sensitive sequence(예: T2*-weighted/GRE, SWI)를 포함시키면 intralesional hemorrhage를 확인할 수 있다. 수술 후에는 잔존 조직에서의 재발이 있을 수 있어 MRI 추적이 필요하다."
+  },
+  {
+    "pmid": "42914951",
+    "title": "The use of contrast-enhanced echocardiography in the evaluation of feline left ventricular wall thickness.",
+    "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+    "year": "2026",
+    "authors": [
+      "E Javery",
+      "S Kadotani",
+      "C Toborowsky",
+      "S Prabhakar",
+      "T Sumerfield",
+      "K Selting",
+      "R Fries"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42914951/",
+    "doi": "10.1016/j.jvc.2026.09.004",
+    "study_type": "전향적 연구",
+    "sample_size": "50",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42914951-contrast-echocardiography-feline-lv-wall-thickness",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "cat",
+      "echocardiography",
+      "cardiovascular"
+    ],
+    "added_on": "2026-10-26",
+    "summary_ko": "Client-owned 고양이 50마리를 전향적으로 모집해 standard echocardiography(S-Echo)와 정맥 조영제 투여 후 contrast-enhanced echocardiography(C-Echo)로 left ventricular wall thickness(LVWT)를 측정하고 두 방법을 Bland-Altman 및 Passing-Bablok regression으로 비교했다. 모든 segment에서 두 방법의 측정값이 유의하게 달랐고(중앙값 차이 0.56mm, 범위 -1.4~4.9mm; P<0.0001), proportional bias(slope 1.21)가 있었다. Intra-/inter-operator reproducibility는 두 방법 모두 excellent(ICC 0.90-0.94 S-Echo, 0.86-0.99 C-Echo)였으나 repeatability coefficient는 C-Echo(0.28-0.61mm)가 S-Echo(0.89-1.03mm)보다 낮았고 coefficient of variation도 C-Echo가 낮았다.",
+    "summary_en": "Fifty client-owned cats were prospectively enrolled and underwent standard (S-Echo) and intravenous contrast-enhanced echocardiography (C-Echo) for LVWT measurement. The methods differed significantly in all segments (median difference 0.56 mm; P<0.0001) with proportional bias (slope 1.21). Reproducibility was excellent for both (ICC 0.90–0.94 S-Echo; 0.86–0.99 C-Echo), but repeatability coefficients (0.28–0.61 mm vs 0.89–1.03 mm) and coefficients of variation (intra-observer 5.86% vs 7.43%; inter-observer 3.03% vs 7.64%) were lower with C-Echo. Accuracy against a reference standard was not assessed.",
+    "clinical_takeaway_ko": "C-Echo는 endocardial border가 불분명하거나 papillary muscle·false tendon 때문에 LVWT 측정이 애매한 고양이에서 측정 반복성을 높일 수 있다. 다만 C-Echo 측정값이 S-Echo보다 작게 나오는 경향이 있어 HCM cut-off를 그대로 적용할 수 없고, 같은 개체를 추적할 때는 같은 방법으로 일관되게 측정해야 한다."
+  },
+  {
+    "pmid": "42903056",
+    "title": "Assessment of radiographic healing after tibial plateau leveling osteotomy in young and older dogs using the modified RUST scoring system.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Bridget L Anderson",
+      "Steven W Frederick",
+      "Catherine Popovitch"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42903056/",
+    "doi": "10.3389/fvets.2025.1615947",
+    "study_type": "후향적 연구",
+    "sample_size": "100",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42903056-mrust-radiographic-healing-tplo-age-llm",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal",
+      "AI"
+    ],
+    "topics": [
+      "musculoskeletal-imaging",
+      "ai-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "musculoskeletal",
+      "AI"
+    ],
+    "added_on": "2026-10-26",
+    "summary_ko": "체중 20-40kg, 편측 TPLO를 받은 2-5세(Group 1, n=49)와 8-12세(Group 2, n=51) 개의 수술 8주 후 방사선 사진을 large language model(LLM), 외과의, 외과 resident가 독립적으로 4-point modified RUST(mRUST) 체계로 채점해 연령군 간 차이를 비교했다. mRUST 점수는 세 평가자 모두에서 연령군 간 차이가 없었다(LLM p=0.352, 외과의 p=0.908, resident p=0.588). 평가자 간 일치도는 ICC 0.4504로 fair 수준에 그쳤다.",
+    "summary_en": "Dogs weighing 20–40 kg that underwent unilateral TPLO at 2–5 years (n=49) or 8–12 years (n=51) were retrospectively identified, and 8-week postoperative radiographs were scored with the 4-point modified RUST system by a large language model, a surgeon and a surgical resident. Scores did not differ between age groups for any rater (LLM p=0.352, surgeon p=0.908, resident p=0.588). Interrater agreement was only fair (ICC 0.4504). The authors conclude that chronological age was not associated with mRUST score at 8 weeks and that LLM scoring shows promise but needs refinement.",
+    "clinical_takeaway_ko": "8주차 방사선상 골치유 정도는 2-5세와 8-12세 TPLO 개 사이에서 mRUST로 차이가 없었으므로, 연령만을 이유로 고령견의 osteotomy 치유가 늦을 것이라 가정하거나 운동 제한을 달리할 근거는 이 연구에서 나오지 않았다. 평가자 간 일치도가 fair 수준이었고 LLM 채점은 아직 임상 사용에 이르지 못했으므로 mRUST 점수는 동일 평가자가 일관되게 적용해야 한다."
+  },
+  {
+    "pmid": "42897728",
+    "title": "Contrast-Enhanced Ultrasonography of Orbital and Intraocular Pathologies in 24 Dogs and 6 Cats.",
+    "journal": "Veterinary ophthalmology",
+    "year": "2026",
+    "authors": [
+      "Janneke I Ortner",
+      "Katharina M Hittmair",
+      "Barbara Nell",
+      "Klaas-Ole Blohm"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42897728/",
+    "doi": "10.1016/j.crad.2017.03.026",
+    "study_type": "후향적 연구",
+    "sample_size": "30",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42897728-ceus-orbital-intraocular-pathologies",
+    "species": [
+      "dog",
+      "cat"
+    ],
+    "modality": [
+      "ultrasound"
+    ],
+    "system": [
+      "head-neck"
+    ],
+    "topics": [
+      "head-neck-imaging"
+    ],
+    "tags": [
+      "dog",
+      "cat",
+      "ultrasound",
+      "head-neck"
+    ],
+    "added_on": "2026-10-26",
+    "summary_ko": "B-mode ultrasonography 후 sulfur hexafluoride 조영제로 contrast-enhanced ultrasonography(CEUS)를 시행한 개 24마리·고양이 6마리를 후향적으로 평가했다. 병변은 orbital neoplastic, orbital inflammatory, intraocular neoplastic, intraocular inflammatory, retinal detachment의 5개 군으로 분류했고, contrast intensity·enhancement pattern·perfusion type·wash-in/wash-out 시간을 qualitative하게 평가했다. 모든 retinal detachment 증례에서 persistent vascularization이 관찰되었고, 종양성 병변에서는 CEUS가 lesion localization, 주변 조직과의 관계, perfusion 평가를 향상시켰다. 반면 abscess, myositis, steatitis 같은 염증성 병변에서는 B-mode 대비 추가 진단 가치가 제한적이었다.",
+    "summary_en": "Thirty animals (24 dogs, 6 cats) with orbital or intraocular disease underwent B-mode ultrasonography followed by sulfur hexafluoride CEUS, and the examinations were evaluated retrospectively. Lesions were grouped as orbital neoplastic, orbital inflammatory, intraocular neoplastic, intraocular inflammatory, or retinal detachment, and qualitative perfusion parameters were assessed. Vascularization was detected in all pathologies with variable enhancement; persistent vascularization was seen in all retinal detachments. CEUS improved localization and perfusion assessment of neoplastic lesions, but added limited value over B-mode for inflammatory lesions. The authors call for prospective studies.",
+    "clinical_takeaway_ko": "안와·안구내 종양 의심 증례에서 B-mode로 경계나 주변 조직 침범이 불분명할 때 CEUS를 추가하면 lesion localization과 perfusion 정보를 보완할 수 있다. 다만 염증성 병변에서는 추가 이득이 작아 CEUS를 일률적으로 추가할 이유는 없고, 초록 기준으로 enhancement 소견만으로 병변 유형을 확정할 수는 없다."
+  },
+  {
+    "pmid": "42894990",
+    "title": "Diagnostic accuracy of spectral Doppler indices and shear wave elastography in dogs with mammary tumors and their relationship to tumor proliferation.",
+    "journal": "Polish journal of veterinary sciences",
+    "year": "2026",
+    "authors": [
+      "S İslamoğlu Esen",
+      "Z Günay Uçmak",
+      "A Ateş",
+      "Ö Erdoğan Bamaç",
+      "G Kaşıkçı"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42894990/",
+    "doi": "10.24425/pjvs.2026.3602",
+    "study_type": "전향적 연구",
+    "sample_size": "64",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42894990-spectral-doppler-swe-canine-mammary-tumors",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "ultrasound"
+    ],
+    "system": [
+      "oncology"
+    ],
+    "topics": [
+      "oncologic-imaging"
+    ],
+    "tags": [
+      "dog",
+      "ultrasound",
+      "oncology"
+    ],
+    "added_on": "2026-10-26",
+    "summary_ko": "개 mammary tumor에서 spectral Doppler 지표와 shear wave elastography(SWE)의 진단 정확도, 그리고 종양 증식(Ki-67)과의 관계를 평가했다. 악성 상피성 종양군 49마리와 정상 mammary tissue 대조군 15마리를 대상으로, 숙련된 sonographer 1인이 mastectomy 전에 L20-5s linear transducer로 B-mode, Doppler, SWE를 시행했고 histopathology를 기준표준으로 삼았다. 악성군은 대체로 heterogeneous·hyperechoic이었고 mixed vascular pattern이 가장 흔했으며, 혈관 수는 histological grade에 따라 달라지지 않았다. Resistive index(RI)는 악성군에서 대조군보다 유의하게 높았으나 PI는 차이가 없었고, PSV와 EDV는 악성 종양에서 증가해 적절한 민감도·특이도를 보였다. Shear wave speed와 stiffness는 악성 종양에서 높았고, 5cm를 넘는 종양과 Grade 3 carcinoma에서 가장 높았다. Tissue Ki-67은 Doppler 속도 지표 및 SWE 측정값과 유의하게 연관되었다. 저자들은 Ki-67, RI, PSV, shear wave speed, elasticity가 정상 조직 대비 악성 종양 구분에서 특이도 100%였다고 보고하며 영상기법의 병용을 권고했다.",
+    "summary_en": "This study evaluated spectral Doppler indices and shear wave elastography (SWE) in canine mammary tumors and their relation to tumor proliferation. Forty-nine dogs with malignant epithelial tumors and 15 healthy mammary tissue controls were scanned by a single experienced sonographer before mastectomy (L20-5s linear transducer), with histopathology as the gold standard. Malignant tumors were mostly heterogeneous and hyperechoic with a mixed vascular pattern; vascularization did not differ by histological grade. RI was higher in malignant tumors than controls, PI did not differ, and PSV and EDV were increased with adequate sensitivity and specificity. Shear wave speed and stiffness were higher in malignant tumors, highest in tumors over 5 cm and in Grade 3 versus Grade 2 carcinomas, and tissue Ki-67 correlated with Doppler velocimetry and SWE values. The authors reported 100% specificity for Ki-67, RI, PSV, shear wave speed and elasticity in separating malignant tumors from healthy tissue and recommend combining techniques.",
+    "clinical_takeaway_ko": "Mastectomy 전 초음파에서 RI·PSV 같은 Doppler 지표와 SWE stiffness가 높으면 악성 및 높은 증식 활성을 시사하는 보조 소견으로 참고할 수 있다. 다만 비교 대상이 정상 mammary tissue이고 양성 종양이나 염증성 병변과의 감별은 다루지 않았으므로, 이 수치로 aspiration cytology나 histopathology를 대체하거나 양성·악성을 가를 수는 없다."
+  },
+  {
     "pmid": "42883089",
     "title": "Extended Reality for Image-Guided Small Animal Surgery: Current Evidence, Clinical Applications, and Future Directions.",
     "journal": "Animals",

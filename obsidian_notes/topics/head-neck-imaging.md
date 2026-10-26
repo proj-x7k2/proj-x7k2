@@ -1,7 +1,7 @@
 ---
 title: "두경부 영상"
 scope: "비강, 중이, 안와, 후두, 침샘, 치아·턱"
-updated: 2026-10-14
+updated: 2026-10-26
 ---
 # 두경부 영상
 
@@ -16,13 +16,18 @@ updated: 2026-10-14
 ### 교정용 anchorage 계획을 위한 치아 root surface area(RSA)
 Brachycephalic 개 68마리(119개 dental arcade)의 CBCT를 후향적으로 분석한 연구에서, 상악 canine의 RSA는 모든 arcade(119/119, 100%)에서 PM4+M1 결합 RSA보다 작았고, canine:M1 비율이 1 미만인 경우는 10kg 미만 소형견의 1.68%에 불과했다 ([[papers/2026-42853250-cbct-root-surface-area-brachycephalic|Yee 2026]]; 후향적 연구, n=68). 체중은 canine:PM4+M1 비율과 양의 상관관계를 보였으나(P=.0006) 모든 체중군에서 비율은 1 미만으로 유지되어, PM4와 M1을 결합한 reinforced anchorage unit이 brachycephalic 견의 상악 canine 교정 이동에 활용될 수 있음을 시사한다.
 
+### 안와·안구내 병변의 contrast-enhanced ultrasonography(CEUS)
+B-mode ultrasonography 후 sulfur hexafluoride CEUS를 시행한 개 24마리·고양이 6마리의 후향적 평가에서, CEUS는 모든 orbital·intraocular pathology에서 vascularization을 검출했고 retinal detachment 전례에서 persistent vascularization이 관찰되었다 ([[papers/2026-42897728-ceus-orbital-intraocular-pathologies|Ortner 2026]]; 후향적 연구, n=30). 종양성 병변에서는 lesion localization, 주변 조직과의 관계, perfusion 평가가 향상되었으나 abscess·myositis·steatitis 같은 염증성 병변에서는 B-mode 대비 추가 가치가 제한적이었다. 병변군별 표본이 작고 qualitative 평가이며 reference standard 대비 진단 성능이 제시되지 않아 — 제한적 근거.
+
 ## 남은 질문
 - 저자기장 kMRI의 화질 저하가 고자기장(1.5T 등) MRI에서도 동일하게 나타나는지는 확인되지 않았다.
 - TMJ inclination angle의 좌우 비대칭·정상 범위가 실제 생체 임상례에서도 재현되는지, dislocation 진단의 cut-off로 쓸 수 있는지는 추가 검증이 필요하다.
 - Root canal 치료 후 CBCT의 radiolucent zone이 artifact인지 실제 결함인지를 생체 임상 환자에서 어떻게 감별할 수 있는지는 아직 알 수 없다.
 - CBCT 기반 RSA 비율이 실제 orthodontic 치료의 anchorage 성공률·치아 이동 결과와 직접 연관되는지는 치료 후 추적 연구가 없어 알 수 없다.
+- CEUS의 enhancement pattern·wash-in/wash-out 지표가 안와·안구내 종양과 염증, 양성과 악성을 감별하는 데 어느 정도의 민감도·특이도를 갖는지는 조직병리 기준의 전향적 연구가 필요하다.
 
 ## 관련 논문
 - [[papers/2026-42797990-feline-tmj-kinematic-mri]] — 고양이 TMJ static vs kinematic MRI 비교, dislocation 시 inclination angle 유의하게 변화 (실험 연구)
 - [[papers/2026-42807202-micro-ct-cbct-canine-endodontics]] — machine-driven Ni-Ti가 manual보다 균질한 obturation, CBCT radiolucent zone은 artifact로 확인 (실험 연구, n=30)
 - [[papers/2026-42853250-cbct-root-surface-area-brachycephalic]] — brachycephalic 개 CBCT로 상악 canine·PM4·M1 RSA 비율 정량, PM4+M1 결합 anchorage 지지 (후향적 연구, n=68)
+- [[papers/2026-42897728-ceus-orbital-intraocular-pathologies]] — 안와·안구내 종양성 병변과 retinal detachment에서 CEUS가 B-mode에 추가 정보 제공, 염증성 병변은 제한적 (후향적 연구, n=30)

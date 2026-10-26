@@ -1,7 +1,7 @@
 ---
 title: "AI·정량 영상"
 scope: "AI 판독, 정량 분석, 영상 기반 모델"
-updated: 2026-10-06
+updated: 2026-10-26
 ---
 # AI·정량 영상
 
@@ -19,12 +19,17 @@ updated: 2026-10-06
 ### 영상 재구성 단계의 딥러닝 적용
 판독·예측 모델뿐 아니라 영상 획득·재구성 단계에도 딥러닝이 적용되고 있다. 두개내 질환으로 진단된 개 25예의 brain MRI에서 deep learning-based reconstruction(DLR)을 conventional reconstruction과 비교한 연구는 DLR이 SNR·CNR·lesion edge sharpness와 판독자의 영상 품질·lesion conspicuity 점수를 유의하게 높이고 truncation artifact를 줄였으나, motion·pulsation artifact는 개선하지 못했고 pseudolesion·lesion masking도 관찰되지 않았다고 보고했다 ([[papers/2026-42813384-dlr-canine-brain-mri|Jin 2026]]; 후향적 연구, n=25 — 신경영상 맥락은 [[topics/neuro-imaging]] 참고). 이는 AI가 판독 보조를 넘어 영상 자체의 품질을 높이는 전처리 단계에도 쓰일 수 있음을 보여주지만, 실제 진단 성능(민감도·특이도)에 대한 검증은 아직 이루어지지 않았다.
 
+### 영상 채점에서 LLM의 평가자 일치도
+TPLO 후 8주 방사선 사진 100건(개 100마리)을 modified RUST로 채점한 연구에서 large language model(LLM), 외과의, 외과 resident의 점수는 fair 수준의 일치도(ICC 0.4504)를 보였고, 저자들은 LLM 채점이 가능성은 있으나 임상 적용에는 추가 개선이 필요하다고 결론지었다 ([[papers/2026-42903056-mrust-radiographic-healing-tplo-age-llm|Anderson 2026]]; 후향적 연구, n=100 — 상세는 [[topics/musculoskeletal-imaging]] 참고). 초록에는 LLM 종류와 평가자별 점수 분포가 제시되지 않았고, 인간 평가자 간 일치도 자체도 높지 않아 LLM 성능의 기준점이 불안정하다 — 제한적 근거.
+
 ## 남은 질문
 - 실제 임상에서 사용 가능한 개별 AI 판독 도구의 민감도·특이도를 종·품종별로 검증한 원저 연구는 이 위키에 아직 없다.
 - AI 보조진단 도구의 quality assurance 체계를 실제 2차 동물병원 워크플로우에 어떻게 통합할지에 대한 구체적 지침은 부족하다.
 - CT-FEA-ML 기반 골절 하중 예측, radiomics 기반 종양 판별 모두 proof-of-concept 단계로, 전향적·다기관 임상 검증이 아직 없다.
 - Stage B2 MMVD 선별 모델의 외부 코호트 검증과 흉부 방사선 변수의 개별 기여도는 아직 확인되지 않았다.
 - DLR 기반 영상 재구성이 실제 진단 성능(병변 검출 민감도·특이도)을 향상시키는지는 아직 검증되지 않았다.
+
+- 범용 LLM으로 방사선 사진을 채점할 때 어떤 모델·프롬프트가 인간 평가자와 얼마나 일치하는지, 명확한 reference standard 대비 정확도는 어떤지는 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42593822-ai-bibliometric-thoracic-radiography]] — 2018-2025년 소동물 흉부 radiography AI 문헌 27편 서지계량 분석, CNN 기반 자동탐지가 주요 초점 (기타/서지계량분석, n=27편)
@@ -33,3 +38,4 @@ updated: 2026-10-06
 - [[papers/2026-42746025-radiomics-canine-glioma-mri]] — T2-FLAIR radiomics로 canine glioma·human glioblastoma 종양 조직 판별 (후향적 연구, n="")
 - [[papers/2026-42798418-ml-stage-b2-mmvd-prediction]] — 흉부 방사선 포함 routine clinical data 기반 gradient boosting이 stage B2 MMVD를 ROC AUC 0.922로 식별 (후향적 연구, n=387)
 - [[papers/2026-42813384-dlr-canine-brain-mri]] — Deep learning 기반 재구성(DLR)이 brain MRI 영상 품질·lesion conspicuity 향상 (후향적 연구, n=25)
+- [[papers/2026-42903056-mrust-radiographic-healing-tplo-age-llm]] — TPLO 후 mRUST 채점에서 LLM·외과의·resident 일치도 fair (ICC 0.4504) (후향적 연구, n=100)
