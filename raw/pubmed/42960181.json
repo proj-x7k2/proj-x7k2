@@ -1,0 +1,35 @@
+{
+  "pmid": "42960181",
+  "title": "Clinical and 18F-FDG PET/CT imaging features in a dog with bacterial sepsis of unknown origin.",
+  "journal": "The Canadian veterinary journal = La revue veterinaire canadienne",
+  "year": "2026",
+  "authors": [
+    "Michael Perkel",
+    "Fernanda M Uribe",
+    "Alexandra F Belotta",
+    "Moira Kerr",
+    "Ahmad Al-Dissi",
+    "Elisabeth C Snead"
+  ],
+  "doi": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42960181/",
+  "abstract": "Positron emission tomography with 2-deoxy-2-[fluorine-18] fluoro-D-glucose integrated with computed tomography (18F-FDG PET/CT) imaging identified infection and inflammation earlier and with higher sensitivity than other imaging modalities in human medicine. A small case series explored the use of 18F-FDG PET/CT for detecting the cause of fever of unknown origin in dogs. This report details clinical aspects and 18F-FDG PET/CT imaging in the workup and treatment of a 12-year-old dog that was presented obtunded with severe neutropenia and hypoglycemia secondary to suspected sepsis. The 18F-FDG PET/CT revealed moderate, patchy FDG avidity and soft-tissue swelling of the left carpus and tarsus (SUV max: 7.18 and SUV max: 5.58, respectively), moderate heterogeneous splenic and hepatic hypermetabolic activity (SUV max: 3.42), and bilaterally symmetric renal hypermetabolic activity (SUV max: 6.22) without appropriate flourine-18 fluorodeoxyglucose (18F-FDG) excretion. Other notable findings included marked, diffuse 18F-FDG uptake within all bone marrow spaces (SUV max: 15.47) and a generalized, mild lymphadenopathy with moderate hypermetabolic activity. Positive blood cultures confirmed sepsis. Clinical deterioration despite appropriate antibiotic and supportive therapy prompted euthanasia. Necropsy revealed lymphohistiocytic and neutrophilic necrotizing vasculitis with thrombosis and necrosis in heart, spleen, brain, and liver, consistent with septicemia. Enterococcus faecium was isolated from lungs, kidneys, and spleen; Serratia marcescens was isolated from lungs and kidneys. This is the first documented report of the use of 18F-FDG PET/CT for the diagnostic workup of a septic patient in veterinary medicine with corroborative necropsy findings to confirm PET/CT suspicion of disseminated septicemia. Key clinical message: Positron emission tomography with 2-deoxy-2-[fluorine-18] fluoro-D-glucose integrated with computed tomography imaging, which combines the functional, metabolic information from a PET scan with the high-resolution anatomical detail from a CT scan, should be considered as an adjunctive imaging modality for the diagnostic workup to identify focal and systemic infections in veterinary medicine. This is critical for immunocompromised animals in which timely and accurate diagnosis is of utmost importance, either for guiding case management and clinical outcome or for guiding owners through difficult decisions when the prognosis is guarded to poor.",
+  "publication_types": [
+    "Case Reports",
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Dog Diseases",
+    "Fluorodeoxyglucose F18",
+    "Positron Emission Tomography Computed Tomography",
+    "Sepsis",
+    "Radiopharmaceuticals",
+    "Fever of Unknown Origin",
+    "Male",
+    "Female"
+  ],
+  "keywords": [],
+  "fetched_on": "2026-11-02"
+}

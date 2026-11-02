@@ -1,0 +1,26 @@
+{
+  "pmid": "42939247",
+  "title": "Age-Related Decrease in Interthalamic Adhesion Thickness in Cats Without Apparent Cognitive Dysfunction.",
+  "journal": "Animals : an open access journal from MDPI",
+  "year": "2026",
+  "authors": [
+    "Réjane Kerbrat-Copy",
+    "Océane Thérier",
+    "Marion Fusellier"
+  ],
+  "doi": "10.1016/j.neurobiolaging.2009.05.013",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42939247/",
+  "abstract": "Feline cognitive dysfunction syndrome (FCDS) is an age-associated disorder for which objective imaging markers remain limited. This study evaluated the association between age and interthalamic adhesion thickness (IAT) in cats without apparent cognitive dysfunction and described IAT across feline life stages. MRI examinations from 112 client-owned cats aged 4 months to 18 years were retrospectively reviewed. Cats were classified as kittens (<1 year), young (1 to < 7 years), mature (7 to <11 years) and senior (≥11 years). Cats with intracranial lesions or reported behavioral changes suggestive of cognitive dysfunction were excluded. Two blinded observers measured IAT on transverse T1W and T2W images. Analyses included linear regression adjusted for brain height, brain width, sex/neuter status, breed group, and scanner; exploratory quadratic age modeling; and comparisons among life stages. Interobserver agreement was high. Age was negatively associated with IAT on T1W (B = -0.071 mm/year) and T2W images (B = -0.067 mm/year; both p < 0.001). This association persisted after multivariable adjustment (T1W: B = -0.074 mm/year; T2W: B = -0.067 mm/year; both p < 0.001) and after excluding kittens or brachycephalic cats. Senior cats had lower IAT than all other life stages on both sequences. A quadratic term suggested a steeper decline at older ages on T1W images only; this finding remains exploratory. These findings support a group-level association between age and IAT, rather than individual-level diagnostic use. Its potential diagnostic value for FCDS requires prospective evaluation with standardized behavioral assessment and age-matched controls.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "aging",
+    "cerebral atrophy",
+    "cognitive dysfunction syndrome",
+    "feline",
+    "interthalamic adhesion"
+  ],
+  "fetched_on": "2026-11-02"
+}

@@ -1,0 +1,34 @@
+{
+  "pmid": "42939169",
+  "title": "Diagnostic Value of the Vertebral Right Heart Index (VRHi) for Identifying Pulmonary Hypertension in Dogs with Heartworm Disease.",
+  "journal": "Animals : an open access journal from MDPI",
+  "year": "2026",
+  "authors": [
+    "Jorge Isidoro Matos",
+    "Claudia Díaz-Rocio",
+    "Sara Nieves García-Rodríguez",
+    "Alicia Caro-Vadillo",
+    "Laín García-Guasch",
+    "Eva Mohr-Peraza",
+    "José Alberto Montoya-Alonso",
+    "Elena Carreton"
+  ],
+  "doi": "10.1136/vr.148.23.707",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42939169/",
+  "abstract": "Pulmonary hypertension (PH) is a common complication of canine heartworm disease caused by Dirofilaria immitis and is associated with right-sided cardiac remodelling. This study evaluated the diagnostic value of the Right Vertebral Heart Index (VRHi) for identifying dogs with a high echocardiographic probability of PH and its association with echocardiographic indices of right-sided cardiac remodelling. Fifty-four dogs from Gran Canaria were included: 20 healthy controls and 34 dogs naturally infected with D. immitis, classified according to the presence or absence of a high echocardiographic probability of PH. Thoracic radiographs were obtained without sedation, and the vertebral heart size (VHS) and VRHi were measured using DICOM software. Heartworm infection was confirmed using a commercial antigen detection test. Echocardiography was performed to assess parasite burden, determine the probability of PH, and evaluate right-sided cardiac remodelling. Dogs with a high echocardiographic probability of PH showed more frequent clinical signs and greater echocardiographic evidence of right-sided cardiac remodelling than dogs without PH. The VRHi values differed significantly among the three study groups and were highest in dogs with a high echocardiographic probability of PH. The VRHi was significantly correlated with echocardiographic indicators of right-sided remodelling. The right lateral projection showed the highest AUC among VRHi measurements (AUC = 0.835), although its AUC did not differ significantly from that of conventional VHS (AUC = 0.764; DeLong p = 0.519). These findings suggest that VRHi may provide a simple and objective complementary radiographic parameter in dogs with heartworm disease and suspected PH.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Dirofilaria immitis",
+    "echocardiography",
+    "heartworm disease",
+    "pulmonary hypertension",
+    "right vertebral heart index",
+    "thoracic radiography",
+    "vertebral heart size",
+    "veterinary imaging"
+  ],
+  "fetched_on": "2026-11-02"
+}

@@ -1,0 +1,35 @@
+{
+  "pmid": "42948705",
+  "title": "A canine brain bank for comparative neuroscience and brain aging research.",
+  "journal": "Free neuropathology",
+  "year": "2026",
+  "authors": [
+    "Sarah Darcy",
+    "Autumn Beck",
+    "Macy Garrood",
+    "Andria Slaughter",
+    "Alexander Parra",
+    "Laura Paredes",
+    "Kurt Farrell",
+    "John F Crary",
+    "Andrew T McKenzie"
+  ],
+  "doi": "10.17879/freeneuropathology-2026-9411",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42948705/",
+  "abstract": "Companion animal brain banking has been recognized as a valuable approach for translational neuroscience of aging and dementia. However, realizing the full value of canine brain banks depends on optimizing the methods used to collect and preserve the tissue. Whole-brain perfusion-fixation is one promising approach, but it is not yet well described in dogs. Here we describe the development of methods for a canine brain bank (currently n = 55), including whole-brain perfusion-fixation via aortic cannulation and brain extraction. We assessed perfusion quality using gross examination, post-perfusion computed tomography (CT), and histological clearance of blood vessels. We found that body weight and flow rate normalized to body weight were each significantly correlated with perfusion quality in our cohort. To illustrate the kind of analysis the canine brain bank could facilitate, we next performed a preliminary study of brain aging, one of our primary planned research applications. Using a pixel classifier applied to whole-slide images, we quantified lipofuscin burden and found, in this preliminary cohort, that it increased strongly with age in both the thalamus and hippocampus. In the hippocampus, lipofuscin burden was also elevated in dogs with owner-reported cognitive dysfunction, although the current cohort is too small to determine to what extent this association is independent of age. Preliminary electron microscopy studies confirmed that perfusion-fixed tissue from the bank is amenable to ultrastructural analysis. This work describes one approach to canine brain perfusion-fixation and introduces a canine brain tissue resource that may help support future neuroscience research.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Brain aging",
+    "Brain banking",
+    "Canine cognitive dysfunction",
+    "Comparative neuroscience",
+    "Dog",
+    "Lipofuscin",
+    "Perfusion-fixation",
+    "Postmortem interval"
+  ],
+  "fetched_on": "2026-11-02"
+}

@@ -1,0 +1,28 @@
+{
+  "pmid": "42944152",
+  "title": "Clinical Relevance of Routine Follow-Up Computed Tomography in Dogs with Presumed Discospondylitis: A Retrospective Study.",
+  "journal": "Veterinary sciences",
+  "year": "2026",
+  "authors": [
+    "Eva Ingelaere",
+    "Laurent Blond",
+    "Robin Cavalerie",
+    "Antoine Dunié-Mérigot",
+    "Clément Baudin-Tréhiou"
+  ],
+  "doi": "10.1186/s12891-020-03446-4",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42944152/",
+  "abstract": "Computed tomography (CT) findings of discospondylitis in dogs are well described, but limited information is available regarding the clinical value of follow-up CT in veterinary medicine. This retrospective study evaluated CT changes and their associations with clinical outcome in 32 dogs with suspected discospondylitis. Initial and follow-up CT examinations were independently reviewed by two board-certified veterinary radiologists. Disagreements were resolved by agreement between reviewers, and changes in predefined CT abnormalities were combined into a CT Evolution Score. Interobserver agreement for individual CT features ranged from fair to substantial, while the CT Evolution Score showed moderate reliability (ICC = 0.72). Dogs with a good clinical outcome showed more favorable changes in paravertebral soft tissue abnormalities (p < 0.001) and presumptive spinal epidural empyema (p = 0.002), whereas osseous changes did not differ significantly. The CT Evolution Score was higher in dogs with a good outcome (p = 0.010), associated with lower odds of a poor outcome (OR, 0.40; 95% CI, 0.17-0.91; p = 0.029), and showed good discriminatory ability (AUC = 0.87). Follow-up CT may provide complementary information, particularly in dogs with incomplete or unfavorable clinical improvement.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "diagnostic imaging",
+    "disease monitoring",
+    "longitudinal imaging",
+    "spinal infection",
+    "vertebral endplate"
+  ],
+  "fetched_on": "2026-11-02"
+}

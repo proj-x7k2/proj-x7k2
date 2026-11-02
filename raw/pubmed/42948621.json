@@ -1,0 +1,42 @@
+{
+  "pmid": "42948621",
+  "title": "Prospective multicenter study of murmur localization and stage-associated murmur grading in dogs with echocardiographically diagnosed cardiac diseases: the LISTEN study.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Gerhard Wess",
+    "Jens Häggström",
+    "Julia Stadler",
+    "Lara König",
+    "Katarzyna Kraszewska",
+    "Doris Bittenecker",
+    "Oriol Domenech",
+    "German Santamarina",
+    "Gregory Van den Noortgate",
+    "Mikkel Brandt Bjerknaes",
+    "Jenny Eberhard",
+    "Karin Kriström",
+    "Liva Vatne",
+    "Michał Gajewski",
+    "Christel Schinner-Peters",
+    "Guy Tater",
+    "Marin Torti",
+    "Christoph Schummer",
+    "Ingrid Ljungvall"
+  ],
+  "doi": "10.1111/j.1439-0442.1996.tb00433.x",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42948621/",
+  "abstract": "BACKGROUND: Cardiac auscultation remains fundamental in dogs with suspected cardiac disease, but large prospective datasets describing clinician-recorded murmur localization and intensity across echocardiographic diagnoses are limited. This study aimed to characterize point of maximal intensity (PMI) patterns in dogs with echocardiographically diagnosed cardiac abnormalities and to evaluate the association between murmur grade and disease stage in dogs with myxomatous mitral valve disease (MMVD) and dilated cardiomyopathy (DCM).\n\nMETHODS: This prospective international multicenter observational study included 6,996 client-owned dogs examined by 50 cardiology-trained veterinarians. Dogs underwent standardized cardiac auscultation at four predefined thoracic locations and transthoracic echocardiography during the same clinical visit. PMI localization was described across cardiac diagnoses, and murmur grade was evaluated in relation to disease stage in MMVD and DCM.\n\nRESULTS: Dogs with MMVD and DCM predominantly had a left apical PMI, whereas congenital outflow tract diseases and patent ductus arteriosus were predominantly associated with a left basilar PMI. Tricuspid regurgitation and ventricular septal defect were more commonly associated with right apical and right basilar PMIs, respectively. In MMVD, murmur intensity increased with advancing disease stage (p < 0.001), and dogs with a murmur greater than soft had higher odds of being in stage B2 or C/D than B1 (OR 35.9, 95% CI 27.6-46.6). In DCM, 25.8% of dogs had no audible murmur. Although murmur grade distribution differed across DCM stages (p = 0.03), intensity did not show a consistent stage-associated increase.\n\nCONCLUSION: Clinician-recorded four-point auscultation identified characteristic regional PMI patterns across several canine cardiac diseases. Murmur grade was strongly associated with disease stage in MMVD but provided limited stage-related information in DCM. Auscultation may support initial clinical assessment and prioritization of differential diagnoses, but echocardiography remains essential for definitive diagnosis and staging.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "canine cardiology",
+    "cardiac auscultation",
+    "disease staging",
+    "echocardiography",
+    "heart sounds"
+  ],
+  "fetched_on": "2026-11-02"
+}

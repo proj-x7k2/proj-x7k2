@@ -1,0 +1,27 @@
+{
+  "pmid": "42964095",
+  "title": "Case Report: 18F-FDG PET/CT findings and SUVmax characterization in a dog with apocrine gland anal sac adenocarcinoma.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Bohyeon Shim",
+    "Yujin Kim",
+    "Sungin Lee"
+  ],
+  "doi": "10.1186/1749-8090-8-63",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42964095/",
+  "abstract": "Apocrine gland anal sac adenocarcinoma (AGASACA) is a malignant epithelial tumor in dogs that commonly metastasizes to regional lymph nodes. Although 18F-fluorodeoxyglucose (18F-FDG) positron emission tomography/computed tomography (PET/CT) has been mentioned as a staging modality for this tumor, detailed imaging findings and maximum standardized uptake values (SUVmax) have not previously been reported. A 10-year-old castrated male Maltese was referred for a right anal sac mass and suspected lymph node metastasis. Preoperative 18F-FDG PET/CT revealed increased uptake in the primary mass (SUVmax 7.3), the internal iliac lymph node (SUVmax 6.35), and the lumbar aortic lymph node (SUVmax 4.3), with no evidence of distant metastasis. Therefore, the dog was therefore classified as Stage IIIa. Based on these findings, intra-abdominal lymphadenectomy and right anal sacculectomy were performed. Histopathology confirmed AGASACA in the primary mass and morphologically similar metastatic adenocarcinoma in the resected lymph nodes. To our knowledge, this is the first report of 18F-FDG PET/CT findings and SUVmax values in a dog with AGASACA and histologically confirmed lymph node metastases. These findings suggest that PET/CT may provide complementary metabolic information for preoperative nodal staging.",
+  "publication_types": [
+    "Case Reports",
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "18F-fluorodeoxyglucose",
+    "apocrine gland anal sac adenocarcinoma",
+    "case report",
+    "positron emission tomography",
+    "standardized uptake value"
+  ],
+  "fetched_on": "2026-11-02"
+}

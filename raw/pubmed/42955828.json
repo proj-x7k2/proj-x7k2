@@ -1,0 +1,40 @@
+{
+  "pmid": "42955828",
+  "title": "A species comparison of videofloroscopic metrics of swallowing in healthy dogs and cats.",
+  "journal": "Journal of veterinary internal medicine",
+  "year": "2026",
+  "authors": [
+    "Megan Grobman",
+    "Elizabeth Luciani",
+    "Carol Reinero"
+  ],
+  "doi": "10.21608/ejentas.2020.19401.1159",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42955828/",
+  "abstract": "BACKGROUND: Videofluoroscopic swallow studies (VFSS) are the criterion standard for diagnosing dysphagia in veterinary species. However, a lack of normative swallowing variables in cats hinders assessment of cats with potential aerodigestive disease. Species variation in swallowing could lead to over- and under-interpretation of findings on VFSS, resulting in misdiagnosis.\n\nHYPOTHESIS/OBJECTIVES: Compare differences in objective swallowing metrics between cats and dogs using VFSS. We hypothesize that cats will show differences in objective swallowing metrics on VFSS compared with dogs.\n\nANIMALS: Healthy adult cats (n = 13) and dogs (n = 12) without clinical signs (CS) of respiratory or alimentary disease.\n\nMETHODS: Prospective, cross-sectional study. Cats and dogs underwent standardized VFSS. All were evaluated according to 16 objective metrics and compared between species. Between group comparisons were made using Mann-Whitney-U, T-test, or Fischer's exact test with a P < .05 significance level for all comparisons.\n\nRESULTS: Cats had significantly longer inter-swallow intervals, shorter pharyngeal transit times, and more pharyngeal swallows to generate primary peristalsis compared with dogs (P < .05). Cats were also more likely to have esophageal volume accumulation and slowing of distal esophageal transit time compared with dogs (P < .05). Physiologic reflux was identified in 2 (15.4%) cats vs 6 (50%) dogs. Pathologic penetration-aspiration (P-A score: 7; aspiration without attempt to cough) was found in 1 cat despite a lack of respiratory or alimentary CS.\n\nCONCLUSIONS AND CLINICAL IMPORTANCE: Species variation should be considered when interpreting VFSS. In 1 cat, occult tracheal aspiration of contrast (P-A score 7) was detected without accompanying cough.",
+  "publication_types": [
+    "Journal Article",
+    "Comparative Study"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Cats",
+    "Dogs",
+    "Female",
+    "Fluoroscopy",
+    "Deglutition",
+    "Cross-Sectional Studies",
+    "Male",
+    "Video Recording",
+    "Prospective Studies",
+    "Species Specificity",
+    "Deglutition Disorders"
+  ],
+  "keywords": [
+    "aspiration",
+    "dysphagia",
+    "esophageal transit",
+    "pharyngeal transit",
+    "variation"
+  ],
+  "fetched_on": "2026-11-02"
+}

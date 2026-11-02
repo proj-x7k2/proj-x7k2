@@ -1,0 +1,27 @@
+{
+  "pmid": "42951719",
+  "title": "Companion animal nuclear medicine: A translational evidence map for dogs and cats.",
+  "journal": "Seminars in nuclear medicine",
+  "year": "2026",
+  "authors": [
+    "Shiphrah Becker",
+    "Peter Tually",
+    "Geoffrey M Currie"
+  ],
+  "doi": "10.1053/j.semnuclmed.2026.10.005",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42951719/",
+  "abstract": "Companion animals occupy an increasingly important clinical and societal space, with dogs and cats often managed as family members and receiving advanced diagnostic and therapeutic care. Many veterinary nuclear medicine procedures are adapted from human practice, while naturally occurring canine and feline diseases provide opportunities for comparative and translational insight. This review mapped and synthesised the literature on nuclear medicine imaging and radionuclide therapy in dogs and cats, with emphasis on clinically mature applications and relevance to human nuclear medicine. A PRISMA-aligned systematic evidence map with focused narrative synthesis were undertaken. MEDLINE via PubMed and Web of Science Core Collection were searched, with supplementary Google Scholar searching, reference-list screening and citation mining. Because of heterogeneity in species, indication, radiopharmaceutical, protocol, comparator and outcome reporting, formal meta-analysis was not performed. A total of 228 articles were included. The literature was predominantly imaging-focused, with 176 articles addressing imaging alone, 34 therapy alone and 18 both imaging and therapy. Feline nuclear medicine was dominated by thyroid disease, particularly thyroid scintigraphy and radioiodine therapy for hyperthyroidism. Canine nuclear medicine was broader, including oncology PET/CT, osteosarcoma imaging and therapy, renal and hepatobiliary functional scintigraphy, portosystemic shunt imaging, neurology/behavioural imaging, thyroid carcinoma and radiosynoviorthesis. PET/CT was most prominent in canine oncology, while conventional scintigraphy remained important where functional information could not be replaced by structural imaging. Companion animal nuclear medicine is clinically useful and translationally relevant. Its most mature model is feline thyroid scintigraphy and radioiodine therapy, while its most dynamic future directions lie in canine oncology, molecular imaging and radiotheranostics. Closer collaboration between veterinary specialists and human nuclear medicine professionals may improve companion animal care while informing broader development of molecular imaging and targeted radionuclide therapy.",
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Canine",
+    "Feline",
+    "PET",
+    "SPECT",
+    "Therapy"
+  ],
+  "fetched_on": "2026-11-02"
+}
