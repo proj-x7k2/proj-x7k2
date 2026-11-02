@@ -1,7 +1,7 @@
 ---
 title: "척추·척수 영상"
 scope: "IVDD, 척수병증, 척추 기형"
-updated: 2026-10-19
+updated: 2026-11-02
 ---
 # 척추·척수 영상
 
@@ -25,7 +25,15 @@ DLSS에서 central canal·intervertebral foramen 협착이 임상 증상과 잘 
 ### Chiari-like malformation 관련 syringomyelia와 VP shunt 후 추적
 Cavalier King Charles Spaniel 1마리에서 MRI상 odontoid peg~L5에 걸친 syringomyelia(C2-C3 최대 횡폭 7.0mm)가 Chiari-like malformation, ventriculomegaly와 함께 확인되었고, 내과 치료 실패 후 ventriculoperitoneal shunt를 시행했다 ([[papers/2026-42877668-ventriculoperitoneal-shunt-syringomyelia-chiari-cavalier|Fernandez Cid 2026]]; 증례보고, n=1 — 두개내 소견은 [[topics/neuro-imaging]] 참고). 추적 MRI에서 syrinx가 감소했고 수술 6개월 후 2.3mm였다 — 단일 증례에 근거한 제한적 근거.
 
+### Discospondylitis의 추적 CT
+Discospondylitis가 의심된 개 32마리의 초기·추적 CT를 영상의학 전문의 2인이 판독한 후향적 연구에서, 임상 결과가 좋은 개는 paravertebral soft tissue abnormality(p<0.001)와 presumptive spinal epidural empyema(p=0.002)의 변화가 더 호전적이었던 반면 osseous change는 결과와 유의한 차이가 없었다 ([[papers/2026-42944152-follow-up-ct-discospondylitis-dogs|Ingelaere 2026]]; 후향적 연구, n=32). 변화를 합친 CT Evolution Score는 moderate reliability(ICC 0.72)였고 좋은 결과군에서 높았으며(p=0.010) 나쁜 결과의 odds 감소와 연관되었고(OR 0.40; 95% CI 0.17-0.91) AUC 0.87이었다. 저자들은 임상 호전이 불완전하거나 불리한 개에서 추적 CT가 보완 정보를 줄 수 있다고 보았다 — 소규모 후향적 단일 연구에 근거한 제한적 근거.
+
+### 기생충성(Spirocerca lupi) 척추관 침범
+T3-L3 myelopathy를 보인 1세 개에서 thoracic radiograph의 caudal mediastinal mass, MRI의 vertebral canal 연장 mediastinal mass, T5-T6 extradural compression, T5·T9 intramedullary T2 hyperintensity, esophageal compression·dilation, aortic aneurysmal dilation이 확인되었고, hemilaminectomy와 parasitology로 Spirocerca lupi가 확진되었다 ([[papers/2026-42955826-intraspinal-spirocerca-lupi-dog|Carrillo 2026]]; 증례보고, n=1). Ivermectin·prednisone·clindamycin 치료 후 2개월에 독립 보행을 회복했고 추적 CT에서 mediastinal·esophageal nodule은 소실되었으나 aortic aneurysmal dilation은 진행했다 — 단일 증례에 근거한 제한적 근거.
+
 ## 남은 질문
+- Spirocercosis의 척추관 침범에서 MRI 소견의 특이도와, 치료 후 진행하는 aortic aneurysm의 추적 간격·임상적 의미는 단일 증례만으로 알 수 없다.
+- 추적 CT를 언제 찍는 것이 적절한지(시기·간격)와, CT Evolution Score가 외부 코호트에서도 재현되는지는 이 후향적 연구(n=32)만으로는 알 수 없다. 개별 CT 소견의 interobserver agreement도 fair~substantial로 일정하지 않았다.
 - VP shunt 후 syrinx 감소의 시간 경과와 재발 여부는 증례 1예로는 알 수 없다.
 - 척수를 압박하는 낭성 병변에서 염증성 meningoproliferative disorder와 전형적 arachnoid diverticulum/cyst를 MRI만으로 감별할 수 있는 특징적 소견이 있는지는 아직 근거가 없다.
 - 말초신경 인근에 발생한 연부조직 육종에서 perineural spread를 통한 척수 침범의 발생 빈도와, 이를 조기에 선별할 수 있는 영상 감시 프로토콜(주기, MRI 범위)은 확립되어 있지 않다.
@@ -40,3 +48,5 @@ Cavalier King Charles Spaniel 1마리에서 MRI상 odontoid peg~L5에 걸친 syr
 - [[papers/2026-42781373-vertebral-vascular-hamartoma-cat]] — 고양이 vertebral vascular hamartoma의 반복 영상·수술로 재성장 확인, 첫 반복 보고 (증례보고, n=1)
 - [[papers/2026-42833390-cauda-equina-mri-dlss]] — DLSS 개에서 foraminal stenosis·L7 nerve root 비후가 임상 증상과 유의하게 연관 (후향적 연구, n=67)
 - [[papers/2026-42877668-ventriculoperitoneal-shunt-syringomyelia-chiari-cavalier]] — CKCS syringomyelia가 VP shunt 후 7.0mm→2.3mm로 감소 (증례보고, n=1)
+- [[papers/2026-42944152-follow-up-ct-discospondylitis-dogs]] — 추적 CT의 paravertebral soft tissue·epidural empyema 변화와 CT Evolution Score가 임상 결과와 연관, osseous change는 무관 (후향적 연구, n=32)
+- [[papers/2026-42955826-intraspinal-spirocerca-lupi-dog]] — Spirocerca lupi 척추관 침범 개의 다중 영상 소견과 치료 후 aortic aneurysm 진행 (증례보고, n=1)

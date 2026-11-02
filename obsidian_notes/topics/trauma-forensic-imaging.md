@@ -1,7 +1,7 @@
 ---
 title: "외상·법수의학 영상"
 scope: "다발성 외상, 학대 의심 평가"
-updated: 2026-10-06
+updated: 2026-11-02
 ---
 # 외상·법수의학 영상
 
@@ -14,7 +14,15 @@ updated: 2026-10-06
 ### Penetrating thoracic trauma에서 방사선의 손상 과소평가
 5개 referral hospital의 수술로 확진된 penetrating thoracic trauma 개 86마리·고양이 5마리를 대상으로 한 다기관 후향적 연구에서, 흉부 방사선으로는 pneumothorax(73.6%)·pulmonary contusion(65.9%)·rib fracture(62.6%)가 흔히 확인되었으나 computed tomography를 시행한 경우 방사선보다 더 많은 손상이 확인되는 경우가 많았다 ([[papers/2026-42826750-penetrating-thoracic-trauma|Pathak 2026]]; 후향적 연구, n=91). 생존율은 78.0%였고 animal trauma triage score가 비생존군에서 유의하게 높았다. 이는 외상 평가 핵심 도구로서의 radiography·CT 역할을 보여주는 비(非)학대 맥락의 외상 영상 근거로, 방사선만으로는 실제 손상 범위를 과소평가할 수 있다는 점에서 위 학대 의심 사례의 radiography/CT 활용과도 맞닿아 있다.
 
+### 고양이 head trauma의 plain vs contrast-enhanced CT
+Pre-/post-contrast head CT를 시행한 외상 고양이 41마리를 영상의학 판독자 3명이 독립 판독한 후향적 연구에서, extracranial soft tissue injury와 fracture(TMJ, hard palate, mandible, pterygoid bone 호발)는 판독자 내·간 일치도가 substantial~almost perfect였고, hemorrhage·cerebral edema 같은 intracranial lesion은 조영 여부·판독자 경험과 무관하게 일치도가 낮고 가변적이었다 ([[papers/2026-42934851-contrast-ct-head-trauma-cats|Mariaud 2026]]; 후향적 연구, n=41). 세 범주 모두 plain CT와 contrast CT 사이에 유의한 차이가 없었다. 일치도만 평가하고 reference standard가 없는 단일 연구로 제한적 근거다.
+
+### 총상 사례의 사후 CT(virtopsy)와 부검 통합
+South Korea에서 경찰이 의뢰한 Jindo dog의 fatal penetrating thoracic trauma 증례에서 radiography는 좌측 흉부 metallic opacity와 pleural effusion·subcutaneous emphysema를, postmortem CT는 metallic fragment 분포, 제4 늑골 골절, hemopneumothorax, pneumomediastinum을 보여주고 두개·복부 손상을 배제했으며, 부검·조직검사로 생존 중 손상과 사인(acute hemopneumothorax, 양측 폐 laceration)이 확인되었다 ([[papers/2026-42939195-postmortem-ct-projectile-trauma-jindo|Kim 2026]]; 증례보고, n=1). 위 학대 의심 사례에서 ballistic trauma가 흔했다는 보고와 연결되는 증례이나, 단일 증례에 근거한 제한적 근거다.
+
 ## 남은 질문
+- 고양이 head trauma에서 CT만으로 신뢰도가 낮은 intracranial lesion을 MRI 등 다른 modality가 얼마나 보완하는지는 이 연구로 알 수 없다.
+- 사후 CT 소견이 부검 소견과 일치하는 정도(민감도·특이도)를 총상 사례에서 정량 비교한 자료는 아직 없다.
 - ultrasound와 MRI가 법수의학적 외상 평가(연부조직 손상, 두개내 출혈 등)에 기여할 수 있는지는 아직 근거가 없다.
 - 단일기관 자료 이므로 지역·의뢰 경향에 따라 손상 유형 분포가 다른 지역에서도 동일하게 재현되는지 확인이 필요하다.
 - Skull-based MNI 접근법과 postmortem radiography 조합이 다른 규모·종의 대량 방임/학대 현장에도 일반화되는지는 단일 사례로는 확인할 수 없다.
@@ -24,3 +32,5 @@ updated: 2026-10-06
 - [[papers/2026-42531994-animal-abuse-imaging-findings]] — 10년간 학대 의심 사례 83건 분석, radiography와 CT가 주요 진단 도구였고 ultrasound·MRI는 미사용 (후향적 연구, n=83)
 - [[papers/2026-42738595-mni-forensic-starvation-scene]] — 대규모 방임 현장에서 postmortem radiography 포함 skull-based MNI 감정 워크플로우 (증례군, n=22)
 - [[papers/2026-42826750-penetrating-thoracic-trauma]] — Penetrating thoracic trauma에서 CT가 방사선보다 많은 손상을 확인, 생존율 78.0% (후향적 연구, n=91)
+- [[papers/2026-42934851-contrast-ct-head-trauma-cats]] — 고양이 head trauma에서 조영제는 골절·extracranial 평가에 추가 이득 없음, intracranial lesion은 CT 판독 신뢰도 낮음 (후향적 연구, n=41)
+- [[papers/2026-42939195-postmortem-ct-projectile-trauma-jindo]] — Jindo dog 총상 사례에서 radiography·PMCT·부검·조직검사 통합 감정 (증례보고, n=1)

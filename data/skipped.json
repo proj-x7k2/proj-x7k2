@@ -286,5 +286,47 @@
     "title": "Combined cold atmospheric plasma and photobiomodulation is associated with improved early macroscopic and ultrasonographic wound-healing parameters after unilateral mastectomy in female dogs: an exploratory randomized intra-individual controlled clinical study.",
     "reason": "초음파는 육안 점수·thermography·조직계측과 함께 쓰인 여러 평가지표 중 하나; 연구 핵심은 CAP+PBM 창상 치료 효과(애매하여 제외)",
     "date": "2026-10-26"
+  },
+  {
+    "pmid": "42959708",
+    "title": "A clinical case series evaluation of cross-linked gelatin foam to treat naturally occurring periodontal pockets and furcation defects in dogs.",
+    "reason": "CR·CBCT는 치료 효과 평가 지표 중 하나로 부수적 사용; 연구 핵심은 gelatin foam scaffold 치주 치료(애매하여 제외)",
+    "date": "2026-11-02"
+  },
+  {
+    "pmid": "42948621",
+    "title": "Prospective multicenter study of murmur localization and stage-associated murmur grading in dogs with echocardiographically diagnosed cardiac diseases: the LISTEN study.",
+    "reason": "연구 핵심은 청진 소견(PMI·murmur grade)이며 echocardiography는 진단·병기 기준으로만 부수적 사용(애매하여 제외)",
+    "date": "2026-11-02"
+  },
+  {
+    "pmid": "42948389",
+    "title": "Case report: long-term clinical remission of food-responsive enteropathy in a dog fed a yellow mealworm-based diet.",
+    "reason": "초음파는 gallbladder sludge 추적에만 부수적 사용; 증례 핵심은 곤충 단백질 식이 요법",
+    "date": "2026-11-02"
+  },
+  {
+    "pmid": "42948017",
+    "title": "Cadaveric study of the ultrasound-guided erector spinae plane block over the dorsolateral edge of the transverse process of the ninth thoracic vertebra in dogs: transverse vs. longitudinal approach.",
+    "reason": "초음파는 신경차단 유도 도구, CT는 사체 주입제 분포 확인용; 연구 핵심은 국소마취 기법 비교(애매하여 제외)",
+    "date": "2026-11-02"
+  },
+  {
+    "pmid": "42948705",
+    "title": "A canine brain bank for comparative neuroscience and brain aging research.",
+    "reason": "뇌 은행 구축·perfusion-fixation 방법 연구; post-perfusion CT는 관류 품질 평가에만 부수적 사용, 임상 영상 진단과 무관",
+    "date": "2026-11-02"
+  },
+  {
+    "pmid": "42936481",
+    "title": "Fibrostenotic intestinal stenosis associated with chronic enteropathy in two cats: case report.",
+    "reason": "초음파는 폐색 부위 확인에 부수적 사용, 구체적 영상 소견 서술 없음; 증례 핵심은 수술·조직병리·clonality 분석(애매하여 제외)",
+    "date": "2026-11-02"
+  },
+  {
+    "pmid": "42947099",
+    "title": "Vertebral cardiac size and heart location of the Syrian hamster (Mesocricetus auratus) in radiographs and in situ gross dissections.",
+    "reason": "대상 종이 Syrian hamster로 개·고양이·토끼가 아님",
+    "date": "2026-11-02"
   }
 ]

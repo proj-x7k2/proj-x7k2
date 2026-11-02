@@ -1,5 +1,45 @@
 # 변경 기록
 
+## 2026-11-02 점검
+- 논문 101편·주제 16편 점검. 링크, 양방향 연결, overview 논문 수, 통제 어휘, tags 모두 이상 없음.
+- 수정: `sedation-restraint-imaging` 종합 첫 문장에 근거 표기 추가, 남은 질문 목록의 빈 줄 제거.
+- 제안(`lint-report.md`): 64CuCl2 논문의 핵의학 주제 추가 연결, `ai-assisted-radiograph-interpretation`의 빈 `species`, 소규모 주제 관찰, DOI 공란 논문.
+
+## 2026-11-02 수집 (3차)
+- `data/raw_papers.json`이 신규 4편으로 교체되어 재실행. 3편 처리, 1편 건너뜀. `raw/pdf/`에 PDF가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (`data/skipped.json`에 기록): `42947099`(Syrian hamster VHS, 대상 종 아님).
+- 신규 논문 페이지 3편 생성 및 주제 통합:
+  - `42955828`(건강한 개·고양이 VFSS 종간 비교, 전향적 n=25) → `abdominal-imaging` (소제목 신설).
+  - `42955826`(개 intraspinal Spirocerca lupi 증례) → `spinal-imaging` (소제목 신설).
+  - `42932827`(개 SNA 합병 pneumocephalus 증례) → `head-neck-imaging` (소제목 신설).
+- 갱신된 주제: `abdominal-imaging` 8→9, `spinal-imaging` 7→8, `head-neck-imaging` 5→6. 신설 주제 없음.
+- 참고: PubMed 원자료의 DOI가 논문과 맞지 않는 값인 3편은 논문 페이지의 `doi`를 `""`로 두었음(원자료는 수정하지 않음).
+
+## 2026-11-02 수집 (2차)
+- `data/raw_papers.json`이 신규 10편으로 교체되어 재실행. 4편 처리, 6편 건너뜀. `raw/pdf/`에 PDF가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (모두 `data/skipped.json`에 기록): `42959708`(gelatin foam 치주 치료, CR·CBCT는 부수적 — 애매하여 제외), `42948621`(LISTEN 청진 연구, echo는 기준 진단용 — 애매하여 제외), `42948389`(mealworm 식이 FRE 증례), `42948017`(ESP block 사체 연구, 초음파·CT는 기법 도구 — 애매하여 제외), `42948705`(canine brain bank), `42936481`(고양이 장 협착 증례, 구체적 영상 소견 없음 — 애매하여 제외).
+- 신규 논문 페이지 4편 생성 및 주제 통합:
+  - `42939169`(heartworm 개 VRHi, 대조군 포함 진단 연구 n=54) → `cardiac-imaging`.
+  - `42952495`(ITP 개 subdural hemorrhage MRI 증례) → `neuro-imaging`.
+  - `42939121`(고양이 lymphovenous communication CT, 증례군 n=3) → `vascular-imaging`.
+  - `42944152`(discospondylitis 추적 CT, 후향적 n=32) → `spinal-imaging`.
+- 갱신된 주제: `cardiac-imaging` 17→18, `neuro-imaging` 13→14, `vascular-imaging` 3→4, `spinal-imaging` 6→7. 신설 주제 없음.
+- 참고: PubMed 원자료의 DOI가 논문과 맞지 않는 값인 4편은 논문 페이지의 `doi`를 `""`로 두었음(원자료는 수정하지 않음).
+
+## 2026-11-02 수집
+- `data/raw_papers.json` 10편 모두 처리, 0편 건너뜀. `raw/pdf/`에 PDF가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 신규 논문 페이지 10편 생성 및 주제 통합:
+  - `42963938`(토끼 isoflurane 마취 후 barium 위장관 통과, 실험 n=5) → `sedation-restraint-imaging` + `abdominal-imaging`.
+  - `42928047`(개 CTR 삽입 후 UBM, 전향적 n=23 eyes) → `head-neck-imaging`.
+  - `42950426`(TPLO monocortical screw 방사선 추적, 후향적 n=117), `42934855`(고양이 Exvet ESF, 후향적 n=35; 영상이 부수적이나 애매하여 포함) → `musculoskeletal-imaging`.
+  - `42934851`(고양이 head trauma plain vs contrast CT, 후향적 n=41), `42939195`(Jindo dog 총상 PMCT 증례) → `trauma-forensic-imaging`.
+  - `42939247`(고양이 IAT 연령 연관 MRI, 후향적 n=112) → `neuro-imaging`.
+  - `42960181`(개 sepsis FDG PET/CT 증례), `42951719`(개·고양이 핵의학 evidence map 종설) → `nuclear-medicine-imaging`.
+  - `42964095`(개 AGASACA PET/CT 증례) → `nuclear-medicine-imaging` + `oncologic-imaging`.
+- 주제 신설: `nuclear-medicine-imaging`(핵의학 영상). 사유: PET/CT 증례 2편과 핵의학 종설 1편이 한 번에 들어왔고(기존 64CuCl2 PET/CT 논문까지 계속 나오는 영역), 기존 주제 어디에도 맞지 않음. `CLAUDE.md` 주제 표에 행 추가.
+- `overview.md` 논문 수 갱신: `abdominal-imaging` 7→8, `musculoskeletal-imaging` 13→15, `neuro-imaging` 12→13, `sedation-restraint-imaging` 3→4, `trauma-forensic-imaging` 3→5, `head-neck-imaging` 4→5, `oncologic-imaging` 3→4, `nuclear-medicine-imaging` 신설 3편.
+- 참고: PubMed 원자료의 DOI가 논문과 맞지 않는 값인 3편(`42939247`, `42964095`, `42939195`)은 논문 페이지의 `doi`를 `""`로 두었음(원자료는 수정하지 않음). `42960181`은 원자료에 DOI 없음.
+
 ## 2026-10-26 수집 (2차)
 - `data/raw_papers.json`이 신규 6편으로 교체되어 재실행. 2편 처리, 4편 건너뜀. `raw/pdf/` 폴더가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
 - 건너뜀 (모두 `data/skipped.json`에 기록): `42914770`(QLB vs IP bupivacaine 진통제 소비량, 초음파는 차단 유도용), `42918707`(MMVD·MD 판막 조직병리/IHC, 영상 평가 없음), `42921832`(빈혈 고양이 murmur·gallop 청진 연구, echo는 부수적 — 애매하여 제외), `42907999`(CAP+PBM 창상 치유, 초음파는 여러 지표 중 하나 — 애매하여 제외).

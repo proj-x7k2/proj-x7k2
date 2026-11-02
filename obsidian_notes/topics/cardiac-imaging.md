@@ -1,7 +1,7 @@
 ---
 title: "심장·대혈관 영상"
 scope: "심초음파, 심장 CT, 대혈관"
-updated: 2026-10-26
+updated: 2026-11-02
 ---
 # 심장·대혈관 영상
 
@@ -52,7 +52,11 @@ Ventricular arrhythmia만 있고 conventional echocardiography가 정상인 stag
 ### Echocardiography로 확인한 고양이 aortic dissection과 지연성 bacterial endarteritis
 호흡곤란으로 내원한 14세 고양이에서 흉부 방사선은 두드러진 aortic arch 외 특이 소견이 없었으나 echocardiography로 ascending aorta 내 mobile flap에 의한 aortic dissection(AD), 경도 pericardial effusion(tamponade 동반), 좌심실 concentric hypertrophy가 확인된 증례보고가 있다 ([[papers/2026-42842764-aortic-dissection-endarteritis-cat|Lim 2026]]; 증례보고, n=1). 전신 고혈압 조절 후 단기적으로 호전되어 퇴원했으나 4개월 후 사망했고, 부검에서 7.6cm 길이의 aortic intimal flap과 심한 bacterial aortic endarteritis·sepsis가 확인되어, AD의 드문 지연성 합병증으로 감염성 endarteritis가 발생할 수 있음을 보여주었다 — 단일 증례에 근거한 제한적 근거.
 
+### Heartworm 감염견의 pulmonary hypertension 평가를 위한 Vertebral Right Heart Index(VRHi)
+Dirofilaria immitis 자연감염견 34마리와 건강 대조군 20마리에서 진정 없이 촬영한 thoracic radiograph로 VHS와 VRHi를 측정한 연구에서, VRHi는 세 군 간 유의하게 달랐고 echocardiography상 PH 고확률군에서 가장 높았으며 right-sided remodelling 지표와 유의한 상관을 보였다 ([[papers/2026-42939169-vertebral-right-heart-index-heartworm|Matos 2026]]; 대조군 포함 진단 연구, n=54). Right lateral projection VRHi의 AUC(0.835)는 가장 높았으나 기존 VHS(0.764)와 유의한 차이가 없어(DeLong p=0.519) 우월성은 입증되지 않았고, 보조적 radiographic parameter로 제안되었다 — 소규모 연구로 제한적 근거.
+
 ## 남은 질문
+- VRHi의 구체적 cut-off와 민감도·특이도, 그리고 VHS 대비 실제 진단적 이득이 있는지는 초록에 제시되지 않았고 표본이 작아(n=54) 알 수 없다. Heartworm 외 원인의 PH나 다른 지역·견종에서도 유지되는지도 확인되지 않았다.
 - 이 연구에서 도출된 소형견 전용 allometric 상수의 구체적 수치와 참고구간이 초록에 제시되지 않아, 원문 확인 없이는 임상 cut-off로 바로 사용하기 어렵다.
 - 중·대형 성장기 견종에 대해서도 유사한 품종별 재검증이 필요한지는 이 연구만으로는 알 수 없다.
 - Mitral-to-aortic VTI ratio의 구체적 cut-off 값과 stage C/D 개체에서의 성능은 표본이 적어 추가 검증이 필요하다.
@@ -90,3 +94,4 @@ Ventricular arrhythmia만 있고 conventional echocardiography가 정상인 stag
 - [[papers/2026-42858360-gls-doberman-dcm-arrhythmia]] — Doberman stage B1 DCM에서 GLS가 conventional echocardiography 정상임에도 subclinical systolic dysfunction 포착 (후향적 연구, n=126)
 - [[papers/2026-42842764-aortic-dissection-endarteritis-cat]] — 고양이 aortic dissection, echocardiography로 ascending aorta flap 확인 후 bacterial endarteritis로 지연 사망 (증례보고, n=1)
 - [[papers/2026-42914951-contrast-echocardiography-feline-lv-wall-thickness]] — 고양이 LVWT를 C-Echo로 측정하면 S-Echo보다 작게 나오고 repeatability가 더 좋음, accuracy는 미평가 (전향적 연구, n=50)
+- [[papers/2026-42939169-vertebral-right-heart-index-heartworm]] — Heartworm 감염견에서 VRHi가 PH 고확률군에서 가장 높았으나 VHS 대비 AUC 차이는 유의하지 않음 (대조군 포함 진단 연구, n=54)

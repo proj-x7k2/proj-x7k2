@@ -1,7 +1,7 @@
 ---
 title: "혈관 영상·중재"
 scope: "문맥전신단락, 혈관 기형, 중재 시술"
-updated: 2026-10-14
+updated: 2026-11-02
 ---
 # 혈관 영상·중재
 
@@ -16,7 +16,11 @@ CVC를 압박하거나 침범해 기존 collateral venous return이 없던 right
 ### 전립선 종양의 혈관 내 중재(PAE) 후 장기 영상 경과
 예후가 불량한 개 prostatic carcinoma에서 minimally invasive 중재 시술인 prostatic artery embolization(PAE) 후 약 900일간 CT·US로 추적한 증례보고에서, PAE 후 전립선 실질 용적이 약 33% 감소해 Day 481까지 안정적으로 유지되었고 심각한 PAE 관련 합병증은 없었다 ([[papers/2026-42866543-prostatic-artery-embolization-ct-us-followup|Isshiki 2026]]; 증례보고, n=1 — 전립선 영상 소견 상세는 [[topics/urogenital-imaging]] 참고). 저자들은 이 사례가 개에서 PAE 후 가장 긴 time-course 영상 보고라고 밝혔으며, PAE가 general veterinary practice에서도 시행 가능한 minimally invasive 치료 대안이 될 수 있음을 시사했다 — 단일 증례에 근거한 제한적 근거.
 
+### 고양이 의심 lymphovenous communication의 CT 소견
+Contrast-enhanced CT에서 portal venous tributary(splenic vein 2마리, cranial mesenteric vein 1마리)에서 cisterna chyli로 이어지는 dilated, tortuous vessel을 보인 고양이 3마리의 후향적 증례군에서, cisterna chyli와 thoracic duct가 모두 확장·조영증강되었고 communication 이전의 portal vein 직경이 감소했으며 흉수/복수·피하 부종이 동반되고 2마리에서 chylous pleural effusion이 확인되었다 ([[papers/2026-42939121-ct-lymphovenous-communications-cats|Librán-Ferreira 2026]]; 증례군, n=3). 저자들은 후천적 portal/lymphatic hemodynamic 이상에 반응한 기존 경로의 확장일 수 있으나 선천성 가능성도 배제할 수 없다고 했다 — 증례 3예에 근거한 제한적 근거.
+
 ## 남은 질문
+- 고양이 lymphovenous communication의 병인(후천성 vs 선천성), 발생 빈도, 치료 방침과 예후는 증례 3예로는 알 수 없고, CT 소견을 확진할 기준검사도 초록에 제시되지 않았다.
 - Staged CVC occlusion의 적용 가능 범위(종양 크기·침범 길이의 한계, 폐쇄 실패·측부순환 형성 실패 위험 요인)는 증례 2예만으로는 알 수 없다.
 - 이 술기가 다른 CVC 침범 종양(예: adrenal tumor, other vascular invasive neoplasm)에도 적용 가능한지는 확인되지 않았다.
 - Vertebral vascular hamartoma의 전형적 MRI·CT 소견과 완전 절제 여부를 술 전에 예측할 수 있는지는 단일 증례만으로는 알 수 없다.
@@ -26,3 +30,4 @@ CVC를 압박하거나 침범해 기존 collateral venous return이 없던 right
 - [[papers/2026-42770669-staged-caval-occlusion-hepatectomy]] — CVC 침범 HCC 개 2마리에서 staged CVC occlusion 후 en bloc 절제 성공, 장기 생존 (증례보고, n=2)
 - [[papers/2026-42781373-vertebral-vascular-hamartoma-cat]] — 고양이 vertebral vascular hamartoma의 반복 영상·수술로 재성장 확인 (증례보고, n=1)
 - [[papers/2026-42866543-prostatic-artery-embolization-ct-us-followup]] — 개 prostatic carcinoma PAE 후 900일 CT·US 추적, 전립선 용적 33% 감소 후 안정 (증례보고, n=1)
+- [[papers/2026-42939121-ct-lymphovenous-communications-cats]] — 고양이 3마리에서 portal tributary→cisterna chyli 연결 혈관과 thoracic duct 확장을 CT로 기술 (증례군, n=3)

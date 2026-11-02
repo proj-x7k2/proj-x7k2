@@ -1,27 +1,27 @@
-# 점검 보고서 — 2026-10-07
+# 점검 보고서 — 2026-11-02
 
 ## 점검 범위
-논문 페이지 62편, 주제 페이지 15편(endocrine-imaging 포함) 전체를 대상으로 다음을 확인:
-- 논문 ↔ 주제 양방향 링크(frontmatter `topics`, 본문 "관련 주제", 주제 페이지 "관련 논문")
-- 끊어진 `[[...]]` 링크
-- 메타데이터 통제 어휘(species/modality/system/study_type) 준수, `tags` = species+modality+system 합집합 여부
-- overview.md 주제 목록·논문 수가 실제와 일치하는지
-- 주제 종합 문단의 근거 표기(논문 링크 + 연구유형·n) 누락 여부, 상충 근거 미표시 여부
-- 논문 1~2편 주제의 병합 적합성
+논문 페이지 101편, 주제 페이지 16편(nuclear-medicine-imaging 포함), digests 2편, overview.md, log.md.
+(Python 스크립트 실행이 승인되지 않아 Grep/grep 집계와 개별 열람으로 점검함.)
 
 ## 바로 고친 것
-- **overview.md에 `endocrine-imaging` 주제 항목이 빠져 있었음.** `topics/endocrine-imaging.md`와 논문 `papers/2026-42815534-ct-perfusion-pheochromocytoma.md`는 정상적으로 서로 링크되어 있었으나, 지난 수집 때 overview.md 목록 갱신에서만 누락됨. "주요 주제" 목록 끝에 `- [[topics/endocrine-imaging]] — 부신, 갑상선, 부갑상선, 뇌하수체 영상 (논문 1편)` 한 줄을 추가함.
+- `topics/sedation-restraint-imaging.md`: "현재까지의 종합" 첫 문장에 근거 표기가 없어 Liu 2026 링크와 (후향적 연구, n=93)을 추가함.
+- 같은 파일 "남은 질문" 목록 중간의 빈 줄 제거(목록이 둘로 갈라져 있었음).
 
 ## 점검 결과 — 이상 없음
-- **링크 정합성**: 논문 62편 전원이 frontmatter `topics`에 적힌 모든 주제 페이지로부터 역링크를 받고 있고, 주제 페이지 15편 각각의 "관련 논문" 목록이 그 주제를 참조하는 논문 집합과 정확히 일치함(논문-주제 연결 73건 전수 대조, 끊어진 링크·한쪽만 걸린 링크 0건).
-- **메타데이터**: species/modality/system/study_type 값 전부가 CLAUDE.md 통제 어휘 목록 안에 있고, `tags`는 모든 논문에서 species+modality+system의 합집합과 정확히 일치함. `sample_size`가 빈 문자열인 경우(예: `42746025`, `42797990`)는 초록에 표본 수가 명시되지 않은 경우로, 스키마상 허용된 처리임.
-- **주제 종합 문단**: 15개 주제 페이지 전체를 읽고 "관련 논문" 목록과 본문 인용을 대조한 결과, 핵심 주장마다 논문 링크와 (연구유형, n)이 달려 있었고 근거 표기가 빠진 문장은 발견되지 않음. 명백히 상충되는데 "## 상충되는 근거"에 표시되지 않은 내용도 없었음.
-- **raw/, data/papers.json, data/topics.json, website/**: 이번 점검에서 열람만 하고 수정하지 않음.
+- **링크**: 논문·주제·digests·overview·log에서 참조된 `[[papers/...]]` 대상이 정확히 101개이며 모두 실제 파일과 일치(끊어진 링크 없음). `[[queries/...]]` 참조 없음.
+- **양방향 연결**: 주제별 frontmatter `topics` 집계와 주제 페이지 "관련 논문" 항목 수가 16개 주제 모두 일치(합계 117건). 각 논문 파일에 `관련 주제:` 줄이 있음. 신규 17편은 개별 열람해 `topics` ↔ 주제 페이지 링크 확인.
+- **overview.md**: 16개 주제 모두 있고 논문 수가 실제와 일치(abdominal 9, musculoskeletal 15, cardiac 18, neuro 14, technique 7, AI 7, trauma 5, spinal 8, urogenital 7, sedation 4, thoracic 3, vascular 4, head-neck 6, oncologic 4, nuclear 3, endocrine 3).
+- **메타데이터**: 101편 모두 `starred`, `evidence_basis`, `added_on` 형식 정상. study_type·species·modality·system 값 전부 통제 어휘 안. 신규 17편은 `tags` = species+modality+system 합집합 확인(기존 84편은 10-07 점검 이후 변경 없음).
+- **log.md**: 최신순 유지. (`data/skipped.json` 형식 검증은 스크립트 승인 문제로 하지 못함.)
+- **상충되는 근거**: 이번 수집분에서 기존 결론과 충돌하는 내용은 찾지 못함.
 
-## 판단이 필요해 제안으로 남기는 것 (직접 병합하지 않음)
-- `endocrine-imaging`(논문 1편)과 `oncologic-imaging`(논문 1편)은 논문 수가 가장 적은 주제이지만, 둘 다 CLAUDE.md 주제 체계 표에 원래부터 있던 계통 교차형 주제(내분비, 종양 영상 원칙)로 다른 주제의 소제목으로 흡수하기엔 범위가 뚜렷이 다름(부신/갑상선/뇌하수체, 병기·전이 평가는 특정 장기계통 주제와 겹치지 않음). 지금 병합하기보다 다음 1~2회 수집에서 논문이 더 들어오는지 지켜보는 것을 권장함.
-- `sedation-restraint-imaging`, `thoracic-imaging`, `vascular-imaging`, `head-neck-imaging`(각 2편)도 논문 수가 적지만 모두 CLAUDE.md 표의 공식 주제이고 서로 범위가 겹치지 않아, 병합 대상으로 보지 않음.
+## 한계
+주제 페이지 16편 중 nuclear-medicine, oncologic, sedation-restraint는 전문을 읽었고, 나머지는 근거 표기가 없는 줄을 패턴 검색으로 훑었음. 문장 단위의 의미 점검(미표시 상충 등)은 전수하지 못함.
 
-## 요약
-- 고친 것: overview.md 주제 목록에 `endocrine-imaging` 1줄 추가.
-- 제안: 없음(구조 변경 필요 사항 미발견). 논문 1편뿐인 `endocrine-imaging`·`oncologic-imaging`은 당장 병합하지 말고 추이만 지켜보자는 관찰 메모만 남김.
+## 판단이 필요해 제안으로 남기는 것 (직접 바꾸지 않음)
+1. **`2026-42876319-64cucl2-pet-ct-feline-mammary-carcinoma`를 `nuclear-medicine-imaging`에도 연결할지.** 이 논문은 modality에 `nuclear-medicine`이 있으나 `topics`는 `oncologic-imaging` 하나뿐이고, 핵의학 주제 페이지는 "oncologic-imaging 참고"로만 언급함. 2번째 주제로 추가하면 핵의학 주제가 3→4편이 되고 64CuCl2 근거가 한곳에서 보임.
+2. **`2026-42150942-ai-assisted-radiograph-interpretation`의 `species: []`.** 종 특정이 없는 종설이라 빈 값 자체는 허용되지만 웹사이트 종 필터에서 빠질 수 있음. 초록을 확인해 `dog`/`cat`을 넣을지 결정 필요.
+3. **논문 3~4편 주제**(thoracic, endocrine, nuclear-medicine 각 3편; vascular, sedation-restraint, oncologic 각 4편)는 모두 CLAUDE.md 표의 공식 주제이고 범위가 겹치지 않아 병합하지 않음. 다음 점검까지 추이만 관찰 권장.
+4. **"(아직 없음)" 자리표시자.** musculoskeletal, abdominal, neuro 3개 주제의 "## 상충되는 근거"에 "(아직 없음)"이 적혀 있음. 스키마는 "있을 때만"이라 제목째 지워도 되지만, 의도된 표기일 수 있어 그대로 둠.
+5. **DOI 공란 논문.** 수집 로그상 PubMed 원자료의 DOI가 논문과 맞지 않아 `doi: ""`로 둔 논문이 다수임. raw/는 수정 불가이므로 필요하면 사용자가 원문에서 확인해 채워야 함.

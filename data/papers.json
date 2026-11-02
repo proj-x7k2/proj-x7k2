@@ -1,5 +1,758 @@
 [
   {
+    "pmid": "42964095",
+    "title": "Case Report: 18F-FDG PET/CT findings and SUVmax characterization in a dog with apocrine gland anal sac adenocarcinoma.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Bohyeon Shim",
+      "Yujin Kim",
+      "Sungin Lee"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42964095/",
+    "doi": "",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42964095-fdg-pet-ct-anal-sac-adenocarcinoma",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "nuclear-medicine",
+      "CT"
+    ],
+    "system": [
+      "oncology"
+    ],
+    "topics": [
+      "nuclear-medicine-imaging",
+      "oncologic-imaging"
+    ],
+    "tags": [
+      "dog",
+      "nuclear-medicine",
+      "CT",
+      "oncology"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "우측 anal sac mass와 림프절 전이가 의심된 10세 중성화 수컷 Maltese에서 수술 전 18F-FDG PET/CT를 시행했다. 원발 종괴(SUVmax 7.3), internal iliac lymph node(SUVmax 6.35), lumbar aortic lymph node(SUVmax 4.3)에서 uptake가 증가했고 원격 전이는 없어 Stage IIIa로 분류했다. 복강 내 lymphadenectomy와 우측 anal sacculectomy 후 조직병리에서 원발 종괴와 절제한 림프절의 전이성 adenocarcinoma가 확인되었다. 저자들은 AGASACA에서 PET/CT 소견과 SUVmax를 처음 보고했다고 밝혔다.",
+    "summary_en": "A 10-year-old castrated Maltese with a right anal sac mass underwent preoperative 18F-FDG PET/CT, showing increased uptake in the primary mass (SUVmax 7.3), internal iliac lymph node (6.35) and lumbar aortic lymph node (4.3) without distant metastasis (Stage IIIa). After lymphadenectomy and sacculectomy, histopathology confirmed AGASACA with metastatic adenocarcinoma in the resected nodes. The authors suggest PET/CT may provide complementary metabolic information for preoperative nodal staging.",
+    "clinical_takeaway_ko": "AGASACA에서 CT로 크기만 보던 sublumbar·internal iliac 림프절 평가에 FDG uptake 정보를 더할 수 있다는 가능성을 보여주는 증례다. 단일 증례이므로 SUVmax로 전이 여부를 판정하는 기준으로 쓸 수는 없다."
+  },
+  {
+    "pmid": "42963938",
+    "title": "Evaluation of the Effects of Isoflurane Anaesthesia on Gastrointestinal Transit Time, Feed Intake and Defecation in Rabbits.",
+    "journal": "Veterinary medicine and science",
+    "year": "2026",
+    "authors": [
+      "Amir Zarein",
+      "Amir Rostami",
+      "Majid Masoudifard",
+      "Saeed Farzad-Mohajeri",
+      "Alireza Bahonar",
+      "Haniyeh Naghdi Liyeh",
+      "Zahra Sohani"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42963938/",
+    "doi": "10.1002/vms3.71272",
+    "study_type": "실험 연구",
+    "sample_size": "5",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42963938-isoflurane-gi-transit-rabbits",
+    "species": [
+      "rabbit"
+    ],
+    "modality": [
+      "radiography",
+      "contrast-study"
+    ],
+    "system": [
+      "gastrointestinal",
+      "sedation-restraint"
+    ],
+    "topics": [
+      "sedation-restraint-imaging",
+      "abdominal-imaging"
+    ],
+    "tags": [
+      "rabbit",
+      "radiography",
+      "contrast-study",
+      "gastrointestinal",
+      "sedation-restraint"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "건강한 성체 수컷 New Zealand White 토끼 5마리를 대상으로, 무마취(대조)와 isoflurane 마취 15분·30분·60분의 4개 조건을 6일 washout을 두고 반복 측정했다. Barium sulphate contrast radiography로 gastric transit time, small intestinal transit time, hard feces 형성 시간을 평가했고, 마취 후 6일간 feed intake와 faecal output도 기록했다. Small intestinal transit time은 조건 간 전반적 차이가 있었으나(Friedman p=0.015) 마취군과 무마취 대조 간 pairwise 비교는 모두 유의하지 않았고, 나머지 지표에는 차이가 없었다.",
+    "summary_en": "Five healthy male New Zealand White rabbits underwent a repeated-measures study with awake control and 15-, 30- and 60-min isoflurane anaesthesia, separated by 6-day washouts. GI transit was assessed with barium contrast radiography, and feed intake and faecal output were recorded for 6 days. Small intestinal transit time differed overall (p = 0.015), but no anaesthesia group differed significantly from the awake control; gastric transit, time to hard faeces, feed intake and faecal output were unchanged.",
+    "clinical_takeaway_ko": "최대 60분의 isoflurane 마취가 건강한 토끼의 위장관 통과시간·식욕·분변량에 뚜렷한 영향을 준다는 근거는 이 연구에서 확인되지 않았다. 다만 n=5이므로 \"영향 없음\"의 증거로 보기는 어렵고, 토끼 CT/MRI 마취 후 GI stasis 모니터링은 기존대로 유지하는 것이 안전하다."
+  },
+  {
+    "pmid": "42960181",
+    "title": "Clinical and 18F-FDG PET/CT imaging features in a dog with bacterial sepsis of unknown origin.",
+    "journal": "The Canadian veterinary journal = La revue veterinaire canadienne",
+    "year": "2026",
+    "authors": [
+      "Michael Perkel",
+      "Fernanda M Uribe",
+      "Alexandra F Belotta",
+      "Moira Kerr",
+      "Ahmad Al-Dissi",
+      "Elisabeth C Snead"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42960181/",
+    "doi": "",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42960181-fdg-pet-ct-sepsis-dog",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "nuclear-medicine",
+      "CT"
+    ],
+    "system": [
+      "abdomen",
+      "musculoskeletal"
+    ],
+    "topics": [
+      "nuclear-medicine-imaging"
+    ],
+    "tags": [
+      "dog",
+      "nuclear-medicine",
+      "CT",
+      "abdomen",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "Severe neutropenia와 hypoglycemia로 obtunded 상태였던 12세 개에서 sepsis 의심 하에 18F-FDG PET/CT를 시행했다. 좌측 carpus·tarsus의 patchy FDG avidity(SUVmax 7.18, 5.58), 비장·간의 heterogeneous hypermetabolism(SUVmax 3.42), 양측 신장 hypermetabolism(SUVmax 6.22, FDG excretion 없음), 전 골수강의 diffuse uptake(SUVmax 15.47), 경미한 전신 lymphadenopathy가 확인되었다. 혈액배양으로 sepsis가 확진되었으나 치료에도 악화되어 안락사했고, 부검에서 heart·spleen·brain·liver의 necrotizing vasculitis와 thrombosis 등 septicemia에 합당한 소견이 확인되었다.",
+    "summary_en": "A 12-year-old dog presented obtunded with severe neutropenia and hypoglycemia. 18F-FDG PET/CT showed FDG avidity in the left carpus and tarsus, spleen, liver, kidneys (without appropriate FDG excretion), diffuse bone marrow uptake (SUVmax 15.47) and mild generalized lymphadenopathy. Blood cultures confirmed sepsis; the dog was euthanized after deterioration, and necropsy showed necrotizing vasculitis with thrombosis consistent with disseminated septicemia. The authors describe this as the first such report with necropsy correlation.",
+    "clinical_takeaway_ko": "원인 불명 sepsis 환자에서 PET/CT는 전신 감염 병소의 분포를 한 번에 보여줄 수 있으나, 단일 증례이므로 일상적 검사로 권고할 근거는 아니다. 접근 가능한 시설이라면 immunocompromised 환자의 보조 검사로 고려할 수 있는 수준이다."
+  },
+  {
+    "pmid": "42955828",
+    "title": "A species comparison of videofloroscopic metrics of swallowing in healthy dogs and cats.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Megan Grobman",
+      "Elizabeth Luciani",
+      "Carol Reinero"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42955828/",
+    "doi": "",
+    "study_type": "전향적 연구",
+    "sample_size": "25",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42955828-videofluoroscopic-swallowing-dogs-cats",
+    "species": [
+      "dog",
+      "cat"
+    ],
+    "modality": [
+      "fluoroscopy",
+      "contrast-study"
+    ],
+    "system": [
+      "gastrointestinal"
+    ],
+    "topics": [
+      "abdominal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "cat",
+      "fluoroscopy",
+      "contrast-study",
+      "gastrointestinal"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "임상 증상이 없는 건강한 성체 고양이 13마리와 개 12마리에서 표준화된 videofluoroscopic swallow study(VFSS)를 시행하고 16개 objective metric을 종간 비교했다. 고양이는 개보다 inter-swallow interval이 길고 pharyngeal transit time이 짧았으며, primary peristalsis를 만들기 위해 필요한 pharyngeal swallow 횟수가 더 많았다(P<.05). 또한 고양이에서 esophageal volume accumulation과 distal esophageal transit time 지연이 더 흔했다(P<.05). Physiologic reflux는 고양이 2마리(15.4%), 개 6마리(50%)에서 확인되었고, 고양이 1마리에서는 호흡기·소화기 증상이 없었음에도 기침 없는 aspiration(P-A score 7)이 관찰되었다.",
+    "summary_en": "Standardized VFSS was performed in 13 healthy cats and 12 healthy dogs and 16 objective metrics were compared between species. Cats had longer inter-swallow intervals, shorter pharyngeal transit times and needed more pharyngeal swallows to generate primary peristalsis, and were more likely to show esophageal volume accumulation and slowed distal esophageal transit (all P<.05). Physiologic reflux occurred in 15.4% of cats vs 50% of dogs. One asymptomatic cat showed occult tracheal aspiration of contrast (P-A score 7) without cough.",
+    "clinical_takeaway_ko": "고양이 VFSS를 개 기준값으로 판독하면 pharyngeal transit이 짧은 것이나 distal esophageal 지연·volume accumulation을 이상으로 과대해석할 수 있으므로, 고양이 정상 범위를 따로 염두에 두어야 한다. 무증상 고양이에서도 silent aspiration이 있을 수 있어, 기침 유무만으로 aspiration을 배제하지 말고 영상에서 직접 penetration-aspiration을 확인하는 것이 좋다."
+  },
+  {
+    "pmid": "42955826",
+    "title": "Multimodal imaging characteristics and case management of intraspinal Spirocerca lupi infection in a dog.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Alyssa J Carrillo",
+      "Federico R Vilaplana Grosso",
+      "Heather D S Walden",
+      "Oscar Alas",
+      "Gabriel A Garcia"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42955826/",
+    "doi": "",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42955826-intraspinal-spirocerca-lupi-dog",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography",
+      "MRI",
+      "ultrasound",
+      "CT"
+    ],
+    "system": [
+      "spine",
+      "thorax"
+    ],
+    "topics": [
+      "spinal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "MRI",
+      "ultrasound",
+      "CT",
+      "spine",
+      "thorax"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "T3-L3 neurolocalization의 paraparesis와 proprioceptive ataxia를 보인 1세 중성화 암컷 믹스견의 증례다. Thoracic radiograph에서 caudal mediastinal mass, pneumothorax, pleural effusion이 있었고, MRI에서 vertebral canal로 연장되는 다발성 mediastinal mass, T5-T6 extradural compression, T5·T9 intramedullary T2 hyperintensity, esophageal compression·dilation, aortic aneurysmal dilation이 확인되었다. Transdiaphragmatic ultrasonography가 기생충 감염을 시사했고, 우측 T5-T8 hemilaminectomy와 parasitology로 Spirocerca lupi가 확진되었다. Ivermectin, prednisone, clindamycin 치료 후 2개월에 독립 보행을 회복했으며, 추적 CT에서 mediastinal·esophageal nodule은 소실되었으나 aortic aneurysmal dilation은 진행했다.",
+    "summary_en": "A 1-year-old spayed mixed-breed dog with T3-L3 myelopathy had a caudal mediastinal mass, pneumothorax and pleural effusion on radiographs. MRI showed multiple mediastinal masses extending into the vertebral canal with T5-T6 extradural compression, intramedullary T2 hyperintensities, esophageal compression/dilation and aortic aneurysmal dilation. Hemilaminectomy and parasitology confirmed Spirocerca lupi. After ivermectin, prednisone and clindamycin the dog regained independent ambulation at 2 months; follow-up CT showed resolution of mediastinal and esophageal nodules but progressive aortic aneurysmal dilation.",
+    "clinical_takeaway_ko": "유행 지역 또는 여행력이 있는 젊은 개에서 흉수 myelopathy와 caudal mediastinal mass, esophageal 변화가 함께 보이면 spirocercosis를 감별에 넣고 척추관 연장 여부를 MRI로 확인할 가치가 있다. 치료 후에도 aortic aneurysm이 진행할 수 있으므로 nodule이 사라진 뒤에도 대혈관 추적 영상을 계획하는 것이 좋다."
+  },
+  {
+    "pmid": "42952495",
+    "title": "Case Report: Presumptive subdural hemorrhage as a rare neurological manifestation of primary immune-mediated thrombocytopenia in a dog.",
+    "journal": "Frontiers in veterinary science",
+    "year": "2026",
+    "authors": [
+      "Hsuan-Ping Hong",
+      "Tiffany G Kei",
+      "Nicole A Gagnon",
+      "Peter V Scrivani"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42952495/",
+    "doi": "",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42952495-subdural-hemorrhage-immune-thrombocytopenia-dog",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "neuro"
+    ],
+    "topics": [
+      "neuro-imaging"
+    ],
+    "tags": [
+      "dog",
+      "MRI",
+      "neuro"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "발작과 급성 진행성 intracranial sign을 보인 10세 중성화 암컷 믹스견에서 ecchymoses, petechiae, 양측 retinal hemorrhage와 심한 thrombocytopenia(9 × 10³/μL)가 확인되어 primary immune-mediated thrombocytopenia(ITP)로 진단되었다. Brain MRI에서 양측 cerebral hemisphere를 덮는 minimally expanded crescent 모양의 extra-axial fluid accumulation이 보였고, T1-weighted·T2-weighted hyperintensity와 T2*-weighted GRE의 peripheral susceptibility artifact를 근거로 late subacute subdural hemorrhage로 진단했다. 마취·회복은 순조로웠으나 이후 급성 신경학적 악화와 cardiopulmonary arrest가 와서 사망했으며, 지속 출혈 또는 brain herniation이 의심되었다.",
+    "summary_en": "A 10-year-old spayed mixed-breed dog with seizures and progressive intracranial signs had severe thrombocytopenia (9 × 10³/μL) and was diagnosed with primary ITP. MRI showed bilateral crescent-shaped extra-axial fluid over both cerebral hemispheres, T1W/T2W hyperintense with peripheral susceptibility artifact on T2*-GRE, consistent with late subacute subdural hemorrhage. After uneventful anesthesia the dog deteriorated acutely and died of cardiopulmonary arrest, suspected from ongoing hemorrhage or herniation.",
+    "clinical_takeaway_ko": "혈소판 감소가 의심되는 개에서 발작·진행성 신경 징후가 있으면 MRI에 T2*-weighted GRE(또는 SWI)를 반드시 포함해 subdural/extra-axial hemorrhage를 확인하고, 혈소판 수치가 확인되기 전에는 MRI 마취 전 platelet count를 먼저 확보하는 것이 좋다. 이 증례처럼 마취 후 급격히 악화될 수 있어 보호자에게 위험을 미리 설명해야 한다(이 부분은 일반 임상 판단이며 초록이 직접 제시한 권고는 아니다)."
+  },
+  {
+    "pmid": "42951719",
+    "title": "Companion animal nuclear medicine: A translational evidence map for dogs and cats.",
+    "journal": "Seminars in nuclear medicine",
+    "year": "2026",
+    "authors": [
+      "Shiphrah Becker",
+      "Peter Tually",
+      "Geoffrey M Currie"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42951719/",
+    "doi": "10.1053/j.semnuclmed.2026.10.005",
+    "study_type": "종설",
+    "sample_size": "",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42951719-companion-animal-nuclear-medicine-evidence-map",
+    "species": [
+      "dog",
+      "cat"
+    ],
+    "modality": [
+      "nuclear-medicine"
+    ],
+    "system": [
+      "technique",
+      "oncology",
+      "endocrine"
+    ],
+    "topics": [
+      "nuclear-medicine-imaging"
+    ],
+    "tags": [
+      "dog",
+      "cat",
+      "nuclear-medicine",
+      "technique",
+      "oncology",
+      "endocrine"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "PubMed(MEDLINE)와 Web of Science 등을 검색한 PRISMA 기반 systematic evidence map으로, 개·고양이의 nuclear medicine imaging 및 radionuclide therapy 문헌 228편을 정리했다. 176편은 imaging만, 34편은 therapy만, 18편은 둘 다를 다뤘다. 고양이는 thyroid scintigraphy와 radioiodine therapy가, 개는 oncology PET/CT, osteosarcoma, renal·hepatobiliary functional scintigraphy, portosystemic shunt imaging, neurology 영상, thyroid carcinoma, radiosynoviorthesis 등이 주를 이뤘다. 연구 간 이질성 때문에 meta-analysis는 시행하지 않았다.",
+    "summary_en": "This PRISMA-aligned systematic evidence map included 228 articles on nuclear medicine imaging and radionuclide therapy in dogs and cats (176 imaging-only, 34 therapy-only, 18 both). Feline work centred on thyroid scintigraphy and radioiodine therapy; canine work was broader, with PET/CT most prominent in oncology. Because of heterogeneity, no meta-analysis was performed. The authors conclude that feline thyroid scintigraphy/radioiodine is the most mature application, while canine oncology, molecular imaging and radiotheranostics are the most dynamic future directions.",
+    "clinical_takeaway_ko": "고양이 갑상선 질환 외에는 개 종양 PET/CT를 포함해 근거가 아직 성장 중인 영역이므로, 핵의학 의뢰를 고려할 때 고양이 hyperthyroidism의 scintigraphy·radioiodine이 가장 확립된 선택지라는 정도로 이해하면 된다. 초록에 효과 크기나 민감도 수치는 없다."
+  },
+  {
+    "pmid": "42950426",
+    "title": "Monocortical locking screws in the tibial diaphysis maintain tibial plateau angle and support osteotomy union after tibial plateau leveling osteotomy in dogs.",
+    "journal": "Journal of the American Veterinary Medical Association",
+    "year": "2026",
+    "authors": [
+      "Nadia Wong",
+      "Louisa Ho Eckart",
+      "Jane Yu",
+      "Seth Bleakley",
+      "Kieri Jermyn",
+      "Jacob Michelsen",
+      "Rui Sul",
+      "James Iversen",
+      "Wye Li Chong"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42950426/",
+    "doi": "10.2460/javma.26.07.0543",
+    "study_type": "후향적 연구",
+    "sample_size": "117",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42950426-monocortical-locking-screws-tplo",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "musculoskeletal"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "Cranial cruciate ligament insufficiency로 TPLO를 받고 distal tibial segment에 monocortical screw를 사용한 개 117마리의 방사선 추적을 후향적으로 검토했다. 술 후와 추적 방사선 사이 tibial plateau angle(TPA) 변화의 중앙값은 2.15°(95% CI 1.70-2.65°)였고 어떤 변수도 TPA 변화와 연관되지 않았다. 평균 43일 추적에서 modified RUST 중앙값은 10(범위 4-12)으로 방사선상 만족스러운 union이었으며, 전체 합병증률은 8.5%(감염 2.6%)였다.",
+    "summary_en": "In a retrospective review of 117 dogs undergoing TPLO with monocortical distal tibial locking screws (titanium conical locking system), median change in tibial plateau angle during healing was 2.15° (95% CI 1.70-2.65°), with no variables associated with the change. Median mRUST was 10 at a mean follow-up of 43 days, and the overall complication rate was 8.5% (infection 2.6%).",
+    "clinical_takeaway_ko": "이 titanium conical locking 시스템에서는 monocortical distal screw로도 TPA가 5° 미만으로 유지되고 방사선상 union이 만족스러웠으므로, 술후 방사선에서 TPA 변화 2° 안팎은 예상 범위로 볼 수 있다. 다른 임플란트 시스템에는 적용할 수 없다."
+  },
+  {
+    "pmid": "42944152",
+    "title": "Clinical Relevance of Routine Follow-Up Computed Tomography in Dogs with Presumed Discospondylitis: A Retrospective Study.",
+    "journal": "Veterinary sciences",
+    "year": "2026",
+    "authors": [
+      "Eva Ingelaere",
+      "Laurent Blond",
+      "Robin Cavalerie",
+      "Antoine Dunié-Mérigot",
+      "Clément Baudin-Tréhiou"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42944152/",
+    "doi": "",
+    "study_type": "후향적 연구",
+    "sample_size": "32",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42944152-follow-up-ct-discospondylitis-dogs",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "spine"
+    ],
+    "topics": [
+      "spinal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "spine"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "Discospondylitis가 의심된 개 32마리의 초기·추적 CT를 board-certified 영상의학 전문의 2인이 독립적으로 판독하고, 사전 정의한 CT 이상 소견의 변화를 합쳐 CT Evolution Score로 만들어 임상 결과와의 연관을 보았다. 개별 CT 소견의 interobserver agreement는 fair~substantial, CT Evolution Score의 신뢰도는 moderate(ICC=0.72)였다. 임상 결과가 좋은 개는 paravertebral soft tissue abnormality(p<0.001)와 presumptive spinal epidural empyema(p=0.002)의 변화가 더 호전적이었던 반면 osseous change는 차이가 없었다. CT Evolution Score는 좋은 결과군에서 높았고(p=0.010), 나쁜 결과의 odds 감소와 연관되었으며(OR 0.40; 95% CI 0.17-0.91; p=0.029), 판별력은 AUC 0.87이었다.",
+    "summary_en": "Initial and follow-up CT of 32 dogs with suspected discospondylitis were reviewed independently by two board-certified radiologists, and changes in predefined abnormalities were combined into a CT Evolution Score (ICC 0.72). Favourable changes in paravertebral soft tissue (p<0.001) and presumptive epidural empyema (p=0.002), but not osseous changes, were associated with good outcome. A higher score was associated with lower odds of poor outcome (OR 0.40, 95% CI 0.17-0.91) and showed AUC 0.87. Follow-up CT may add information, particularly when clinical improvement is incomplete or unfavourable.",
+    "clinical_takeaway_ko": "임상적으로 잘 호전되는 discospondylitis에서는 추적 CT를 일률적으로 찍을 필요가 크지 않고, 호전이 불완전하거나 악화될 때 paravertebral soft tissue와 epidural empyema 변화를 중심으로 보는 것이 유용해 보인다. 뼈 변화(osseous change)는 결과와 무관했으므로 추적 시 lysis/sclerosis가 남아 있다는 이유만으로 치료 실패로 해석하지 않는 편이 안전하다."
+  },
+  {
+    "pmid": "42939247",
+    "title": "Age-Related Decrease in Interthalamic Adhesion Thickness in Cats Without Apparent Cognitive Dysfunction.",
+    "journal": "Animals : an open access journal from MDPI",
+    "year": "2026",
+    "authors": [
+      "Réjane Kerbrat-Copy",
+      "Océane Thérier",
+      "Marion Fusellier"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42939247/",
+    "doi": "",
+    "study_type": "후향적 연구",
+    "sample_size": "112",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42939247-interthalamic-adhesion-thickness-cats-age",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "neuro"
+    ],
+    "topics": [
+      "neuro-imaging"
+    ],
+    "tags": [
+      "cat",
+      "MRI",
+      "neuro"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "4개월~18세 client-owned 고양이 112마리의 MRI를 후향적으로 검토해, 두 명의 맹검 판독자가 transverse T1W·T2W 영상에서 interthalamic adhesion thickness(IAT)를 측정했다. 연령은 IAT와 음의 연관을 보였고(T1W B=-0.071 mm/year, T2W B=-0.067 mm/year; 모두 p<0.001), 뇌 높이·너비, 성별/중성화, 품종군, 스캐너 보정 후와 kitten 또는 brachycephalic 제외 후에도 유지되었다. Senior(≥11세) 고양이는 다른 모든 연령군보다 IAT가 낮았다. 저자들은 개체 수준의 진단 도구가 아니라 집단 수준의 연관이라고 강조했다.",
+    "summary_en": "In 112 client-owned cats (4 months-18 years) without intracranial lesions or reported cognitive changes, IAT measured on transverse T1W and T2W MRI declined with age (about -0.07 mm/year on both sequences, p<0.001), robust to multivariable adjustment and to excluding kittens or brachycephalic cats. Senior cats had lower IAT than all other life stages. The authors stress this is a group-level association, and that diagnostic value for feline cognitive dysfunction syndrome needs prospective evaluation.",
+    "clinical_takeaway_ko": "고양이 노화에 따라 interthalamic adhesion이 얇아지는 것은 정상 노화 범위일 수 있으므로, 고령 고양이 MRI에서 얇은 IAT만으로 cognitive dysfunction을 시사하거나 병적 atrophy로 해석하지 않는 것이 안전하다. 개체 수준 cut-off는 제시되지 않았다."
+  },
+  {
+    "pmid": "42939195",
+    "title": "Multimodal Postmortem Investigation of Fatal Thoracic Metallic Projectile Trauma in a Jindo Dog: Radiographic, Computed Tomographic, Necropsy, and Histopathological Findings.",
+    "journal": "Animals : an open access journal from MDPI",
+    "year": "2026",
+    "authors": [
+      "Ah-Young Kim",
+      "Jongho Kim",
+      "Hansung Joo",
+      "Sangkyung Cheon",
+      "BokKyung Ku",
+      "Kyunghyun Lee"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42939195/",
+    "doi": "",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42939195-postmortem-ct-projectile-trauma-jindo",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography",
+      "CT"
+    ],
+    "system": [
+      "trauma",
+      "thorax"
+    ],
+    "topics": [
+      "trauma-forensic-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "CT",
+      "trauma",
+      "thorax"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "South Korea에서 경찰이 의뢰한 성체 수컷 Jindo dog의 치명적 penetrating trauma를 사후에 평가했다. Digital radiography에서 좌측 흉부의 다발성 radiopaque metallic opacity, 중증 pleural effusion, subcutaneous emphysema가 보였다. Postmortem CT(16-slice MDCT, 0.75mm)는 좌측 흉벽의 clustered metallic fragment, 좌측 제4 늑골의 oblique displaced fracture, hemopneumothorax와 compression atelectasis, pneumomediastinum을 보였고 두개·복부 손상은 없었다. 부검에서 약 100 mL 흉강 혈액과 양측 cranial lung lobe의 through-and-through laceration, 금속 파편이 확인되었고 조직검사는 생존 중 손상(survival interval <1시간)을 뒷받침했다. 사인은 acute hemopneumothorax와 양측 폐 laceration이다.",
+    "summary_en": "In a forensic case of a Jindo dog with fatal penetrating thoracic trauma, radiography showed multiple metallic opacities, pleural effusion and subcutaneous emphysema in the left thorax. Postmortem CT delineated clustered metallic fragments, a displaced left fourth rib fracture, hemopneumothorax with compression atelectasis and pneumomediastinum, and excluded cranial or abdominal injury. Necropsy and histopathology confirmed bilateral pulmonary laceration with antemortem vital reaction; the authors conclude that integrating radiography, PMCT, necropsy and histopathology is valuable in medicolegal investigations.",
+    "clinical_takeaway_ko": "총상·projectile 의심 사례에서는 radiography로 이물 위치를 확인한 뒤 CT로 파편 분포, 골절, 기흉·혈흉을 평가하고 다른 체강 손상을 배제하면 부검 전 계획을 세우는 데 도움이 된다. 증거 가치를 위해 영상 촬영 시 chain-of-custody를 고려해야 한다."
+  },
+  {
+    "pmid": "42939169",
+    "title": "Diagnostic Value of the Vertebral Right Heart Index (VRHi) for Identifying Pulmonary Hypertension in Dogs with Heartworm Disease.",
+    "journal": "Animals : an open access journal from MDPI",
+    "year": "2026",
+    "authors": [
+      "Jorge Isidoro Matos",
+      "Claudia Díaz-Rocio",
+      "Sara Nieves García-Rodríguez",
+      "Alicia Caro-Vadillo",
+      "Laín García-Guasch",
+      "Eva Mohr-Peraza",
+      "José Alberto Montoya-Alonso",
+      "Elena Carreton"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42939169/",
+    "doi": "",
+    "study_type": "기타",
+    "sample_size": "54",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42939169-vertebral-right-heart-index-heartworm",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography",
+      "echocardiography"
+    ],
+    "system": [
+      "thorax",
+      "cardiovascular"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "echocardiography",
+      "thorax",
+      "cardiovascular"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "Gran Canaria의 개 54마리(건강 대조군 20마리, Dirofilaria immitis 자연감염 34마리)를 대상으로, 진정 없이 촬영한 thoracic radiograph에서 DICOM 소프트웨어로 vertebral heart size(VHS)와 Vertebral Right Heart Index(VRHi)를 측정했다. 감염견은 echocardiography상 pulmonary hypertension(PH) 가능성이 높은 군과 그렇지 않은 군으로 나뉘었고, VRHi는 세 군 사이에 유의하게 달랐으며 PH 고확률군에서 가장 높았다. VRHi는 right-sided remodelling을 반영하는 echocardiography 지표와 유의한 상관을 보였다. Right lateral projection VRHi의 AUC는 0.835로 가장 높았지만 기존 VHS(AUC 0.764)와 유의한 차이는 없었다(DeLong p=0.519).",
+    "summary_en": "In 54 dogs (20 healthy controls, 34 naturally infected with D. immitis), VRHi and VHS were measured on non-sedated thoracic radiographs and compared with echocardiographic probability of pulmonary hypertension and right-sided remodelling indices. VRHi differed among the three groups, was highest in dogs with high PH probability, and correlated with right-sided remodelling. The right lateral VRHi had the highest AUC (0.835) but did not differ significantly from VHS (0.764; DeLong p=0.519). The authors suggest VRHi as a simple complementary radiographic parameter.",
+    "clinical_takeaway_ko": "Heartworm 감염견에서 radiograph를 이미 찍는다면 VRHi를 right lateral 상에서 함께 재 보는 것은 PH 가능성을 가늠하는 보조 수단이 될 수 있다. 다만 VHS보다 유의하게 낫다는 근거는 없고 cut-off도 초록에 제시되지 않아, PH 확인은 여전히 echocardiography로 해야 한다."
+  },
+  {
+    "pmid": "42939121",
+    "title": "Computed Tomography Findings in Three Cases of Suspected Lymphovenous Communications in Cats.",
+    "journal": "Animals : an open access journal from MDPI",
+    "year": "2026",
+    "authors": [
+      "Laura Librán-Ferreira",
+      "Iván Rodríguez-Armas",
+      "Carla Zamora-Perarnau",
+      "Nicolas Israeliantz",
+      "Vicente Cervera-Castellanos"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42939121/",
+    "doi": "",
+    "study_type": "증례군",
+    "sample_size": "3",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42939121-ct-lymphovenous-communications-cats",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "cardiovascular",
+      "abdomen"
+    ],
+    "topics": [
+      "vascular-imaging"
+    ],
+    "tags": [
+      "cat",
+      "CT",
+      "cardiovascular",
+      "abdomen"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "Contrast-enhanced CT로 의심 spontaneous lymphovenous communication을 보인 고양이 3마리를 후향적으로 기술했다. 세 마리 모두 portal venous tributary에서 시작해 cisterna chyli로 이어지는 dilated, tortuous vessel이 있었고, 기원은 두 마리에서 splenic vein, 한 마리에서 cranial mesenteric vein이었다. Cisterna chyli와 thoracic duct는 일관되게 확장되고 조영증강되었으며, communication 이전(cranial)의 portal vein 직경 감소가 모두에서 있었다. 흉수 또는 복수와 피하 부종이 동반되었고 두 마리에서 chylous pleural effusion이 확인되었다. 저자들은 후천적 portal 또는 lymphatic hemodynamic 이상에 반응한 기존 lymphovenous pathway의 확장·기능 동원일 수 있으나 선천성 가능성도 배제할 수 없다고 했다.",
+    "summary_en": "In this retrospective case series of three cats, contrast-enhanced CT showed dilated tortuous vessels from portal tributaries (splenic vein in two, cranial mesenteric vein in one) to the cisterna chyli, with dilated enhancing cisterna chyli and thoracic duct and reduced portal vein calibre cranial to the communications. Effusions and subcutaneous edema were present, with chylous pleural effusion in two cats. The authors propose enlargement of pre-existing lymphovenous pathways under acquired portal and/or lymphatic hemodynamic disturbance, without excluding a congenital origin.",
+    "clinical_takeaway_ko": "Chylous effusion이 있는 고양이 CT에서 anomalous portal vessel이 보이면 cisterna chyli·thoracic duct 확장과 portal vein 직경 변화를 함께 확인하고, 문맥 tributary에서 cisterna chyli로 이어지는 연결 혈관 가능성을 판독 소견에 포함시킬 수 있다. 다만 3예 기술이라 감별 기준이나 치료 방침은 제시할 수 없다."
+  },
+  {
+    "pmid": "42934855",
+    "title": "EXPRESS:Management of Distal Hindlimb Injuries in Cats Using an Exvet External Skeletal Fixation System: A Multicenter Retrospective Study.",
+    "journal": "Journal of feline medicine and surgery",
+    "year": "2026",
+    "authors": [
+      "Sencer Uygur",
+      "Atilla Dogan",
+      "Cenk Yardımcı",
+      "Sinan Ulusan",
+      "Brian S Beale",
+      "Martin Immler",
+      "Britta Vidoni",
+      "Eva Schnabl-Feichter"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42934855/",
+    "doi": "10.1177/1098612X261502918",
+    "study_type": "후향적 연구",
+    "sample_size": "35",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42934855-exvet-external-fixation-cats-hindlimb",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal",
+      "trauma"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "cat",
+      "radiography",
+      "musculoskeletal",
+      "trauma"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "4개 기관에서 Exvet Tarsal Fixator(ETF)로 치료한 고양이 distal hindlimb injury를 후향적으로 분석했다. 평가한 73마리 중 35마리(36 injuries)가 포함되었고, 24마리(68.6%)는 closed reduction, 11마리(31.4%)는 limited open 방식이었다. 32/35(91.4%)가 수술 직후 weight bearing을 시작했고, 합병증은 7/35(20.0%; minor 5, major 2)였다. 평균 34일(중앙값 28일)에 fixator를 제거했을 때 25/35(71.4%)가 full functional outcome, 10/35(28.6%)가 acceptable outcome이었다.",
+    "summary_en": "In this four-centre retrospective study, 35 of 73 cats with distal hindlimb injuries treated with the Exvet Tarsal Fixator met inclusion criteria; 68.6% were closed reductions. 91.4% bore weight immediately, complications occurred in 20.0% (5 minor, 2 major), and at fixator removal (mean 34 days) 71.4% had a full and 28.6% an acceptable functional outcome. The authors support safe and effective use of the ETF.",
+    "clinical_takeaway_ko": "영상 자체보다 수술 결과에 초점을 둔 연구이지만, closed reduction 비율이 높으므로 술중 fluoroscopy/방사선으로 정복을 확인하는 워크플로우가 중요함을 시사한다. 방사선 소견의 구체적 결과는 초록에 제시되지 않았다."
+  },
+  {
+    "pmid": "42934851",
+    "title": "EXPRESS: BENEFITS OF CONTRAST-ENHANCED COMPUTED TOMOGRAPHY OVER PLAIN COMPUTED TOMOGRAPHY FOR HEAD TRAUMA IN 41 CATS.",
+    "journal": "Journal of feline medicine and surgery",
+    "year": "2026",
+    "authors": [
+      "Vincent Mariaud",
+      "Pauline Arinal",
+      "Aurore Masson",
+      "Jeremy Mortier"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42934851/",
+    "doi": "10.1177/1098612X261502912",
+    "study_type": "후향적 연구",
+    "sample_size": "41",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42934851-contrast-ct-head-trauma-cats",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "trauma",
+      "head-neck",
+      "neuro"
+    ],
+    "topics": [
+      "trauma-forensic-imaging"
+    ],
+    "tags": [
+      "cat",
+      "CT",
+      "trauma",
+      "head-neck",
+      "neuro"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "Pre-/post-contrast head CT를 시행한 외상 고양이 41마리의 영상을 경험 수준이 다른 영상의학 판독자 3명이 독립적으로 판독해 extracranial soft tissue injury, bone fracture, intracranial abnormality를 평가하고 Cohen's kappa로 판독자 내·간 일치도를 분석했다. Extracranial soft tissue와 fracture는 substantial~almost perfect 일치도를 보였고, 가장 흔한 골절 부위는 TMJ, hard palate, mandible, pterygoid bone이었다. Hemorrhage·cerebral edema 같은 intracranial lesion은 조영 여부와 판독자 경험에 관계없이 일치도가 낮고 가변적이었으며, 세 범주 모두에서 plain CT와 contrast CT 사이에 유의한 차이는 없었다.",
+    "summary_en": "Three radiologists of differing experience independently reviewed pre- and post-contrast head CT of 41 trauma cats. Agreement was substantial to almost perfect for extracranial soft tissue injury and fractures (most often TMJ, hard palate, mandible, pterygoid bones), but low and variable for intracranial lesions such as haemorrhage and oedema regardless of contrast or experience. No significant difference was found between plain and contrast CT in any category.",
+    "clinical_takeaway_ko": "고양이 head trauma의 골절·extracranial soft tissue 평가에는 조영제가 추가 정보를 주지 않았으므로, 이 목적이라면 plain CT로 충분할 수 있다. 반대로 CT만으로 intracranial 출혈·부종을 확정하기는 신뢰도가 낮으므로, 신경학적 증상이 있으면 MRI나 임상 경과 추적을 병행해야 한다."
+  },
+  {
+    "pmid": "42932827",
+    "title": "Sinonasal aspergillosis-associated pneumocephalus in a dog: recovery after endoscopic interventional debridement and antifungal treatment.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Manon T A Costes",
+      "Jimmy H Saunders",
+      "Volker Rickerts",
+      "Sylvie Daminet",
+      "Sarah Rösch"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42932827/",
+    "doi": "",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42932827-sinonasal-aspergillosis-pneumocephalus-dog",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT",
+      "MRI"
+    ],
+    "system": [
+      "head-neck",
+      "neuro"
+    ],
+    "topics": [
+      "head-neck-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "MRI",
+      "head-neck",
+      "neuro"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "급성 심한 apathy와 만성 비강 분비물로 의뢰된 16세 Border Collie 증례다. 2주 전 CT에서 좌측 nasal cavity와 frontal sinus의 severe turbinate destruction과 mucosal thickening으로 sinonasal aspergillosis(SNA)가 의심되었으나 치료는 시작되지 않았다. 내원 시 MRI에서 intrameningeal pneumocephalus, meningitis, frontal sinusitis와 두개강 쪽 frontal bone의 focal lysis가 확인되었고 CSF 분석은 정상이어서 pneumocephalus가 apathy의 원인으로 추정되었다. Rhinoscopy에서 fungal plaque가 확인되었고(qPCR: Aspergillus spp.), 전신 항진균제와 endoscopic debridement, frontal bone lysis에도 불구한 topical 항진균 치료 후 3주 추적 MRI에서 pneumocephalus가 완전히 소실되었다. 최종 영상에서는 결손 주변 scarring만 있고 활동성 감염은 없었다.",
+    "summary_en": "A 16-year-old Border Collie with acute apathy and chronic nasal discharge had CT suggestive of sinonasal aspergillosis with severe turbinate destruction. MRI at presentation showed intrameningeal pneumocephalus, meningitis, frontal sinusitis and focal frontal bone lysis; CSF was unremarkable. Rhinoscopy and qPCR confirmed Aspergillus spp. After systemic antifungals, endoscopic debridement and topical antifungal treatment despite the bone defect, 3-week follow-up MRI showed complete resolution of pneumocephalus with residual scarring only.",
+    "clinical_takeaway_ko": "SNA 개에서 frontal bone lysis와 두개내 pneumocephalus가 보이더라도 topical 항진균 치료를 일률적으로 금기로 볼 필요는 없을 수 있다는 단일 증례 근거가 생겼다. 신경 증상이 새로 생긴 SNA 환자에서는 CT에 더해 MRI로 meningitis와 pneumocephalus를 평가하고, 3주 정도의 추적 MRI로 반응을 확인하는 접근을 고려할 수 있다."
+  },
+  {
+    "pmid": "42928047",
+    "title": "Ultrasound Biomicroscopy Analysis of Ciliary Cleft, Ciliary Body, and Ciliary Muscle Changes Following Capsular Tension Ring Implantation in Dogs.",
+    "journal": "Veterinary ophthalmology",
+    "year": "2026",
+    "authors": [
+      "Haemi Seol",
+      "Donghee Kim",
+      "Ji Seung Jung",
+      "Jiyi Hwang",
+      "Mirae Lee",
+      "Sooyeon Lee",
+      "Kyung-Mee Park"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42928047/",
+    "doi": "10.1111/vop.70284",
+    "study_type": "전향적 연구",
+    "sample_size": "23",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42928047-ubm-capsular-tension-ring-dogs",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "ultrasound"
+    ],
+    "system": [
+      "head-neck"
+    ],
+    "topics": [
+      "head-neck-imaging"
+    ],
+    "tags": [
+      "dog",
+      "ultrasound",
+      "head-neck"
+    ],
+    "added_on": "2026-11-02",
+    "summary_ko": "Phacoemulsification 후 IOL만 삽입한 군(11 eyes)과 capsular tension ring(CTR)을 병용한 군(12 eyes)을 ultrasound biomicroscopy(UBM)로 술 전, 술 후 2-4주, 3개월 이후에 평가했다. CTR군은 IOL군보다 ciliary cleft가 작았고, ciliary body가 corneoscleral 방향으로 전방 이동·압박되었으며 깊은 층의 ciliary muscle이 얇아졌고, 이 차이는 장기 추적에서도 유지되었다. CTR에 의한 ciliary body 압박은 12 eyes 중 5 eyes에서 관찰되었으나 IOP는 군 간 차이가 없었다.",
+    "summary_en": "In 23 eyes of 16 dogs undergoing phacoemulsification with IOL alone or with a capsular tension ring, UBM was performed preoperatively and at 2-4 weeks and >3 months. CTR implantation was associated with a smaller ciliary cleft, anterior displacement and compression of the ciliary body, and thinning of deeper ciliary muscle layers, persisting long term. Ciliary body compression occurred in 5 of 12 CTR eyes; IOP did not differ between groups.",
+    "clinical_takeaway_ko": "CTR 삽입 후 UBM에서 ciliary cleft 감소와 ciliary body 압박이 보이더라도 이 연구 추적 기간에는 IOP 상승이나 임상적 부작용과 연결되지 않았으므로, 그 자체를 이상 소견으로 단정하지 말고 해석해야 한다. UBM은 안과 전문 장비 영역이라 일반 영상의학 진료에 직접 적용되는 범위는 제한적이다."
+  },
+  {
     "pmid": "42925847",
     "title": "Transthoracic lung ultrasound for perioperative assessment of dogs undergoing nonemergency anesthesia: a prospective observational study.",
     "journal": "Veterinary anaesthesia and analgesia",

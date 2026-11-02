@@ -1,12 +1,12 @@
 ---
 title: "영상검사 진정·보정"
 scope: "진정·마취·물리적 보정"
-updated: 2026-10-14
+updated: 2026-11-02
 ---
 # 영상검사 진정·보정
 
 ## 현재까지의 종합
-의식이 있는 상태에서 진정 없이 영상검사를 시행하는 보정 기법은 진정·마취에 따른 위험(사망률, 위장관 합병증 등)을 피하면서 영상 품질을 확보할 수 있는 방법으로 주목받고 있다.
+의식이 있는 상태에서 진정 없이 영상검사를 시행하는 보정 기법은 진정·마취에 따른 위험(사망률, 위장관 합병증 등)을 피하면서 영상 품질을 확보할 수 있는 방법으로 주목받고 있다 ([[papers/2026-42644764-bunny-burrito-restraint|Liu 2026]]; 후향적 연구, n=93 — 상세는 아래 소제목 참고).
 
 ### 토끼 CT의 물리적 보정
 토끼를 대상으로 한 다기관 후향적 연구(93마리)에서는, 수건으로 감싸는 '번니 부리토(bunny burrito)' 보정법이 기존의 plexiglass chamber 보정법에 비해 pre-contrast 영상의 motion artifact가 적고(p=0.02), dental disease 평가 시 자세 유지가 우수하며(p=0.03), post-contrast 초기 안정성도 더 나은 것으로 나타났다(p=0.04, 신뢰구간 넓음) ([[papers/2026-42644764-bunny-burrito-restraint|Liu 2026]]; 후향적 연구, n=93). 번니 부리토와 sedation(10마리) 간 영상 품질은 기술통계상 유사한 수준이었고, 두 물리적 보정법 모두에서 합병증은 보고되지 않았다([[papers/2026-42644764-bunny-burrito-restraint|Liu 2026]]; 후향적 연구, n=93). 이는 토끼를 포함한 진정이 어려운 환자군에서 저비용·저위험 물리적 보정 기법이 실제 임상 영상 품질을 담보할 수 있음을 시사하나, 단일 연구·상대적으로 작은 sedation 대조군(n=10)에 기반한 제한적 근거다.
@@ -17,13 +17,18 @@ updated: 2026-10-14
 ### 투여 경로(SC vs IM)와 진정 약물 용량 설정
 Orthopedic radiography를 위한 진정 목적으로 medetomidine-vatinoxan-butorphanol의 subcutaneous(SC) 투여와 intramuscular(IM) 투여를 비교한 무작위대조군 임상 연구에서, IM 투여가 SC 투여보다 진정 발현이 유의하게 빨랐고 SC 저용량군(0.6 mg/m2)은 rescue sedation이 가장 많이 필요했다(4/11) ([[papers/2026-42838285-sc-medetomidine-vatinoxan-butorphanol-sedation|Honkavaara 2026]]; 무작위대조군연구, n=53). 심박수는 모든 처치에서 감소했으나 저혈압은 관찰되지 않았고, vatinoxan을 병용한 모든 군(SC·IM)이 medetomidine 단독군보다 oral mucosal microcirculation이 유의하게 양호해, vatinoxan의 혈류 보호 효과가 SC 투여에서도 유지됨을 보여주었다. 신속한 촬영이 필요하면 IM 투여가 유리하지만, SC 투여도 더 높은 용량에서는 효과적인 대안이 될 수 있음을 시사한다.
 
+### 토끼 isoflurane 마취와 위장관 통과시간
+건강한 수컷 New Zealand White 토끼 5마리의 repeated-measures 연구에서 isoflurane 15·30·60분 마취와 무마취 대조를 barium contrast radiography로 비교했을 때, small intestinal transit time은 조건 간 전반적 차이가 있었으나(p=0.015) 마취군과 대조 간 pairwise 비교는 유의하지 않았고, gastric transit, hard feces 형성 시간, feed intake, faecal output에는 차이가 없었다 ([[papers/2026-42963938-isoflurane-gi-transit-rabbits|Zarein 2026]]; 실험 연구, n=5 — 위장관 통과시간 측면은 [[topics/abdominal-imaging]] 참고). 표본이 매우 작고 측정 시점이 이산적이어서 "영향 없음"을 입증한 것이 아니라 제한적 근거다.
+
 ## 남은 질문
 - 번니 부리토 보정법이 토끼 외의 소동물(고양이, 소형견 등)이나 다른 검사 부위(흉부, 두경부 등)에도 동일하게 적용 가능한지는 아직 근거가 없다.
 - sedation군 표본이 작아(n=10) 번니 부리토와 sedation 간 영상 품질 차이에 대한 통계적 비교가 이루어지지 않았다.
 - Propofol 단독 유도 시의 혈압 저하가 심질환이 있는 토끼나 다른 소동물에서도 동일하게 나타나는지, 실제 심초음파 판독 정확도에 영향을 주는지는 아직 알 수 없다.
 - SC medetomidine-vatinoxan-butorphanol의 진정 효과·영상 품질이 통증·불안이 있는 환자나 건강하지 않은 개체에서도 동일하게 나타나는지는 건강한 개 대상 연구만으로는 알 수 없다.
+- 더 큰 표본과 정밀한 transit 측정으로, 더 긴 isoflurane 마취나 질환이 있는 토끼에서 위장관 통과 지연이 생기는지는 아직 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42644764-bunny-burrito-restraint]] — 토끼 CT에서 번니 부리토 보정법이 plexiglass chamber보다 motion artifact 적고 자세 안정성 우수 (후향적 연구, n=93)
 - [[papers/2026-42710340-echocardiographic-effects-propofol-dextroketamine-rabbits]] — propofol 단독 유도가 propofol+dextroketamine보다 토끼에서 평균동맥압 저하가 더 큼 (무작위대조군연구, n=22)
 - [[papers/2026-42838285-sc-medetomidine-vatinoxan-butorphanol-sedation]] — orthopedic radiography 진정에서 SC medetomidine-vatinoxan-butorphanol이 IM보다 발현이 느리나 vatinoxan의 혈류 보호 효과는 유지 (무작위대조군연구, n=53)
+- [[papers/2026-42963938-isoflurane-gi-transit-rabbits]] — 토끼 isoflurane 최대 60분 마취 후 위장관 통과·식이·배변에 대조 대비 유의한 변화 없음, 표본 작음 (실험 연구, n=5)

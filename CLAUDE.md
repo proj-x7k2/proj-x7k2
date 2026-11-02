@@ -72,6 +72,7 @@ CLAUDE.md                    이 문서 (스키마)
 | trauma-forensic-imaging | 외상·법수의학 영상 | 다발성 외상, 학대 의심 평가 |
 | imaging-technique-safety | 촬영 기법·안전 | 프로토콜, 조영제, 방사선 선량, 영상 품질 |
 | sedation-restraint-imaging | 영상검사 진정·보정 | 진정·마취·물리적 보정 |
+| nuclear-medicine-imaging | 핵의학 영상 | scintigraphy, PET/CT, 방사성의약품 영상·치료 |
 | ai-imaging | AI·정량 영상 | AI 판독, 정량 분석, 영상 기반 모델 |
 
 - 한 논문은 가장 적합한 주제 1개(필요하면 최대 2개)에 연결합니다.

@@ -1,7 +1,7 @@
 ---
 title: "뇌·두개내 영상"
 scope: "뇌, 뇌신경, 두개내 병변"
-updated: 2026-10-19
+updated: 2026-11-02
 ---
 # 뇌·두개내 영상
 
@@ -40,6 +40,12 @@ Idiopathic facial neuropathy(IFN)로 presumptive 진단된 고양이 13마리의
 ### Chiari-like malformation 동반 ventriculomegaly와 ventriculoperitoneal shunt
 1세 Cavalier King Charles Spaniel에서 MRI로 Chiari-like malformation, ventriculomegaly, syringomyelia(odontoid peg~L5, C2-C3 최대 7.0mm)가 확인되었고 내과 치료에 반응하지 않아 ventriculoperitoneal shunt(VPS)를 시행했다 ([[papers/2026-42877668-ventriculoperitoneal-shunt-syringomyelia-chiari-cavalier|Fernandez Cid 2026]]; 증례보고, n=1 — 척수 측면은 [[topics/spinal-imaging]] 참고). 추적 MRI에서 lateral ventricle 정상화와 syrinx 감소(6개월 2.3mm)가 확인되었고 일과성 postoperative pneumocephalus 외 합병증은 없었다 — 단일 증례에 근거한 제한적 근거.
 
+### 고양이 노화와 interthalamic adhesion thickness(IAT)
+뇌병변·인지 변화가 없는 고양이 112마리의 MRI 후향적 연구에서 IAT는 연령과 음의 연관을 보였고(T1W B=-0.071 mm/year, T2W B=-0.067 mm/year; p<0.001) 다변량 보정 및 kitten·brachycephalic 제외 후에도 유지되었으며, senior(≥11세) 고양이가 다른 모든 연령군보다 낮았다 ([[papers/2026-42939247-interthalamic-adhesion-thickness-cats-age|Kerbrat-Copy 2026]]; 후향적 연구, n=112). 저자들은 집단 수준의 연관이며 feline cognitive dysfunction syndrome 진단 지표로는 전향적 검증이 필요하다고 밝혔다. 고령에서의 가파른 감소(quadratic)는 T1W만의 탐색적 소견이다 — 인지장애 환자군이 없는 단일 연구로 제한적 근거.
+
+### Primary immune-mediated thrombocytopenia(ITP)와 동반된 subdural hemorrhage
+발작과 급성 진행성 intracranial sign을 보인 10세 개에서 severe thrombocytopenia(9 × 10³/μL)로 primary ITP가 진단되었고, MRI에서 양측 cerebral hemisphere를 덮는 crescent 모양 extra-axial fluid accumulation이 T1-weighted·T2-weighted hyperintensity와 T2*-weighted GRE의 peripheral susceptibility artifact를 보여 late subacute subdural hemorrhage로 진단되었다 ([[papers/2026-42952495-subdural-hemorrhage-immune-thrombocytopenia-dog|Hong 2026]]; 증례보고, n=1). 마취·회복 후 급성 악화와 cardiopulmonary arrest로 사망해(원인은 지속 출혈 또는 brain herniation 추정) 혈소판 감소에 의한 두개내 출혈이 치명적일 수 있음을 보여주었다 — 단일 증례, 확진이 presumptive인 제한적 근거.
+
 ## 상충되는 근거
 (아직 없음)
 
@@ -56,6 +62,8 @@ Idiopathic facial neuropathy(IFN)로 presumptive 진단된 고양이 13마리의
 
 - 고양이 IFN에서 facial nerve enhancement·digastricus muscle 감소가 회복 정도나 예후와 연관되는지, 정상 고양이 대조군 대비 특이도는 13마리 후향적 연구로는 알 수 없다.
 - CM/SM 개에서 VPS가 syrinx 감소와 임상 호전을 안정적으로 가져오는지, 적응증과 장기 합병증은 증례 1예로는 알 수 없다.
+- 고양이 IAT 감소가 FCDS 환자에서 연령 효과를 넘어 추가로 나타나는지, 개체 수준 cut-off가 가능한지는 표준화된 행동평가와 연령 일치 대조군을 둔 전향적 연구가 필요하다.
+- 혈소판 감소 개에서 subdural/extra-axial hemorrhage의 MRI 소견이 시기별로 어떻게 변하는지, T2*-GRE가 조기 발견에 얼마나 기여하는지는 증례 1예(부검 확진 없음)로는 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42786736-meningioma-pseudocyst-cats]] — 고양이 meningioma 4예에서 pseudocystic fluid accumulation 동반, microcystic형 1예 최초 보고 (증례군, n=4)
@@ -70,3 +78,5 @@ Idiopathic facial neuropathy(IFN)로 presumptive 진단된 고양이 13마리의
 - [[papers/2026-42825365-multimodal-mri-global-brain-ischemia-dog]] — conventional MRI 애매한 peri-anesthetic GBI에서 advanced MRI(ASL·DSC·TOF MRA·DTI)가 진단 뒷받침 (증례보고, n=1)
 - [[papers/2026-42873828-idiopathic-facial-neuropathy-cats-mri]] — 고양이 IFN 13예에서 facial nerve thickening·enhancement, digastricus muscle 감소, 중앙 20주 회복 (후향적 연구, n=13)
 - [[papers/2026-42877668-ventriculoperitoneal-shunt-syringomyelia-chiari-cavalier]] — CKCS의 CM/SM·ventriculomegaly에서 VPS 후 syrinx 감소와 ventricle 정상화 (증례보고, n=1)
+- [[papers/2026-42939247-interthalamic-adhesion-thickness-cats-age]] — 인지장애 없는 고양이에서 연령 증가에 따라 IAT 감소, senior군이 가장 낮음 (후향적 연구, n=112)
+- [[papers/2026-42952495-subdural-hemorrhage-immune-thrombocytopenia-dog]] — Primary ITP 개에서 MRI(T2*-GRE 포함)로 late subacute subdural hemorrhage 진단, 급성 악화로 사망 (증례보고, n=1)

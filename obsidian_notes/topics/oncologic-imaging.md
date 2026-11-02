@@ -1,7 +1,7 @@
 ---
 title: "종양 영상 원칙"
 scope: "병기 결정, 전이 평가 등 계통을 넘는 종양 영상"
-updated: 2026-10-26
+updated: 2026-11-02
 ---
 # 종양 영상 원칙
 
@@ -16,13 +16,18 @@ updated: 2026-10-26
 ### 초음파 Doppler·SWE: canine mammary tumor
 악성 상피성 mammary tumor 49마리와 정상 mammary tissue 15마리를 mastectomy 전 초음파로 평가한 연구에서, 악성 종양은 대체로 heterogeneous·hyperechoic이었고 resistive index(RI), PSV, EDV와 shear wave speed·stiffness가 정상 조직보다 높았다(PI는 차이 없음) ([[papers/2026-42894990-spectral-doppler-swe-canine-mammary-tumors|İslamoğlu Esen 2026]]; 전향적 연구, n=64). SWE 값은 5cm를 넘는 종양과 Grade 3 carcinoma에서 가장 높았고, 조직 Ki-67은 Doppler 속도 지표 및 SWE 값과 연관되었다. 저자들은 RI, PSV, shear wave speed, elasticity가 정상 조직 대비 악성 구분에서 특이도 100%라고 보고했으나 비교 대상이 정상 조직이어서 양성 종양과의 감별 성능은 알 수 없다 — 단일기관 연구로 제한적 근거. (고양이 mammary carcinoma 핵의학 영상은 위 PET/CT 항목 참고.)
 
+### 18F-FDG PET/CT: 개 anal sac adenocarcinoma의 림프절 병기
+Apocrine gland anal sac adenocarcinoma(AGASACA) 개 1마리의 수술 전 PET/CT에서 원발 종괴(SUVmax 7.3), internal iliac(6.35)·lumbar aortic lymph node(4.3)의 uptake가 증가했고 원격 전이는 없었으며, 림프절 전이는 조직병리로 확인되었다 ([[papers/2026-42964095-fdg-pet-ct-anal-sac-adenocarcinoma|Shim 2026]]; 증례보고, n=1 — 상세는 [[topics/nuclear-medicine-imaging]] 참고). 단일 증례에 근거한 제한적 근거다.
+
 ## 남은 질문
 - Doppler 지표와 SWE가 양성 mammary tumor나 염증성 병변과 악성 종양을 감별하는 데 실제로 유용한지, 임상에서 쓸 수 있는 cut-off와 관찰자 간 재현성은 어떠한지는 이 연구로 알 수 없다.
 - 64CuCl2 PET/CT가 FMC의 병기 결정에서 기존 CT·방사선 대비 실제 민감도·특이도에서 우위가 있는지는 병리 확진 없이 소수 증례로는 알 수 없다.
 - iliosacral lymph node의 MinTD 기준이 실제 전이 림프절 검출 민감도·특이도로 이어지는지는 조직학적 확진 코호트에서 추가 검증이 필요하다.
+- AGASACA에서 PET/CT의 림프절 SUVmax가 CT 크기 기준보다 전이 검출에 유리한지는 증례 1예로 알 수 없다.
 - 견종·나이 등 다른 교란변수를 보정한 정상 참고치가 필요한지는 이 연구만으로는 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42775486-ct-normal-iliosacral-lymph-nodes-dogs]] — 개 iliosacral lymph node 정상 CT 참고치, RECIST v1.1 적용 시 MinTD 권장 (후향적 연구, n=71)
 - [[papers/2026-42876319-64cucl2-pet-ct-feline-mammary-carcinoma]] — 고양이 mammary carcinoma에서 64CuCl2 PET/CT의 feasibility, 추가 병기 정보 제공 (전향적 연구, n=8)
 - [[papers/2026-42894990-spectral-doppler-swe-canine-mammary-tumors]] — 개 mammary tumor에서 Doppler 지표·SWE 상승과 Ki-67 연관, 정상 조직 대비 악성 구분 (전향적 연구, n=64)
+- [[papers/2026-42964095-fdg-pet-ct-anal-sac-adenocarcinoma]] — AGASACA 개에서 PET/CT SUVmax로 원발·림프절 전이 병기(Stage IIIa) 평가 (증례보고, n=1)

@@ -1,7 +1,7 @@
 ---
 title: "두경부 영상"
 scope: "비강, 중이, 안와, 후두, 침샘, 치아·턱"
-updated: 2026-10-26
+updated: 2026-11-02
 ---
 # 두경부 영상
 
@@ -19,7 +19,15 @@ Brachycephalic 개 68마리(119개 dental arcade)의 CBCT를 후향적으로 분
 ### 안와·안구내 병변의 contrast-enhanced ultrasonography(CEUS)
 B-mode ultrasonography 후 sulfur hexafluoride CEUS를 시행한 개 24마리·고양이 6마리의 후향적 평가에서, CEUS는 모든 orbital·intraocular pathology에서 vascularization을 검출했고 retinal detachment 전례에서 persistent vascularization이 관찰되었다 ([[papers/2026-42897728-ceus-orbital-intraocular-pathologies|Ortner 2026]]; 후향적 연구, n=30). 종양성 병변에서는 lesion localization, 주변 조직과의 관계, perfusion 평가가 향상되었으나 abscess·myositis·steatitis 같은 염증성 병변에서는 B-mode 대비 추가 가치가 제한적이었다. 병변군별 표본이 작고 qualitative 평가이며 reference standard 대비 진단 성능이 제시되지 않아 — 제한적 근거.
 
+### 안과 UBM: capsular tension ring(CTR) 삽입 후 모양체 변화
+Phacoemulsification을 받은 개 23 eyes(16마리)의 전향적 관찰 연구에서, ultrasound biomicroscopy(UBM)상 CTR 병용군은 IOL 단독군보다 ciliary cleft가 작고 ciliary body가 corneoscleral 방향으로 전방 이동·압박되었으며 깊은 층의 ciliary muscle이 얇아졌고, 이 차이는 3개월 이후에도 유지되었다 ([[papers/2026-42928047-ubm-capsular-tension-ring-dogs|Seol 2026]]; 전향적 연구, n=23 eyes). CTR군 12 eyes 중 5 eyes에서 ciliary body 압박이 관찰되었으나 IOP는 차이가 없었고 추적 중 임상적 부작용도 확인되지 않았다 — 표본이 작은 단일 연구로 제한적 근거.
+
+### Sinonasal aspergillosis의 두개내 합병(pneumocephalus)
+2주 전 CT에서 turbinate destruction과 frontal sinus mucosal thickening으로 sinonasal aspergillosis(SNA)가 의심되었던 16세 Border Collie에서, 신경 증상 발현 시 MRI로 intrameningeal pneumocephalus, meningitis, frontal sinusitis와 frontal bone focal lysis가 확인되었다 ([[papers/2026-42932827-sinonasal-aspergillosis-pneumocephalus-dog|Costes 2026]]; 증례보고, n=1 — 두개내 소견은 [[topics/neuro-imaging]]에도 해당). 전신 항진균제, endoscopic debridement, topical 항진균 치료 후 3주 추적 MRI에서 pneumocephalus가 완전히 소실되어 저자들은 이것이 reversible하며 항진균 치료를 배제할 사유가 아니라고 보았다 — 단일 증례에 근거한 제한적 근거.
+
 ## 남은 질문
+- SNA에서 frontal bone lysis·pneumocephalus가 있을 때 topical 항진균 치료의 안전성과 두개내 합병 위험 인자는 단일 증례(n=1)로는 알 수 없다.
+- UBM에서 보인 CTR 관련 ciliary body 변화가 더 긴 추적에서 녹내장 등 IOP 문제로 이어지는지는 알 수 없다.
 - 저자기장 kMRI의 화질 저하가 고자기장(1.5T 등) MRI에서도 동일하게 나타나는지는 확인되지 않았다.
 - TMJ inclination angle의 좌우 비대칭·정상 범위가 실제 생체 임상례에서도 재현되는지, dislocation 진단의 cut-off로 쓸 수 있는지는 추가 검증이 필요하다.
 - Root canal 치료 후 CBCT의 radiolucent zone이 artifact인지 실제 결함인지를 생체 임상 환자에서 어떻게 감별할 수 있는지는 아직 알 수 없다.
@@ -31,3 +39,5 @@ B-mode ultrasonography 후 sulfur hexafluoride CEUS를 시행한 개 24마리·�
 - [[papers/2026-42807202-micro-ct-cbct-canine-endodontics]] — machine-driven Ni-Ti가 manual보다 균질한 obturation, CBCT radiolucent zone은 artifact로 확인 (실험 연구, n=30)
 - [[papers/2026-42853250-cbct-root-surface-area-brachycephalic]] — brachycephalic 개 CBCT로 상악 canine·PM4·M1 RSA 비율 정량, PM4+M1 결합 anchorage 지지 (후향적 연구, n=68)
 - [[papers/2026-42897728-ceus-orbital-intraocular-pathologies]] — 안와·안구내 종양성 병변과 retinal detachment에서 CEUS가 B-mode에 추가 정보 제공, 염증성 병변은 제한적 (후향적 연구, n=30)
+- [[papers/2026-42928047-ubm-capsular-tension-ring-dogs]] — CTR 삽입 후 UBM상 ciliary cleft 감소·ciliary body 압박, IOP 영향 없음 (전향적 연구, n=23 eyes)
+- [[papers/2026-42932827-sinonasal-aspergillosis-pneumocephalus-dog]] — SNA 합병 intrameningeal pneumocephalus가 endoscopic debridement·항진균 치료 후 MRI상 완전 소실 (증례보고, n=1)

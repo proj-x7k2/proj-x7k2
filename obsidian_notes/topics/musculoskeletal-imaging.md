@@ -1,7 +1,7 @@
 ---
 title: "근골격 영상"
 scope: "관절, 골, 근육, 골종양"
-updated: 2026-10-26
+updated: 2026-11-02
 ---
 # 근골격 영상
 
@@ -15,6 +15,8 @@ TPLO 관련 방사선 근거가 여러 편 쌓였다. Popliteus muscle을 보존
 
 TPLO 후 8주 방사선 골치유를 modified RUST(mRUST) 4-point 체계로 채점한 후향적 연구에서는 2-5세(n=49)와 8-12세(n=51) 개 사이에 점수 차이가 없었고(LLM p=0.352, 외과의 p=0.908, resident p=0.588), 세 평가자 간 일치도는 fair 수준(ICC 0.4504)이었다 ([[papers/2026-42903056-mrust-radiographic-healing-tplo-age-llm|Anderson 2026]]; 후향적 연구, n=100 — LLM 채점 측면은 [[topics/ai-imaging]] 참고). 이는 8주차 TPLO 방사선 평가의 낮은 평가자 간 일치도를 보고한 위 전향적 연구(κ=0.20 전후)와 같은 방향으로, 단일 시점 방사선 점수의 신뢰도에 한계가 있음을 보여준다.
 
+TPLO distal tibial segment에 monocortical locking screw를 사용한 개 117마리의 후향적 방사선 추적에서 TPA 변화 중앙값은 2.15°(95% CI 1.70-2.65°)로 5° 미만이었고 평균 43일째 mRUST 중앙값은 10(범위 4-12)이었으며, 어떤 변수도 TPA 변화와 연관되지 않았다 ([[papers/2026-42950426-monocortical-locking-screws-tplo|Wong 2026]]; 후향적 연구, n=117). 특정 titanium conical locking 시스템에 한정되고 bicortical 대조군이 없는 제한적 근거다.
+
 ### Hip dysplasia 등급 판정 기준의 변화
 FCI 2022년 개정 판정법(FCI22)을 기존 2006년 방법(FCI06)과 비교한 후향적 연구에서, 전체 고관절의 68.3%는 등급이 유지되었지만 Boxer에서는 29.4%가 하향, Australian Shepherd에서는 17.2%가 상향 조정되는 등 품종별로 재분류 패턴이 크게 달랐고, 재분류는 주로 기존 D등급 고관절에서 발생했다(82.4%) ([[papers/2026-42735705-fci-2022-vs-2006-hip-dysplasia-grading|Gras 2026]]; 후향적 연구, n=1318).
 
@@ -23,6 +25,9 @@ Patella fracture and dental anomaly syndrome(PADS) 고양이 126마리의 후향
 
 ### CT 기반 정량 분석과 촬영 기법
 Osteosarcoma가 있는 개 16마리의 CT 영상에서 재구성한 뼈 모델로 FEA 시뮬레이션과 머신러닝 대리모델을 결합해 골절 하중을 예측한 연구는 held-out 165건에서 평균 R²≈0.90의 예측 성능을 보였으나, proof-of-concept 단계이며 실제 임상 검증은 이루어지지 않았다 ([[papers/2026-42705596-ml-fracture-load-prediction-osteosarcoma-ct|Amirzade 2026]]; 실험 연구, n=16) — 제한적 근거. Elbow CT 촬영 자세 비교 실험에서는 lateral recumbency로 elbow를 개별 촬영하는 것이 dorsal recumbency 동시 촬영보다 signal/contrast-to-noise ratio가 유의하게 우수했고, tube current를 150mA에서 300mA로 올려도 이 차이를 보완하지 못했다 ([[papers/2026-42761083-recumbency-tube-current-canine-elbow-ct|Bellekom 2026]]; 실험 연구, n=20/40 elbow).
+
+### 고양이 distal hindlimb injury의 external skeletal fixation
+4개 기관의 후향적 연구에서 Exvet Tarsal Fixator(ETF)로 치료한 고양이 35마리(36 injuries) 중 68.6%가 closed reduction이었고, 91.4%가 수술 직후 weight bearing을 시작했으며 합병증은 20.0%(minor 14.3%, major 5.7%)였다. 평균 34일에 fixator를 제거했을 때 71.4%가 full, 28.6%가 acceptable functional outcome이었다 ([[papers/2026-42934855-exvet-external-fixation-cats-hindlimb|Uygur 2026]]; 후향적 연구, n=35). 영상은 평가 항목의 하나였고 초록에 방사선 소견의 구체적 수치가 없으며 대조군이 없는 제한적 근거다.
 
 ### 고관절 치환술 후 영상 추적
 Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zurich Mini total hip replacement(THR)를 받은 고양이 11마리(17 hips)의 후향적 연구에서, intraoperative fluoroscopy로 cup 위치를 최적화했고 8주째 남은 임플란트는 모두 방사선상 완전~진행성 osteointegration을 보였다 ([[papers/2026-42767266-zurich-mini-thr-cats|Vedrine 2026]]; 후향적 연구, n=11/17 hips). 다만 femoral fracture가 11.8%에서 발생(1례 절단)해, 술후 방사선 추적 시 이 합병증에 대한 주의가 필요함을 시사했다.
@@ -38,6 +43,9 @@ Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zuri
 
 - 8주 mRUST 점수에 연령 차이가 없다는 결과가 이후 시점(12주 이후)이나 임상 기능 회복에서도 유지되는지, 평가자 간 일치도를 높일 채점 기준은 무엇인지는 아직 알 수 없다.
 
+- Monocortical distal screw가 bicortical 고정 및 다른 locking system, 대형견, 더 긴 추적(평균 43일 이후)에서도 TPA와 union을 유지하는지는 아직 근거가 없다.
+- ETF 고정 고양이에서 방사선상 정복 정확도·골유합과 기능적 결과의 관계는 초록만으로는 알 수 없다.
+
 ## 관련 논문
 - [[papers/2026-42763011-us-vs-radiography-leishmaniasis-joints]] — leishmaniasis 관절병변 검출에서 초음파가 방사선보다 우수 (전향적 연구, n=43)
 - [[papers/2026-42760893-tplo-popliteus-sparing-radiographic-healing]] — popliteus-sparing TPLO가 45일차 방사선 골유합 점수 개선 (무작위대조군연구, n=100)
@@ -52,3 +60,5 @@ Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zuri
 - [[papers/2026-42791713-aneurysmal-bone-cyst-puppy-progression]] — 강아지 ulna aneurysmal bone cyst가 임상 호전에도 불구하고 방사선상 진행, 재수술 후 35개월간 재발 없음 (증례보고, n=1)
 - [[papers/2026-42767266-zurich-mini-thr-cats]] — 고양이 cementless THR 후 8주째 방사선상 osteointegration 양호, femoral fracture 11.8% (후향적 연구, n=11/17 hips)
 - [[papers/2026-42903056-mrust-radiographic-healing-tplo-age-llm]] — TPLO 후 8주 mRUST 점수는 연령군(2-5세 vs 8-12세) 간 차이 없음, LLM·외과의·resident 일치도는 fair (후향적 연구, n=100)
+- [[papers/2026-42950426-monocortical-locking-screws-tplo]] — TPLO 후 monocortical distal screw에서 TPA 변화 중앙값 2.15°, 방사선 union 만족 (후향적 연구, n=117)
+- [[papers/2026-42934855-exvet-external-fixation-cats-hindlimb]] — Exvet Tarsal Fixator로 고양이 distal hindlimb injury 치료, 합병증 20.0%, 기능 결과 양호 (후향적 연구, n=35)

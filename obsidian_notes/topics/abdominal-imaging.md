@@ -1,7 +1,7 @@
 ---
 title: "복부·소화기 영상"
 scope: "위장관, 간담도, 췌장, 비장, 복강"
-updated: 2026-10-14
+updated: 2026-11-02
 ---
 # 복부·소화기 영상
 
@@ -16,6 +16,11 @@ Benign gallbladder disease로 open cholecystectomy를 받은 개 73마리의 후
 ### 위장관 통과시간 평가와 contrast radiography 프로토콜
 건강한 개 6마리를 대상으로 barium-impregnated polyethylene sphere(BIPS) contrast radiography로 enema 시행 전후 위장관 통과시간을 비교한 실험 연구에서, BIPS 단독군은 gastric emptying이 H0~H1에 시작해 H8 무렵 종료되었으나 BIPS+enema군은 emptying이 H1 무렵 시작해 H12 이후까지 지속되고 descending colon 도달률도 낮았다(통계적 유의성은 없음) ([[papers/2026-42849778-bips-gi-transit-enema-dogs|de Souza 2026]]; 실험 연구, n=6). BIPS·enema 모두 혈액검사 이상을 일으키지 않아, BIPS 기반 위장관 통과시간 검사 전 enema 전처치가 필수는 아니라는 근거를 제시했다 — 표본이 매우 작아 제한적 근거.
 
+토끼에서는 barium sulphate contrast radiography로 isoflurane 마취(15·30·60분) 후 위장관 통과를 평가한 반복측정 실험에서 gastric transit과 hard feces 형성 시간에 차이가 없었고, small intestinal transit time은 조건 간 전반적 차이(p=0.015)가 있었으나 대조군 대비 pairwise 차이는 유의하지 않았다 ([[papers/2026-42963938-isoflurane-gi-transit-rabbits|Zarein 2026]]; 실험 연구, n=5 — 마취 측면은 [[topics/sedation-restraint-imaging]] 참고). 표본이 매우 작아 제한적 근거다.
+
+### 삼킴·식도 videofluoroscopy의 종간 차이
+임상 증상이 없는 건강한 고양이 13마리와 개 12마리의 표준화된 VFSS 비교에서, 고양이는 inter-swallow interval이 길고 pharyngeal transit time이 짧으며 primary peristalsis에 필요한 pharyngeal swallow 횟수가 많았고, esophageal volume accumulation과 distal esophageal transit 지연도 더 흔했다(P<.05) ([[papers/2026-42955828-videofluoroscopic-swallowing-dogs-cats|Grobman 2026]]; 전향적 연구, n=25). Physiologic reflux는 고양이 15.4%, 개 50%였고, 무증상 고양이 1마리에서 기침 없는 aspiration(P-A score 7)이 관찰되었다. 개 기준으로 고양이 VFSS를 판독하면 과대·과소 해석할 수 있다는 점을 시사하나, 건강한 동물 소규모 단일 연구라 질환 동물에서의 진단 기준으로는 제한적 근거다.
+
 ### 정상 해부 참고자료
 성체 고양이 10마리를 이용해 흉복부 단면 해부와 조영증강 CT·3D 재구성을 상호 대조한 atlas 연구는 고양이 흉복부 CT 판독과 수술 계획을 위한 정상 해부 참고자료를 제공했으며, 조영증강이 혈관·장기 관계의 시인성을 크게 향상시켰다 ([[papers/2026-42710191-ct-atlas-feline-thorax-abdomen|Abdelmohsen 2026]]; 실험 연구, n=10 — [[topics/thoracic-imaging]]에도 해당).
 
@@ -27,6 +32,7 @@ Benign gallbladder disease로 open cholecystectomy를 받은 개 73마리의 후
 - IOC가 실제로 수술 후 합병증·사망률을 낮추는지(단순히 기저 질환 중증도를 반영하는 것이 아니라)는 대조군 비교 연구가 필요하다.
 - 장관 lymphoma의 MRI 감별 소견(hypointense 조영증강, 낮은 ADC)이 더 큰 코호트에서도 재현되는지 검증이 필요하다.
 - BIPS 통과시간의 enema 유무 차이가 통계적으로 유의하지 않았던 것이 표본 크기(n=6) 때문인지, 실제 효과가 없는 것인지는 더 큰 코호트에서 검증이 필요하다. 위장관 질환이 있는 환자에서도 동일한 패턴이 나타나는지도 알 수 없다.
+- 고양이 VFSS 정상 범위(특히 esophageal transit·volume accumulation)를 질환 동물과 구분하는 cut-off, 그리고 무증상 고양이에서 silent aspiration의 실제 빈도는 이 소규모 연구(n=25)로는 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42717636-intraoperative-cholangiography-cholecystectomy]] — IOC가 담도 잔류 debris·폐쇄를 상당 빈도로 추가 검출 (후향적 연구, n=73)
@@ -36,3 +42,5 @@ Benign gallbladder disease로 open cholecystectomy를 받은 개 73마리의 후
 - [[papers/2026-42751982-mri-differential-diagnosis-intestinal-neoplasms]] — 장관 lymphoma의 MRI 조영증강·ADC 감별 소견 (증례군, n=12)
 - [[papers/2026-42710191-ct-atlas-feline-thorax-abdomen]] — 고양이 흉복부 CT-해부 대조 atlas (실험 연구, n=10)
 - [[papers/2026-42849778-bips-gi-transit-enema-dogs]] — BIPS contrast radiography에서 enema가 gastric emptying을 지연시킬 수 있어 필수 전처치가 아님 (실험 연구, n=6)
+- [[papers/2026-42963938-isoflurane-gi-transit-rabbits]] — 토끼 isoflurane 마취 후 barium 위장관 통과시간, 대조 대비 유의한 변화 없음 (실험 연구, n=5)
+- [[papers/2026-42955828-videofluoroscopic-swallowing-dogs-cats]] — 건강한 고양이는 개와 swallowing metric이 달라 VFSS 판독 시 종 차이 고려 필요 (전향적 연구, n=25)
