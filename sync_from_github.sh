@@ -4,6 +4,10 @@
 #   1) Obsidian에서 고친 내용(교정 요청, 별표 등)을 GitHub에 올리고
 #   2) 서버가 업데이트한 위키를 받아옵니다.
 # 맥북이 깨어 있을 때만 돌고, 할 일이 없으면 아무것도 하지 않습니다.
+#
+# 인터넷이 잠깐 안 될 때(맥북이 막 깨어났을 때 등)는 알림 없이 넘어가고
+# 15분 뒤 다시 시도합니다. 맥북과 서버가 같은 줄을 고친 "진짜 충돌"일 때만
+# 알림을 보냅니다.
 # -----------------------------------------------------------------------
 export PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"
 cd "$(dirname "$0")" || exit 1
@@ -11,6 +15,10 @@ mkdir -p logs
 
 notify() {
     osascript -e "display notification \"$2\" with title \"$1\"" 2>/dev/null || true
+}
+
+is_network_error() {
+    grep -qiE "could not resolve|timed out|connection (reset|refused)|recv failure|unable to access|network is unreachable|failed to connect|ssl|could not read from remote" <<< "$1"
 }
 
 {
@@ -25,9 +33,14 @@ notify() {
     fi
 
     # 서버 쪽 업데이트 받아오기
-    if ! git pull --rebase --autostash -q; then
-        echo "== $(date '+%F %T') 받아오기 실패 (충돌)"
+    if ! out=$(git pull --rebase --autostash -q 2>&1); then
         git rebase --abort 2>/dev/null
+        if is_network_error "$out"; then
+            echo "== $(date '+%F %T') 인터넷 연결 안 됨 — 15분 뒤 다시 시도"
+            exit 0
+        fi
+        echo "$out"
+        echo "== $(date '+%F %T') 받아오기 실패 (충돌)"
         notify "논문 위키 - 동기화 충돌" "logs/sync.log 확인 필요"
         exit 1
     fi
@@ -35,6 +48,13 @@ notify() {
     # 올릴 게 있으면 올리기
     if [ -n "$(git log '@{u}..HEAD' --oneline 2>/dev/null)" ]; then
         echo "== $(date '+%F %T') GitHub에 올리기"
-        git push -q || notify "논문 위키 - 업로드 실패" "logs/sync.log 확인 필요"
+        if ! out=$(git push -q 2>&1); then
+            if is_network_error "$out"; then
+                echo "== $(date '+%F %T') 인터넷 연결 안 됨 — 다음에 다시 올림"
+            else
+                echo "$out"
+                notify "논문 위키 - 업로드 실패" "logs/sync.log 확인 필요"
+            fi
+        fi
     fi
 } >> logs/sync.log 2>&1
