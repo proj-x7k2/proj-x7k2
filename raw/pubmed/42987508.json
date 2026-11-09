@@ -1,0 +1,27 @@
+{
+  "pmid": "42987508",
+  "title": "Advanced heartworm disease in dogs is associated with marked right heart and pulmonary artery remodeling.",
+  "journal": "American journal of veterinary research",
+  "year": "2026",
+  "authors": [
+    "Minsuk Kim",
+    "Min Woong Seo",
+    "Jaechun Cho",
+    "Chul Park"
+  ],
+  "doi": "10.2460/ajvr.26.06.0240",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42987508/",
+  "abstract": "OBJECTIVE: To characterize echocardiographic findings of right heart and pulmonary artery remodeling in dogs with heartworm disease.\n\nMETHODS: Medical records were searched for those of client-owned dogs with heartworm infection diagnosed from July 2020 through February 2023 and with no major systemic diseases not attributable to heartworm infection. Results for variables of interest were compared for dogs grouped by heartworm clinical class (classes 1 and 2 [mild] vs classes 3 and 4 [advanced]), pulmonary hypertension probability (low and intermediate vs high), and tricuspid regurgitation pressure gradient (mild, moderate, or severe). Pre- and postextraction variables were also compared for dogs with caval syndrome.\n\nRESULTS: 44 dogs were included. Compared with dogs with mild heartworm disease (n = 23), dogs with advanced heartworm disease (21) had greater right atrial and right ventricular enlargement, less right pulmonary artery distensibility, shorter pulmonary artery acceleration time, higher main pulmonary artery-to-aorta ratio, and lower right ventricular systolic function. Similar results were identified for dogs with high (vs intermediate or low) pulmonary hypertension probability. Normalized right atrial diameter had the highest discriminatory performance for identifying advanced heartworm disease (area under the curve, 0.95; 95% CI, 0.88 to 1.00), followed by tricuspid regurgitation pressure gradient, normalized right ventricular dimension, and other variables. Right atrial size significantly decreased after heartworm extraction (n = 8 dogs).\n\nCONCLUSIONS: Advanced heartworm disease is associated with marked right heart and pulmonary artery remodeling.\n\nCLINICAL RELEVANCE: Echocardiographic assessment of right heart remodeling may assist clinicians in evaluating heartworm disease severity and identifying dogs with clinically important cardiopulmonary involvement.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "dogs",
+    "echocardiography",
+    "heartworm disease",
+    "pulmonary hypertension",
+    "right heart remodeling"
+  ],
+  "fetched_on": "2026-11-09"
+}

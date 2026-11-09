@@ -1,0 +1,33 @@
+{
+  "pmid": "42991084",
+  "title": "Circulating osteocrin is associated with cardiac remodeling in canine myxomatous mitral valve disease and skeletal alterations in a rat pressure-overload model.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Masafumi Komatsu",
+    "Hiromu Udagawa",
+    "Ryuji Araki",
+    "Yuji Hamamoto",
+    "Eunryel Nam",
+    "Minoru Okamoto",
+    "Mitsuhiro Isaka"
+  ],
+  "doi": "10.1097/FJC.0000000000000720",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42991084/",
+  "abstract": "BACKGROUND: Myxomatous mitral valve disease (MMVD) is the most common acquired cardiac disease in dogs and is increasingly recognized as a systemic disorder associated with extracardiac remodeling. Osteocrin (OSTN), a secreted peptide implicated in natriuretic peptide biology and skeletal homeostasis, has emerged as a potential candidate biomarker of cardiovascular-skeletal interactions. However, circulating OSTN dynamics during cardiovascular disease progression remain incompletely characterized.\n\nMETHODS: We employed a translational study design integrating a clinical cohort of dogs with naturally occurring myxomatous mitral valve disease (MMVD) and an experimental rat pressure-overload remodeling model. Circulating OSTN concentrations were evaluated alongside cardiac biomarkers, echocardiographic indices, bone mineral density, skeletal mechanical properties, and tissue localization by immunohistochemistry.\n\nRESULTS: In the canine cohort (n = 47), circulating OSTN concentrations demonstrated stage-dependent alterations and were significantly associated with echocardiographic indices of cardiac remodeling. In the rat pressure-overload model, circulating OSTN concentrations increased, whereas NT-proBNP did not show a significant pressure-overload-associated increase. In pooled analyses, circulating OSTN was inversely associated with bone mineral density and stiffness; however, these associations were substantially influenced by between-group separation, whereas no significant associations were observed between NT-proBNP and the skeletal parameters examined. Multivariable regression analysis demonstrated that ACVIM disease stage remained significantly associated with circulating OSTN concentrations after adjustment for age and body weight.\n\nCONCLUSION: Circulating OSTN was associated with cardiac remodeling in dogs with MMVD and with skeletal alterations in an experimental rat pressure-overload model. These findings support further investigation of OSTN as a candidate biomarker at the interface between cardiovascular and skeletal remodeling.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "MMVD",
+    "cardiovascular biomarker",
+    "cardiovascular remodeling",
+    "heart-bone axis",
+    "natriuretic peptides",
+    "osteocrin",
+    "pressure overload",
+    "skeletal remodeling"
+  ],
+  "fetched_on": "2026-11-09"
+}

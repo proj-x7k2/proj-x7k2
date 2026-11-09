@@ -1,0 +1,28 @@
+{
+  "pmid": "42981672",
+  "title": "Sizing the feline heart: A post-mortem analysis of ventricular dimensions in 172 normal and hypertrophied cases.",
+  "journal": "Research in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Izabela Janus-Ziółkowska",
+    "Marcin Magdziarz",
+    "Joanna Bubak",
+    "Agnieszka Noszczyk-Nowak"
+  ],
+  "doi": "10.1016/j.rvsc.2026.106452",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42981672/",
+  "abstract": "Identifying cardiac hypertrophy in feline patients is a key aspect of both clinical and pathological evaluations. In echocardiographic examinations, a diastolic thickness of 6 mm for the left ventricular wall and interventricular septum is commonly used as a diagnostic threshold. However, no standardised cut-off values exist for post mortem examination, where increased heart weight is typically used as the main criterion for diagnosing cardiac hypertrophy. This study aimed to establish reference values for the left ventricular posterior wall and interventricular septum thickness measured during post mortem examination of feline hearts. Medical records from the Unit of Veterinary Cardiac Pathology were retrospectively reviewed. Data on breed, sex, body weight, heart weight, left ventricular wall thickness, interventricular wall thickness, and final pathological diagnosis were extracted. The collected data were used to determine reference value and assess their sensitivity and specificity for identifying cardiac hypertrophy. Additionally, advanced statistical models - logistic regression and random forest were applied to improve classification performance. The analysis established cut-off values of 8.4 mm for left ventricular wall and 7.7 mm for interventricular septum. These thresholds showed high accuracy in identifying healthy cats, but lower sensitivity for detecting those with cardiac hypertrophy. The use of advanced models incorporating ventricular measurements, body weight and sex improved diagnostic accuracy. Diagnosing cardiac hypertrophy in cats remains challenging and should not rely solely on post mortem ventricular measurements.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Cat",
+    "Heart",
+    "Hypertrophy",
+    "Mathematical models",
+    "Necropsy",
+    "Post mortem examination"
+  ],
+  "fetched_on": "2026-11-09"
+}

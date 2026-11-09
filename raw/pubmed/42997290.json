@@ -1,0 +1,30 @@
+{
+  "pmid": "42997290",
+  "title": "Whippets have larger abdominal caudal vena cava to aorta ratios than other dogs on computed tomography.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Shanti Lucie Esmieu",
+    "Man-Hei Ma",
+    "Panagiotis Mantis",
+    "Silvia Biondo",
+    "Radu Constantinescu",
+    "Ana Rita Ramalho Furtado"
+  ],
+  "doi": "10.1111/j.1365-2044.2008.05479.x",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42997290/",
+  "abstract": "INTRODUCTION: Whippets are sighthounds with distinct cardiovascular adaptations associated with athletic performance. The caudal vena cava to aorta ratio (CVC/Ao) is an established index of intravascular volume status, assessed ultrasonographically and on computed tomography (CT) at thoracic and abdominal sites, but breed-specific differences remain unreported. We compared thoracic and abdominal CVC/Ao in whippets and non-whippet controls, and with published reference values, and hypothesised that whippets would have higher ratios.\n\nMETHODS: Sixty-eight dogs without known cardiovascular disease (34 whippets, 34 non-whippet controls) were retrospectively reviewed. CTs were performed under general anaesthesia, with CVC/Ao measured at standardised abdominal and thoracic sites. Groups were compared with Welch's two-sample t-tests, sites within animals with paired t-tests, and analysis of covariance adjusted for weight and age. Significance was set at p < 0.05.\n\nRESULTS: Whippets had significantly higher abdominal CVC/Ao than controls (1.54 ± 0.29 vs. 1.28 ± 0.23; p < 0.001), whereas thoracic ratios did not differ (1.22 ± 0.23 vs. 1.28 ± 0.26; p = 0.29). The abdominal difference persisted after adjustment for weight and age (adjusted difference 0.29, 95% CI 0.15-0.42; p < 0.001). Within whippets, abdominal ratios exceeded thoracic ratios (p < 0.001), a difference not seen in controls (p = 0.99). The thoracic ratio declined with age independently of breed and weight (-0.023 per year; p = 0.002). Both groups exceeded published CT values at both sites, and a greater proportion of whippets than controls exceeded the ultrasonographic upper limit (73.5% vs. 41.2%; p = 0.007). Observed mean ± 2 SD limits were 0.96-2.13 (abdomen, whippets), 0.82-1.75 (abdomen, controls) and 0.76-1.74 (thorax, combined); these are cohort observations rather than breed-specific reference ranges.\n\nDISCUSSION: Whippets had larger abdominal CVC/Ao than controls, with comparable thoracic ratios, indicating a site-specific increase not attributable to body size or age. Because both groups exceeded published values, reference values are not transferable across imaging modality irrespective of breed or anaesthetic status. Modality-, breed- and possibly age-specific ranges are needed, and we provide preliminary limits as a starting point.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "caudal vena cava to aorta ratio",
+    "computed tomography",
+    "general anaesthesia",
+    "intravascular volume",
+    "mean ± 2 SD",
+    "whippet"
+  ],
+  "fetched_on": "2026-11-09"
+}

@@ -1,0 +1,42 @@
+{
+  "pmid": "42968180",
+  "title": "Intraoperative indocyanine green fluorescence in canine meningioma: macroscopic visualization, immediate MRI correlation, and clinical outcomes : a case series.",
+  "journal": "BMC veterinary research",
+  "year": "2026",
+  "authors": [
+    "Youngbeum Kim",
+    "Mihyun Choi",
+    "Yongsun Kim",
+    "Hwi-Yool Kim"
+  ],
+  "doi": "10.1371/journal.pone.0103342",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42968180/",
+  "abstract": "BACKGROUND: Meningioma is the most common primary intracranial neoplasm in dogs, frequently presenting with seizures and focal neurological deficits. While indocyanine green (ICG) near-infrared (NIR) fluorescence is increasingly used in human neurosurgery, systematic data regarding the macroscopic fluorescence emitted by accumulated ICG in canine meningiomas remain scarce. This case series aimed to evaluate the fluorescent signals emitted from the tumors, correlate intraoperative findings using immediate post-operative contrast-enhanced magnetic resonance imaging (MRI), and report the clinical outcomes and post-operative management following fluorescence-guided surgery (FGS).\n\nCASE PRESENTATION: Six client-owned dogs (median age: 13 years) with histologically confirmed meningiomas were evaluated. ICG was administered intravenously (2.5-5.0 mg/kg, median dose: 4.5 mg/kg) 6 to 24 h prior to surgery. FGS was performed using an ultrasonic aspirator and a dedicated fluorescence imaging system. Distinct margin fluorescence was observed in all 6 cases (100%), allowing for real-time differentiation between tumor tissue and grossly normal brain parenchyma during resection. Immediate post-operative T1-weighted contrast-enhanced MRI demonstrated 100% concordance with intraoperative wound bed fluorescence assessments when thin reactive rims (≤ 1-2 mm) were appropriately excluded. No adverse reactions were associated with ICG. The median follow-up was 14 months (range: 6.6 to 31.0 months), with favorable neurological control.\n\nCONCLUSIONS: Utilizing a second-window approach with dynamic working distance control, ICG effectively demarcated macroscopic canine meningiomas in this small cohort. Immediate post-operative MRI correlated well with surgeon's intraoperative assessments. Ultimately, FGS may serve as a viable surgical option to help minimize damage to grossly normal brain tissue and potentially improve surgical outcomes in canine meningioma.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [
+    "Animals",
+    "Dogs",
+    "Indocyanine Green",
+    "Meningioma",
+    "Dog Diseases",
+    "Female",
+    "Male",
+    "Magnetic Resonance Imaging",
+    "Meningeal Neoplasms",
+    "Fluorescence",
+    "Treatment Outcome",
+    "Surgery, Computer-Assisted",
+    "Fluorescent Dyes"
+  ],
+  "keywords": [
+    "Canine",
+    "Fluorescence-guided surgery",
+    "ICG",
+    "Indocyanine green",
+    "Meningioma",
+    "Near-infrared fluorescence"
+  ],
+  "fetched_on": "2026-11-09"
+}

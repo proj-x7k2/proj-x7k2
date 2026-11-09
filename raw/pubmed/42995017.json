@@ -1,0 +1,26 @@
+{
+  "pmid": "42995017",
+  "title": "Pitfalls of M-mode echocardiography end-diastolic and end-systolic measurements: a study of 154 dogs with myxomatous mitral valve disease.",
+  "journal": "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+  "year": "2026",
+  "authors": [
+    "L Lobo",
+    "G G C M Pereira",
+    "M J Pires"
+  ],
+  "doi": "10.1016/j.jvc.2026.09.009",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42995017/",
+  "abstract": "INTRODUCTION/OBJECTIVES: Echocardiographic assessment of myxomatous mitral valve disease (MMVD) includes measurement of the left ventricular internal dimension at the end-diastole (LVIDd) and at the end-systole (LVIDs), using established cardiac cycle markers. The LVIDd is measured at the QRS onset, which may not coincide with the maximal internal dimension. The LVIDs is obtained at maximum septal contraction, which in dogs with non-synchronous contraction (NSC) between the septal and free wall, may not correspond to the minimal internal dimension. This study investigates alternative measurement methods and their potential impact on MMVD staging.\n\nANIMALS, MATERIALS AND METHODS: A retrospective analysis of echocardiographic examinations from 154 dogs with MMVD was performed. Twenty-five dogs displayed NSC and were selected for LVIDs assessment. The LVIDd was measured at the onset of the QRS complex (method D1, recommended by the American College of Veterinary Internal Medicine [ACVIM]) and at the largest chamber diameter (method D2). In dogs with NSC, the LVIDs was measured using maximum septal contraction point (method S1) and minimum septal-to-free wall distance (method S2).\n\nRESULTS: The LVIDd values were significantly lower with method D1 in 152 dogs (P<0.001). Using method D2, 12 dogs exceeded the the body-weight-normalized LVIDd threshold of 1.7. In NSC dogs, LVIDs values were significantly higher with method S1 (P<0.001).\n\nSTUDY LIMITATIONS: Limitations included operator subjectivity and observational NSC.\n\nCONCLUSIONS: The measurement method influences LVIDd and LVIDs values. Although method D2 is not ACVIM- recommended, its application could hypothetically alter staging outcomes, highlighting the effect of measurement timing.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "Asynchrony",
+    "Cardiopathy",
+    "Staging",
+    "Timing",
+    "Ventricle"
+  ],
+  "fetched_on": "2026-11-09"
+}

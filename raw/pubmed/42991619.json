@@ -1,0 +1,28 @@
+{
+  "pmid": "42991619",
+  "title": "Deep learning for diagnostic and clinical decision support in companion animals: a systematic review of CNN- and LSTM-based approaches.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Juan J Guevara-Flores",
+    "Jhonatan López-Rojas",
+    "José A Vásquez-Coronel"
+  ],
+  "doi": "10.1002/sim.1186",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42991619/",
+  "abstract": "Early disease detection prior to the onset of advanced clinical signs remains a critical imperative in veterinary medicine. This systematic review provides a methodological synthesis of Convolutional Neural Networks and Long Short-Term Memory networks applied to diagnostic and clinical decision support in canine and feline patients, evaluating both algorithmic performance and clinical feasibility. Adhering to the PICO-CS framework and PRISMA 2020 guidelines, we queried Scopus and Web of Science for peer-reviewed studies published between 2021 and 2026, retrieving a final corpus of 57 primary studies. Eleven clinical domains were identified, with evidence heavily concentrated in Oncology (28.1%), Cardiology (15.8%), and Pulmonology (12.3%). CNN architectures predominated in spatial imaging modalities-including radiographs, clinical photography, ultrasonography, and microscopic imagery-whereas LSTM networks were deployed for temporal signals and sensor-derived telemetry. Binary classification tasks achieved the highest performance metrics (accuracy reaching up to 99%), whereas multi-class formulations exhibited broader variability due to dataset imbalance. Cross-study benchmarking revealed substantial heterogeneity in datasets, evaluation metrics, and validation protocols, while reliance on high-performance computational infrastructure poses a barrier to point-of-care deployment in resource-constrained clinics. We conclude that while deep learning architectures hold significant promise as clinical decision-support tools, transitioning to routine veterinary practice requires prospective external validation, representative open-access datasets, and lightweight models optimized for conventional clinical hardware.",
+  "publication_types": [
+    "Journal Article",
+    "Systematic Review"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "artificial intelligence",
+    "computational infrastructure",
+    "deep learning",
+    "diagnostic imaging",
+    "disease detection",
+    "veterinary oncology"
+  ],
+  "fetched_on": "2026-11-09"
+}
