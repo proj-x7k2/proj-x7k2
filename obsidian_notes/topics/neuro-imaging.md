@@ -1,7 +1,7 @@
 ---
 title: "뇌·두개내 영상"
 scope: "뇌, 뇌신경, 두개내 병변"
-updated: 2026-11-02
+updated: 2026-11-09
 ---
 # 뇌·두개내 영상
 
@@ -46,6 +46,9 @@ Idiopathic facial neuropathy(IFN)로 presumptive 진단된 고양이 13마리의
 ### Primary immune-mediated thrombocytopenia(ITP)와 동반된 subdural hemorrhage
 발작과 급성 진행성 intracranial sign을 보인 10세 개에서 severe thrombocytopenia(9 × 10³/μL)로 primary ITP가 진단되었고, MRI에서 양측 cerebral hemisphere를 덮는 crescent 모양 extra-axial fluid accumulation이 T1-weighted·T2-weighted hyperintensity와 T2*-weighted GRE의 peripheral susceptibility artifact를 보여 late subacute subdural hemorrhage로 진단되었다 ([[papers/2026-42952495-subdural-hemorrhage-immune-thrombocytopenia-dog|Hong 2026]]; 증례보고, n=1). 마취·회복 후 급성 악화와 cardiopulmonary arrest로 사망해(원인은 지속 출혈 또는 brain herniation 추정) 혈소판 감소에 의한 두개내 출혈이 치명적일 수 있음을 보여주었다 — 단일 증례, 확진이 presumptive인 제한적 근거.
 
+### Indocyanine green(ICG) fluorescence-guided meningioma 절제와 술후 MRI 대조
+Meningioma 개 6마리에서 수술 6~24시간 전 ICG(중앙값 4.5 mg/kg)를 정맥 투여하고 fluorescence-guided surgery를 한 결과 6예 모두 종양 margin fluorescence가 뚜렷했고, 수술 직후 T1-weighted contrast-enhanced MRI는 얇은 reactive rim(≤1-2mm)을 제외하면 wound bed fluorescence 평가와 100% 일치했다 ([[papers/2026-42968180-indocyanine-green-fluorescence-canine-meningioma|Kim 2026]]; 증례군, n=6). ICG 관련 부작용은 없었고 중앙 14개월 추적에서 신경학적 조절이 양호했으나, 비교군이 없어 절제 범위나 재발 개선 효과는 알 수 없다. 앞서 고양이 pseudocystic meningioma 연구가 추적 MRI의 국소 뇌막 비후를 보고한 것처럼, 술후 MRI에서 얇은 enhancement는 해석에 주의가 필요함을 시사한다 — 6예에 근거한 제한적 근거.
+
 ## 상충되는 근거
 (아직 없음)
 
@@ -64,6 +67,7 @@ Idiopathic facial neuropathy(IFN)로 presumptive 진단된 고양이 13마리의
 - CM/SM 개에서 VPS가 syrinx 감소와 임상 호전을 안정적으로 가져오는지, 적응증과 장기 합병증은 증례 1예로는 알 수 없다.
 - 고양이 IAT 감소가 FCDS 환자에서 연령 효과를 넘어 추가로 나타나는지, 개체 수준 cut-off가 가능한지는 표준화된 행동평가와 연령 일치 대조군을 둔 전향적 연구가 필요하다.
 - 혈소판 감소 개에서 subdural/extra-axial hemorrhage의 MRI 소견이 시기별로 어떻게 변하는지, T2*-GRE가 조기 발견에 얼마나 기여하는지는 증례 1예(부검 확진 없음)로는 알 수 없다.
+- ICG fluorescence-guided surgery가 meningioma 절제 정도·재발·생존을 non-FGS 수술 대비 개선하는지, 술후 MRI의 reactive rim과 잔존 종양을 구분하는 기준은 6예 증례군으로는 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42786736-meningioma-pseudocyst-cats]] — 고양이 meningioma 4예에서 pseudocystic fluid accumulation 동반, microcystic형 1예 최초 보고 (증례군, n=4)
@@ -80,3 +84,4 @@ Idiopathic facial neuropathy(IFN)로 presumptive 진단된 고양이 13마리의
 - [[papers/2026-42877668-ventriculoperitoneal-shunt-syringomyelia-chiari-cavalier]] — CKCS의 CM/SM·ventriculomegaly에서 VPS 후 syrinx 감소와 ventricle 정상화 (증례보고, n=1)
 - [[papers/2026-42939247-interthalamic-adhesion-thickness-cats-age]] — 인지장애 없는 고양이에서 연령 증가에 따라 IAT 감소, senior군이 가장 낮음 (후향적 연구, n=112)
 - [[papers/2026-42952495-subdural-hemorrhage-immune-thrombocytopenia-dog]] — Primary ITP 개에서 MRI(T2*-GRE 포함)로 late subacute subdural hemorrhage 진단, 급성 악화로 사망 (증례보고, n=1)
+- [[papers/2026-42968180-indocyanine-green-fluorescence-canine-meningioma]] — 개 meningioma 6예에서 ICG fluorescence와 술후 즉시 MRI가 100% 일치(얇은 rim 제외), 부작용 없음 (증례군, n=6)

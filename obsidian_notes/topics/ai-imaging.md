@@ -1,7 +1,7 @@
 ---
 title: "AI·정량 영상"
 scope: "AI 판독, 정량 분석, 영상 기반 모델"
-updated: 2026-10-26
+updated: 2026-11-09
 ---
 # AI·정량 영상
 
@@ -22,6 +22,9 @@ updated: 2026-10-26
 ### 영상 채점에서 LLM의 평가자 일치도
 TPLO 후 8주 방사선 사진 100건(개 100마리)을 modified RUST로 채점한 연구에서 large language model(LLM), 외과의, 외과 resident의 점수는 fair 수준의 일치도(ICC 0.4504)를 보였고, 저자들은 LLM 채점이 가능성은 있으나 임상 적용에는 추가 개선이 필요하다고 결론지었다 ([[papers/2026-42903056-mrust-radiographic-healing-tplo-age-llm|Anderson 2026]]; 후향적 연구, n=100 — 상세는 [[topics/musculoskeletal-imaging]] 참고). 초록에는 LLM 종류와 평가자별 점수 분포가 제시되지 않았고, 인간 평가자 간 일치도 자체도 높지 않아 LLM 성능의 기준점이 불안정하다 — 제한적 근거.
 
+### 개·고양이 딥러닝 연구의 체계적 문헌 검토
+2021-2026년 개·고양이 대상 CNN·LSTM 기반 진단 지원 연구 57편을 PRISMA 2020 틀로 검토한 systematic review에서 근거는 oncology(28.1%), cardiology(15.8%), pulmonology(12.3%)에 집중되었고, CNN은 radiograph·초음파 등 영상에, LSTM은 시계열 신호에 쓰였다 ([[papers/2026-42991619-deep-learning-cnn-lstm-systematic-review|Guevara-Flores 2026]]; 종설, n=57편). Binary classification은 accuracy 최대 99%였으나 multi-class는 데이터 불균형으로 변동이 컸고, 데이터셋·평가지표·검증 프로토콜의 이질성과 고성능 연산 인프라 의존이 임상 적용 장벽으로 지목되었다. 위의 서지계량 연구(데이터셋 이질성)와 같은 문제를 지적하며, 전향적 외부 검증·공개 데이터셋·경량 모델이 필요하다는 결론이다. 영상 외 연구가 섞여 있고 초록에 영상 modality별 성능이 없어 영상의학 단독 결론으로 보기는 어렵다.
+
 ## 남은 질문
 - 실제 임상에서 사용 가능한 개별 AI 판독 도구의 민감도·특이도를 종·품종별로 검증한 원저 연구는 이 위키에 아직 없다.
 - AI 보조진단 도구의 quality assurance 체계를 실제 2차 동물병원 워크플로우에 어떻게 통합할지에 대한 구체적 지침은 부족하다.
@@ -29,6 +32,7 @@ TPLO 후 8주 방사선 사진 100건(개 100마리)을 modified RUST로 채점�
 - Stage B2 MMVD 선별 모델의 외부 코호트 검증과 흉부 방사선 변수의 개별 기여도는 아직 확인되지 않았다.
 - DLR 기반 영상 재구성이 실제 진단 성능(병변 검출 민감도·특이도)을 향상시키는지는 아직 검증되지 않았다.
 
+- 체계적 검토에서 보고된 높은 binary accuracy가 외부 병원 자료와 prospective 환경에서 유지되는지, 영상 modality별(radiograph vs 초음파) 성능이 어떤지는 아직 알 수 없다.
 - 범용 LLM으로 방사선 사진을 채점할 때 어떤 모델·프롬프트가 인간 평가자와 얼마나 일치하는지, 명확한 reference standard 대비 정확도는 어떤지는 알 수 없다.
 
 ## 관련 논문
@@ -39,3 +43,4 @@ TPLO 후 8주 방사선 사진 100건(개 100마리)을 modified RUST로 채점�
 - [[papers/2026-42798418-ml-stage-b2-mmvd-prediction]] — 흉부 방사선 포함 routine clinical data 기반 gradient boosting이 stage B2 MMVD를 ROC AUC 0.922로 식별 (후향적 연구, n=387)
 - [[papers/2026-42813384-dlr-canine-brain-mri]] — Deep learning 기반 재구성(DLR)이 brain MRI 영상 품질·lesion conspicuity 향상 (후향적 연구, n=25)
 - [[papers/2026-42903056-mrust-radiographic-healing-tplo-age-llm]] — TPLO 후 mRUST 채점에서 LLM·외과의·resident 일치도 fair (ICC 0.4504) (후향적 연구, n=100)
+- [[papers/2026-42991619-deep-learning-cnn-lstm-systematic-review]] — 개·고양이 CNN/LSTM 진단지원 57편 체계적 검토, 이질성·외부 검증 부족 지적 (종설, n=57편)

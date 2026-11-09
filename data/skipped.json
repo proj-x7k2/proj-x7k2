@@ -328,5 +328,65 @@
     "title": "Vertebral cardiac size and heart location of the Syrian hamster (Mesocricetus auratus) in radiographs and in situ gross dissections.",
     "reason": "대상 종이 Syrian hamster로 개·고양이·토끼가 아님",
     "date": "2026-11-02"
+  },
+  {
+    "pmid": "42978243",
+    "title": "Ectopic heartworms as evidence in the forensic postmortem examination of a dog with a fatal gunshot wound.",
+    "reason": "방사선은 탄환 확인에만 부수적 사용; 연구 핵심은 forensic 부검 병리(애매하여 제외)",
+    "date": "2026-11-09"
+  },
+  {
+    "pmid": "42993774",
+    "title": "Blood serotonin, ionized magnesium, cardiac troponin I, N-terminal pro-brain natriuretic peptide concentrations, and mitral valve billowing in horses with mitral valve regurgitation.",
+    "reason": "대상 종이 말로 개·고양이·토끼가 아님",
+    "date": "2026-11-09"
+  },
+  {
+    "pmid": "42988773",
+    "title": "Chemodectoma Arising From the Abdominal Aorta in a 9-Year-Old Female Dog: Clinical, Histopathological and Immunohistochemstric Study.",
+    "reason": "구체적 영상 소견 서술 없음(CT 불가); 증례 핵심은 조직병리·면역조직화학(애매하여 제외)",
+    "date": "2026-11-09"
+  },
+  {
+    "pmid": "42977705",
+    "title": "Primary Erythrocytosis (Polycythaemia) in a Neutered Male Dog Presenting With Right Hindlimb Lameness.",
+    "reason": "초음파는 iliac thrombus 확인에 부수적 사용; 증례 핵심은 erythrocytosis 진단·hydroxyurea 치료",
+    "date": "2026-11-09"
+  },
+  {
+    "pmid": "42968221",
+    "title": "EXPRESS: Elbow luxation treatment in cats using external fixation.",
+    "reason": "방사선은 정복 유지 추적 도구로 부수적 사용; 연구 핵심은 수술기법과 임상 결과(애매하여 제외)",
+    "date": "2026-11-09"
+  },
+  {
+    "pmid": "42981672",
+    "title": "Sizing the feline heart: A post-mortem analysis of ventricular dimensions in 172 normal and hypertrophied cases.",
+    "reason": "부검 계측 연구이며 영상 평가 없음",
+    "date": "2026-11-09"
+  },
+  {
+    "pmid": "42991084",
+    "title": "Circulating osteocrin is associated with cardiac remodeling in canine myxomatous mitral valve disease and skeletal alterations in a rat pressure-overload model.",
+    "reason": "혈중 biomarker(osteocrin) 연구이며 echocardiography는 상관 지표로만 부수적 사용; 랫드 모델 포함",
+    "date": "2026-11-09"
+  },
+  {
+    "pmid": "42985444",
+    "title": "Decision tree models to guide endotracheal tube selection in dogs.",
+    "reason": "연구 핵심은 기관내관 크기 선택 decision tree이며 방사선 ITD 측정은 예측 변수 중 하나로 부수적(애매하여 제외)",
+    "date": "2026-11-09"
+  },
+  {
+    "pmid": "42983507",
+    "title": "Inflammatory myofibroblastic tumor in a 9-year-old male neutered mixed-breed dog with gastrointestinal signs; a case report.",
+    "reason": "초음파는 jejunal mass 발견에만 부수적 사용, 구체적 영상 소견 서술 없음; 증례 핵심은 병리·면역조직화학(애매하여 제외)",
+    "date": "2026-11-09"
+  },
+  {
+    "pmid": "42972342",
+    "title": "Monitoring of oxidative stress and acute phase proteins following testes exposure with ultrasound waves in cats.",
+    "reason": "치료용 초음파 노출의 생화학·조직 영향 연구이며 진단 영상 연구 아님",
+    "date": "2026-11-09"
   }
 ]

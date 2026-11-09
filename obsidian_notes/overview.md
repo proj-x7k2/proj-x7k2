@@ -6,11 +6,11 @@
 ## 주요 주제
 
 - [[topics/abdominal-imaging]] — 위장관, 간담도, 췌장, 비장, 복강 영상 (논문 9편)
-- [[topics/musculoskeletal-imaging]] — 관절, 골, 근육, 골종양 영상 (논문 15편)
-- [[topics/cardiac-imaging]] — 심초음파, 심장 CT, 대혈관 영상 (논문 18편)
-- [[topics/neuro-imaging]] — 뇌, 뇌신경, 두개내 병변 영상 (논문 14편)
+- [[topics/musculoskeletal-imaging]] — 관절, 골, 근육, 골종양 영상 (논문 16편)
+- [[topics/cardiac-imaging]] — 심초음파, 심장 CT, 대혈관 영상 (논문 22편)
+- [[topics/neuro-imaging]] — 뇌, 뇌신경, 두개내 병변 영상 (논문 15편)
 - [[topics/imaging-technique-safety]] — 촬영 프로토콜·조영제·방사선 선량·영상 품질 (논문 7편)
-- [[topics/ai-imaging]] — 수의영상의학에서의 AI 판독·정량 분석 동향과 임상 적용 원칙 (논문 7편)
+- [[topics/ai-imaging]] — 수의영상의학에서의 AI 판독·정량 분석 동향과 임상 적용 원칙 (논문 8편)
 - [[topics/trauma-forensic-imaging]] — 다발성 외상·학대 의심 사례에서의 영상진단 활용 (논문 5편)
 - [[topics/spinal-imaging]] — IVDD, 척수병증, 척추 기형 영상 (논문 8편)
 - [[topics/urogenital-imaging]] — 신장, 요관, 방광, 전립선, 생식기 영상 (논문 7편)

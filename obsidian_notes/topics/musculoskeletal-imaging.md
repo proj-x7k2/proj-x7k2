@@ -1,7 +1,7 @@
 ---
 title: "근골격 영상"
 scope: "관절, 골, 근육, 골종양"
-updated: 2026-11-02
+updated: 2026-11-09
 ---
 # 근골격 영상
 
@@ -32,6 +32,9 @@ Osteosarcoma가 있는 개 16마리의 CT 영상에서 재구성한 뼈 모델�
 ### 고관절 치환술 후 영상 추적
 Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zurich Mini total hip replacement(THR)를 받은 고양이 11마리(17 hips)의 후향적 연구에서, intraoperative fluoroscopy로 cup 위치를 최적화했고 8주째 남은 임플란트는 모두 방사선상 완전~진행성 osteointegration을 보였다 ([[papers/2026-42767266-zurich-mini-thr-cats|Vedrine 2026]]; 후향적 연구, n=11/17 hips). 다만 femoral fracture가 11.8%에서 발생(1례 절단)해, 술후 방사선 추적 시 이 합병증에 대한 주의가 필요함을 시사했다.
 
+### 성장기 개 tibial tuberosity avulsion fracture의 implant 제거 후 방사선 평가
+Tibial tuberosity avulsion fracture 수술 후 23-28일에 implant를 제거한 성장기 개 5마리의 양측 hindlimb radiograph 측정에서, 수술 limb은 정상 limb보다 tibial plateau angle(TPA)이 낮고 axial tuberosity position은 크며 transverse position은 작았으나 gait analysis의 total pressure index에는 차이가 없었다 ([[papers/2026-42994409-tibial-tuberosity-avulsion-implant-removal|Hayes 2026]]; 증례군, n=5). Implant를 남긴 역사적 코호트(n=6)와 의미 있는 해부학적 차이는 없었고, 음의 TPA는 제거군 0마리 vs 역사적 코호트 2/6마리였다. 조기 implant 제거가 정상 해부학을 보존하지는 못했으나 기능은 유지되었다는 결론으로, 5마리·역사적 대조에 근거한 제한적 근거다.
+
 ## 상충되는 근거
 (아직 없음)
 
@@ -45,6 +48,7 @@ Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zuri
 
 - Monocortical distal screw가 bicortical 고정 및 다른 locking system, 대형견, 더 긴 추적(평균 43일 이후)에서도 TPA와 union을 유지하는지는 아직 근거가 없다.
 - ETF 고정 고양이에서 방사선상 정복 정확도·골유합과 기능적 결과의 관계는 초록만으로는 알 수 없다.
+- Tibial tuberosity avulsion 후 TPA 감소·tuberosity 위치 변화가 장기 기능(성장 종료 후)에 영향을 주는지, 어느 시점의 implant 제거가 변형을 줄이는지는 5마리·역사적 대조 연구로는 알 수 없다.
 
 ## 관련 논문
 - [[papers/2026-42763011-us-vs-radiography-leishmaniasis-joints]] — leishmaniasis 관절병변 검출에서 초음파가 방사선보다 우수 (전향적 연구, n=43)
@@ -62,3 +66,4 @@ Slipped capital femoral epiphysis(SCFE)·hip dysplasia 등으로 cementless Zuri
 - [[papers/2026-42903056-mrust-radiographic-healing-tplo-age-llm]] — TPLO 후 8주 mRUST 점수는 연령군(2-5세 vs 8-12세) 간 차이 없음, LLM·외과의·resident 일치도는 fair (후향적 연구, n=100)
 - [[papers/2026-42950426-monocortical-locking-screws-tplo]] — TPLO 후 monocortical distal screw에서 TPA 변화 중앙값 2.15°, 방사선 union 만족 (후향적 연구, n=117)
 - [[papers/2026-42934855-exvet-external-fixation-cats-hindlimb]] — Exvet Tarsal Fixator로 고양이 distal hindlimb injury 치료, 합병증 20.0%, 기능 결과 양호 (후향적 연구, n=35)
+- [[papers/2026-42994409-tibial-tuberosity-avulsion-implant-removal]] — Tibial tuberosity avulsion 후 조기 implant 제거는 정상 tibial anatomy를 보존하지 못했으나 기능은 유지 (증례군, n=5)

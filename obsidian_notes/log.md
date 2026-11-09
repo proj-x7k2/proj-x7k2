@@ -1,5 +1,26 @@
 # 변경 기록
 
+## 2026-11-09 수집 (2차)
+- `data/raw_papers.json` 7편: 3편 처리, 4편 건너뜀. `raw/pdf/`에 PDF가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (`data/skipped.json`에 기록): `42991084`(osteocrin biomarker, 랫드 모델 포함), `42985444`(ETT 크기 decision tree, 방사선은 예측 변수 중 하나; 애매), `42983507`(개 IMT 증례, 구체적 영상 서술 없음), `42972342`(고양이 고환 치료용 초음파 노출 연구, 진단 영상 아님).
+- 신규 논문 페이지 3편 생성 및 주제 통합:
+  - `42995017`(MMVD M-mode LVIDd/LVIDs 측정 시점, 후향적 n=154) → `cardiac-imaging` (소제목 신설).
+  - `42977613`(MAD + MMVD + PS + VSD 개 증례, n=1) → `cardiac-imaging` (소제목 신설).
+  - `42968180`(개 meningioma ICG fluorescence-guided surgery, 증례군 n=6) → `neuro-imaging` (소제목 신설).
+- 갱신된 주제: `cardiac-imaging` 20→22, `neuro-imaging` 14→15. 신설 주제 없음.
+- 참고: PubMed 원자료의 DOI가 논문과 맞지 않는 `42968180`은 논문 페이지의 `doi`를 `""`로 두었음(원자료는 수정하지 않음).
+
+## 2026-11-09 수집
+- `data/raw_papers.json` 10편: 4편 처리, 6편 건너뜀. `raw/pdf/`가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (`data/skipped.json`에 기록): `42978243`(총상 개 forensic 부검, 방사선은 탄환 확인용), `42993774`(말 mitral regurgitation, 대상 종 아님), `42988773`(복부대동맥 chemodectoma 병리 증례, 구체적 영상 서술 없음), `42977705`(primary erythrocytosis 증례, 초음파는 혈전 확인용), `42968221`(고양이 elbow luxation 외고정술, 방사선은 추적용), `42981672`(고양이 심장 부검 계측, 영상 없음). 애매한 건은 제외.
+- 신규 논문 페이지 4편 생성 및 주제 통합:
+  - `42994409`(성장기 개 tibial tuberosity avulsion 후 implant 제거, 증례군 n=5) → `musculoskeletal-imaging` (소제목 신설).
+  - `42987508`(advanced heartworm 우심계 remodeling 심초음파, 후향적 n=44) → `cardiac-imaging` (기존 heartworm 소제목에 통합).
+  - `42997290`(whippet CT CVC/Ao, 후향적 n=68) → `cardiac-imaging` (소제목 신설).
+  - `42991619`(개·고양이 CNN/LSTM 체계적 검토, 57편) → `ai-imaging` (소제목 신설).
+- 갱신된 주제: `musculoskeletal-imaging` 15→16, `cardiac-imaging` 18→20, `ai-imaging` 7→8. 신설 주제 없음.
+- 참고: PubMed 원자료의 DOI가 논문과 맞지 않는 `42997290`, `42991619`는 논문 페이지의 `doi`를 `""`로 두었음(원자료는 수정하지 않음).
+
 ## 2026-11-02 점검
 - 논문 101편·주제 16편 점검. 링크, 양방향 연결, overview 논문 수, 통제 어휘, tags 모두 이상 없음.
 - 수정: `sedation-restraint-imaging` 종합 첫 문장에 근거 표기 추가, 남은 질문 목록의 빈 줄 제거.

@@ -1,7 +1,7 @@
 ---
 title: "심장·대혈관 영상"
 scope: "심초음파, 심장 CT, 대혈관"
-updated: 2026-11-02
+updated: 2026-11-09
 ---
 # 심장·대혈관 영상
 
@@ -55,7 +55,20 @@ Ventricular arrhythmia만 있고 conventional echocardiography가 정상인 stag
 ### Heartworm 감염견의 pulmonary hypertension 평가를 위한 Vertebral Right Heart Index(VRHi)
 Dirofilaria immitis 자연감염견 34마리와 건강 대조군 20마리에서 진정 없이 촬영한 thoracic radiograph로 VHS와 VRHi를 측정한 연구에서, VRHi는 세 군 간 유의하게 달랐고 echocardiography상 PH 고확률군에서 가장 높았으며 right-sided remodelling 지표와 유의한 상관을 보였다 ([[papers/2026-42939169-vertebral-right-heart-index-heartworm|Matos 2026]]; 대조군 포함 진단 연구, n=54). Right lateral projection VRHi의 AUC(0.835)는 가장 높았으나 기존 VHS(0.764)와 유의한 차이가 없어(DeLong p=0.519) 우월성은 입증되지 않았고, 보조적 radiographic parameter로 제안되었다 — 소규모 연구로 제한적 근거.
 
+심초음파 자체로는, 자연감염견 44마리의 후향적 연구에서 advanced heartworm(class 3-4, n=21)이 mild(class 1-2, n=23)보다 right atrium·right ventricle 확대, right pulmonary artery distensibility 감소, pulmonary artery acceleration time 단축, main PA:Ao ratio 증가, RV systolic function 저하를 보였고, normalized right atrial diameter가 advanced 질환 식별에서 AUC 0.95(95% CI 0.88-1.00)로 가장 우수했다 ([[papers/2026-42987508-advanced-heartworm-right-heart-remodeling|Kim 2026]]; 후향적 연구, n=44). 8마리에서 heartworm extraction 후 right atrial size가 유의하게 감소했다. 위 VRHi 연구가 흉부 방사선으로 right-sided remodelling을 포착하려 한 것과 같은 방향으로, 심초음파에서도 우심계 remodeling이 중증도와 연관됨을 보여준다 — 단일 기관 후향적 연구로 제한적 근거.
+
+### CT에서 caudal vena cava to aorta ratio(CVC/Ao)의 견종·modality 의존성
+심혈관 질환이 알려지지 않은 개 68마리(whippet 34, 대조 34)의 마취 하 CT에서 whippet의 abdominal CVC/Ao는 1.54±0.29로 대조군 1.28±0.23보다 컸고(p<0.001, 체중·연령 보정 후에도 유지) thoracic ratio는 차이가 없었다(1.22 vs 1.28; p=0.29) ([[papers/2026-42997290-whippet-caval-aorta-ratio-ct|Esmieu 2026]]; 후향적 연구, n=68). 두 군 모두 기존 발표된 CT 기준값을 초과했고 초음파 상한을 넘은 비율은 whippet이 더 높아(73.5% vs 41.2%), 저자들은 기준값이 modality 간에 호환되지 않는다고 결론지었다. 제시된 mean ± 2 SD 범위는 breed-specific reference range가 아닌 예비 관찰값이다 — 단일 후향적 연구로 제한적 근거.
+
+### M-mode LVIDd·LVIDs 측정 시점이 MMVD staging에 미치는 영향
+MMVD 개 154마리의 후향적 재분석에서 ACVIM 권고인 QRS onset 시점의 LVIDd(D1)는 최대 chamber diameter 시점의 LVIDd(D2)보다 152마리에서 유의하게 낮았고(P<0.001), D2를 쓰면 12마리가 체중 보정 LVIDd 기준값 1.7을 초과했다 ([[papers/2026-42995017-mmode-lvidd-lvids-measurement-pitfalls|Lobo 2026]]; 후향적 연구, n=154). Septum-free wall non-synchronous contraction(NSC) 25마리에서는 maximum septal contraction 시점의 LVIDs가 minimum septal-to-free wall distance 시점보다 유의하게 높았다(P<0.001). 위의 고양이 LVWT endocardial border 연구와 마찬가지로 측정 convention이 값과 분류를 바꿀 수 있음을 보여주지만, D2 기준 staging 변화는 저자들도 가정(hypothetical)이라고 밝혔고 예후 자료는 없다 — 단일 후향적 연구로 제한적 근거.
+
+### 선천성 심기형과 동반된 mitral annular disjunction(MAD)
+빈번한 syncope를 보인 6세 Shih tzu 1예에서 echocardiography로 MAD가 MMVD, infundibular pulmonic stenosis, bidirectional shunting을 동반한 perimembranous VSD와 함께 확인되었고, 혈역학적으로 Tetralogy of Fallot와 기능적으로 유사하다고 판단되었다 ([[papers/2026-42977613-mitral-annular-disjunction-congenital-dog|Tavares 2026]]; 증례보고, n=1). Propranolol 보존 치료 후 초기 호전, 이어 악화되어 진단 후 19개월 생존했다. 저자들은 선천성 기형과 동반된 MAD의 개 첫 보고라고 주장한다 — 단일 증례에 근거한 제한적 근거.
+
 ## 남은 질문
+- M-mode LVIDd 측정 시점(QRS onset vs 최대 직경)에 따른 staging 변화가 실제 예후·치료 결정과 연관되는지는 알 수 없다. NSC 하위군은 25마리로 작다.
+- 개 MAD의 echocardiography 진단 기준과 빈도, 사람처럼 arrhythmia·sudden death 위험과 연관되는지는 증례 1예로는 알 수 없다.
 - VRHi의 구체적 cut-off와 민감도·특이도, 그리고 VHS 대비 실제 진단적 이득이 있는지는 초록에 제시되지 않았고 표본이 작아(n=54) 알 수 없다. Heartworm 외 원인의 PH나 다른 지역·견종에서도 유지되는지도 확인되지 않았다.
 - 이 연구에서 도출된 소형견 전용 allometric 상수의 구체적 수치와 참고구간이 초록에 제시되지 않아, 원문 확인 없이는 임상 cut-off로 바로 사용하기 어렵다.
 - 중·대형 성장기 견종에 대해서도 유사한 품종별 재검증이 필요한지는 이 연구만으로는 알 수 없다.
@@ -73,6 +86,9 @@ Dirofilaria immitis 자연감염견 34마리와 건강 대조군 20마리에서 
 - Doxorubicin cardiotoxicity의 양심실 speckle tracking 변화가 180일 이후 더 진행하는지, 실제 임상 심부전으로 이어지는지는 추적 기간이 제한되어 알 수 없으며, 단독 투여군만의 결과도 분리되어 제시되지 않았다.
 - Doberman stage B1 DCM에서 GLS 저하가 실제 stage B2 진행·심부전·돌연사 위험을 전향적으로 예측하는지는 이 후향적 case-control 연구만으로는 알 수 없다.
 - 고양이 aortic dissection 후 bacterial endarteritis의 발생 빈도와 위험요인, 이를 생전에 조기 발견할 수 있는 영상 추적 프로토콜은 단일 증례로는 알 수 없다.
+
+- Heartworm 개에서 normalized right atrial diameter의 구체적 cut-off, 치료 후 right heart remodeling의 회복 정도와 시간 경과는 초록으로 알 수 없다.
+- CT CVC/Ao의 volume status 지표로서의 임상 유용성이 견종·마취·연령별로 어떻게 달라지는지, 견종 특이적 CT 참고구간은 아직 없다.
 
 - C-Echo로 얻은 LVWT가 S-Echo보다 작게 측정되는 경향이 있어 HCM 진단 cut-off를 그대로 쓸 수 있는지, C-Echo 전용 기준값이 필요한지, C-Echo가 HCM 분류를 실제로 바꾸는지는 알 수 없다. 조영제 안전성도 초록에 제시되지 않았다.
 
@@ -95,3 +111,7 @@ Dirofilaria immitis 자연감염견 34마리와 건강 대조군 20마리에서 
 - [[papers/2026-42842764-aortic-dissection-endarteritis-cat]] — 고양이 aortic dissection, echocardiography로 ascending aorta flap 확인 후 bacterial endarteritis로 지연 사망 (증례보고, n=1)
 - [[papers/2026-42914951-contrast-echocardiography-feline-lv-wall-thickness]] — 고양이 LVWT를 C-Echo로 측정하면 S-Echo보다 작게 나오고 repeatability가 더 좋음, accuracy는 미평가 (전향적 연구, n=50)
 - [[papers/2026-42939169-vertebral-right-heart-index-heartworm]] — Heartworm 감염견에서 VRHi가 PH 고확률군에서 가장 높았으나 VHS 대비 AUC 차이는 유의하지 않음 (대조군 포함 진단 연구, n=54)
+- [[papers/2026-42987508-advanced-heartworm-right-heart-remodeling]] — Advanced heartworm에서 우심계·폐동맥 remodeling, normalized RA diameter AUC 0.95 (후향적 연구, n=44)
+- [[papers/2026-42997290-whippet-caval-aorta-ratio-ct]] — Whippet의 abdominal CVC/Ao가 대조군보다 크며 기존 기준값은 modality 간 호환되지 않음 (후향적 연구, n=68)
+- [[papers/2026-42995017-mmode-lvidd-lvids-measurement-pitfalls]] — M-mode LVIDd·LVIDs 측정 시점에 따라 값이 달라지고 staging 기준 초과 개체 수가 변할 수 있음 (후향적 연구, n=154)
+- [[papers/2026-42977613-mitral-annular-disjunction-congenital-dog]] — MMVD·pulmonic stenosis·VSD 동반 MAD 개 증례, 진단 후 19개월 생존 (증례보고, n=1)

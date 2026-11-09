@@ -1,5 +1,297 @@
 [
   {
+    "pmid": "42997290",
+    "title": "Whippets have larger abdominal caudal vena cava to aorta ratios than other dogs on computed tomography.",
+    "journal": "Frontiers in Veterinary Science",
+    "year": "2026",
+    "authors": [
+      "Shanti Lucie Esmieu",
+      "Man-Hei Ma",
+      "Panagiotis Mantis",
+      "Silvia Biondo",
+      "Radu Constantinescu",
+      "Ana Rita Ramalho Furtado"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42997290/",
+    "doi": "",
+    "study_type": "후향적 연구",
+    "sample_size": "68",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42997290-whippet-caval-aorta-ratio-ct",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "cardiovascular",
+      "abdomen"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "cardiovascular",
+      "abdomen"
+    ],
+    "added_on": "2026-11-09",
+    "summary_ko": "심혈관 질환이 알려지지 않은 개 68마리(whippet 34, 비-whippet 대조 34)의 CT에서 abdominal과 thoracic 표준 위치의 caudal vena cava to aorta ratio(CVC/Ao)를 후향적으로 비교했다. Whippet의 abdominal CVC/Ao가 대조군보다 유의하게 컸고(1.54±0.29 vs 1.28±0.23; p<0.001) 체중·연령 보정 후에도 유지되었으나(보정 차이 0.29, 95% CI 0.15-0.42), thoracic ratio는 차이가 없었다(1.22 vs 1.28; p=0.29). 두 군 모두 기존 발표된 CT 기준값을 초과했고, 초음파 상한을 넘는 비율은 whippet이 더 높았다(73.5% vs 41.2%; p=0.007).",
+    "summary_en": "In 68 dogs without known cardiovascular disease (34 whippets, 34 controls), whippets had a higher abdominal CVC/Ao on CT (1.54 vs 1.28, p<0.001, persisting after adjustment for weight and age) but similar thoracic ratios. Thoracic ratio declined with age (-0.023 per year). Both groups exceeded published CT reference values, and more whippets exceeded the ultrasonographic upper limit (73.5% vs 41.2%). Observed mean ± 2 SD limits are cohort observations, not breed-specific reference ranges.",
+    "clinical_takeaway_ko": "CT로 CVC/Ao를 volume status 지표로 해석할 때, 마취 하 CT 값에 초음파나 기존 CT 기준값을 그대로 적용하지 말아야 하며, 특히 whippet 같은 sighthound의 abdominal ratio가 높게 나와도 곧바로 volume overload로 해석하지 않는 것이 안전하다. 사용하는 측정 위치(abdominal vs thoracic)를 기록해 둘 것."
+  },
+  {
+    "pmid": "42995017",
+    "title": "Pitfalls of M-mode echocardiography end-diastolic and end-systolic measurements: a study of 154 dogs with myxomatous mitral valve disease.",
+    "journal": "Journal of Veterinary Cardiology",
+    "year": "2026",
+    "authors": [
+      "L Lobo",
+      "G G C M Pereira",
+      "M J Pires"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42995017/",
+    "doi": "10.1016/j.jvc.2026.09.009",
+    "study_type": "후향적 연구",
+    "sample_size": "154",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42995017-mmode-lvidd-lvids-measurement-pitfalls",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular",
+      "technique"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "echocardiography",
+      "cardiovascular",
+      "technique"
+    ],
+    "added_on": "2026-11-09",
+    "summary_ko": "MMVD 개 154마리의 echocardiography를 후향적으로 재분석해 LVIDd와 LVIDs의 측정 시점이 값에 미치는 영향을 조사했다. LVIDd를 ACVIM 권고대로 QRS onset에서 측정한 값(D1)은 최대 chamber diameter에서 측정한 값(D2)보다 152마리에서 유의하게 낮았다(P<0.001). D2를 쓰면 12마리가 체중 보정 LVIDd 기준값 1.7을 넘었다. Septum과 free wall의 non-synchronous contraction(NSC)이 있는 25마리에서는 maximum septal contraction 시점(S1)의 LVIDs가 minimum septal-to-free wall distance(S2)보다 유의하게 높았다(P<0.001).",
+    "summary_en": "In a retrospective analysis of 154 dogs with MMVD, LVIDd measured at QRS onset (ACVIM-recommended, D1) was significantly lower than LVIDd at the largest chamber diameter (D2) in 152 dogs; with D2, 12 dogs exceeded the body-weight-normalized LVIDd threshold of 1.7. In 25 dogs with non-synchronous septal/free wall contraction, LVIDs at maximum septal contraction (S1) was significantly higher than at minimum septal-to-free wall distance (S2). The authors conclude that measurement timing influences LVIDd/LVIDs and could hypothetically alter MMVD staging.",
+    "clinical_takeaway_ko": "Stage B1/B2 경계(LVIDd 정규화 1.7) 근처의 개는 측정 시점 하나로 분류가 달라질 수 있으므로, 어느 시점에서 쟀는지 기록하고 추적 검사에서 동일한 방법을 유지할 것. NSC가 보이는 개에서는 LVIDs를 septal contraction 최대점만으로 재지 않도록 주의한다."
+  },
+  {
+    "pmid": "42994409",
+    "title": "Tibial Anatomy and Functional Outcome in Growing Dogs with Tibial Tuberosity Avulsion Fracture Repair Followed by Implant Removal.",
+    "journal": "Veterinary and Comparative Orthopaedics and Traumatology",
+    "year": "2026",
+    "authors": [
+      "Shantavia Nicole Hayes",
+      "Ashley Lynne Franklin",
+      "Samuel Patrick Franklin"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42994409/",
+    "doi": "10.1055/a-2991-3052",
+    "study_type": "증례군",
+    "sample_size": "5",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42994409-tibial-tuberosity-avulsion-implant-removal",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "musculoskeletal",
+      "trauma"
+    ],
+    "topics": [
+      "musculoskeletal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "radiography",
+      "musculoskeletal",
+      "trauma"
+    ],
+    "added_on": "2026-11-09",
+    "summary_ko": "Tibial tuberosity avulsion fracture를 open reduction·fixation으로 치료한 성장기 개 5마리(Cohort A)에서 수술 후 23-28일에 implant를 제거했고, 양측 hindlimb radiograph와 objective gait analysis로 tibial anatomy와 기능을 평가했다. 수술한 limb은 정상 limb보다 tibial plateau angle(TPA)이 낮고 axial tibial tuberosity position은 크며 transverse tibial tuberosity position은 작았지만, total pressure index에는 유의한 차이가 없었다. Implant를 제거하지 않은 역사적 코호트(Cohort B)와 비교해 의미 있는 해부학적 차이는 없었으나, TPA가 0° 미만인 개는 Cohort A에서 없었고 Cohort B에서는 2/6마리였다. Refracture는 없었다.",
+    "summary_en": "Five growing dogs that had implants removed 23-28 days after tibial tuberosity avulsion fracture repair underwent bilateral hindlimb radiographs and objective gait analysis. Operated limbs had a lower tibial plateau angle, greater axial and smaller transverse tuberosity position than normal limbs, yet total pressure index did not differ. Anatomy was not clearly different from a historical cohort with implants left in situ, although none of the Cohort A dogs had a negative TPA versus 2/6 in Cohort B. Early implant removal did not preserve normal tibial anatomy, but function was maintained.",
+    "clinical_takeaway_ko": "성장기 개의 tibial tuberosity avulsion 수술 후 추적에서는 양측 radiograph로 TPA와 tuberosity position을 정상 limb과 비교 측정해 두는 것이 좋다. 3-4주 implant 제거는 해부학적 변형을 막지 못했으므로 변형 예방 목적으로 기대하지 말고, 극단적 음의 TPA 여부와 기능 평가를 함께 보는 것이 합리적이다 (5마리 근거로 제한적)."
+  },
+  {
+    "pmid": "42991619",
+    "title": "Deep learning for diagnostic and clinical decision support in companion animals: a systematic review of CNN- and LSTM-based approaches.",
+    "journal": "Frontiers in Veterinary Science",
+    "year": "2026",
+    "authors": [
+      "Juan J Guevara-Flores",
+      "Jhonatan López-Rojas",
+      "José A Vásquez-Coronel"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42991619/",
+    "doi": "",
+    "study_type": "종설",
+    "sample_size": "57",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42991619-deep-learning-cnn-lstm-systematic-review",
+    "species": [
+      "dog",
+      "cat"
+    ],
+    "modality": [
+      "radiography",
+      "ultrasound"
+    ],
+    "system": [
+      "AI"
+    ],
+    "topics": [
+      "ai-imaging"
+    ],
+    "tags": [
+      "dog",
+      "cat",
+      "radiography",
+      "ultrasound",
+      "AI"
+    ],
+    "added_on": "2026-11-09",
+    "summary_ko": "Scopus와 Web of Science에서 2021-2026년 출판된 개·고양이 대상 CNN·LSTM 기반 진단/임상 의사결정 지원 연구 57편을 PRISMA 2020과 PICO-CS 틀로 체계적으로 검토했다. 근거는 oncology(28.1%), cardiology(15.8%), pulmonology(12.3%)에 집중되었다. CNN은 radiograph·임상 사진·초음파·현미경 영상 같은 공간적 영상에, LSTM은 시계열 신호와 센서 자료에 쓰였다. Binary classification은 accuracy 최대 99%까지 보고되었으나 multi-class는 데이터 불균형으로 변동이 컸고, 데이터셋·평가지표·검증 방식의 이질성이 크며 고성능 연산 인프라 의존이 현장 적용의 장벽으로 지목되었다.",
+    "summary_en": "This PRISMA 2020 systematic review of 57 primary studies (2021-2026) examined CNN- and LSTM-based diagnostic support in dogs and cats. Evidence concentrated in oncology, cardiology and pulmonology. CNNs dominated imaging modalities (radiographs, photographs, ultrasonography, microscopy); LSTMs were used for temporal signals. Binary tasks reached up to 99% accuracy, whereas multi-class tasks varied widely, with substantial heterogeneity in datasets and validation. The authors call for prospective external validation, open representative datasets and lightweight models.",
+    "clinical_takeaway_ko": "논문에서 보고되는 \"accuracy 99%\"는 대부분 binary 과제의 내부 검증 값이므로, AI 판독 도구를 도입할 때는 외부 병원 자료에서의 prospective 검증 여부와 multi-class 성능을 먼저 확인해야 한다. 영상(영상의학) 외 연구도 섞여 있어 영상 판독 성능으로 그대로 해석하지 않는다."
+  },
+  {
+    "pmid": "42987508",
+    "title": "Advanced heartworm disease in dogs is associated with marked right heart and pulmonary artery remodeling.",
+    "journal": "American Journal of Veterinary Research",
+    "year": "2026",
+    "authors": [
+      "Minsuk Kim",
+      "Min Woong Seo",
+      "Jaechun Cho",
+      "Chul Park"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42987508/",
+    "doi": "10.2460/ajvr.26.06.0240",
+    "study_type": "후향적 연구",
+    "sample_size": "44",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42987508-advanced-heartworm-right-heart-remodeling",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular",
+      "thorax"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "echocardiography",
+      "cardiovascular",
+      "thorax"
+    ],
+    "added_on": "2026-11-09",
+    "summary_ko": "2020년 7월-2023년 2월 진단된 heartworm 감염견 44마리의 의무기록을 후향적으로 검토해, 임상 class(1-2 mild vs 3-4 advanced), pulmonary hypertension(PH) 확률, tricuspid regurgitation(TR) pressure gradient별로 echocardiography 지표를 비교했다. Advanced군(n=21)은 mild군(n=23)보다 right atrium·right ventricle 확대가 크고 right pulmonary artery distensibility가 낮았으며, pulmonary artery acceleration time이 짧고 main pulmonary artery-to-aorta ratio가 높았고 right ventricular systolic function이 낮았다. Normalized right atrial diameter가 advanced 질환 식별에서 가장 좋은 성능(AUC 0.95; 95% CI 0.88-1.00)을 보였고, 8마리에서 heartworm extraction 후 right atrial size가 유의하게 감소했다.",
+    "summary_en": "In 44 client-owned dogs with heartworm infection, advanced disease (class 3-4, n=21) showed greater right atrial and ventricular enlargement, reduced right pulmonary artery distensibility, shorter pulmonary artery acceleration time, higher main PA:Ao ratio and lower RV systolic function than mild disease (n=23). Similar findings applied to dogs with high PH probability. Normalized right atrial diameter best identified advanced disease (AUC 0.95), and right atrial size decreased after heartworm extraction in 8 dogs.",
+    "clinical_takeaway_ko": "Heartworm 감염견의 심초음파에서는 normalized right atrial diameter, TR gradient, RV 크기와 PA acceleration time을 함께 기록하면 중증도와 PH 가능성을 가늠하는 데 도움이 된다. Caval syndrome 개체에서는 extraction 후 right atrial size 변화를 재검해 반응을 확인할 수 있다 (소규모 후향적 근거)."
+  },
+  {
+    "pmid": "42977613",
+    "title": "Mitral annular disjunction associated with myxomatous mitral valve disease, infundibular pulmonic stenosis and ventricular septal defect in a dog: a case report.",
+    "journal": "Journal of Veterinary Cardiology",
+    "year": "2026",
+    "authors": [
+      "L C J Tavares",
+      "B A Santos",
+      "G T Goldfeder"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42977613/",
+    "doi": "10.1016/j.jvc.2026.08.012",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42977613-mitral-annular-disjunction-congenital-dog",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "echocardiography",
+      "cardiovascular"
+    ],
+    "added_on": "2026-11-09",
+    "summary_ko": "빈번한 syncope를 보인 6세 수컷 Shih tzu에서 echocardiography로 mitral annular disjunction(MAD, 수축기에 mitral annulus가 left ventricle와 기능적으로 분리되어 atrium 쪽으로 이동하는 이상)이 MMVD, infundibular pulmonic stenosis, bidirectional shunting을 동반한 perimembranous ventricular septal defect와 함께 진단되었다. 혈역학적으로 Tetralogy of Fallot와 기능적으로 유사하다고 판단했다. 수술 대신 propranolol 보존 치료를 했고 초기 호전 후 점진적으로 악화되어 진단 후 총 생존 기간은 19개월이었다. 저자들은 선천성 기형과 동반된 MAD의 개 첫 보고라고 주장한다.",
+    "summary_en": "A six-year-old male Shih tzu with frequent syncope was diagnosed by echocardiography with mitral annular disjunction associated with MMVD, infundibular pulmonic stenosis, and a perimembranous VSD with bidirectional shunting, a hemodynamic profile functionally analogous to Tetralogy of Fallot. Conservative therapy with propranolol was chosen over surgery; initial improvement was followed by progressive worsening, with a total survival of 19 months. The authors report it as the first MAD associated with congenital abnormalities in dogs.",
+    "clinical_takeaway_ko": "Syncope를 보이는 선천성 심기형 또는 MMVD 개에서 echocardiography 시 mitral annulus의 수축기 atrial 방향 이동(MAD)도 확인하는 습관을 들일 가치가 있다. 다만 단일 증례이므로 MAD가 예후나 치료 선택을 바꾼다고 말할 수는 없다."
+  },
+  {
+    "pmid": "42968180",
+    "title": "Intraoperative indocyanine green fluorescence in canine meningioma: macroscopic visualization, immediate MRI correlation, and clinical outcomes : a case series.",
+    "journal": "BMC Veterinary Research",
+    "year": "2026",
+    "authors": [
+      "Youngbeum Kim",
+      "Mihyun Choi",
+      "Yongsun Kim",
+      "Hwi-Yool Kim"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42968180/",
+    "doi": "",
+    "study_type": "증례군",
+    "sample_size": "6",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-42968180-indocyanine-green-fluorescence-canine-meningioma",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "neuro",
+      "oncology"
+    ],
+    "topics": [
+      "neuro-imaging"
+    ],
+    "tags": [
+      "dog",
+      "MRI",
+      "neuro",
+      "oncology"
+    ],
+    "added_on": "2026-11-09",
+    "summary_ko": "조직학적으로 meningioma가 확진된 개 6마리(중앙 나이 13세)에서 수술 6~24시간 전 indocyanine green(ICG, 2.5-5.0 mg/kg, 중앙값 4.5 mg/kg)을 정맥 투여하고 near-infrared fluorescence 영상 장비와 ultrasonic aspirator로 fluorescence-guided surgery(FGS)를 시행했다. 6예(100%) 모두에서 종양 margin의 뚜렷한 fluorescence가 관찰되어 절제 중 종양과 육안상 정상 뇌실질을 실시간 구분할 수 있었다. 수술 직후 T1-weighted contrast-enhanced MRI는 얇은 reactive rim(≤1-2mm)을 제외했을 때 wound bed fluorescence 평가와 100% 일치했다. ICG 관련 부작용은 없었고 중앙 추적 14개월(6.6-31.0개월)에 신경학적 조절이 양호했다.",
+    "summary_en": "Six client-owned dogs with histologically confirmed meningioma received intravenous ICG (median 4.5 mg/kg) 6-24 h before fluorescence-guided resection. All six showed distinct tumor margin fluorescence, and immediate post-operative T1-weighted contrast-enhanced MRI showed 100% concordance with intraoperative wound bed fluorescence when thin reactive rims (≤1-2 mm) were excluded. No ICG-related adverse reactions occurred; median follow-up was 14 months with favorable neurological control. The authors suggest FGS may help spare normal brain tissue.",
+    "clinical_takeaway_ko": "Meningioma 수술을 의뢰·계획할 때 술후 즉시 contrast-enhanced MRI에서 얇은 rim 조영증강(≤1-2mm)은 reactive change일 수 있어 잔존 종양으로 단정하지 않고 해석해야 한다. ICG FGS가 절제 범위를 개선하는지는 아직 입증되지 않았다."
+  },
+  {
     "pmid": "42964095",
     "title": "Case Report: 18F-FDG PET/CT findings and SUVmax characterization in a dog with apocrine gland anal sac adenocarcinoma.",
     "journal": "Frontiers in veterinary science",
