@@ -1,7 +1,7 @@
 ---
 title: "종양 영상 원칙"
 scope: "병기 결정, 전이 평가 등 계통을 넘는 종양 영상"
-updated: 2026-11-02
+updated: 2026-11-16
 ---
 # 종양 영상 원칙
 
@@ -19,7 +19,15 @@ updated: 2026-11-02
 ### 18F-FDG PET/CT: 개 anal sac adenocarcinoma의 림프절 병기
 Apocrine gland anal sac adenocarcinoma(AGASACA) 개 1마리의 수술 전 PET/CT에서 원발 종괴(SUVmax 7.3), internal iliac(6.35)·lumbar aortic lymph node(4.3)의 uptake가 증가했고 원격 전이는 없었으며, 림프절 전이는 조직병리로 확인되었다 ([[papers/2026-42964095-fdg-pet-ct-anal-sac-adenocarcinoma|Shim 2026]]; 증례보고, n=1 — 상세는 [[topics/nuclear-medicine-imaging]] 참고). 단일 증례에 근거한 제한적 근거다.
 
+### CT: canine mammary tumour의 modified BI-RADS 판독
+조직학적으로 확진된 mammary tumour 106개(악성 81, 양성 25)를 가진 암컷 개 34마리의 pre-/post-contrast CT를 평가한 다기관 연구에서, heterogeneous·rim enhancement pattern은 악성과 강하게 연관되었으나(p<0.001; 민감도 88.9%, 특이도 40%) perilesional oedema는 특이도 84%·민감도 33.3%였고 종양 용적 >1.90 cm³도 악성과 연관되었다(p=0.046) ([[papers/2026-43027238-ct-features-canine-mammary-tumours|De Felice 2026]]; 후향적 연구, n=34/종양 106개). 0-4점 누적 점수의 AUC는 0.711이었고 개체 내 군집 보정 후에도 score ≥2 high-risk 분류는 악성과 연관되었으나(OR 1.70; 95% CI 1.11-2.58; 민감도 82.7%, 특이도 58%) 특이도가 낮아 보조 정보로 해석해야 한다. 위 초음파 Doppler·SWE 연구와 같은 종양을 다루지만 둘 다 단일 연구이며 직접 비교된 바는 없다 — 외부 검증이 없는 제한적 근거.
+
+### 18F-FDG PET/CT: 연조직 종양의 공격성 평가
+Biopsy에서 grade 2 soft tissue sarcoma였으나 임상 거동이 공격적이었던 개 1마리에서 18F-FDG PET/CT는 높은 대사 활성(SUVmax 10.1, SUVmean 4.6)과 원격 전이 없음을 보였고, 절제 후 최종 조직병리는 grade 3 subcutaneous leiomyosarcoma로 biopsy가 grade를 과소평가했으며 높은 FDG avidity가 최종 grade와 더 부합했다 ([[papers/2026-43032204-fdg-pet-ct-canine-leiomyosarcoma|Chae 2026]]; 증례보고, n=1 — 상세는 [[topics/nuclear-medicine-imaging]] 참고). 수술 3개월 후 국소 재발과 폐 전이 의심 병변이 확인되었다. 단일 증례에 근거한 제한적 근거이며 SUV cut-off는 제시되지 않았다.
+
 ## 남은 질문
+- 연조직 육종에서 FDG SUV가 biopsy grade 불일치를 보완하는 지표로 쓸 수 있는지, SUV와 예후의 관계는 증례 1예로 알 수 없다.
+- CT modified BI-RADS 점수의 외부 검증, 판독자 간 일치도, 그리고 초음파(Doppler·SWE)·CT 간 양성·악성 감별 성능 비교는 이 연구로 알 수 없다.
 - Doppler 지표와 SWE가 양성 mammary tumor나 염증성 병변과 악성 종양을 감별하는 데 실제로 유용한지, 임상에서 쓸 수 있는 cut-off와 관찰자 간 재현성은 어떠한지는 이 연구로 알 수 없다.
 - 64CuCl2 PET/CT가 FMC의 병기 결정에서 기존 CT·방사선 대비 실제 민감도·특이도에서 우위가 있는지는 병리 확진 없이 소수 증례로는 알 수 없다.
 - iliosacral lymph node의 MinTD 기준이 실제 전이 림프절 검출 민감도·특이도로 이어지는지는 조직학적 확진 코호트에서 추가 검증이 필요하다.
@@ -31,3 +39,5 @@ Apocrine gland anal sac adenocarcinoma(AGASACA) 개 1마리의 수술 전 PET/CT
 - [[papers/2026-42876319-64cucl2-pet-ct-feline-mammary-carcinoma]] — 고양이 mammary carcinoma에서 64CuCl2 PET/CT의 feasibility, 추가 병기 정보 제공 (전향적 연구, n=8)
 - [[papers/2026-42894990-spectral-doppler-swe-canine-mammary-tumors]] — 개 mammary tumor에서 Doppler 지표·SWE 상승과 Ki-67 연관, 정상 조직 대비 악성 구분 (전향적 연구, n=64)
 - [[papers/2026-42964095-fdg-pet-ct-anal-sac-adenocarcinoma]] — AGASACA 개에서 PET/CT SUVmax로 원발·림프절 전이 병기(Stage IIIa) 평가 (증례보고, n=1)
+- [[papers/2026-43027238-ct-features-canine-mammary-tumours]] — 개 mammary tumour CT에서 heterogeneous·rim enhancement가 악성과 연관, modified BI-RADS 점수 AUC 0.711·특이도 낮음 (후향적 연구, n=34)
+- [[papers/2026-43032204-fdg-pet-ct-canine-leiomyosarcoma]] — 개 subcutaneous leiomyosarcoma에서 높은 FDG avidity(SUVmax 10.1)가 biopsy보다 높은 최종 grade와 부합 (증례보고, n=1)

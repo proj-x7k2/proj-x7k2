@@ -1,5 +1,29 @@
 # 변경 기록
 
+## 2026-11-16 수집 (2차)
+- `data/raw_papers.json` 9편: 5편 처리, 4편 건너뜀. `raw/pdf/`에 PDF가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (`data/skipped.json`에 기록): `43027183`(Y-90 hydrogel 보조요법 증례, 영상 부수적; 애매), `43016731`(사체 슬관절 external fixator 생체역학), `43005072`(고양이 PSRF 수술 증례, 영상 부수적; 애매), `43015812`(soft palate leiomyosarcoma 수술·방사선치료 증례, CT 부수적).
+- 신규 논문 페이지 5편 생성 및 주제 통합:
+  - `43022916`(고양이 양측 parathyroid carcinoma, 증례보고 n=1) → `endocrine-imaging` (소제목 신설).
+  - `43017042`(고양이 HCM atrial 종설) → `cardiac-imaging` (소제목 신설).
+  - `43017014`(고양이 heartworm basket 제거, 증례보고 n=1) → `cardiac-imaging` (소제목 신설).
+  - `43032204`(개 subcutaneous leiomyosarcoma FDG PET/CT, 증례보고 n=1) → `nuclear-medicine-imaging`, `oncologic-imaging` (소제목 신설).
+  - `43005954`(고양이 nasopharyngeal polyp NPPE, 증례보고 n=1) → `thoracic-imaging` (소제목 신설).
+- 갱신된 주제: `cardiac-imaging` 23→25, `endocrine-imaging` 3→4, `nuclear-medicine-imaging` 3→4, `oncologic-imaging` 5→6, `thoracic-imaging` 3→4. 신설 주제 없음.
+- 참고: PubMed 원자료의 DOI가 논문과 맞지 않는 `43022916`, `43017042`, `43032204`, `43005954`는 논문 페이지의 `doi`를 `""`로 두었음(원자료는 수정하지 않음).
+
+## 2026-11-16 수집
+- `data/raw_papers.json` 10편: 5편 처리, 5편 건너뜀. `raw/pdf/`가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
+- 건너뜀 (`data/skipped.json`에 기록): `43025060`(FIC 항생제 사용, 초음파는 선별 항목일 뿐), `43020466`(electrochemotherapy 증례, 영상 서술 없음), `43007979`(iliac plate, 방사선은 추적용), `43027217`(신경조직학 종설), `43021591`(dachshund KN 번식 유전학). 애매한 건은 제외.
+- 신규 논문 페이지 5편 생성 및 주제 통합:
+  - `43025055`(경추 PNST fluorescein-guided 절제, 증례군 n=3) → `spinal-imaging` (소제목 신설).
+  - `43013978`(개 spontaneous intracranial hemorrhagic stroke MRI, 후향적 n=25) → `neuro-imaging` (소제목 신설).
+  - `43027238`(개 mammary tumour CT modified BI-RADS, 후향적 n=34) → `oncologic-imaging` (소제목 신설).
+  - `43021594`(MMVD intrarenal Doppler VTIc·VII, 전향적 n=142) → `cardiac-imaging` (소제목 신설).
+  - `43008072`(고양이 CKD 초음파 renal dimension, 후향적 n=259) → `urogenital-imaging` (소제목 신설).
+- 갱신된 주제: `cardiac-imaging` 22→23, `neuro-imaging` 15→16, `spinal-imaging` 8→9, `urogenital-imaging` 7→8, `oncologic-imaging` 4→5. 신설 주제 없음.
+- 참고: PubMed 원자료의 DOI가 논문과 맞지 않는 `43027238`, `43021594`, `43008072`는 논문 페이지의 `doi`를 `""`로 두었음(원자료는 수정하지 않음).
+
 ## 2026-11-09 수집 (2차)
 - `data/raw_papers.json` 7편: 3편 처리, 4편 건너뜀. `raw/pdf/`에 PDF가 없어 워크플로우 B(전문 반영) 해당 사항 없음.
 - 건너뜀 (`data/skipped.json`에 기록): `42991084`(osteocrin biomarker, 랫드 모델 포함), `42985444`(ETT 크기 decision tree, 방사선은 예측 변수 중 하나; 애매), `42983507`(개 IMT 증례, 구체적 영상 서술 없음), `42972342`(고양이 고환 치료용 초음파 노출 연구, 진단 영상 아님).

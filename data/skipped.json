@@ -388,5 +388,59 @@
     "title": "Monitoring of oxidative stress and acute phase proteins following testes exposure with ultrasound waves in cats.",
     "reason": "치료용 초음파 노출의 생화학·조직 영향 연구이며 진단 영상 연구 아님",
     "date": "2026-11-09"
+  },
+  {
+    "pmid": "43025060",
+    "title": "Antimicrobial use exceeds culture-confirmed urinary tract infections in cats with feline idiopathic cystitis with and without urethral obstruction.",
+    "reason": "복부 초음파는 선별 진단 항목 중 하나일 뿐, 연구 핵심은 항생제 사용 stewardship(영상 부수적)",
+    "date": "2026-11-16"
+  },
+  {
+    "pmid": "43020466",
+    "title": "Electrochemotherapy for Urinary Bladder Botryoid Rhabdomyosarcoma in a Dog: Case Report.",
+    "reason": "치료(electrochemotherapy) 중심 증례, 초록에 구체적 영상 소견 서술 없음(애매하여 제외)",
+    "date": "2026-11-16"
+  },
+  {
+    "pmid": "43007979",
+    "title": "Stabilization of canine ilial body fractures using an anatomically contoured locking iliac plate: A short retrospective case series.",
+    "reason": "정형외과 임플란트 결과 연구, 방사선은 골유합·sacral index 추적용으로 부수적(애매하여 제외)",
+    "date": "2026-11-16"
+  },
+  {
+    "pmid": "43027217",
+    "title": "From Silver Stains to Deep Learning: Neurohistological Analysis and Digital Mapping of the Brain of Domestic and Laboratory Animals in Veterinary Neuroscience.",
+    "reason": "신경조직학·디지털 병리 종설, 임상 영상검사 연구 아님(실험동물 포함)",
+    "date": "2026-11-16"
+  },
+  {
+    "pmid": "43021591",
+    "title": "K-number-based selection in Danish dachshunds: offspring outcomes and implications for genetic diversity.",
+    "reason": "번식·집단유전학 연구, 방사선 기반 KN은 표현형 데이터로만 사용(애매하여 제외)",
+    "date": "2026-11-16"
+  },
+  {
+    "pmid": "43027183",
+    "title": "Adjuvant Interstitial Yttrium-90 Hydrogel (IsoPet®) Following Limb-Sparing Marginal Excision of Multifocal Distal Pelvic-Limb Neoplasia in a Dog.",
+    "reason": "방사성 hydrogel 보조요법 증례, 영상은 부수적 소견(경추 병변 발견)에 그침(애매하여 제외)",
+    "date": "2026-11-16"
+  },
+  {
+    "pmid": "43016731",
+    "title": "Will a trans-articular external fixator placed across the canine stifle allow normal motion if the hinge is centered over the femoral condyle?",
+    "reason": "사체 슬관절 생체역학 연구, 방사선은 측정 도구일 뿐 임상 영상검사 연구 아님",
+    "date": "2026-11-16"
+  },
+  {
+    "pmid": "43005072",
+    "title": "Pedicle screw and rod fixation in three cats with caudal lumbar vertebral fracture and luxation: a case report.",
+    "reason": "척추 고정술 수술 증례, 영상은 수술 전후 평가용으로 부수적(애매하여 제외)",
+    "date": "2026-11-16"
+  },
+  {
+    "pmid": "43015812",
+    "title": "Surgical resection and angularis oris axial pattern flap reconstruction with adjuvant radiation therapy for recurrent soft palate leiomyosarcoma in a dog.",
+    "reason": "수술·방사선치료 증례, CT는 초기 평가에 한 줄 언급되는 부수적 역할",
+    "date": "2026-11-16"
   }
 ]

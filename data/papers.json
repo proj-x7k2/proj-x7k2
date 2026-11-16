@@ -1,5 +1,433 @@
 [
   {
+    "pmid": "43032204",
+    "title": "Case Report: 18F-FDG PET/CT for precision assessment of tumor aggressiveness in canine subcutaneous leiomyosarcoma.",
+    "journal": "Frontiers in Veterinary Science",
+    "year": "2026",
+    "authors": [
+      "Yeon Chae",
+      "Dongseop Lee",
+      "Yoonhoi Koo",
+      "Taesik Yun",
+      "Hakhyun Kim",
+      "Byeong-Teck Kang"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43032204/",
+    "doi": "",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43032204-fdg-pet-ct-canine-leiomyosarcoma",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "nuclear-medicine",
+      "CT"
+    ],
+    "system": [
+      "oncology"
+    ],
+    "topics": [
+      "nuclear-medicine-imaging",
+      "oncologic-imaging"
+    ],
+    "tags": [
+      "dog",
+      "nuclear-medicine",
+      "CT",
+      "oncology"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "9세 intact 수컷 Alaskan Malamute의 우측 elbow 출혈성 궤양성 종괴에서 biopsy는 grade 2 soft tissue sarcoma였으나 임상 경과가 더 공격적이어서 18F-FDG PET/CT를 시행했다. 종괴는 높은 대사 활성(SUVmax 10.1, SUVmean 4.6)을 보였고 원격 전이는 없었다. 수술 후 조직병리는 grade 3 poorly differentiated 종양(incomplete margin)이었고 면역조직화학으로 subcutaneous leiomyosarcoma가 확인되어, 수술 전 biopsy가 grade를 과소평가했고 높은 FDG avidity가 최종 grade와 더 부합했다. 수술 3개월 후 국소 재발과 폐 전이 의심 병변이 나타나 6개월 후 사망했다.",
+    "summary_en": "A 9-year-old Alaskan Malamute with a rapidly progressing elbow mass had a grade 2 soft tissue sarcoma on biopsy, but 18F-FDG PET/CT showed high uptake (SUVmax 10.1, SUVmean 4.6) without distant metastasis. Post-resection histopathology showed a grade 3 subcutaneous leiomyosarcoma, indicating the biopsy underestimated grade and that the high FDG avidity matched the final grade. Local recurrence and suspected pulmonary metastases appeared 3 months postoperatively, and the dog died 6 months after surgery.",
+    "clinical_takeaway_ko": "Biopsy grade와 임상 거동이 어긋나는 soft tissue sarcoma에서는 FDG PET/CT의 SUV가 공격성 평가에 참고가 될 수 있으나, 단일 증례이므로 SUV로 grade를 대체하지 말고 biopsy 과소평가 가능성을 염두에 두고 병기 결정(흉부 CT 포함)과 마진 계획을 보수적으로 세우는 것이 합당하다."
+  },
+  {
+    "pmid": "43027238",
+    "title": "Computed Tomography Features of Canine Mammary Tumours: A Retrospective Multicentre Study.",
+    "journal": "Animals : an open access journal from MDPI",
+    "year": "2026",
+    "authors": [
+      "Daniela De Felice",
+      "Stefano Spada",
+      "Luiz Paulo Nogueira Aires",
+      "Alfonso Calabria",
+      "Dario Costanza",
+      "Adelaide Greco",
+      "Rossella Terragni",
+      "Massimo Vignoli",
+      "Marco Russo"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43027238/",
+    "doi": "",
+    "study_type": "후향적 연구",
+    "sample_size": "34",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43027238-ct-features-canine-mammary-tumours",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "CT"
+    ],
+    "system": [
+      "oncology"
+    ],
+    "topics": [
+      "oncologic-imaging"
+    ],
+    "tags": [
+      "dog",
+      "CT",
+      "oncology"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "조직학적으로 확진된 mammary tumour 106개(악성 81, 양성 25)를 가진 암컷 개 34마리의 pre-/post-contrast CT를 평가해, modified BI-RADS lexicon 기반 표준 CT 판독 프로토콜과 악성 연관 소견을 분석한 다기관 후향적 연구이다. Heterogeneous·rim enhancement pattern이 악성과 강하게 연관되었고(p<0.001; 민감도 88.9%, 특이도 40%), perilesional oedema는 특이도 84%·민감도 33.3%였으며 종양 용적 >1.90 cm³는 악성과 유의하게 연관되었다(p=0.046). 0-4점 누적 점수의 AUC는 0.711이었고, 개체 내 군집을 보정한 뒤에도 score ≥2 high-risk 분류는 악성과 유의하게 연관되었다(OR 1.70; 95% CI 1.11-2.58; p=0.014; 민감도 82.7%, 특이도 58%).",
+    "summary_en": "This multicentre retrospective study evaluated pre- and post-contrast CT of 106 histologically confirmed mammary tumours (81 malignant, 25 benign) in 34 female dogs, proposing a modified BI-RADS-based reporting protocol. Heterogeneous and rim enhancement were strongly associated with malignancy (sensitivity 88.9%, specificity 40%), perilesional oedema was specific (84%) but insensitive (33.3%), and volume >1.90 cm³ was associated with malignancy. The 0-4 point score had an AUC of 0.711; after accounting for within-dog clustering, score ≥2 remained associated with malignancy (OR 1.70; 95% CI 1.11-2.58).",
+    "clinical_takeaway_ko": "유선 종양 병기 CT를 찍을 때 enhancement pattern, perilesional oedema, 용적을 표준 항목으로 기록해 두면 판독 일관성에 도움이 된다. 다만 특이도가 낮고(점수 ≥2에서 58%) AUC도 0.711에 그쳐, CT 소견만으로 양성·악성을 가르지 말고 cytology/histology를 대체하지 않는 보조 정보로 써야 한다."
+  },
+  {
+    "pmid": "43025055",
+    "title": "Fluorescein sodium-guided resection of cervical peripheral nerve sheath tumors in 3 dogs.",
+    "journal": "Journal of the American Veterinary Medical Association",
+    "year": "2026",
+    "authors": [
+      "Narae Jeong",
+      "Daisuke Hasegawa",
+      "Joohyun Jung"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43025055/",
+    "doi": "10.2460/javma.26.08.0620",
+    "study_type": "증례군",
+    "sample_size": "3",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43025055-fluorescein-guided-resection-cervical-pnst",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "spine",
+      "neuro",
+      "oncology"
+    ],
+    "topics": [
+      "spinal-imaging"
+    ],
+    "tags": [
+      "dog",
+      "MRI",
+      "spine",
+      "neuro",
+      "oncology"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "경추 peripheral nerve sheath tumor(PNST) 개 3마리(10-11세, 4.2-5.4kg)를 대상으로 fluorescein sodium(20 mg/kg IV)을 수술 노출 후 투여해 절제를 유도한 증례군이다. 술전 MRI에서 extraforaminal extension을 동반한 contrast-enhancing intradural extramedullary mass가 확인되었다. 종양 조직은 일반 조명에서 노란색으로 보였고 395-nm UV 조명에서 2마리가 bright fluorescence를 보였으며, 재수술 2예에서는 술후·방사선 유발 fibrosis와 시각적으로 구분되었다. 3마리 모두 gross total resection을 달성했고 fluorescein 관련 부작용은 없었으나, MPNST 2마리는 4개월 내 원격 또는 전이성 질환이 발생했다.",
+    "summary_en": "Three dogs with cervical PNST underwent fluorescein sodium (20 mg/kg IV)-guided resection after preoperative MRI showed contrast-enhancing intradural extramedullary masses with extraforaminal extension. Tumor tissue appeared yellow under standard light and fluoresced under 395-nm UV in 2 dogs, and in 2 re-operative cases was distinguishable from postoperative and radiation-induced fibrosis. Gross total resection was achieved in all, with no fluorescein-related adverse events. Both MPNST dogs developed remote or metastatic disease within 4 months; the schwannoma dog was recurrence-free at 3 months.",
+    "clinical_takeaway_ko": "경추 PNST 수술에서 술전 MRI로 범위를 평가한 뒤, 특히 재수술처럼 fibrosis와 종양의 구분이 어려운 상황에서 fluorescein이 보조 시각 정보가 될 수 있다. 다만 nonfluorescent tissue는 생검하지 않았으므로 민감도·특이도를 알 수 없고, 수술자의 판단을 대체하지 못한다."
+  },
+  {
+    "pmid": "43022916",
+    "title": "Primary hyperparathyroidism in a cat with synchronous bilateral parathyroid carcinomas: a case report.",
+    "journal": "Frontiers in Veterinary Science",
+    "year": "2026",
+    "authors": [
+      "Ulsoo Choi",
+      "Guhyun Kwon",
+      "Jae-Hyun Lim",
+      "Sang-Ik Oh",
+      "Sunjae Ock"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43022916/",
+    "doi": "",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43022916-bilateral-parathyroid-carcinoma-cat",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "ultrasound",
+      "CT"
+    ],
+    "system": [
+      "endocrine",
+      "oncology"
+    ],
+    "topics": [
+      "endocrine-imaging"
+    ],
+    "tags": [
+      "cat",
+      "ultrasound",
+      "CT",
+      "endocrine",
+      "oncology"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "14세 중성화 수컷 Russian Blue 고양이가 식욕 저하·활동성 저하·구토와 지속적 hypercalcemia(iCa 1.90 mmol/L)로 내원했고 iPTH 상승으로 primary hyperparathyroidism(PHPTH)이 진단되었다. Cervical ultrasonography, CT, fine-needle aspiration cytology에서 양측 parathyroid 연관 병변이 확인되었으나 악성 여부와 각 병변의 기능적 기여는 판단할 수 없었다. 수술(우측 thyroid lobectomy와 parathyroid mass 절제, 좌측 parathyroidectomy와 partial thyroidectomy) 후 조직병리에서 양측 low-grade well-differentiated parathyroid carcinoma로 확인되었다. 수술 후 161일째 iCa·iPTH가 정상이었고 추적 CT에서 국소 재발이나 전이는 없었다.",
+    "summary_en": "A 14-year-old neutered male Russian Blue cat with persistent hypercalcemia and elevated iPTH was diagnosed with primary hyperparathyroidism. Cervical ultrasonography, CT and cytology identified bilateral parathyroid-associated lesions but could not establish malignancy or the functional contribution of each lesion. Surgery and histopathology revealed synchronous bilateral low-grade parathyroid carcinomas. At postoperative day 161, calcium and iPTH were normal and follow-up CT showed no recurrence or metastasis.",
+    "clinical_takeaway_ko": "고양이 PHPTH에서 ultrasound·CT·세침흡인으로 양측 병변이 보여도 악성 여부와 기능 병변을 영상만으로 가려내기 어려우므로, 양측 병변이 보이면 수술 계획 시 thyroid와의 해부학적 관계를 CT로 미리 파악하되 조직병리 확인을 전제로 설명하는 것이 안전하다."
+  },
+  {
+    "pmid": "43021594",
+    "title": "Evaluation of intrarenal hypoperfusion and renal congestion assessed by intrarenal Doppler ultrasonography in dogs with myxomatous mitral valve disease.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Yuki Iwai",
+      "Tomoya Morita",
+      "Hiroki Terukina",
+      "Masahiro Yamasaki"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43021594/",
+    "doi": "",
+    "study_type": "전향적 연구",
+    "sample_size": "142",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43021594-intrarenal-doppler-mmvd",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "ultrasound"
+    ],
+    "system": [
+      "cardiovascular",
+      "urogenital"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "dog",
+      "ultrasound",
+      "cardiovascular",
+      "urogenital"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "심질환이 없는 개 62마리와 myxomatous mitral valve disease(MMVD) 개 80마리를 대상으로, interlobar renal artery의 velocity time integral(VTI)을 intrarenal Doppler로 측정해 renal perfusion 지표로 평가한 전향적 코호트 연구이다. VTI는 심박수와 음의 상관이 있어 보정한 VTIc를 사용했고, MMVD에서 VTIc는 ACVIM stage가 높을수록 감소했다. VTIc <8.3인 개는 생존 기간이 유의하게 짧았고(P<.001), 다변량 Cox 분석에서는 venous impedance index(VII)가 유의하게 유지되었다(HR 1.24/0.1 증가; 95% CI 1.07-1.42). VII(<0.37 vs ≥0.37)와 VTIc(≥8.3 vs <8.3)를 결합한 탐색적 분류는 생존이 다른 4개 subset을 구분했다.",
+    "summary_en": "In this prospective cohort of 62 dogs without heart disease and 80 dogs with MMVD, interlobar renal artery VTI was measured by intrarenal Doppler and corrected for heart rate (VTIc). VTIc decreased with higher ACVIM stage, and VTIc <8.3 was associated with shorter survival (P<.001), while VII remained significant in multivariable Cox analysis (HR 1.24 per 0.1 increase; 95% CI 1.07-1.42). An exploratory combination of VII and VTIc identified four subsets with different survival.",
+    "clinical_takeaway_ko": "MMVD 개의 복부 초음파에서 신장 Doppler로 VII에 더해 interlobar artery VTIc를 함께 재면 renal congestion뿐 아니라 hypoperfusion 정보도 얻을 수 있어, cardiorenal 관점의 위험 층화에 쓸 수 있다. 다만 결합 분류는 탐색적이므로 아직 치료 결정의 근거로 쓰기는 이르다."
+  },
+  {
+    "pmid": "43017042",
+    "title": "Beyond the ventricle: the atrial contribution to feline hypertrophic cardiomyopathy and implications for diagnosis, prognosis, and emerging therapy.",
+    "journal": "Frontiers in Veterinary Science",
+    "year": "2026",
+    "authors": [
+      "Sumade Kongchatree",
+      "Jatuporn Rattanasrisomporn"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43017042/",
+    "doi": "",
+    "study_type": "종설",
+    "sample_size": "",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43017042-atrial-contribution-feline-hcm",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "echocardiography"
+    ],
+    "system": [
+      "cardiovascular"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "cat",
+      "echocardiography",
+      "cardiovascular"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "고양이 hypertrophic cardiomyopathy(HCM)에서 congestive heart failure, arterial thromboembolism, 생존은 모두 left atrium의 크기·기능과 밀접하며 left ventricular wall thickness와 독립적으로 예후와 연관된다는 점을 정리한 narrative review이다. 최근 종단 근거에서 left ventricular hypertrophy 진단 기준에 도달하기 전에 left atrial fractional shortening 저하가 먼저 검출될 수 있다고 소개한다. 저자들은 atrial pathobiology, atrial imaging, atrial-driven outcomes, rapamycin 등 disease-modifying therapy에 대한 함의, 진료 적용의 5개 주제로 논의하고 atrial endpoint를 중심에 둔 연구 의제를 제안한다.",
+    "summary_en": "This narrative review argues that the left atrium, rather than the ventricle, determines the key clinical outcomes in feline HCM (congestive heart failure, arterial thromboembolism and survival). It cites longitudinal evidence that reduced left atrial fractional shortening may be detectable before the ventricular wall-thickness criterion is met. The authors discuss atrial pathobiology, imaging, outcomes, implications for emerging therapy such as delayed-release rapamycin, and propose a stage-anchored framework and a research agenda prioritising atrial trial endpoints.",
+    "clinical_takeaway_ko": "HCM 고양이 심초음파에서 LVWT뿐 아니라 left atrial size·function(LA FS, speckle-tracking 등)을 일상적으로 기록해 두면 staging과 추적에 도움이 될 수 있다. 다만 종설이므로 구체적 cut-off는 원문 근거를 개별 확인해야 한다."
+  },
+  {
+    "pmid": "43017014",
+    "title": "Heartworm removal using the basket catheter technique in a 1.85 kg cat with pulmonary hypertension and right-sided heart failure: A case report.",
+    "journal": "Veterinarni Medicina",
+    "year": "2026",
+    "authors": [
+      "So-Yeon Park",
+      "Won-Kyoung Yoon",
+      "Ye-In Oh"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43017014/",
+    "doi": "10.17221/91/2025-VETMED",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43017014-heartworm-basket-catheter-cat",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "echocardiography",
+      "fluoroscopy",
+      "interventional"
+    ],
+    "system": [
+      "cardiovascular",
+      "thorax"
+    ],
+    "topics": [
+      "cardiac-imaging"
+    ],
+    "tags": [
+      "cat",
+      "echocardiography",
+      "fluoroscopy",
+      "interventional",
+      "cardiovascular",
+      "thorax"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "호흡곤란·흉수·복수를 보인 5개월령 1.85 kg domestic shorthair 고양이에서 heartworm antigen·antibody 검사는 음성이었으나 echocardiography에서 right atrium 내 Dirofilaria immitis에 합당한 hyperechoic 구조물과 pulmonary hypertension, right-sided heart failure가 확인되었다. 형광투시 유도하 jugular venotomy로 basket device를 이용해 10 cm 길이의 미성숙 암컷 heartworm을 제거했다. 그러나 수술 후 persistent pulmonary hypertension, tricuspid regurgitation, 난치성 저혈압으로 5일째 사망했고 부검에서 잔존 heartworm은 없었으며 eosinophilic arteritis, 폐부종, thrombus 등 heartworm-associated pulmonary vascular disease가 확인되었다.",
+    "summary_en": "A 5-month-old 1.85 kg cat with respiratory distress, pleural effusion and ascites had negative heartworm antigen and antibody tests, yet echocardiography showed hyperechoic structures in the right atrium consistent with D. immitis, with pulmonary hypertension and right-sided heart failure. A 10-cm immature female worm was removed via jugular venotomy with a basket device under fluoroscopy. The cat died on day five from persistent pulmonary hypertension and refractory hypotension; necropsy showed no residual worms but heartworm-associated pulmonary vascular disease.",
+    "clinical_takeaway_ko": "고양이 heartworm은 antigen·antibody 음성이어도 우심방·폐동맥 echocardiography에서 배제할 수 없으므로, 원인 불명의 우심부전·흉수 고양이에서는 echocardiography로 right atrium과 main pulmonary artery를 반드시 확인한다. Basket 제거는 기술적으로 가능하나 이미 진행한 폐혈관 손상이 예후를 좌우한다."
+  },
+  {
+    "pmid": "43013978",
+    "title": "Frequency of occurrence, signalment, clinicopathologic and imaging findings, and outcomes with nontraumatic spontaneous intracranial hemorrhagic stroke in dogs.",
+    "journal": "Journal of the American Veterinary Medical Association",
+    "year": "2026",
+    "authors": [
+      "Laura Ansleigh Thibodeaux",
+      "Marc Kent",
+      "Maureen Bennett",
+      "Renee Barber"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43013978/",
+    "doi": "10.2460/javma.26.05.0434",
+    "study_type": "후향적 연구",
+    "sample_size": "25",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43013978-spontaneous-intracranial-hemorrhagic-stroke-dogs",
+    "species": [
+      "dog"
+    ],
+    "modality": [
+      "MRI"
+    ],
+    "system": [
+      "neuro"
+    ],
+    "topics": [
+      "neuro-imaging"
+    ],
+    "tags": [
+      "dog",
+      "MRI",
+      "neuro"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "2010-2024년 spontaneous intra-parenchymal hemorrhagic stroke(sIHS) 개 25마리의 의무기록을 후향적으로 검토했다. 환자는 고령의 소·중형견이 많았고 prosencephalic 증상(19/25) 또는 new-onset seizure(13/25)로 내원했으며, MRI에서 prosencephalon 내 단일하고 경계가 분명한 hemorrhage가 흔했다. 예후는 대체로 excellent였고 seizure 완전 관해가 흔했으며, 병변 용적이 클수록 poor outcome과 연관되었다. 6세 이상에서 brain MRI를 받은 개 427마리 중 25마리(6%)가 sIHS였다.",
+    "summary_en": "This retrospective study of 25 dogs with spontaneous intra-parenchymal hemorrhagic stroke (2010-2024) found older, small- to medium-breed dogs presenting with prosencephalic signs (19/25) or new-onset seizures (13/25). MRI commonly showed a single, well-defined prosencephalic hemorrhage. Outcome was frequently excellent with common complete seizure remission, while larger lesion volumes were associated with poor outcome. Frequency was 25 of 427 dogs (6%) aged ≥6 years undergoing brain MRI.",
+    "clinical_takeaway_ko": "고령견의 급성 prosencephalic 증상·발작에서 MRI상 단일 intraparenchymal hemorrhage가 보이면, secondary 원인을 배제한 뒤에는 예후가 좋을 수 있어 보호자 상담에 근거가 된다. 병변 용적을 기록해 두면 예후 판단에 참고가 된다."
+  },
+  {
+    "pmid": "43008072",
+    "title": "Ultrasound-measured renal length and corticomedullary thickness for the diagnosis and staging of chronic kidney disease in cats.",
+    "journal": "Journal of veterinary internal medicine",
+    "year": "2026",
+    "authors": [
+      "Marleen Brans",
+      "Emmelie Stock",
+      "Luc Duchateau",
+      "Dominique Paepe"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43008072/",
+    "doi": "",
+    "study_type": "후향적 연구",
+    "sample_size": "259",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43008072-ultrasound-renal-dimensions-ckd-cats",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "ultrasound"
+    ],
+    "system": [
+      "urogenital"
+    ],
+    "topics": [
+      "urogenital-imaging"
+    ],
+    "tags": [
+      "cat",
+      "ultrasound",
+      "urogenital"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "건강 고양이 179마리, CKD 38마리, nonazotemic hyperthyroid 42마리의 초음파 renal length, cortical·medullary thickness와 파생 비율을 후향적으로 측정한 연구이다. 건강 고양이에서 나이·체중·성별이 측정값의 생물학적 변이를 설명했고 경미한 좌우 비대칭이 있었다. CKD 고양이는 건강·hyperthyroid 고양이와 구분되었으며, 연령이 비슷한 건강 고양이 대비 kidney가 짧고(-0.49 cm, -13.26%) cortex(dorsal -16.23%)와 medulla(dorsal -26.25%)가 얇았다. Renal length와 medullary thickness의 진단 정확도가 가장 높았지만 어떤 지표도 CKD 중증도를 신뢰성 있게 반영하지 못했고, 관찰자 간 변동이 컸다.",
+    "summary_en": "In 259 cats (179 healthy, 38 CKD, 42 nonazotemic hyperthyroid), ultrasonographic renal length, cortical and medullary thickness, and ratios were measured retrospectively. Age, body weight and sex explained biological variation in healthy cats. CKD cats had shorter kidneys (-0.49 cm, -13.26%), thinner cortices and thinner medullae than age-comparable healthy cats and were distinguishable from healthy and hyperthyroid cats. Renal length and medullary thickness had the highest diagnostic accuracy, but no dimension reliably reflected severity, and interobserver variability was considerable.",
+    "clinical_takeaway_ko": "고양이 CKD 평가에서 renal length와 medullary thickness는 진단 보조 지표로 쓸 수 있고 nonazotemic hyperthyroid와도 구분되지만, 병기 판정에는 쓸 수 없다. 나이·체중 효과와 관찰자 간 변동이 크므로 단일 측정값의 cut-off로 판단하지 말고, 같은 환자의 추적 비교나 임상병리와 함께 해석하는 것이 안전하다."
+  },
+  {
+    "pmid": "43005954",
+    "title": "Negative-pressure pulmonary edema due to nasopharyngeal polyps in a cat.",
+    "journal": "Veterinary Research Forum",
+    "year": "2026",
+    "authors": [
+      "Aritada Yoshimura",
+      "Naohiro Uchida",
+      "Hiroyuki Ito",
+      "Tomoki Maeba",
+      "Miori Kishimoto",
+      "Ryuji Fukushima",
+      "Daigo Azakami"
+    ],
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43005954/",
+    "doi": "",
+    "study_type": "증례보고",
+    "sample_size": "1",
+    "evidence_basis": "abstract",
+    "starred": false,
+    "file": "2026-43005954-negative-pressure-pulmonary-edema-nasopharyngeal-polyp-cat",
+    "species": [
+      "cat"
+    ],
+    "modality": [
+      "radiography"
+    ],
+    "system": [
+      "thorax",
+      "head-neck"
+    ],
+    "topics": [
+      "thoracic-imaging"
+    ],
+    "tags": [
+      "cat",
+      "radiography",
+      "thorax",
+      "head-neck"
+    ],
+    "added_on": "2026-11-16",
+    "summary_ko": "5개월령 수컷 Himalayan 고양이가 labored tachypnea와 상부기도 stertor로 내원했다. 흉부·두부 방사선에서 양측 폐야의 amorphous interstitial·alveolar pattern과 soft palate 위쪽(dorsal) nasopharynx를 채우는 soft tissue mass가 확인되어 nasopharyngeal polyp에 의한 negative-pressure pulmonary edema(NPPE)로 판단했다. 산소 및 intravenous furosemide에 잘 반응했고, 수술 전 NPPE가 1회 재발했으나 polyp 제거 후에는 재발하지 않았다. 저자들은 고양이에서 nasopharyngeal polyp과 NPPE의 연관이 처음 보고된 것이라고 밝힌다.",
+    "summary_en": "A 5-month-old Himalayan cat with labored tachypnea and stertor had diffuse interstitial-to-alveolar lung patterns and a nasopharyngeal soft tissue mass dorsal to the soft palate on radiographs. Negative-pressure pulmonary edema secondary to a nasopharyngeal polyp was diagnosed; the cat responded to oxygen and furosemide, had one recurrence before polyp removal, and none afterwards. The authors state this association had not been previously documented in cats.",
+    "clinical_takeaway_ko": "어린 고양이에서 inspiratory effort가 두드러지고 심장 비대 없이 폐부종 pattern이 보이면 NPPE를 감별에 넣고, 흉부 방사선과 함께 두부(nasopharynx) 방사선·구강 내 검사로 nasopharyngeal mass를 확인한다. 심인성 부종으로 오인하여 장기 이뇨제 치료로 끌고 가지 않도록 주의한다."
+  },
+  {
     "pmid": "42997290",
     "title": "Whippets have larger abdominal caudal vena cava to aorta ratios than other dogs on computed tomography.",
     "journal": "Frontiers in Veterinary Science",

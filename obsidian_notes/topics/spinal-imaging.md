@@ -1,7 +1,7 @@
 ---
 title: "척추·척수 영상"
 scope: "IVDD, 척수병증, 척추 기형"
-updated: 2026-11-02
+updated: 2026-11-16
 ---
 # 척추·척수 영상
 
@@ -31,7 +31,11 @@ Discospondylitis가 의심된 개 32마리의 초기·추적 CT를 영상의학 
 ### 기생충성(Spirocerca lupi) 척추관 침범
 T3-L3 myelopathy를 보인 1세 개에서 thoracic radiograph의 caudal mediastinal mass, MRI의 vertebral canal 연장 mediastinal mass, T5-T6 extradural compression, T5·T9 intramedullary T2 hyperintensity, esophageal compression·dilation, aortic aneurysmal dilation이 확인되었고, hemilaminectomy와 parasitology로 Spirocerca lupi가 확진되었다 ([[papers/2026-42955826-intraspinal-spirocerca-lupi-dog|Carrillo 2026]]; 증례보고, n=1). Ivermectin·prednisone·clindamycin 치료 후 2개월에 독립 보행을 회복했고 추적 CT에서 mediastinal·esophageal nodule은 소실되었으나 aortic aneurysmal dilation은 진행했다 — 단일 증례에 근거한 제한적 근거.
 
+### 경추 peripheral nerve sheath tumor(PNST)의 술전 MRI와 fluorescein-guided 절제
+경추 PNST 개 3마리(MPNST 2, schwannoma 1)에서 술전 MRI는 extraforaminal extension을 동반한 contrast-enhancing intradural extramedullary mass를 보였고, 수술 노출 후 fluorescein sodium(20 mg/kg IV)을 투여하자 종양이 노란색으로 보이고 2마리에서 395-nm UV 하 bright fluorescence를 보였다 ([[papers/2026-43025055-fluorescein-guided-resection-cervical-pnst|Jeong 2026]]; 증례군, n=3). 재수술 2예에서는 술후·방사선 유발 fibrosis와 종양이 시각적으로 구분되어 3마리 모두 gross total resection이 가능했고 부작용은 없었으나, nonfluorescent tissue를 생검하지 않아 형광 소견의 정확도는 알 수 없으며 MPNST 2마리는 4개월 내 원격·전이성 질환이 발생했다. 술전 MRI의 intradural extramedullary + extraforaminal 확장 소견이 수술 계획의 출발점임을 보여주는 증례군이다 — 3예에 근거한 제한적 근거. (두개내 종양의 형광 유도 수술은 [[topics/neuro-imaging]]의 ICG 항목 참고.)
+
 ## 남은 질문
+- 경추 PNST에서 fluorescein 형광이 실제 종양 범위·잔존 종양과 일치하는지(nonfluorescent tissue 병리 확인 포함), 절제 범위가 재발·생존을 개선하는지는 3예 증례군으로는 알 수 없다.
 - Spirocercosis의 척추관 침범에서 MRI 소견의 특이도와, 치료 후 진행하는 aortic aneurysm의 추적 간격·임상적 의미는 단일 증례만으로 알 수 없다.
 - 추적 CT를 언제 찍는 것이 적절한지(시기·간격)와, CT Evolution Score가 외부 코호트에서도 재현되는지는 이 후향적 연구(n=32)만으로는 알 수 없다. 개별 CT 소견의 interobserver agreement도 fair~substantial로 일정하지 않았다.
 - VP shunt 후 syrinx 감소의 시간 경과와 재발 여부는 증례 1예로는 알 수 없다.
@@ -50,3 +54,4 @@ T3-L3 myelopathy를 보인 1세 개에서 thoracic radiograph의 caudal mediasti
 - [[papers/2026-42877668-ventriculoperitoneal-shunt-syringomyelia-chiari-cavalier]] — CKCS syringomyelia가 VP shunt 후 7.0mm→2.3mm로 감소 (증례보고, n=1)
 - [[papers/2026-42944152-follow-up-ct-discospondylitis-dogs]] — 추적 CT의 paravertebral soft tissue·epidural empyema 변화와 CT Evolution Score가 임상 결과와 연관, osseous change는 무관 (후향적 연구, n=32)
 - [[papers/2026-42955826-intraspinal-spirocerca-lupi-dog]] — Spirocerca lupi 척추관 침범 개의 다중 영상 소견과 치료 후 aortic aneurysm 진행 (증례보고, n=1)
+- [[papers/2026-43025055-fluorescein-guided-resection-cervical-pnst]] — 경추 PNST 개 3예, 술전 MRI 후 fluorescein-guided 절제로 재수술 fibrosis와 종양 구분 보조, 형광 정확도는 미검증 (증례군, n=3)

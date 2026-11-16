@@ -1,7 +1,7 @@
 ---
 title: "내분비 영상"
 scope: "부신, 갑상선, 부갑상선, 뇌하수체"
-updated: 2026-10-26
+updated: 2026-11-16
 ---
 # 내분비 영상
 
@@ -16,7 +16,11 @@ updated: 2026-10-26
 ### 고양이 pituitary apoplexy의 영상과 수술 후 경과
 Transsphenoidal hypophysectomy 후 조직병리로 출혈성 pituitary mass가 확인된 고양이 3마리의 후향적 증례군에서, 2마리는 급성 신경학적 증상, 1마리는 subacute endocrinological dysfunction으로 내원했고 3마리 모두 영상 소견이 pituitary apoplexy에 합당했다 ([[papers/2026-42921401-feline-pituitary-apoplexy-hypophysectomy|van Schaik 2026]]; 증례군, n=3). Hemorrhage-sensitive sequence를 촬영한 것은 1마리뿐이었고 이 증례에서만 intralesional hemorrhage가 명확히 확인되어, 영상만으로 출혈 여부를 확정하려면 해당 sequence가 필요함을 시사한다. 수술 후 3마리 모두 퇴원했으며 생존기간은 최소 716일, 최소 1,098일, 612일이었고 2마리에서 종양 재발이 확인되었다(MRI상 365일째 재발 1예). 3예에 근거한 제한적 근거이며 비수술 치료와의 비교는 없다.
 
+### 고양이 양측 parathyroid carcinoma
+Hypercalcemia와 iPTH 상승으로 primary hyperparathyroidism(PHPTH)이 진단된 14세 고양이 1예에서 cervical ultrasonography, CT, 세침흡인 세포검사는 양측 parathyroid 연관 병변을 확인했으나 악성 여부와 각 병변의 기능적 기여는 판단하지 못했고, 수술 후 조직병리에서 양측 low-grade well-differentiated parathyroid carcinoma가 확인되었다 ([[papers/2026-43022916-bilateral-parathyroid-carcinoma-cat|Choi 2026]]; 증례보고, n=1). 수술 후 161일째 iCa·iPTH가 정상이었고 추적 CT에서 국소 재발·전이는 없었다. 위의 어린 개 증례와 함께 parathyroid 병변의 감별에는 ultrasound·CT만으로 한계가 있음을 보여주나, 두 건 모두 단일 증례에 근거한 제한적 근거이다.
+
 ## 남은 질문
+- 고양이 PHPTH에서 양측 병변의 악성(carcinoma) 여부와 기능 병변을 수술 전 ultrasound·CT 소견으로 예측할 수 있는지는 증례 1예로는 알 수 없다.
 - CT perfusion 기반 T-peak·AF·tumor-to-contralateral AF ratio의 cutoff가 더 큰 다기관 코호트에서도 동일한 진단 성능을 보이는지 검증이 필요하다.
 - 양측 부신 종양이나 조직학적으로 혼합된 종양에서 CTP 지표의 해석이 어떻게 달라지는지는 아직 알려져 있지 않다.
 - 어린 연령 primary hyperparathyroidism에서 CT상 mandible 골 이상·폐 변화가 hypercalcemia의 전형적 소견인지, parathyroid adenoma/hyperplasia의 영상 감별에 CT·ultrasound를 어떻게 함께 활용해야 하는지는 단일 증례로는 알 수 없다.
@@ -26,3 +30,4 @@ Transsphenoidal hypophysectomy 후 조직병리로 출혈성 pituitary mass가 �
 - [[papers/2026-42815534-ct-perfusion-pheochromocytoma]] — CT perfusion의 T-peak·AF가 개 pheochromocytoma와 adrenocortical tumor를 감별하는 데 도움 (후향적 연구, n=25)
 - [[papers/2026-42858358-hyperparathyroidism-young-dog-ct-us]] — 4개월령 개의 primary hyperparathyroidism, CT·neck ultrasonography로 진단 (증례보고, n=1)
 - [[papers/2026-42921401-feline-pituitary-apoplexy-hypophysectomy]] — 고양이 pituitary apoplexy 3예, hemorrhage-sensitive sequence에서만 출혈 확인, hypophysectomy 후 생존 612일 이상 (증례군, n=3)
+- [[papers/2026-43022916-bilateral-parathyroid-carcinoma-cat]] — 고양이 PHPTH, ultrasound·CT로 양측 병변은 보였으나 악성 여부는 수술 후 조직병리로 확인 (증례보고, n=1)

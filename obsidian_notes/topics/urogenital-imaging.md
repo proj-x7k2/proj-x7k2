@@ -1,7 +1,7 @@
 ---
 title: "비뇨생식기 영상"
 scope: "신장, 요관, 방광, 전립선, 생식기"
-updated: 2026-10-14
+updated: 2026-11-16
 ---
 # 비뇨생식기 영상
 
@@ -28,7 +28,11 @@ Diestrus기 건강한 개 15마리(대조군)와 cystic endometrial hyperplasia-
 ### 자궁각 torsion의 CT 진단
 원인 불명의 양측 복부 종괴·복막삼출을 보인 11세 미중성화 암컷 개 증례에서, 방사선·초음파로는 기원 장기를 특정하지 못했으나 contrast-enhanced CT에서 양측 자궁각의 spiral twisting과 whirl sign(우측에서 더 뚜렷), 종괴의 peripheral rim enhancement가 확인되어 수술 전 asymmetric bilateral uterine horn torsion으로 진단했다 ([[papers/2026-42857113-ct-bilateral-uterine-horn-torsion|Jeong 2026]]; 증례보고, n=1). 개복술에서 우측 각 약 1,080°·좌측 각 270° 회전이 확인되었고 조직검사상 양측 leiomyoma가 동반되어 있었다 — 개에서 CT상 bilateral whirl sign을 기술한 첫 보고로, 단일 증례에 근거한 제한적 근거.
 
+### 고양이 CKD의 초음파 renal dimension
+건강 고양이 179마리, CKD 38마리, nonazotemic hyperthyroid 42마리의 후향적 연구에서, 나이·체중·성별이 건강 고양이 renal dimension의 변이를 설명했고 경미한 좌우 비대칭이 있었다 ([[papers/2026-43008072-ultrasound-renal-dimensions-ckd-cats|Brans 2026]]; 후향적 연구, n=259). CKD 고양이는 연령이 비슷한 건강 고양이보다 kidney가 짧고(-0.49 cm, -13.26%) cortex(dorsal -16.23%)·medulla(dorsal -26.25%)가 얇아 건강·hyperthyroid 고양이와 구분되었고, renal length와 medullary thickness의 진단 정확도가 가장 높았다. 그러나 어떤 지표도 CKD 중증도를 신뢰성 있게 반영하지 못했고 관찰자 간(novice vs expert) 변동이 컸다 — 단일 후향적 연구이며 CKD군이 작아(n=38) 제한적 근거.
+
 ## 남은 질문
+- 고양이 CKD에서 renal length·medullary thickness의 구체적 cut-off와 AUC, 숙련 관찰자 간 재현성, 연령·체중 보정 참고구간은 초록으로 알 수 없다.
 - 2D-SWE로 확인된 자궁벽 탄성도 상승의 구체적 cut-off 값과 진단 정확도(민감도·특이도)는 더 큰 코호트에서 검증이 필요하다.
 - 정상 주기(estrus/anestrus 등) 단계별 자궁벽 탄성도 기준값이 아직 확립되지 않아, diestrus 외 시기와의 비교는 이 연구만으로는 알 수 없다.
 - Hydrocolpos·vaginal atresia의 전형적 CT·초음파 소견과 감별진단(imperforate hymen, segmental vaginal aplasia 등) 빈도는 증례 축적이 더 필요하다.
@@ -46,3 +50,4 @@ Diestrus기 건강한 개 15마리(대조군)와 cystic endometrial hyperplasia-
 - [[papers/2026-42869270-nfc-urethral-bulking-agent-dogs]] — NFC urethral bulking agent 시술 후 MRI·vaginourethrography 추적, implant flattening이 재발과 관련 가능 (전향적 연구, n=8)
 - [[papers/2026-42866543-prostatic-artery-embolization-ct-us-followup]] — 개 prostatic carcinoma PAE 후 900일 CT·US 추적, ischemic·cavitary remodeling 확인 (증례보고, n=1)
 - [[papers/2026-42857113-ct-bilateral-uterine-horn-torsion]] — CT로 진단한 개 asymmetric bilateral uterine horn torsion, bilateral whirl sign 첫 보고 (증례보고, n=1)
+- [[papers/2026-43008072-ultrasound-renal-dimensions-ckd-cats]] — 고양이 CKD에서 renal length·medullary thickness가 진단 정확도 높으나 중증도 반영 못함, 관찰자 간 변동 큼 (후향적 연구, n=259)

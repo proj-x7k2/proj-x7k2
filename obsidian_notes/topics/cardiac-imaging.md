@@ -1,7 +1,7 @@
 ---
 title: "심장·대혈관 영상"
 scope: "심초음파, 심장 CT, 대혈관"
-updated: 2026-11-09
+updated: 2026-11-16
 ---
 # 심장·대혈관 영상
 
@@ -66,7 +66,19 @@ MMVD 개 154마리의 후향적 재분석에서 ACVIM 권고인 QRS onset 시점
 ### 선천성 심기형과 동반된 mitral annular disjunction(MAD)
 빈번한 syncope를 보인 6세 Shih tzu 1예에서 echocardiography로 MAD가 MMVD, infundibular pulmonic stenosis, bidirectional shunting을 동반한 perimembranous VSD와 함께 확인되었고, 혈역학적으로 Tetralogy of Fallot와 기능적으로 유사하다고 판단되었다 ([[papers/2026-42977613-mitral-annular-disjunction-congenital-dog|Tavares 2026]]; 증례보고, n=1). Propranolol 보존 치료 후 초기 호전, 이어 악화되어 진단 후 19개월 생존했다. 저자들은 선천성 기형과 동반된 MAD의 개 첫 보고라고 주장한다 — 단일 증례에 근거한 제한적 근거.
 
+### MMVD의 intrarenal Doppler: renal perfusion(VTIc)과 congestion(VII)
+심질환이 없는 개 62마리와 MMVD 개 80마리의 전향적 코호트에서, interlobar renal artery VTI를 심박수로 보정한 VTIc는 ACVIM stage가 높을수록 감소했고 VTIc <8.3인 개는 생존 기간이 유의하게 짧았다(P<.001) ([[papers/2026-43021594-intrarenal-doppler-mmvd|Iwai 2026]]; 전향적 연구, n=142). 다변량 Cox 분석에서는 venous impedance index(VII)가 유의하게 유지되었고(HR 1.24/0.1 증가; 95% CI 1.07-1.42), VII(<0.37 vs ≥0.37)와 VTIc를 결합한 탐색적 분류가 생존이 다른 4개 subset을 구분했다. 위의 MMVD 정량·형태학 연구들이 심장 자체의 지표였다면, 이 연구는 복부 초음파로 cardiorenal 축(hypoperfusion·congestion)의 예후 정보를 추가하려는 시도이나, 1차 평가변수(cardiac·renal death) 사건 수와 중앙 생존기간이 초록에 충분하지 않고 결합 분류는 탐색적이다 — 단일 연구로 제한적 근거. (신장 초음파 측면은 [[topics/urogenital-imaging]] 참고.)
+
+### 고양이 HCM에서 left atrium 중심의 평가 (종설)
+Narrative review에서 저자들은 고양이 HCM의 congestive heart failure, arterial thromboembolism, 생존이 left atrial size·function과 left ventricular wall thickness와 독립적으로 연관된다고 정리하고, 최근 종단 근거에서 left ventricular hypertrophy 진단 기준에 도달하기 전에 left atrial fractional shortening 저하가 먼저 검출될 수 있다고 소개했다 ([[papers/2026-43017042-atrial-contribution-feline-hcm|Kongchatree 2026]]; 종설). 이는 위의 LA reservoir strain 연구(stage B1에서 LA 기능 저하)와 같은 방향이나, 종설의 주장이므로 개별 근거는 원문 확인이 필요하며 저자가 제안한 atrial 중심 framework는 전향적 검증을 거치지 않았다 — 제한적 근거.
+
+### 고양이 heartworm의 echocardiography 진단과 basket catheter 제거
+Heartworm antigen·antibody가 모두 음성이었던 5개월령 1.85 kg 고양이 1예에서 echocardiography로 right atrium 내 Dirofilaria immitis에 합당한 hyperechoic 구조물, pulmonary hypertension, right-sided heart failure가 확인되었고, 형광투시 유도하 jugular venotomy와 basket device로 10 cm 미성숙 암컷 heartworm을 제거했다 ([[papers/2026-43017014-heartworm-basket-catheter-cat|Park 2026]]; 증례보고, n=1). 그러나 수술 후 persistent pulmonary hypertension·tricuspid regurgitation·난치성 저혈압으로 5일째 사망했고 부검에서 잔존 worm은 없었으며 eosinophilic arteritis 등 폐혈관 질환이 확인되었다. 이는 고양이에서 혈청 검사가 음성이어도 echocardiography가 진단의 핵심일 수 있고 제거의 기술적 가능성과 별개로 기존 폐혈관 손상이 예후를 좌우함을 시사한다. 위의 개 heartworm 연구들과 달리 고양이는 단일 증례뿐이다 — 제한적 근거.
+
 ## 남은 질문
+- 고양이 HCM에서 LA FS·LA strain 등 atrial 지표가 LVH 기준 충족 전 detection에 실제로 쓸 수 있는 cut-off와 예후 예측력은 종설만으로는 알 수 없다.
+- 고양이 heartworm에서 echocardiography 진단 기준(worm 가시화율, PH 지표)과 basket 제거의 적응·시기는 증례 1예로 알 수 없다.
+- 신장 VTIc <8.3 cut-off와 VII·VTIc 결합 분류가 외부 코호트에서도 예후를 구분하는지, 치료(이뇨제 등) 조정에 도움이 되는지, 관찰자 간 재현성은 이 단일 연구로 알 수 없다.
 - M-mode LVIDd 측정 시점(QRS onset vs 최대 직경)에 따른 staging 변화가 실제 예후·치료 결정과 연관되는지는 알 수 없다. NSC 하위군은 25마리로 작다.
 - 개 MAD의 echocardiography 진단 기준과 빈도, 사람처럼 arrhythmia·sudden death 위험과 연관되는지는 증례 1예로는 알 수 없다.
 - VRHi의 구체적 cut-off와 민감도·특이도, 그리고 VHS 대비 실제 진단적 이득이 있는지는 초록에 제시되지 않았고 표본이 작아(n=54) 알 수 없다. Heartworm 외 원인의 PH나 다른 지역·견종에서도 유지되는지도 확인되지 않았다.
@@ -115,3 +127,6 @@ MMVD 개 154마리의 후향적 재분석에서 ACVIM 권고인 QRS onset 시점
 - [[papers/2026-42997290-whippet-caval-aorta-ratio-ct]] — Whippet의 abdominal CVC/Ao가 대조군보다 크며 기존 기준값은 modality 간 호환되지 않음 (후향적 연구, n=68)
 - [[papers/2026-42995017-mmode-lvidd-lvids-measurement-pitfalls]] — M-mode LVIDd·LVIDs 측정 시점에 따라 값이 달라지고 staging 기준 초과 개체 수가 변할 수 있음 (후향적 연구, n=154)
 - [[papers/2026-42977613-mitral-annular-disjunction-congenital-dog]] — MMVD·pulmonic stenosis·VSD 동반 MAD 개 증례, 진단 후 19개월 생존 (증례보고, n=1)
+- [[papers/2026-43021594-intrarenal-doppler-mmvd]] — MMVD 개에서 intrarenal Doppler VTIc 저하가 stage 진행·짧은 생존과 연관, VII와 결합 시 탐색적 예후 층화 (전향적 연구, n=142)
+- [[papers/2026-43017042-atrial-contribution-feline-hcm]] — 고양이 HCM의 임상 결과가 left atrium 크기·기능과 연관, atrial 중심 평가 제안 (종설)
+- [[papers/2026-43017014-heartworm-basket-catheter-cat]] — 항원·항체 음성 고양이 heartworm을 echocardiography로 진단, basket 제거 후 PH로 사망 (증례보고, n=1)

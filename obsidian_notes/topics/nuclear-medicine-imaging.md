@@ -1,7 +1,7 @@
 ---
 title: "핵의학 영상"
 scope: "scintigraphy, PET/CT, 방사성의약품 영상·치료"
-updated: 2026-11-02
+updated: 2026-11-16
 ---
 # 핵의학 영상
 
@@ -14,12 +14,17 @@ Apocrine gland anal sac adenocarcinoma(AGASACA) 개 1마리에서 PET/CT는 원�
 ### 18F-FDG PET/CT: 감염·염증
 Sepsis가 의심된 12세 개 1마리에서 PET/CT는 carpus·tarsus, 비장·간, 신장의 FDG avidity와 전 골수강의 diffuse uptake(SUVmax 15.47), lymphadenopathy를 보였고, 부검에서 heart·spleen·brain·liver의 necrotizing vasculitis와 thrombosis 등 disseminated septicemia 소견이 확인되었다 ([[papers/2026-42960181-fdg-pet-ct-sepsis-dog|Perkel 2026]]; 증례보고, n=1). 신장은 FDG excretion이 정상적이지 않았다. 단일 증례에 근거한 제한적 근거이며 FDG uptake의 감염 특이도는 알 수 없다.
 
+### 18F-FDG PET/CT: 연조직 종양의 공격성 평가
+Biopsy상 grade 2 soft tissue sarcoma였으나 임상 경과가 공격적이었던 개 1마리에서 PET/CT는 SUVmax 10.1·SUVmean 4.6의 높은 대사 활성과 원격 전이 없음을 보였고, 절제 후 조직병리는 grade 3 subcutaneous leiomyosarcoma였다 ([[papers/2026-43032204-fdg-pet-ct-canine-leiomyosarcoma|Chae 2026]]; 증례보고, n=1). Biopsy가 grade를 과소평가했고 높은 FDG avidity가 최종 grade와 더 부합했으나, 단일 증례에 근거한 제한적 근거이며 SUV cut-off는 제시되지 않았다.
+
 ## 남은 질문
 - 개 oncology PET/CT에서 림프절 SUVmax가 전이 여부 판정에 쓸 수 있는 기준값(cut-off)과 민감도·특이도는 아직 근거가 없다.
 - 감염·sepsis 환자에서 FDG PET/CT가 기존 영상(초음파, CT) 대비 진단·치료 결정에 실제로 이득을 주는지는 증례 1예로 알 수 없다.
+- 연조직 육종에서 FDG SUV가 biopsy grade 불일치를 보완하거나 예후를 예측하는지는 증례 1예로 알 수 없다.
 - 증거 지도에서 확인된 문헌들의 개별 연구 질과 임상 접근성(국내 PET/CT 시설, 방사선 안전 규정)은 이 위키에서 아직 평가되지 않았다.
 
 ## 관련 논문
 - [[papers/2026-42951719-companion-animal-nuclear-medicine-evidence-map]] — 개·고양이 핵의학 문헌 228편 evidence map, 고양이 thyroid가 가장 성숙 (종설, 228편)
 - [[papers/2026-42964095-fdg-pet-ct-anal-sac-adenocarcinoma]] — AGASACA 개의 PET/CT SUVmax와 림프절 전이 병기 결정 (증례보고, n=1)
 - [[papers/2026-42960181-fdg-pet-ct-sepsis-dog]] — sepsis 개의 전신 FDG uptake와 부검 대조 (증례보고, n=1)
+- [[papers/2026-43032204-fdg-pet-ct-canine-leiomyosarcoma]] — 개 subcutaneous leiomyosarcoma의 높은 FDG avidity가 최종 grade 3과 부합, biopsy는 과소평가 (증례보고, n=1)

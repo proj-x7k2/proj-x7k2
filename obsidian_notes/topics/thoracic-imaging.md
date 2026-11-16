@@ -1,7 +1,7 @@
 ---
 title: "흉부 영상"
 scope: "폐, 기도, 종격, 흉막"
-updated: 2026-10-26
+updated: 2026-11-16
 ---
 # 흉부 영상
 
@@ -16,7 +16,11 @@ ASA I-II 개 44마리(자발호흡 27, IPPV 17)에서 dorsal recumbency 비응�
 ### 정상 해부 참고자료
 성체 고양이 10마리를 이용해 흉복부 단면 해부와 조영증강 CT·3D 재구성을 상호 대조한 atlas 연구는 고양이 흉부 CT 판독과 수술 계획을 위한 정상 해부 참고자료를 제공했다. 흉곽 골격, 심장, 주요 혈관 등 주요 구조가 해부학적 절편과 CT 영상 간에 모두 식별·대조되었고, 조영증강은 특히 혈관 해부의 시인성을 크게 향상시켰다 ([[papers/2026-42710191-ct-atlas-feline-thorax-abdomen|Abdelmohsen 2026]]; 실험 연구, n=10 — 복부 소견은 [[topics/abdominal-imaging]] 참고). 병적 상태에서의 적용 가능성이나 품종·연령·체형에 따른 변이는 다루지 않아, 정상 기준 참고자료로서의 가치에 국한된다.
 
+### 상부기도 폐쇄와 negative-pressure pulmonary edema(NPPE)
+Labored tachypnea와 stertor를 보인 5개월령 Himalayan 고양이 1예에서 흉부 방사선은 양측 amorphous interstitial·alveolar pattern을, 두부 방사선은 soft palate 위쪽 nasopharynx의 soft tissue mass를 보여 nasopharyngeal polyp에 의한 NPPE로 판단되었다 ([[papers/2026-43005954-negative-pressure-pulmonary-edema-nasopharyngeal-polyp-cat|Yoshimura 2026]]; 증례보고, n=1 — 두경부 측면은 [[topics/head-neck-imaging]] 참고). 산소와 furosemide에 반응했고 polyp 제거 후 NPPE가 재발하지 않았다. 저자들은 고양이에서 이 연관이 처음 보고된 것이라고 밝혔다. 진단이 임상·방사선 소견과 치료 반응에 근거한 추정이며 — 단일 증례에 근거한 제한적 근거.
+
 ## 남은 질문
+- 고양이 NPPE에서 흉부 방사선 분포(폐야 위치)가 심인성 부종과 감별에 도움이 되는지, nasopharyngeal polyp 외 상부기도 원인의 빈도는 증례 1예로 알 수 없다.
 - 이 atlas가 실제 흉부 병변(폐 종양, 종격 병변 등) 판독 정확도를 개선하는지는 별도 검증이 필요하다.
 - 마취 후 LUS 점수 상승이 CT로 확인되는 atelectasis와 얼마나 일치하는지, 점수가 산소화 저하나 회복 경과 같은 임상 결과를 예측하는지는 아직 알 수 없다.
 - Modified Calgary PLUS 기법의 흉막삼출 검출 우위가 양압 환기 사체가 아닌 자연호흡 임상 환자에서도 재현되는지는 아직 확인되지 않았다.
@@ -25,3 +29,4 @@ ASA I-II 개 44마리(자발호흡 27, IPPV 17)에서 dorsal recumbency 비응�
 - [[papers/2026-42710191-ct-atlas-feline-thorax-abdomen]] — 고양이 흉부·복부 CT-해부 대조 atlas (실험 연구, n=10)
 - [[papers/2026-42813598-pocus-pleural-effusion-probe-orientation]] — Probe 위치·방향에 따라 흉막삼출 POCUS 검출률 차이, Calgary PLUS 변형 기법 우수 (실험 연구, n=12)
 - [[papers/2026-42925847-lung-ultrasound-perioperative-anesthesia-dogs]] — 개 전신마취 후 LUS 점수 유의한 상승, 임상 변수와는 무관 (전향적 연구, n=44)
+- [[papers/2026-43005954-negative-pressure-pulmonary-edema-nasopharyngeal-polyp-cat]] — 고양이 nasopharyngeal polyp에 의한 NPPE, 흉부·두부 방사선 소견과 polyp 제거 후 재발 없음 (증례보고, n=1)
