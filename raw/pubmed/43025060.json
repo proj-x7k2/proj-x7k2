@@ -1,0 +1,27 @@
+{
+  "pmid": "43025060",
+  "title": "Antimicrobial use exceeds culture-confirmed urinary tract infections in cats with feline idiopathic cystitis with and without urethral obstruction.",
+  "journal": "Journal of the American Veterinary Medical Association",
+  "year": "2026",
+  "authors": [
+    "Melissa Chang",
+    "Shyla Myrick",
+    "Heather Wilson-Robles",
+    "Samuel D Stewart"
+  ],
+  "doi": "10.2460/javma.26.07.0552",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43025060/",
+  "abstract": "OBJECTIVE: To compare antimicrobial use and signalment in cats with feline idiopathic cystitis (FIC) with and without active urethral obstruction (UO) and determine whether antimicrobial use was supported by urinalysis and urine culture results.\n\nMETHODS: This multicenter prospective observational study compared client-owned male cats with FIC with and without obstruction from 40 referral hospitals in the US and Canada between January 2025 and September 2025. Cats weighing > 2 kg that completed screening diagnostics (CBC, biochemistry, urinalysis, urine culture, and abdominal ultrasound) were eligible. Cats with alternative etiologies (excluding bacterial cystitis) for their urinary signs or recent corticosteroid, chemotherapeutic, radiation, or immunosuppressive therapy were excluded. Signalment, weight, antimicrobial prescription history, presence of bacteriuria on urinalysis, and urine culture results were collected and compared.\n\nRESULTS: A total of 457 cats were enrolled, including 111 cats with FIC and 346 cats with UO. Age, weight, presence of bacteriuria, urine culture positivity, and antimicrobial prescriptions prior to referral did not differ between groups. Antimicrobial administration after referral was significantly more common in the UO group despite similar rates of bacteriuria and positive urine cultures. Twenty-eight percent of cats (130 of 457) received antimicrobials, while 9.2% of cats (42 of 457) had positive urine cultures.\n\nCONCLUSIONS: Cats with FIC and UO share comparably low prevalence of bacterial cystitis; however, antimicrobials were frequently administered without evidence of bacteriuria or culture-confirmed infection, particularly in cats with UO.\n\nCLINICAL RELEVANCE: The low prevalence of bacterial cystitis in cats with FIC and UO supports prioritizing diagnostic-driven antimicrobial decision-making to reduce unnecessary antimicrobial use in cats with lower urinary tract diseases.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "antimicrobial stewardship",
+    "feline idiopathic cystitis",
+    "feline lower urinary tract diseases",
+    "urethral obstruction",
+    "urinary tract infection"
+  ],
+  "fetched_on": "2026-11-16"
+}

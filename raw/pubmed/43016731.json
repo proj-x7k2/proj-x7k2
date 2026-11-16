@@ -1,0 +1,26 @@
+{
+  "pmid": "43016731",
+  "title": "Will a trans-articular external fixator placed across the canine stifle allow normal motion if the hinge is centered over the femoral condyle?",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Mary A Baldeon",
+    "Simon Roe",
+    "David Knazovicky"
+  ],
+  "doi": "10.1016/S0749-8063(03)00125-7",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43016731/",
+  "abstract": "Traumatic ligamentous stifle injuries are often immobilized with hinged transarticular external skeletal fixation (htaESF), with the hinge placed over the center of the joint. Range of motion (ROM) in htaESF can protect cartilage, however during ROM the stifle center changes. We hypothesized that a hinge placed over the center of the femoral condyles would not allow normal femoro-tibial positioning during ROM. Eight canine pelvic limbs were harvested. Femurs were immobilized and tibias pinned to control rotation during ROM. The femoral condylar center at 135° was marked and lines drawn to a point on the tibia and femur marked on a radio-opaque grid. Radiographs were taken every 5° through ROM. Intersect point (IP) was the intersection of the femoral and tibial lines. The IP x-y coordinates were normalized and plotted. Convex hull area for IP coordinates was calculated. Coefficient variation of the Euclidean distance was calculated. Intersect shift and flexion angle relationship was modeled with a linear mixed model. IP path was non-linear with no consistent pattern between individual legs and within each dog. Convex hull area was large and bilaterally asymmetrical. Linear mixed model analysis revealed a significant inverse relationship between IP shift and stifle angle (P < 0.001). The IP of stifle joints during ROM are likely not similar enough to safely execute ROM while in a htaESF. Limitations include previously frozen limbs, and evaluation of only one point in the stifle. Further investigation must be done to determine the ideal construct for ROM without placing abnormal forces on the joint.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "center of rotation",
+    "external skeletal fixator",
+    "joint immobilization",
+    "ligament",
+    "range of motion"
+  ],
+  "fetched_on": "2026-11-16"
+}

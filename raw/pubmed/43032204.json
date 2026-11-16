@@ -1,0 +1,31 @@
+{
+  "pmid": "43032204",
+  "title": "Case Report: 18F-FDG PET/CT for precision assessment of tumor aggressiveness in canine subcutaneous leiomyosarcoma.",
+  "journal": "Frontiers in veterinary science",
+  "year": "2026",
+  "authors": [
+    "Yeon Chae",
+    "Dongseop Lee",
+    "Yoonhoi Koo",
+    "Taesik Yun",
+    "Hakhyun Kim",
+    "Byeong-Teck Kang"
+  ],
+  "doi": "10.3390/ani14202917",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43032204/",
+  "abstract": "A 9-year-old intact male Alaskan Malamute was presented with a hemorrhagic, ulcerative skin lesion on the right elbow. Cytological examination revealed bacterial infection and atypical epithelioid-appearing cells exhibiting anisocytosis and anisokaryosis; however, mesenchymal neoplastic cells were not identified. Despite antimicrobial therapy, the lesion progressed rapidly. Histopathological examination of the biopsy specimen was consistent with a grade 2 soft tissue sarcoma; however, the clinical behavior was more aggressive than anticipated for this grade, prompting further evaluation. 18F-fluorodeoxyglucose (18F-FDG) positron emission tomography/computed tomography (PET/CT) demonstrated high metabolic activity of the mass, with a maximum standardized uptake value of 10.1 and mean standardized uptake value of 4.6, with no evidence of distant metastasis. Surgical resection was performed about 2 weeks after PET/CT. Notably, histopathological examination of the surgical specimen revealed a grade 3 poorly differentiated mesenchymal neoplasm with incomplete surgical margins, indicating that the preoperative biopsy had underestimated the final tumor grade and that the high 18F-FDG avidity observed on PET/CT was more consistent with the final histopathologic grade. Immunohistochemical staining confirmed the diagnosis of subcutaneous leiomyosarcoma. Although adjuvant chemotherapy was recommended, only palliative therapy was provided at the owner's request. Local recurrence and pulmonary lesions suspected to be metastatic developed 3 months postoperatively, and the dog expired 6 months after surgery. To the best of our knowledge, this is the first report of 18F-FDG PET/CT findings in canine subcutaneous leiomyosarcoma, underscoring the utility of this imaging modality in evaluating tumor aggressiveness and guiding treatment planning.",
+  "publication_types": [
+    "Case Reports",
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "18F-FDG PET/CT",
+    "diagnostic imaging",
+    "soft tissue sarcoma",
+    "subcutaneous leiomyosarcoma",
+    "tumor grading",
+    "veterinary oncology"
+  ],
+  "fetched_on": "2026-11-16"
+}

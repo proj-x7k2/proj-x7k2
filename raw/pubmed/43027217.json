@@ -1,0 +1,36 @@
+{
+  "pmid": "43027217",
+  "title": "From Silver Stains to Deep Learning: Neurohistological Analysis and Digital Mapping of the Brain of Domestic and Laboratory Animals in Veterinary Neuroscience.",
+  "journal": "Animals : an open access journal from MDPI",
+  "year": "2026",
+  "authors": [
+    "Michael Patrignani",
+    "Jean-Marie Graïc",
+    "Tommaso Gerussi",
+    "Valentina Vadori",
+    "Livio Finos",
+    "Enrico Grisan",
+    "Antonella Peruffo"
+  ],
+  "doi": "10.1016/j.neuroimage.2014.04.001",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43027217/",
+  "abstract": "Neurohistological analysis has evolved from descriptive microscopy and classical staining toward quantitative, standardized, and increasingly automated approaches. This narrative review traces this evolution in domestic animals, such as dogs, cats, horses, cattle, pigs, sheep, and goats, with humans and common laboratory animals as methodological comparators, based on the literature retrieved from PubMed, Scopus, and Web of Science. Gross dissection, selective staining, immunohistochemistry, and neuronal tracing progressively expanded the structural and neurochemical information obtainable from the brain, while macroscopic and microscopic morphometry, including design-based stereology, enabled unbiased estimation of brain volumes and cell numbers. Digital microscopy made histological slides computable, and machine learning and deep learning now allow automated segmentation directly from raw images, while magnetic resonance imaging and spatial transcriptomics link histology to connectivity and gene expression. However, direct evidence in domestic animals remains restricted to a few species and brain regions: annotated collections are scarce, data are poorly integrated, and most tools are calibrated on human, mouse, or rat brains. Open resources such as the CytoDArk0 dataset and the CISCA segmentation method are early steps forward. Progress will require species-specific brain atlases, shared protocols, and validated, interpretable methods that treat anatomical differences between species as biological information rather than noise.",
+  "publication_types": [
+    "Journal Article",
+    "Review"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "brain atlas",
+    "comparative neuroanatomy",
+    "cytoarchitecture",
+    "deep learning",
+    "digital pathology",
+    "domestic animals",
+    "multimodal brain mapping",
+    "neurohistology",
+    "stereology",
+    "veterinary neuroscience"
+  ],
+  "fetched_on": "2026-11-16"
+}

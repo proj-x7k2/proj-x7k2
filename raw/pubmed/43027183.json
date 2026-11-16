@@ -1,0 +1,31 @@
+{
+  "pmid": "43027183",
+  "title": "Adjuvant Interstitial Yttrium-90 Hydrogel (IsoPet®) Following Limb-Sparing Marginal Excision of Multifocal Distal Pelvic-Limb Neoplasia in a Dog.",
+  "journal": "Animals : an open access journal from MDPI",
+  "year": "2026",
+  "authors": [
+    "Goutham Kumar Isai",
+    "Kevin A Drygas",
+    "Brad Weeks"
+  ],
+  "doi": "10.2460/javma.244.2.187",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43027183/",
+  "abstract": "BACKGROUND: Achieving complete surgical margins can be challenging for tumors involving the distal extremities due to limited surrounding soft tissue and the proximity of functionally important structures. Incompletely excised tumors may require adjuvant radiation therapy to treat suspected residual microscopic disease. Yttrium-90 phosphate hydrogel (IsoPet®) is an emerging injectable radiation modality that delivers localized beta radiation to a tumor bed or surgical margin.\n\nCASE DESCRIPTION: An eight-year-old neutered male Bullmastiff was evaluated by the referring veterinarian for firm subcutaneous masses developed along the right pelvic limb. Fine-needle aspiration was initially suggestive of an inflammatory process; however, subsequent punch biopsies identified Grade II soft tissue sarcoma. The patient was referred for surgical oncology evaluation. Four right pelvic limb masses and the right popliteal lymph node were surgically excised. Histopathological examination of the excisional specimens identified poorly differentiated carcinoma involving the excised masses, with metastatic involvement of the right popliteal lymph node and incomplete surgical margins. Adjuvant Y-90 hydrogel was elected following complete surgical wound healing. On 20 November 2025, 8.46 mCi (313 MBq) of Y-90 phosphate hydrogel in a total volume of 4.7 mL was administered through 66 peri-incisional and incisional injections distributed across the previous right pelvic limb surgical beds using a grid-based technique. The procedure was completed without complications. Post-treatment follow-up demonstrated satisfactory wound healing, with only mild transient appetite reduction and minimal localized tissue irritation. After surgery plus adjuvant Y-90, no clinically detectable local recurrence was identified at the treatment sites during the 120-day documented follow-up period. Seventy-four days following Y-90 hydrogel treatment, computed tomography performed for persistent otic disease identified an aggressive osteolytic lesion involving the right C5 vertebra with extradural spinal cord compression. The relationship between this lesion and the previously treated pelvic limb neoplasia could not be definitively established. Despite the subsequent development of this cervical lesion, no clinically detectable recurrence was documented at the original treatment limb sites. This finding is an observation after combined surgery and Y-90, not evidence of Y-90-specific efficacy. The patient was subsequently managed supportively and was euthanized by the referring veterinarian approximately four months after identification of the cervical lesion.\n\nCONCLUSION: This single case demonstrates that peri-incisional Y-90 phosphate hydrogel could be administered to multiple distal pelvic-limb surgical beds after limb-sparing excision. The procedure was well tolerated. No clinically detectable local recurrence was identified at the treated sites during the 120-day documented follow-up period. Because gross disease had already been removed and there was no comparator, these observations cannot establish the independent efficacy of IsoPet®. Prospective studies are needed.",
+  "publication_types": [
+    "Case Reports",
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "IsoPet®",
+    "brachytherapy",
+    "canine",
+    "incomplete histologic margins",
+    "neoplasia",
+    "precision radionuclide therapy",
+    "soft tissue tumor",
+    "veterinary oncology",
+    "yttrium-90"
+  ],
+  "fetched_on": "2026-11-16"
+}

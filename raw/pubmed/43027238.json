@@ -1,0 +1,34 @@
+{
+  "pmid": "43027238",
+  "title": "Computed Tomography Features of Canine Mammary Tumours: A Retrospective Multicentre Study.",
+  "journal": "Animals : an open access journal from MDPI",
+  "year": "2026",
+  "authors": [
+    "Daniela De Felice",
+    "Stefano Spada",
+    "Luiz Paulo Nogueira Aires",
+    "Alfonso Calabria",
+    "Dario Costanza",
+    "Adelaide Greco",
+    "Rossella Terragni",
+    "Massimo Vignoli",
+    "Marco Russo"
+  ],
+  "doi": "10.3390/ani14233521",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43027238/",
+  "abstract": "Mammary tumours are among the most common neoplastic disorders in female dogs, and although computed tomography (CT) is widely used for oncological staging, CT evaluation of primary mammary tumours remains relatively underexplored. This multicentre retrospective study aimed to develop a standardised CT reporting protocol using a modified BI-RADS™ lexicon and to evaluate the qualitative and quantitative features associated with malignancy. Pre- and post-contrast CT scans were evaluated for 34 female dogs with 106 histologically confirmed mammary tumours, of which 81 were malignant and 25 were benign. The heterogeneous and rim enhancement patterns were strongly associated with malignant lesions (p < 0.001; 88.9% sensitivity, 40% specificity). Perilesional oedema exhibited high specificity (84%) but low sensitivity (33.3%). A tumour volume >1.90 cm3 was significantly associated with malignancy (p = 0.046). The proposed cumulative scoring system (0-4 points) showed an AUC of 0.711. After accounting for within-dog clustering, the dichotomous high-risk classification (score ≥ 2) remained significantly associated with malignancy (OR = 1.70; 95% CI: 1.11-2.58; p = 0.014). Tumours classified as high-risk (score ≥ 2) showed an 84.2% observed proportion of malignancy, with 82.7% sensitivity and 58% specificity. This CT-based protocol could help to standardise reporting and identify tumours with a higher risk of malignancy.",
+  "publication_types": [
+    "Journal Article"
+  ],
+  "mesh_terms": [],
+  "keywords": [
+    "BI-RADS™",
+    "canine mammary tumours",
+    "computed tomography",
+    "diagnostic imaging",
+    "malignancy",
+    "modified BI-RADS™",
+    "veterinary reproduction"
+  ],
+  "fetched_on": "2026-11-16"
+}
